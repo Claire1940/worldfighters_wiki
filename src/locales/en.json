@@ -57,7 +57,7 @@
   "tools": {
     "title": "World Fighters",
     "titleHighlight": "Resources",
-    "subtitle": "Jump from Latest Updates into the main World Fighters codes, beginner route, official links, tier list, Secret units, gacha, awakening, and resource modules.",
+    "subtitle": "Jump from Latest Updates into the main World Fighters codes, beginner route, official links, tier list, Secret units, gacha, awakening, resources, potions, keys, roster, and zone modules.",
     "cards": [
       {
         "icon": "ClipboardCheck",
@@ -106,6 +106,30 @@
         "title": "World Fighters Crystals and Gems Guide",
         "description": "Resource sources, spending priorities, potions, keys, and best-use timing.",
         "href": "#world-fighters-crystals-and-gems-guide"
+      },
+      {
+        "icon": "Download",
+        "title": "World Fighters Potions Guide",
+        "description": "Power, Crystal, Damage, and Luck Potion timing for farming and pulls.",
+        "href": "#world-fighters-potions-guide"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "World Fighters Keys and Tokens Guide",
+        "description": "Dragon Balls Keys, Dragon Ball Tokens, Saiyan Keys, gems, and mount rewards.",
+        "href": "#world-fighters-keys-and-tokens-guide"
+      },
+      {
+        "icon": "Users",
+        "title": "World Fighters Avatars and Pets Guide",
+        "description": "Roster priorities for avatars, exclusive pets, Crystals, Gems, and shared challenges.",
+        "href": "#world-fighters-avatars-and-pets-guide"
+      },
+      {
+        "icon": "Home",
+        "title": "World Fighters Zones Progression Guide",
+        "description": "Zone 1 through Zone 6 checkpoints, recommended boosts, and farming goals.",
+        "href": "#world-fighters-zones-progression-guide"
       }
     ]
   },
@@ -886,6 +910,289 @@
           "mainUses": "Saiyan-themed key progression or reward access",
           "priority": "High",
           "bestUse": "Redeem shutdown codes early so the key is ready when you reach the matching content."
+        }
+      ]
+    },
+    "worldFightersPotionsGuide": {
+      "id": "world-fighters-potions-guide",
+      "eyebrow": "Boosts",
+      "title": "World Fighters Potions Guide",
+      "subtitle": "Use Power, Crystal, Damage, and Luck Potions at the right moment to speed up farming, zone pushing, and banner pulls.",
+      "intro": "Potions are one of the most common World Fighters code rewards. Most current reward bundles give one of each potion, making them best used in planned sessions instead of opening them randomly while idle.",
+      "displayType": "table",
+      "tableHeaders": {
+        "potion": "World Fighters Potion",
+        "focus": "Effect Focus",
+        "bestTiming": "Best Timing",
+        "commonSources": "Common Reward Sources"
+      },
+      "items": [
+        {
+          "potion": "Power Potion",
+          "focus": "Power growth and general progression speed",
+          "bestTiming": "Use before long enemy-farming sessions, early zone pushes, or when building enough strength to clear the next area.",
+          "commonSources": [
+            "RELEASE",
+            "THXFOR4KLIKES",
+            "YAY5KLIKES!",
+            "900KVISITSTHANKYOU!"
+          ]
+        },
+        {
+          "potion": "Crystal Potion",
+          "focus": "Crystal farming for unlocks and roster progression",
+          "bestTiming": "Use when repeatedly defeating enemies for Crystals, especially before saving for avatars, pets, or banner-related upgrades.",
+          "commonSources": [
+            "RELEASE",
+            "RELEASEPATCH",
+            "COOL1.2MVISITS!",
+            "SPLENDID800KVISITS!"
+          ]
+        },
+        {
+          "potion": "Damage Potion",
+          "focus": "Higher combat output during fights",
+          "bestTiming": "Use before bosses, harder challenges, or a new zone where enemies take too long to defeat.",
+          "commonSources": [
+            "SRRY4SHUTDOWN",
+            "SRRY4SHUTDOWN2",
+            "SRRY4SHUTDOWN3",
+            "THXFOR3KFAVORITES!"
+          ]
+        },
+        {
+          "potion": "Luck Potion",
+          "focus": "Luck-based rewards, rare pulls, and gacha preparation",
+          "bestTiming": "Use right before Star Open, Gacha Roll, or rare-unit hunting sessions instead of during normal movement or menu time.",
+          "commonSources": [
+            "2KCCU!",
+            "THANKYOU3KCCU",
+            "4KONCHAMBER!",
+            "ALREADY5K?"
+          ]
+        },
+        {
+          "potion": "Full Potion Bundle",
+          "focus": "One Power, Crystal, Damage, and Luck Potion together",
+          "bestTiming": "Save full bundles for focused sessions: activate Damage and Power before pushing, Crystal before farming, and Luck before pulls.",
+          "commonSources": [
+            "8KCCUISAWESOME!",
+            "ALREADY1MVISITS!?",
+            "RELEASEPATCH",
+            "RELEASEPT2"
+          ]
+        }
+      ]
+    },
+    "worldFightersKeysAndTokensGuide": {
+      "id": "world-fighters-keys-and-tokens-guide",
+      "eyebrow": "Special Resources",
+      "title": "World Fighters Keys and Tokens Guide",
+      "subtitle": "Track Dragon Balls Keys, Dragon Ball Tokens, Saiyan Keys, Gems, and mount rewards from current World Fighters codes.",
+      "intro": "Keys and tokens are update-sensitive resources in World Fighters. They often appear inside milestone, shutdown, and release-patch code bundles, so players should claim them early and save them for the matching banner, event, or unlock screen.",
+      "displayType": "card-list",
+      "items": [
+        {
+          "name": "Dragon Balls Key",
+          "type": "Key resource",
+          "rewardExamples": [
+            "8KCCUISAWESOME!",
+            "900KVISITSTHANKYOU!",
+            "RELEASEPATCH",
+            "RELEASEPT2"
+          ],
+          "howToUse": "Prioritize saving Dragon Balls Keys for Dragon-themed unlock routes, special pulls, or update-specific progression instead of spending them immediately."
+        },
+        {
+          "name": "Dragon Ball Token",
+          "type": "Token resource",
+          "rewardExamples": [
+            "2KCCU!",
+            "THANKYOU3KCCU",
+            "4KONCHAMBER!",
+            "ALREADY5K?"
+          ],
+          "howToUse": "Treat Dragon Ball Tokens as limited progression currency tied to Dragon-themed rewards. Stack them from code bundles before making larger unlock decisions."
+        },
+        {
+          "name": "Saiyan Key",
+          "type": "Special key",
+          "rewardExamples": [
+            "SRRY4SHUTDOWN",
+            "SRRY4SHUTDOWN2",
+            "SRRY4SHUTDOWN3"
+          ],
+          "howToUse": "Saiyan Keys are mainly tied to shutdown-compensation style rewards. Save them until the related Saiyan-themed feature, banner, or unlock path is available in your session."
+        },
+        {
+          "name": "Gems",
+          "type": "Banner currency",
+          "rewardExamples": [
+            "RELEASE",
+            "EVENT2.5K!",
+            "THANKS1KLIKES",
+            "COOL1.2MVISITS!"
+          ],
+          "howToUse": "Use Gems for in-game banner rolls that help unlock avatars and pets. Combine Gem spending with Luck Potion timing when chasing rarer pulls."
+        },
+        {
+          "name": "Gadi Jetpack Mount",
+          "type": "Mount reward",
+          "rewardExamples": [
+            "TIOGADIHIT!"
+          ],
+          "howToUse": "Claim the mount code as soon as possible because unique mount rewards are less common than standard potion-and-gem bundles."
+        }
+      ]
+    },
+    "worldFightersAvatarsAndPetsGuide": {
+      "id": "world-fighters-avatars-and-pets-guide",
+      "eyebrow": "Roster Building",
+      "title": "World Fighters Avatars and Pets Guide",
+      "subtitle": "Build your roster by farming Crystals, spending Gems on banners, and chasing exclusive pets that support long-term progression.",
+      "intro": "World Fighters is built around defeating enemies, collecting Crystals, and unlocking new avatars and exclusive pets. For new players, the safest approach is to improve your active roster first, then spend saved Gems during focused banner or gacha sessions.",
+      "displayType": "card-list",
+      "cardLabels": {
+        "unlock": "World Fighters Unlock Path",
+        "tip": "World Fighters Beginner Tip"
+      },
+      "items": [
+        {
+          "name": "Avatars",
+          "role": "Main roster unlocks",
+          "howToUnlock": "Farm enemies for Crystals and use Gems on banners to unlock more character options.",
+          "priority": "High",
+          "beginnerTip": "Focus on a stronger active avatar before spreading resources across too many characters."
+        },
+        {
+          "name": "Exclusive Pets",
+          "role": "Companion collection and progression support",
+          "howToUnlock": "Use banner-related resources and event rewards to chase pets alongside avatar unlocks.",
+          "priority": "High",
+          "beginnerTip": "Do not ignore pets while pushing zones; they are part of the long-term roster chase."
+        },
+        {
+          "name": "Crystals",
+          "role": "Core farming resource",
+          "howToUnlock": "Defeat enemies across anime-inspired worlds to collect Crystals.",
+          "priority": "High",
+          "beginnerTip": "Use Crystal Potion before repeated enemy farming sessions to make unlock progress more efficient."
+        },
+        {
+          "name": "Gems",
+          "role": "Banner and gacha currency",
+          "howToUnlock": "Redeem active codes, complete progression goals, and claim milestone rewards.",
+          "priority": "High",
+          "beginnerTip": "Save Gems for meaningful banner sessions instead of spending every small reward immediately."
+        },
+        {
+          "name": "First Star Open",
+          "role": "Early roster milestone",
+          "howToUnlock": "Open your first Star after reaching the required in-game system.",
+          "priority": "Medium",
+          "beginnerTip": "Use this as the first step toward understanding avatar and pet pulls."
+        },
+        {
+          "name": "First Gacha Roll",
+          "role": "Gacha progression milestone",
+          "howToUnlock": "Roll once in the gacha system after collecting enough resources.",
+          "priority": "Medium",
+          "beginnerTip": "Pair gacha attempts with Luck Potion when chasing rare units or pets."
+        },
+        {
+          "name": "Shared Challenges",
+          "role": "Co-op reward path",
+          "howToUnlock": "Play with friends and complete challenges together for shared rewards across game modes.",
+          "priority": "Medium",
+          "beginnerTip": "Group play helps new players progress while learning harder zones."
+        }
+      ]
+    },
+    "worldFightersZonesProgressionGuide": {
+      "id": "world-fighters-zones-progression-guide",
+      "eyebrow": "Progression",
+      "title": "World Fighters Zones Progression Guide",
+      "subtitle": "Follow the Zone 1 to Zone 6 route and use badge data to understand where most players slow down.",
+      "intro": "World Fighters zone progression gets much steeper after the starting area. Badge data shows a sharp drop from Zone 1 and Zone 2 into the later zones, so players should treat each new zone as a farming checkpoint before pushing forward.",
+      "displayType": "timeline-cards",
+      "metricLabels": {
+        "badgeWinRate": "Badge Win Rate",
+        "awarded": "Awarded"
+      },
+      "items": [
+        {
+          "zone": "Zone 1",
+          "stage": "Starting route",
+          "badgeWinRate": "51.4%",
+          "awarded": "140,947",
+          "progressionFocus": "Learn enemy farming, collect Crystals, redeem early codes, and unlock your first roster upgrades.",
+          "recommendedBoosts": [
+            "Power Potion",
+            "Crystal Potion"
+          ],
+          "checkpoint": "Reach basic farming stability before spending heavily on pulls."
+        },
+        {
+          "zone": "Zone 2",
+          "stage": "First progression wall",
+          "badgeWinRate": "16.6%",
+          "awarded": "57,951",
+          "progressionFocus": "Enemy clears start to slow down, so upgrade avatars and pets before rushing the next zone.",
+          "recommendedBoosts": [
+            "Power Potion",
+            "Damage Potion"
+          ],
+          "checkpoint": "Farm until standard enemies no longer take too long to defeat."
+        },
+        {
+          "zone": "Zone 3",
+          "stage": "Mid-game entry",
+          "badgeWinRate": "9.3%",
+          "awarded": "35,579",
+          "progressionFocus": "Start treating banner pulls, pet upgrades, and potion timing as part of normal progression.",
+          "recommendedBoosts": [
+            "Crystal Potion",
+            "Luck Potion"
+          ],
+          "checkpoint": "Use Luck Potion before pull sessions and Crystal Potion before repeated farming."
+        },
+        {
+          "zone": "Zone 4",
+          "stage": "Harder mid-game",
+          "badgeWinRate": "5.7%",
+          "awarded": "23,802",
+          "progressionFocus": "Push only after improving damage output and collecting enough resources for stronger roster options.",
+          "recommendedBoosts": [
+            "Damage Potion",
+            "Power Potion"
+          ],
+          "checkpoint": "If enemies feel slow, farm the previous zone with boosts instead of forcing progress."
+        },
+        {
+          "zone": "Zone 5",
+          "stage": "Late progression gate",
+          "badgeWinRate": "4.6%",
+          "awarded": "19,409",
+          "progressionFocus": "Prepare with full potion bundles, stronger avatars, and better pet support before attempting long sessions.",
+          "recommendedBoosts": [
+            "Power Potion",
+            "Damage Potion",
+            "Crystal Potion"
+          ],
+          "checkpoint": "Use this zone as a serious farming checkpoint before late-game content."
+        },
+        {
+          "zone": "Zone 6",
+          "stage": "Current late-game target",
+          "badgeWinRate": "3.7%",
+          "awarded": "15,330",
+          "progressionFocus": "Community interest centers on late Dragon-themed progression, rare units, and Secret Unit hunting at this stage.",
+          "recommendedBoosts": [
+            "Damage Potion",
+            "Luck Potion",
+            "Crystal Potion"
+          ],
+          "checkpoint": "Save Luck Potion for rare pulls and use Damage Potion when pushing the strongest enemies."
         }
       ]
     }

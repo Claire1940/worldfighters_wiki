@@ -8,8 +8,12 @@ import {
   ClipboardCheck,
   Copy,
   ExternalLink,
+  FlaskConical,
+  KeyRound,
+  MapPinned,
   MessageCircle,
   Package,
+  PawPrint,
   Shield,
   Sparkles,
   Star,
@@ -178,6 +182,10 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
   const gachaModule = t.modules.worldFightersGachaAndStarGuide
   const awakeningModule = t.modules.worldFightersAwakeningGuide
   const resourcesModule = t.modules.worldFightersCrystalsAndGemsGuide
+  const potionsModule = t.modules.worldFightersPotionsGuide
+  const keysModule = t.modules.worldFightersKeysAndTokensGuide
+  const avatarsModule = t.modules.worldFightersAvatarsAndPetsGuide
+  const zonesModule = t.modules.worldFightersZonesProgressionGuide
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -376,6 +384,54 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               </div>
               <h3 className="font-semibold mb-2">{navCards[7].title}</h3>
               <p className="text-sm text-muted-foreground">{navCards[7].description}</p>
+            </a>
+
+            <a
+              href="#world-fighters-potions-guide"
+              onClick={(event) => handleAnchorClick(event, 'world-fighters-potions-guide')}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={navCards[8].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{navCards[8].title}</h3>
+              <p className="text-sm text-muted-foreground">{navCards[8].description}</p>
+            </a>
+
+            <a
+              href="#world-fighters-keys-and-tokens-guide"
+              onClick={(event) => handleAnchorClick(event, 'world-fighters-keys-and-tokens-guide')}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={navCards[9].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{navCards[9].title}</h3>
+              <p className="text-sm text-muted-foreground">{navCards[9].description}</p>
+            </a>
+
+            <a
+              href="#world-fighters-avatars-and-pets-guide"
+              onClick={(event) => handleAnchorClick(event, 'world-fighters-avatars-and-pets-guide')}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={navCards[10].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{navCards[10].title}</h3>
+              <p className="text-sm text-muted-foreground">{navCards[10].description}</p>
+            </a>
+
+            <a
+              href="#world-fighters-zones-progression-guide"
+              onClick={(event) => handleAnchorClick(event, 'world-fighters-zones-progression-guide')}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={navCards[11].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{navCards[11].title}</h3>
+              <p className="text-sm text-muted-foreground">{navCards[11].description}</p>
             </a>
           </div>
         </div>
@@ -875,6 +931,251 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
                     <span className="text-muted-foreground">{item.bestUse}</span>
                   </p>
                 </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 9: World Fighters Potions Guide */}
+      <section id="world-fighters-potions-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <FlaskConical className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{potionsModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{potionsModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {potionsModule.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {potionsModule.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal hidden lg:block overflow-hidden rounded-xl border border-border bg-card">
+            <table className="w-full text-sm">
+              <thead className="bg-[hsl(var(--nav-theme)/0.08)] text-left">
+                <tr>
+                  <th className="px-5 py-4 font-semibold">{potionsModule.tableHeaders.potion}</th>
+                  <th className="px-5 py-4 font-semibold">{potionsModule.tableHeaders.focus}</th>
+                  <th className="px-5 py-4 font-semibold">{potionsModule.tableHeaders.bestTiming}</th>
+                  <th className="px-5 py-4 font-semibold">{potionsModule.tableHeaders.commonSources}</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-border">
+                {potionsModule.items.map((item: any) => (
+                  <tr key={item.potion} className="hover:bg-white/[0.03] transition-colors">
+                    <td className="px-5 py-4 font-bold text-[hsl(var(--nav-theme-light))]">{item.potion}</td>
+                    <td className="px-5 py-4 text-muted-foreground">{item.focus}</td>
+                    <td className="px-5 py-4 text-muted-foreground">{item.bestTiming}</td>
+                    <td className="px-5 py-4">
+                      <div className="flex flex-wrap gap-2">
+                        {item.commonSources.map((source: string) => (
+                          <span
+                            key={source}
+                            className="px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] text-xs text-muted-foreground"
+                          >
+                            {source}
+                          </span>
+                        ))}
+                      </div>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="scroll-reveal lg:hidden grid grid-cols-1 gap-4">
+            {potionsModule.items.map((item: any) => (
+              <article key={item.potion} className="p-5 rounded-xl border border-border bg-card">
+                <div className="flex items-start justify-between gap-3 mb-4">
+                  <div>
+                    <h3 className="text-lg font-bold text-[hsl(var(--nav-theme-light))]">{item.potion}</h3>
+                    <p className="text-sm text-muted-foreground">{item.focus}</p>
+                  </div>
+                  <FlaskConical className="w-5 h-5 shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                </div>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-4">{item.bestTiming}</p>
+                <div className="flex flex-wrap gap-2">
+                  {item.commonSources.map((source: string) => (
+                    <span
+                      key={source}
+                      className="px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] text-xs text-muted-foreground"
+                    >
+                      {source}
+                    </span>
+                  ))}
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 10: World Fighters Keys and Tokens Guide */}
+      <section id="world-fighters-keys-and-tokens-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <KeyRound className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{keysModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{keysModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {keysModule.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {keysModule.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+            {keysModule.items.map((item: any) => (
+              <article
+                key={item.name}
+                className="p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+              >
+                <div className="flex items-start justify-between gap-4 mb-4">
+                  <div>
+                    <span className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] text-xs text-[hsl(var(--nav-theme-light))]">
+                      <KeyRound className="w-3.5 h-3.5" />
+                      {item.type}
+                    </span>
+                    <h3 className="text-xl font-bold mt-3">{item.name}</h3>
+                  </div>
+                </div>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-4">{item.howToUse}</p>
+                <div className="flex flex-wrap gap-2">
+                  {item.rewardExamples.map((reward: string) => (
+                    <span
+                      key={reward}
+                      className="px-2.5 py-1 rounded-full bg-white/5 border border-border text-xs text-muted-foreground"
+                    >
+                      {reward}
+                    </span>
+                  ))}
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 11: World Fighters Avatars and Pets Guide */}
+      <section id="world-fighters-avatars-and-pets-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <PawPrint className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{avatarsModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{avatarsModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {avatarsModule.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {avatarsModule.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+            {avatarsModule.items.map((item: any) => (
+              <article
+                key={item.name}
+                className="p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+              >
+                <div className="flex items-start justify-between gap-4 mb-4">
+                  <div>
+                    <span className="inline-flex px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] text-xs text-[hsl(var(--nav-theme-light))]">
+                      {item.priority}
+                    </span>
+                    <h3 className="text-xl font-bold mt-3">{item.name}</h3>
+                    <p className="text-sm text-[hsl(var(--nav-theme-light))] mt-1">{item.role}</p>
+                  </div>
+                  <PawPrint className="w-5 h-5 shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                </div>
+                <div className="space-y-3 text-sm">
+                  <p>
+                    <span className="font-semibold">{avatarsModule.cardLabels.unlock}: </span>
+                    <span className="text-muted-foreground">{item.howToUnlock}</span>
+                  </p>
+                  <p>
+                    <span className="font-semibold">{avatarsModule.cardLabels.tip}: </span>
+                    <span className="text-muted-foreground">{item.beginnerTip}</span>
+                  </p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 12: World Fighters Zones Progression Guide */}
+      <section id="world-fighters-zones-progression-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <MapPinned className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{zonesModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{zonesModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {zonesModule.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {zonesModule.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+            {zonesModule.items.map((item: any, index: number) => (
+              <article
+                key={item.zone}
+                className="relative p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+              >
+                <div className="flex items-start justify-between gap-4 mb-5">
+                  <div>
+                    <span className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] text-xs text-[hsl(var(--nav-theme-light))]">
+                      <MapPinned className="w-3.5 h-3.5" />
+                      {item.stage}
+                    </span>
+                    <h3 className="text-2xl font-bold mt-3">{item.zone}</h3>
+                  </div>
+                  <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[hsl(var(--nav-theme)/0.16)] text-[hsl(var(--nav-theme-light))] font-bold">
+                    {index + 1}
+                  </span>
+                </div>
+
+                <div className="grid grid-cols-2 gap-3 mb-5">
+                  <div className="p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.06)] border border-[hsl(var(--nav-theme)/0.2)]">
+                    <p className="text-xs text-muted-foreground">{zonesModule.metricLabels.badgeWinRate}</p>
+                    <p className="font-bold text-[hsl(var(--nav-theme-light))]">{item.badgeWinRate}</p>
+                  </div>
+                  <div className="p-3 rounded-lg bg-white/5 border border-border">
+                    <p className="text-xs text-muted-foreground">{zonesModule.metricLabels.awarded}</p>
+                    <p className="font-bold">{item.awarded}</p>
+                  </div>
+                </div>
+
+                <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                  {item.progressionFocus}
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {item.recommendedBoosts.map((boost: string) => (
+                    <span
+                      key={boost}
+                      className="px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] text-xs text-muted-foreground"
+                    >
+                      {boost}
+                    </span>
+                  ))}
+                </div>
+                <p className="text-sm font-medium text-[hsl(var(--nav-theme-light))]">
+                  {item.checkpoint}
+                </p>
               </article>
             ))}
           </div>
