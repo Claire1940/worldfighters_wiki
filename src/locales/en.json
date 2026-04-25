@@ -3,18 +3,18 @@
     "home": {
       "title": "World Fighters Wiki - Codes, Units & Beginner Guide",
       "description": "World Fighters Wiki helps Roblox players find new codes, unit lists, beginner tips, boss locations, worlds, passives, raids, and update notes in one place.",
-      "keywords": "World Fighters, World Fighters wiki, Roblox codes, units, bosses, raids, updates",
+      "keywords": "World Fighters, World Fighters wiki, World Fighters codes, Roblox fighting simulator, StarX Inc",
       "ogTitle": "World Fighters Wiki - Codes, Units & Beginner Guide",
-      "ogDescription": "World Fighters Wiki helps Roblox players find new codes, unit lists, beginner tips, boss locations, worlds, passives, raids, and update notes in one place.",
+      "ogDescription": "World Fighters Wiki helps Roblox players track codes, fighters, worlds, bosses, passives, raids, updates, and beginner progression tips.",
       "twitterTitle": "World Fighters Wiki - Codes, Units & Beginner Guide",
-      "twitterDescription": "World Fighters Wiki helps Roblox players find new codes, unit lists, beginner tips, boss locations, worlds, passives, raids, and update notes."
+      "twitterDescription": "World Fighters Wiki helps Roblox players track codes, fighters, worlds, bosses, passives, raids, updates, and beginner progression tips."
     }
   },
   "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -51,734 +51,650 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "World Fighters Gameplay",
+    "description": "Defeat enemies, collect Cristals, unlock avatars and pets, redeem codes, and push through anime-inspired Roblox worlds with friends."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "World Fighters",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Jump from Latest Updates into the main World Fighters codes, beginner route, official links, and gamepass tier list modules.",
     "cards": [
       {
+        "icon": "ClipboardCheck",
+        "title": "World Fighters Codes",
+        "description": "Working codes, potion rewards, gems, keys, and redemption steps.",
+        "href": "#world-fighters-codes"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "World Fighters Beginner Guide",
+        "description": "A first-session route for farming, avatars, pets, and zones.",
+        "href": "#world-fighters-beginner-guide"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "icon": "ExternalLink",
+        "title": "World Fighters Discord and Official Links",
+        "description": "Official Roblox, StarX Inc, Discord, and useful player resources.",
+        "href": "#world-fighters-discord-and-official-links"
       },
       {
         "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "World Fighters Tier List",
+        "description": "Gamepass value tiers for progression, farming, luck, and utility.",
+        "href": "#world-fighters-tier-list"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "worldFightersCodes": {
+      "id": "world-fighters-codes",
+      "eyebrow": "Codes & Free Rewards",
+      "title": "World Fighters Codes",
+      "subtitle": "Redeem World Fighters codes for potions, gems, Dragon Balls Keys, Saiyan Keys, and special rewards. Start with the newest Release Pt3 codes before claiming older milestone codes.",
+      "intro": "World Fighters codes are released around updates, visit milestones, like milestones, CCU milestones, and shutdown compensation. The most useful early rewards are Power Potion, Crystal Potion, Damage Potion, Luck Potion, gems, and keys that help you unlock avatars, pets, and faster progression.",
+      "displayType": "code-cards",
+      "codes": [
+        {
+          "code": "8KCCUISAWESOME!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 250 Gems, and 1 Dragon Balls Key",
+          "tag": "Release Pt3",
+          "priority": "newest"
+        },
+        {
+          "code": "COOL1.2MVISITS!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "newest"
+        },
+        {
+          "code": "YAY5KLIKES!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "Like Milestone",
+          "priority": "newest"
+        },
+        {
+          "code": "RELEASEQOL",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, and 100 Gems",
+          "tag": "QoL Update",
+          "priority": "newest"
+        },
+        {
+          "code": "900KVISITSTHANKYOU!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "high"
+        },
+        {
+          "code": "ALREADY1MVISITS!?",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "high"
+        },
+        {
+          "code": "SPLENDID800KVISITS!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "high"
+        },
+        {
+          "code": "THXFOR4KLIKES",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "Like Milestone",
+          "priority": "high"
+        },
+        {
+          "code": "THXFOR3KFAVORITES!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "Favorite Milestone",
+          "priority": "high"
+        },
+        {
+          "code": "RELEASEPT2",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 5 Dragon Balls Keys",
+          "tag": "Release Pt2",
+          "priority": "high"
+        },
+        {
+          "code": "RELEASEPATCH",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 5 Dragon Balls Keys",
+          "tag": "Patch Reward",
+          "priority": "high"
+        },
+        {
+          "code": "SRRY4SHUTDOWN",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, and 1 Saiyan Key",
+          "tag": "Shutdown Compensation",
+          "priority": "high"
+        },
+        {
+          "code": "SRRY4SHUTDOWN2",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, and 1 Saiyan Key",
+          "tag": "Shutdown Compensation",
+          "priority": "high"
+        },
+        {
+          "code": "SRRY4SHUTDOWN3",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, and 1 Saiyan Key",
+          "tag": "Shutdown Compensation",
+          "priority": "high"
+        },
+        {
+          "code": "THANKS1KLIKES",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 200 Gems, and 1 Dragon Balls Key",
+          "tag": "Like Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "100KVISITSONCHAMBER!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "TIOGADIHIT!",
+          "status": "working",
+          "reward": "Gadi Jetpack Mount",
+          "tag": "Special Reward",
+          "priority": "medium"
+        },
+        {
+          "code": "EVENT2.5K!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, and 500 Gems",
+          "tag": "Event Code",
+          "priority": "medium"
+        },
+        {
+          "code": "RELEASE",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, and 50 Gems",
+          "tag": "Launch Code",
+          "priority": "medium"
+        },
+        {
+          "code": "2KCCU!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "CCU Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "THANKYOU3KCCU",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "CCU Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "4KONCHAMBER!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "CCU Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "6KTHXSOMUCH",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "CCU Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "7KISALOT!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "CCU Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "ALREADY5K?",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "CCU Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "TY2KLIKES!!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "Like Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "THX3KLIKES!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "Like Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "THXFOR200KVISITS!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "300KVISITSTHANKYOU!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "400KVISITSINCREDIBLE",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "WOW500KVISITS!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "600KVISITSYAY!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "700KVISITSINGAME",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "1KFAVORITESTHX!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "Favorite Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "2KFAVORITESTHANKYOU!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems, and 1 Dragon Balls Key",
+          "tag": "Favorite Milestone",
+          "priority": "medium"
+        }
+      ],
+      "redeemGuide": {
+        "label": "World Fighters Code Redemption Steps",
+        "steps": [
+          "Launch World Fighters on Roblox.",
+          "Press the Shop button on the left side of the screen.",
+          "Scroll to the code box near the bottom of the Shop menu.",
+          "Paste one code exactly as shown and press Redeem."
+        ]
+      },
+      "summary": [
+        "Redeem newest Release Pt3 and milestone codes first.",
+        "Potion rewards are most useful while actively farming enemies.",
+        "Keys and gems help accelerate early unlocks, avatars, pets, and gacha attempts."
+      ]
+    },
+    "worldFightersBeginnerGuide": {
+      "id": "world-fighters-beginner-guide",
+      "eyebrow": "Beginner Route",
+      "title": "World Fighters Beginner Guide",
+      "subtitle": "Learn the early loop: defeat enemies, collect Cristals, unlock avatars and pets, use codes, and push into new worlds. This route is built for players starting from their first session.",
+      "intro": "World Fighters is an anime-inspired Roblox simulator where players defeat enemies, collect Cristals, unlock avatars and pets, and complete challenges with friends. New players should focus on redeeming codes, improving damage and power, opening early rewards, and clearing map quests that unlock the next zone.",
+      "displayType": "step-by-step",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "step": 1,
+          "title": "Start from the official Roblox experience",
+          "goal": "Join World Fighters from the official StarX Inc game page.",
+          "details": "The game supports PC, mobile, tablet, and console, so new players can start on any major Roblox device. Use the official page first to avoid fake copies and outdated clone experiences.",
+          "keyResources": [
+            "Official game page",
+            "StarX Inc developer page"
+          ]
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "step": 2,
+          "title": "Redeem codes before grinding",
+          "goal": "Claim potions, gems, and keys before fighting stronger enemies.",
+          "details": "Codes give early boosts such as Power Potion, Crystal Potion, Damage Potion, Luck Potion, Gems, Dragon Balls Keys, and Saiyan Keys. Redeem the newest Release Pt3 and milestone codes first because update and compensation codes are the highest-priority freebies.",
+          "keyResources": [
+            "Power Potion",
+            "Crystal Potion",
+            "Damage Potion",
+            "Luck Potion",
+            "Gems",
+            "Keys"
+          ]
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "step": 3,
+          "title": "Defeat enemies to collect Cristals",
+          "goal": "Build your first progression loop around enemy farming.",
+          "details": "World Fighters describes its core loop as defeating enemies to collect Cristals. Use early boosts when you are actively farming so your power, damage, luck, and crystal gain bonuses turn into faster progress.",
+          "keyResources": [
+            "Cristals",
+            "Enemy drops",
+            "Potion boosts"
+          ]
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "step": 4,
+          "title": "Unlock avatars and pets",
+          "goal": "Use your earned resources to expand your roster.",
+          "details": "Avatars and pets are part of the main unlock path in World Fighters. New players should treat early gems, Cristals, stars, and gacha rolls as progression tools instead of spending everything randomly.",
+          "keyResources": [
+            "Avatars",
+            "Pets",
+            "Stars",
+            "Gacha rolls"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Push map quests to unlock new zones",
+          "goal": "Complete the current map objective and move to the next world.",
+          "details": "Progressing to a new map revolves around completing the main quest in the current area and earning the required key. Zone badges such as Zone 1, Zone 2, Zone 3, Zone 4, Zone 5, and Zone 6 make zone progress easy to track.",
+          "keyResources": [
+            "Map quests",
+            "Zone keys",
+            "Zone badges"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Use friends and shared rewards",
+          "goal": "Play with friends to finish challenges more efficiently.",
+          "details": "World Fighters supports friend play and shared rewards across game modes. Group play is useful when enemies take longer to defeat, when challenges require consistency, or when you want to speed up repeated farming sessions.",
+          "keyResources": [
+            "Co-op challenges",
+            "Shared rewards",
+            "Team farming"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Track first-time milestones",
+          "goal": "Use badges as a simple checklist for early progression.",
+          "details": "Early progression milestones include Welcome to World Fighters, First Star Open, First Gacha Roll, First Secret Unit, First Secret Gacha, First Awakening, and zone-clear badges. These milestones show whether your account is still in the opening phase or ready for deeper farming.",
+          "keyResources": [
+            "First Star Open",
+            "First Gacha Roll",
+            "First Awakening",
+            "Zone progress"
+          ]
         }
       ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+      "checklistTitle": "World Fighters Beginner Priorities",
+      "checklist": [
+        "Start from the official Roblox experience.",
+        "Redeem codes before long farming sessions.",
+        "Use boosts while defeating enemies for Cristals.",
+        "Spend early resources on avatars, pets, stars, and gacha progress.",
+        "Complete map quests to move through new zones."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+    "worldFightersOfficialLinks": {
+      "id": "world-fighters-discord-and-official-links",
+      "eyebrow": "Official Links",
+      "title": "World Fighters Discord and Official Links",
+      "subtitle": "Use these links to play World Fighters, join the StarX Inc community, find the Discord, and check game stats. Official links are separated from third-party code and analytics pages.",
+      "intro": "World Fighters is published on Roblox by StarX Inc. The official Roblox experience and StarX Inc community are the primary starting points, while the Discord invite is used for updates, codes, and player discussion.",
+      "displayType": "card-list",
+      "links": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "name": "World Fighters Roblox Experience",
+          "type": "Official game page",
+          "href": "https://www.roblox.com/games/95630541662383/World-Fighters",
+          "useCase": "Play the game, view the Store tab, check Servers, and launch World Fighters from the official Roblox page.",
+          "status": "official"
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "name": "StarX Inc Roblox Community",
+          "type": "Official developer community",
+          "href": "https://www.roblox.com/communities/33910482/StarX-Inc",
+          "useCase": "Follow the developer group behind World Fighters and related Roblox experiences.",
+          "status": "official"
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "name": "World Fighters Simulator Discord",
+          "type": "Official Discord invite",
+          "href": "https://discord.gg/worldfighters",
+          "useCase": "Join the World Fighters Discord for update notices, new code drops, community chat, and game announcements.",
+          "status": "official"
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "name": "Rolimon's World Fighters Page",
+          "type": "Third-party game analytics",
+          "href": "https://www.rolimons.com/game/95630541662383",
+          "useCase": "Check live players, visits, rating, favorites, average playtime, peak CCU, gamepasses, badges, and update timing.",
+          "status": "third-party"
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "name": "Pocket Tactics World Fighters Codes",
+          "type": "Third-party codes tracker",
+          "href": "https://www.pockettactics.com/world-fighters-codes",
+          "useCase": "Check a frequently updated code list with rewards and redemption instructions.",
+          "status": "third-party"
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "name": "Try Hard Guides World Fighters Codes",
+          "type": "Third-party codes tracker",
+          "href": "https://tryhardguides.com/world-fighters-codes/",
+          "useCase": "Check working codes, expired codes, redemption steps, and code troubleshooting tips.",
+          "status": "third-party"
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "name": "Pro Game Guides World Fighters Codes",
+          "type": "Third-party codes tracker",
+          "href": "https://progameguides.com/roblox/world-fighters-simulator-codes/",
+          "useCase": "Check active codes, code rewards, redemption steps, and official community link references.",
+          "status": "third-party"
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+    "worldFightersTierList": {
+      "id": "world-fighters-tier-list",
+      "eyebrow": "Best Value Picks",
+      "title": "World Fighters Tier List",
+      "subtitle": "Rank World Fighters gamepasses by early progression value, farming speed, gacha convenience, and long-term utility. This tier list focuses on real gamepass names and prices visible in public Roblox tracking data.",
+      "intro": "World Fighters has a large gamepass set covering direct progression boosts, luck boosts, opening speed, spin speed, storage, VIP, and utility. For most players, direct farming power and crystal gain come first, then luck and opening speed, then storage and situational convenience.",
+      "displayType": "tier-grid",
+      "tiers": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
+          "tier": "S",
+          "label": "Best progression value",
+          "entries": [
             {
-              "title": "Angel α",
-              "description": "Enter a qualia."
+              "name": "2x Damage",
+              "price": "299 Robux",
+              "role": "Damage scaling",
+              "whyItMatters": "Directly improves enemy clear speed, making it one of the strongest early and mid-game progression purchases."
             },
             {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
+              "name": "2x Power",
+              "price": "299 Robux",
+              "role": "Power scaling",
+              "whyItMatters": "Improves core strength growth and helps players push through stronger enemies faster."
             },
             {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
+              "name": "2x Crystals",
+              "price": "299 Robux",
+              "role": "Resource farming",
+              "whyItMatters": "Boosts the main farming resource used in the World Fighters progression loop."
             },
             {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
+              "name": "Extra Drops",
+              "price": "399 Robux",
+              "role": "Farming efficiency",
+              "whyItMatters": "Adds value to repeated enemy farming and long grind sessions."
             }
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
+          "tier": "A",
+          "label": "Strong gacha and unlock value",
+          "entries": [
             {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
+              "name": "Luck",
+              "price": "99 Robux",
+              "role": "Starter luck boost",
+              "whyItMatters": "Low-cost luck option for players who want better roll value without buying the larger luck passes first."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
+              "name": "Super Luck",
+              "price": "199 Robux",
+              "role": "Better luck boost",
+              "whyItMatters": "A stronger luck upgrade for players opening stars, rolling gacha, and chasing better unlocks."
             },
             {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
+              "name": "Mega Luck",
+              "price": "399 Robux",
+              "role": "High-end luck boost",
+              "whyItMatters": "Best suited for players who roll frequently and want a premium luck-focused upgrade."
             },
             {
-              "title": "Archangel β",
-              "description": "Summon your faith."
+              "name": "Extra Equip",
+              "price": "399 Robux",
+              "role": "Roster power",
+              "whyItMatters": "Extra equip value increases as the player unlocks stronger avatars, pets, and units."
             }
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
+          "tier": "B",
+          "label": "Useful speed and convenience",
+          "entries": [
             {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
+              "name": "Fast Open",
+              "price": "299 Robux",
+              "role": "Opening speed",
+              "whyItMatters": "Useful for players who repeatedly open stars or rewards and want less downtime."
             },
             {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
+              "name": "Multi Open",
+              "price": "299 Robux",
+              "role": "Bulk opening",
+              "whyItMatters": "Improves repeated opening sessions and pairs well with luck-focused upgrades."
             },
             {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
+              "name": "Fast Spin",
+              "price": "399 Robux",
+              "role": "Spin speed",
+              "whyItMatters": "Saves time during repeated spin-based actions."
             },
             {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
+              "name": "Multi Spin",
+              "price": "399 Robux",
+              "role": "Bulk spinning",
+              "whyItMatters": "Useful for players who spend a lot of time on spin systems and want a faster loop."
             }
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
+          "tier": "C",
+          "label": "Comfort picks",
+          "entries": [
             {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
+              "name": "Small Storage",
+              "price": "49 Robux",
+              "role": "Low-cost storage",
+              "whyItMatters": "Cheap quality-of-life option for new players who want extra room early."
             },
             {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
+              "name": "Big Storage",
+              "price": "99 Robux",
+              "role": "Storage expansion",
+              "whyItMatters": "Better for players who collect more avatars, pets, and unlocks over time."
             },
             {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
+              "name": "VIP",
+              "price": "399 Robux",
+              "role": "Premium convenience",
+              "whyItMatters": "A broader premium option for players who want VIP benefits instead of a single focused boost."
             }
           ]
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
+          "tier": "D",
+          "label": "Situational or late priority",
+          "entries": [
             {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
+              "name": "Remote Star",
+              "price": "499 Robux",
+              "role": "Remote utility",
+              "whyItMatters": "More useful after players understand the star and opening loop and want remote convenience."
             },
             {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
+              "name": "Dual Sword",
+              "price": "399 Robux",
+              "role": "Build-specific utility",
+              "whyItMatters": "Best treated as a later purchase after core farming, damage, power, and resource boosts."
             }
           ]
         }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
-        }
+      ],
+      "buyingNotes": [
+        "Prioritize direct farming boosts before situational convenience.",
+        "Luck passes gain value when you are opening stars or chasing rare unlocks.",
+        "Storage and remote utility are comfort picks after core progression boosts."
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
+    "title": "World Fighters FAQ",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Quick answers for World Fighters codes, progression, Roblox links, and gamepass choices.",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is World Fighters?",
+        "answer": "World Fighters is an anime-inspired Roblox fighting simulator from StarX Inc where players defeat enemies, collect Cristals, unlock avatars and pets, and move through new zones."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Where do I redeem World Fighters codes?",
+        "answer": "Open World Fighters on Roblox, press Shop, scroll to the code box, paste a code exactly as shown, and press Redeem."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What rewards do World Fighters codes give?",
+        "answer": "World Fighters codes can give Power Potion, Crystal Potion, Damage Potion, Luck Potion, Gems, Dragon Balls Keys, Saiyan Keys, and special rewards."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "What should beginners do first in World Fighters?",
+        "answer": "New World Fighters players should redeem codes, farm enemies for Cristals, use boosts during active grinding, unlock avatars and pets, and complete map quests to reach new zones."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Where is the World Fighters Discord?",
+        "answer": "The World Fighters Discord is available through the public invite at discord.gg/worldfighters."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Which World Fighters gamepasses are best early?",
+        "answer": "The strongest early World Fighters gamepass value comes from direct progression boosts such as 2x Damage, 2x Power, 2x Crystals, and Extra Drops."
       }
     ]
   },
   "cta": {
     "title": "Ready to Play World Fighters?",
-    "description": "Join the World Fighters Discord for codes, update notes, raid tips, and community progression help.",
+    "description": "Join the World Fighters Discord for codes, update notes, raid tips, and community progression help, then launch the official Roblox experience.",
     "joinCommunity": "Join World Fighters Discord",
     "joinGame": "Play World Fighters on Roblox"
   },
@@ -788,137 +704,97 @@
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
+    "discord": "World Fighters Discord",
     "twitter": "Tanlugi on X",
     "steamCommunity": "StarX Roblox Group",
-    "steamStore": "Roblox Game Page",
+    "steamStore": "World Fighters Roblox Page",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
     "copyright": "© 2026 World Fighters Wiki. Not affiliated with StarX Inc or Roblox Corporation.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "disclaimer": "Unofficial fan-made resource website for World Fighters players."
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+      "title": "World Fighters Guides",
+      "description": "World Fighters guides for codes, beginner progression, units, raids, bosses, worlds, and update planning.",
+      "metaTitle": "World Fighters Guides - Codes, Units & Progression",
+      "metaDescription": "World Fighters guides covering codes, beginner tips, unit progression, bosses, raids, worlds, passives, and updates for Roblox players.",
+      "categoryLabel": "WORLD FIGHTERS GUIDES",
+      "whatIs": "What are World Fighters Guides?",
+      "whatIsDescription": "World Fighters guides explain codes, resources, units, bosses, raids, worlds, and beginner decisions in a clear progression order.",
+      "why": "Why read World Fighters guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Claim Rewards",
+        "step1Description": "Find World Fighters codes and understand which rewards to use first.",
+        "step2Title": "Progress Faster",
+        "step2Description": "Plan farming, avatars, pets, and zone goals around the early progression loop.",
+        "step3Title": "Prepare for Updates",
+        "step3Description": "Track World Fighters update notes, raids, bosses, and new resource priorities."
       },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
+      "featured": "Featured World Fighters Guides",
+      "all": "All World Fighters Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "codes": {
+      "title": "World Fighters Codes",
+      "description": "Working World Fighters codes, rewards, and redemption steps for Roblox players.",
+      "metaTitle": "World Fighters Codes - Free Potions, Gems & Keys",
+      "metaDescription": "Find World Fighters codes for free potions, gems, Dragon Balls Keys, Saiyan Keys, and Roblox progression rewards.",
+      "categoryLabel": "WORLD FIGHTERS CODES",
+      "whatIs": "What are World Fighters Codes?",
+      "whatIsDescription": "World Fighters codes are reward strings released around updates, milestones, compensation, and community events.",
+      "why": "Why use World Fighters codes?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Get Free Rewards",
+        "step1Description": "Claim potions, gems, keys, and special rewards without spending Robux.",
+        "step2Title": "Boost Early Farming",
+        "step2Description": "Use rewards while farming enemies and collecting Cristals.",
+        "step3Title": "Save Time",
+        "step3Description": "Start new sessions with extra resources before grinding zones."
       },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "featured": "Featured World Fighters Codes",
+      "all": "All World Fighters Codes"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "beginner": {
+      "title": "World Fighters Beginner Guide",
+      "description": "World Fighters beginner route for codes, Cristals, avatars, pets, map quests, and early zones.",
+      "metaTitle": "World Fighters Beginner Guide - First Session Route",
+      "metaDescription": "Learn how to start World Fighters with codes, Cristals, avatars, pets, map quests, zones, and efficient Roblox progression.",
+      "categoryLabel": "BEGINNER ROUTE",
+      "whatIs": "What is the World Fighters Beginner Guide?",
+      "whatIsDescription": "The World Fighters Beginner Guide outlines the first-session loop from code redemption to farming, unlocks, and zone progression.",
+      "why": "Why follow the World Fighters beginner route?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Start Cleanly",
+        "step1Description": "Use the official Roblox experience and redeem available rewards first.",
+        "step2Title": "Spend Resources Better",
+        "step2Description": "Understand when to use potions, gems, keys, Cristals, avatars, and pets.",
+        "step3Title": "Move Through Zones",
+        "step3Description": "Use map quests and zone milestones as a clear progression checklist."
       },
-      "featured": "Featured & Essential",
-      "all": "All Items"
+      "featured": "Featured World Fighters Beginner Tips",
+      "all": "All World Fighters Beginner Guides"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "tierList": {
+      "title": "World Fighters Tier List",
+      "description": "World Fighters gamepass tier list for progression value, farming speed, luck, storage, and utility.",
+      "metaTitle": "World Fighters Tier List - Best Gamepass Value",
+      "metaDescription": "Compare World Fighters gamepasses by progression value, farming boosts, luck, opening speed, storage, and utility for Roblox players.",
+      "categoryLabel": "GAMEPASS TIER LIST",
+      "whatIs": "What is the World Fighters Tier List?",
+      "whatIsDescription": "The World Fighters Tier List ranks gamepasses by early progression value, farming speed, gacha convenience, and long-term utility.",
+      "why": "Why check the World Fighters tier list?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Prioritize Core Boosts",
+        "step1Description": "Compare 2x Damage, 2x Power, 2x Crystals, and Extra Drops first.",
+        "step2Title": "Plan Gacha Upgrades",
+        "step2Description": "Understand when Luck, Super Luck, Mega Luck, Fast Open, and Multi Open matter.",
+        "step3Title": "Avoid Low Priority Purchases",
+        "step3Description": "Separate comfort tools from progression-focused gamepasses."
       },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "featured": "Featured World Fighters Tier Picks",
+      "all": "All World Fighters Tier List Guides"
     }
   }
 }
