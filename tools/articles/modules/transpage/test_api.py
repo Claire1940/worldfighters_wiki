@@ -122,7 +122,7 @@ async def main():
         "小内容 (50字符)": "Home\nMore\nPlay Now\nLearn More\nGet Started",
         "中等内容 (200字符)": "\n".join([
             "Home", "More", "Play Now", "Learn More", "Get Started",
-            "Welcome to Slayerbound", "Your ultimate resource",
+            "Welcome to World Fighters", "Your ultimate resource",
             "Discover powerful units", "Master the game",
             "Join the community", "Latest updates", "Game guides"
         ]),

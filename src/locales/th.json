@@ -1,11 +1,1847 @@
 {
+  "seo": {
+    "home": {
+      "title": "World Fighters Wiki - Codes, Units และคู่มือสำหรับผู้เริ่มต้น",
+      "description": "World Fighters Wiki ช่วยให้ผู้เล่น Roblox ค้นหา Codes ใหม่ๆ, รายชื่อ Units, เคล็ดลับสำหรับผู้เริ่มต้น, ตำแหน่งบอส, โลกต่างๆ, Passives, Raids และบันทึกการอัปเดตได้ในที่เดียว",
+      "keywords": "World Fighters, World Fighters Wiki, World Fighters Codes, Roblox fighting simulator, StarX Inc",
+      "ogTitle": "World Fighters Wiki - Codes, Units และคู่มือสำหรับผู้เริ่มต้น",
+      "ogDescription": "World Fighters Wiki ช่วยให้ผู้เล่น Roblox ติดตาม Codes, นักสู้, โลกต่างๆ, บอส, Passives, Raids, การอัปเดต และเคล็ดลับการพัฒนาสำหรับผู้เริ่มต้น",
+      "twitterTitle": "World Fighters Wiki - Codes, Units และคู่มือสำหรับผู้เริ่มต้น",
+      "twitterDescription": "World Fighters Wiki ช่วยให้ผู้เล่น Roblox ติดตาม Codes, นักสู้, โลกต่างๆ, บอส, Passives, Raids, การอัปเดต และเคล็ดลับการพัฒนาสำหรับผู้เริ่มต้น"
+    }
+  },
   "nav": {
     "codes": "Codes",
-    "guide": "Guide",
-    "resources": "Resources",
+    "guide": "คู่มือ",
+    "resources": "แหล่งข้อมูล",
     "units": "Units",
-    "bosses": "Bosses",
-    "quests": "Quests",
+    "bosses": "บอส",
+    "quests": "เควสต์",
     "raids": "Raids"
+  },
+  "common": {
+    "home": "หน้าแรก",
+    "more": "เพิ่มเติม",
+    "playNow": "เล่นบน Roblox",
+    "switchLanguage": "เปลี่ยนภาษา",
+    "switchTheme": "เปลี่ยนธีม",
+    "lightMode": "โหมดสว่าง",
+    "darkMode": "โหมดมืด",
+    "notFound": "ไม่พบหน้านี้",
+    "notFoundDescription": "ไม่พบหน้าที่คุณกำลังมองหา",
+    "backToHome": "กลับสู่หน้าแรก",
+    "relatedArticles": "บทความที่เกี่ยวข้อง",
+    "readMore": "อ่านเพิ่มเติม"
+  },
+  "hero": {
+    "badge": "Roblox Fighting Simulator ที่ได้รับแรงบันดาลใจจากอนิเมะ",
+    "title": "World Fighters Wiki",
+    "description": "World Fighters Wiki ช่วยให้ผู้เล่น Roblox ติดตาม Codes ฟรี, นักสู้ที่ได้รับแรงบันดาลใจจากอนิเมะ, โลกต่างๆ, บอส, Passives, Raids, การอัปเดต และเคล็ดลับการพัฒนาสำหรับผู้เริ่มต้น",
+    "getFreeCodesCTA": "เข้าร่วม Discord เพื่อรับ Codes",
+    "playOnRobloxCTA": "เล่นบน Roblox",
+    "stats": {
+      "stat1": {
+        "value": "1.6M+",
+        "label": "การเข้าชมทั้งหมด"
+      },
+      "stat2": {
+        "value": "8.7K",
+        "label": "ผู้เล่นที่กำลังออนไลน์"
+      },
+      "stat3": {
+        "value": "4.1K",
+        "label": "รายการโปรด"
+      },
+      "stat4": {
+        "value": "582K+",
+        "label": "สมาชิกกลุ่ม StarX Inc"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "เกมเพลย์ World Fighters",
+    "description": "กำจัดศัตรู, สะสม Cristals, ปลดล็อกอวตารและสัตว์เลี้ยง, แลก Codes และตะลุยผ่านโลก Roblox ที่ได้รับแรงบันดาลใจจากอนิเมะไปกับเพื่อนๆ"
+  },
+  "tools": {
+    "title": "World Fighters",
+    "titleHighlight": "แหล่งข้อมูล",
+    "subtitle": "ข้ามจากการอัปเดตล่าสุดไปยังโมดูลหลักของ World Fighters Codes, เส้นทางสำหรับผู้เริ่มต้น, ลิงก์ทางการ, เทียร์ลิสต์, Secret Units, กาชา, การตื่น (awakening), ทรัพยากร, โพชั่น, กุญแจ, รายชื่อตัวละคร, โซน, Raids, เควส, เกมพาส และบันทึกการอัปเดต",
+    "cards": [
+      {
+        "icon": "ClipboardCheck",
+        "title": "World Fighters Codes",
+        "description": "Codes ที่ใช้งานได้, รางวัลโพชั่น, เพชร, กุญแจ และขั้นตอนการแลกรับ",
+        "href": "#world-fighters-codes"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "คู่มือผู้เริ่มต้น World Fighters",
+        "description": "เส้นทางสำหรับการเล่นครั้งแรกเพื่อฟาร์ม, อวตาร, สัตว์เลี้ยง และโซนต่างๆ",
+        "href": "#world-fighters-beginner-guide"
+      },
+      {
+        "icon": "ExternalLink",
+        "title": "World Fighters Discord และลิงก์ทางการ",
+        "description": "Roblox ทางการ, StarX Inc, Discord และแหล่งข้อมูลที่เป็นประโยชน์สำหรับผู้เล่น",
+        "href": "#world-fighters-discord-and-official-links"
+      },
+      {
+        "icon": "Star",
+        "title": "World Fighters เทียร์ลิสต์",
+        "description": "ระดับความคุ้มค่าของ Gamepass สำหรับการพัฒนา, การฟาร์ม, ดวง และอรรถประโยชน์",
+        "href": "#world-fighters-tier-list"
+      },
+      {
+        "icon": "Shield",
+        "title": "คู่มือ World Fighters Secret Units",
+        "description": "Secret Luffy, กาชาลับ, การเพิ่มดวง, กุญแจ และการวางแผนการเล่นช่วงท้ายเกม",
+        "href": "#world-fighters-secret-units-guide"
+      },
+      {
+        "icon": "Package",
+        "title": "คู่มือ World Fighters กาชาและดาว",
+        "description": "ความเชื่อมโยงระหว่างดาว, แบนเนอร์, เพชร, การสุ่ม และช่วงเวลาเพิ่มดวง",
+        "href": "#world-fighters-gacha-and-star-guide"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "คู่มือการตื่น World Fighters",
+        "description": "เป้าหมายการเติบโตถาวรสำหรับพลัง, ดาเมจ, โซน และการล่าตัวละครลับ",
+        "href": "#world-fighters-awakening-guide"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "คู่มือ World Fighters คริสตัลและเพชร",
+        "description": "แหล่งทรัพยากร, ลำดับความสำคัญในการใช้, โพชั่น, กุญแจ และจังหวะการใช้งานที่ดีที่สุด",
+        "href": "#world-fighters-crystals-and-gems-guide"
+      },
+      {
+        "icon": "Download",
+        "title": "คู่มือ World Fighters โพชั่น",
+        "description": "จังหวะการใช้โพชั่นพลัง, คริสตัล, ดาเมจ และดวง สำหรับการฟาร์มและการสุ่ม",
+        "href": "#world-fighters-potions-guide"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "คู่มือ World Fighters กุญแจและโทเคน",
+        "description": "กุญแจดราก้อนบอล, โทเคนดราก้อนบอล, กุญแจไซย่า, เพชร และรางวัลสัตว์ขี่",
+        "href": "#world-fighters-keys-and-tokens-guide"
+      },
+      {
+        "icon": "Users",
+        "title": "คู่มือ World Fighters อวตารและสัตว์เลี้ยง",
+        "description": "ลำดับความสำคัญของรายชื่ออวตาร, สัตว์เลี้ยงเอ็กซ์คลูซีฟ, คริสตัล, เพชร และความท้าทายร่วมกัน",
+        "href": "#world-fighters-avatars-and-pets-guide"
+      },
+      {
+        "icon": "Home",
+        "title": "คู่มือการผ่านโซน World Fighters",
+        "description": "จุดเช็คพอยท์ตั้งแต่โซน 1 ถึงโซน 6, บูสต์ที่แนะนำ และเป้าหมายการฟาร์ม",
+        "href": "#world-fighters-zones-progression-guide"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "คู่มือ World Fighters Raids",
+        "description": "ขั้นตอน Tempest Invasion, กุญแจสไลม์, การอัปเกรด, เป้าหมายเวฟ และการวางแผน Raid สำหรับสายฟรี",
+        "href": "#world-fighters-raids-guide"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "เควสรองและความท้าทาย World Fighters",
+        "description": "ความคืบหน้าหลัก, วัตถุประสงค์รอง, ความท้าทายแบบร่วมมือ, Raids และรางวัลความท้าทายที่ซ่อนอยู่",
+        "href": "#world-fighters-side-quests-and-challenges"
+      },
+      {
+        "icon": "Settings",
+        "title": "คู่มือ World Fighters เกมพาส",
+        "description": "ลำดับความสำคัญของพาส Robux สำหรับการฟาร์ม, ดาเมจ, ดวง, คลังเก็บของ และความสะดวกในการอัญเชิญ",
+        "href": "#world-fighters-gamepasses-guide"
+      },
+      {
+        "icon": "Clock",
+        "title": "การอัปเดตและบันทึกการแก้ไข World Fighters",
+        "description": "การอัปเดตเวอร์ชัน, Tempest Federation, การเปลี่ยนแปลง Raid, การปรับปรุงคุณภาพชีวิต และช่วงแจก Codes",
+        "href": "#world-fighters-updates-and-patch-notes"
+      }
+    ]
+  },
+  "modules": {
+    "worldFightersCodes": {
+      "id": "world-fighters-codes",
+      "eyebrow": "Codes และรางวัลฟรี",
+      "title": "World Fighters Codes",
+      "subtitle": "แลก World Fighters Codes เพื่อรับ potions, gems, Dragon Balls Keys, Saiyan Keys และรางวัลพิเศษ เริ่มต้นด้วย Release PT3 Codes ใหม่ล่าสุดก่อนที่จะรับ milestone Codes เก่า",
+      "intro": "World Fighters Codes จะถูกปล่อยออกมาในช่วงที่มีการอัปเดต, visit milestones, like milestones, CCU milestones และการชดเชยเมื่อปิดปรับปรุงเซิร์ฟเวอร์ รางวัลช่วงเริ่มต้นที่มีประโยชน์ที่สุดคือ Power Potion, Crystal Potion, Damage Potion, Luck Potion, gems และ keys ที่ช่วยให้คุณปลดล็อก avatars, pets และก้าวหน้าได้เร็วขึ้น",
+      "displayType": "code-cards",
+      "codes": [
+        {
+          "code": "8KCCUISAWESOME!",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 250 Gems และ 1 Dragon Balls Key",
+          "tag": "Release PT3",
+          "priority": "newest"
+        },
+        {
+          "code": "COOL1.2MVISITS!",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "newest"
+        },
+        {
+          "code": "YAY5KLIKES!",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "Like Milestone",
+          "priority": "newest"
+        },
+        {
+          "code": "RELEASEQOL",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion และ 100 Gems",
+          "tag": "QoL Update",
+          "priority": "newest"
+        },
+        {
+          "code": "900KVISITSTHANKYOU!",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "high"
+        },
+        {
+          "code": "ALREADY1MVISITS!?",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "high"
+        },
+        {
+          "code": "SPLENDID800KVISITS!",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "high"
+        },
+        {
+          "code": "THXFOR4KLIKES",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "Like Milestone",
+          "priority": "high"
+        },
+        {
+          "code": "THXFOR3KFAVORITES!",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "Favorite Milestone",
+          "priority": "high"
+        },
+        {
+          "code": "RELEASEPT2",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 5 Dragon Balls Keys",
+          "tag": "Release Pt2",
+          "priority": "high"
+        },
+        {
+          "code": "RELEASEPATCH",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 5 Dragon Balls Keys",
+          "tag": "รางวัลแพตช์",
+          "priority": "high"
+        },
+        {
+          "code": "SRRY4SHUTDOWN",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion และ 1 Saiyan Key",
+          "tag": "การชดเชยเมื่อปิดปรับปรุง",
+          "priority": "high"
+        },
+        {
+          "code": "SRRY4SHUTDOWN2",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion และ 1 Saiyan Key",
+          "tag": "การชดเชยเมื่อปิดปรับปรุง",
+          "priority": "high"
+        },
+        {
+          "code": "SRRY4SHUTDOWN3",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion และ 1 Saiyan Key",
+          "tag": "การชดเชยเมื่อปิดปรับปรุง",
+          "priority": "high"
+        },
+        {
+          "code": "THANKS1KLIKES",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 200 Gems และ 1 Dragon Balls Key",
+          "tag": "Like Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "100KVISITSONCHAMBER!",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "TIOGADIHIT!",
+          "status": "ใช้งานได้",
+          "reward": "สัตว์ขี่ Gadi Jetpack",
+          "tag": "รางวัลพิเศษ",
+          "priority": "medium"
+        },
+        {
+          "code": "EVENT2.5K!",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion และ 500 Gems",
+          "tag": "Codes กิจกรรม",
+          "priority": "medium"
+        },
+        {
+          "code": "RELEASE",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion และ 50 Gems",
+          "tag": "Codes เปิดตัว",
+          "priority": "medium"
+        },
+        {
+          "code": "2KCCU!",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "CCU Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "THANKYOU3KCCU",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "CCU Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "4KONCHAMBER!",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "CCU Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "6KTHXSOMUCH",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "CCU Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "7KISALOT!",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "CCU Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "ALREADY5K?",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "CCU Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "TY2KLIKES!!",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "Like Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "THX3KLIKES!",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "Like Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "THXFOR200KVISITS!",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "300KVISITSTHANKYOU!",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "400KVISITSINCREDIBLE",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "WOW500KVISITS!",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "600KVISITSYAY!",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "700KVISITSINGAME",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "1KFAVORITESTHX!",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "Favorite Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "2KFAVORITESTHANKYOU!",
+          "status": "ใช้งานได้",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 Gems และ 1 Dragon Balls Key",
+          "tag": "Favorite Milestone",
+          "priority": "medium"
+        }
+      ],
+      "redeemGuide": {
+        "label": "ขั้นตอนการแลก World Fighters Codes",
+        "steps": [
+          "เปิด World Fighters บน Roblox",
+          "กดปุ่ม Shop ที่ด้านซ้ายของหน้าจอ",
+          "เลื่อนลงไปที่ช่องใส่ Codes บริเวณด้านล่างของเมนู Shop",
+          "วางหนึ่ง Codes ตามที่แสดงให้ถูกต้องและกด Redeem"
+        ]
+      },
+      "summary": [
+        "แลก Release PT3 และ milestone Codes ใหม่ล่าสุดก่อน",
+        "รางวัลประเภท Potion จะมีประโยชน์มากที่สุดในขณะที่กำลังฟาร์มศัตรู",
+        "Keys และ gems ช่วยเร่งการปลดล็อกในช่วงแรก, avatars, pets และการสุ่ม gacha"
+      ]
+    },
+    "worldFightersBeginnerGuide": {
+      "id": "world-fighters-beginner-guide",
+      "eyebrow": "เส้นทางสำหรับผู้เริ่มต้น",
+      "title": "คู่มือสำหรับผู้เริ่มต้น World Fighters",
+      "subtitle": "เรียนรู้วงจรการเล่นช่วงแรก: กำจัดศัตรู, สะสม Cristals, ปลดล็อกอวตารและสัตว์เลี้ยง, ใช้ Codes, และบุกตะลุยไปสู่โลกใหม่ เส้นทางนี้สร้างขึ้นสำหรับผู้เล่นที่เริ่มเล่นตั้งแต่เซสชันแรก",
+      "intro": "World Fighters คือเกมแนว Simulator บน Roblox ที่ได้รับแรงบันดาลใจจากอนิเมะ ซึ่งผู้เล่นจะได้กำจัดศัตรู, สะสม Cristals, ปลดล็อกอวตารและสัตว์เลี้ยง และทำคำท้าทายร่วมกับเพื่อนๆ ผู้เล่นใหม่ควรเน้นไปที่การแลก Codes, เพิ่มความเสียหายและพลัง, เปิดรับรางวัลช่วงแรก และเคลียร์เควสต์แผนที่เพื่อปลดล็อกโซนถัดไป",
+      "displayType": "step-by-step",
+      "steps": [
+        {
+          "step": 1,
+          "title": "เริ่มต้นจากประสบการณ์ Roblox อย่างเป็นทางการ",
+          "goal": "เข้าร่วม World Fighters จากหน้าเกมอย่างเป็นทางการของ StarX Inc",
+          "details": "เกมนี้รองรับทั้ง PC, มือถือ, แท็บเล็ต และคอนโซล ดังนั้นผู้เล่นใหม่สามารถเริ่มต้นได้บนอุปกรณ์หลักใดก็ได้ของ Roblox โปรดใช้หน้าอย่างเป็นทางการก่อนเพื่อหลีกเลี่ยงของปลอมและประสบการณ์เลียนแบบที่ล้าสมัย",
+          "keyResources": [
+            "หน้าเกมอย่างเป็นทางการ",
+            "หน้าผู้พัฒนา StarX Inc"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "แลก Codes ก่อนเริ่มฟาร์ม",
+          "goal": "รับยา (potions), อัญมณี (gems) และกุญแจ (keys) ก่อนที่จะต่อสู้กับศัตรูที่แข็งแกร่งขึ้น",
+          "details": "Codes จะช่วยเพิ่มพลังในช่วงแรก เช่น Power Potion, Crystal Potion, Damage Potion, Luck Potion, Gems, Dragon Balls Keys และ Saiyan Keys แลก Release PT3 ล่าสุดและ Codes ตามเป้าหมาย (milestone) ก่อน เพราะ Codes อัปเดตและ Codes ชดเชยเป็นของฟรีที่มีลำดับความสำคัญสูงสุด",
+          "keyResources": [
+            "Power Potion",
+            "Crystal Potion",
+            "Damage Potion",
+            "Luck Potion",
+            "Gems",
+            "Keys"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "กำจัดศัตรูเพื่อสะสม Cristals",
+          "goal": "สร้างวงจรการพัฒนาช่วงแรกของคุณจากการฟาร์มศัตรู",
+          "details": "World Fighters อธิบายวงจรหลักของเกมว่าเป็นการกำจัดศัตรูเพื่อสะสม Cristals ใช้ตัวช่วยเพิ่มพลัง (boosts) ในช่วงแรกเมื่อคุณกำลังฟาร์มอย่างจริงจัง เพื่อให้โบนัสพลัง, ความเสียหาย, โชค และการได้รับคริสตัล เปลี่ยนเป็นการพัฒนาที่รวดเร็วขึ้น",
+          "keyResources": [
+            "Cristals",
+            "ไอเทมดรอปจากศัตรู",
+            "Potion boosts"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "ปลดล็อกอวตารและสัตว์เลี้ยง",
+          "goal": "ใช้ทรัพยากรที่หามาได้เพื่อขยายรายชื่อตัวละครของคุณ",
+          "details": "อวตารและสัตว์เลี้ยงเป็นส่วนหนึ่งของเส้นทางการปลดล็อกหลักใน World Fighters ผู้เล่นใหม่ควรใช้อัญมณี (gems), Cristals, ดาว (stars) และการสุ่มกาชา (gacha rolls) ในช่วงแรกเป็นเครื่องมือในการพัฒนา แทนที่จะใช้จ่ายทุกอย่างแบบสุ่ม",
+          "keyResources": [
+            "อวตาร",
+            "สัตว์เลี้ยง",
+            "Stars",
+            "Gacha rolls"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "ทำเควสต์แผนที่เพื่อปลดล็อกโซนใหม่",
+          "goal": "ทำวัตถุประสงค์ของแผนที่ปัจจุบันให้สำเร็จและย้ายไปยังโลกถัดไป",
+          "details": "การก้าวหน้าไปยังแผนที่ใหม่ขึ้นอยู่กับการทำเควสต์หลักในพื้นที่ปัจจุบันให้สำเร็จและได้รับกุญแจที่จำเป็น เหรียญตราโซน (Zone badges) เช่น Zone 1, Zone 2, Zone 3, Zone 4, Zone 5 และ Zone 6 ทำให้การติดตามความคืบหน้าของโซนเป็นเรื่องง่าย",
+          "keyResources": [
+            "เควสต์แผนที่",
+            "กุญแจโซน",
+            "เหรียญตราโซน"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "เล่นกับเพื่อนและใช้รางวัลร่วมกัน",
+          "goal": "เล่นกับเพื่อนเพื่อทำคำท้าทายให้สำเร็จอย่างมีประสิทธิภาพมากขึ้น",
+          "details": "World Fighters รองรับการเล่นกับเพื่อนและรางวัลร่วมกันในโหมดเกมต่างๆ การเล่นแบบกลุ่มมีประโยชน์เมื่อศัตรูใช้เวลานานในการกำจัด เมื่อคำท้าทายต้องการความต่อเนื่อง หรือเมื่อคุณต้องการเร่งความเร็วในการฟาร์มซ้ำๆ",
+          "keyResources": [
+            "คำท้าทายแบบร่วมมือ (Co-op)",
+            "รางวัลร่วมกัน",
+            "การฟาร์มแบบทีม"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "ติดตามความสำเร็จครั้งแรก (Milestones)",
+          "goal": "ใช้เหรียญตราเป็นรายการตรวจสอบง่ายๆ สำหรับการพัฒนาช่วงแรก",
+          "details": "ความสำเร็จในช่วงแรกประกอบด้วย Welcome to World Fighters, First Star Open, First Gacha Roll, First Secret Unit, First Secret Gacha, First Awakening และเหรียญตราการเคลียร์โซน ความสำเร็จเหล่านี้จะแสดงให้เห็นว่าบัญชีของคุณยังอยู่ในช่วงเริ่มต้นหรือพร้อมสำหรับการฟาร์มที่ลึกขึ้นแล้ว",
+          "keyResources": [
+            "First Star Open",
+            "First Gacha Roll",
+            "First Awakening",
+            "ความคืบหน้าของโซน"
+          ]
+        }
+      ],
+      "checklistTitle": "ลำดับความสำคัญสำหรับผู้เริ่มต้น World Fighters",
+      "checklist": [
+        "เริ่มต้นจากประสบการณ์ Roblox อย่างเป็นทางการ",
+        "แลก Codes ก่อนเริ่มการฟาร์มที่ยาวนาน",
+        "ใช้ตัวช่วยเพิ่มพลัง (boosts) ในขณะที่กำจัดศัตรูเพื่อสะสม Cristals",
+        "ใช้ทรัพยากรในช่วงแรกไปกับอวตาร, สัตว์เลี้ยง, ดาว และความคืบหน้าของกาชา",
+        "ทำเควสต์แผนที่ให้สำเร็จเพื่อเคลื่อนที่ผ่านโซนใหม่ๆ"
+      ]
+    },
+    "worldFightersOfficialLinks": {
+      "id": "world-fighters-discord-and-official-links",
+      "eyebrow": "ลิงก์อย่างเป็นทางการ",
+      "title": "World Fighters Discord และลิงก์อย่างเป็นทางการ",
+      "subtitle": "ใช้ลิงก์เหล่านี้เพื่อเล่น World Fighters, เข้าร่วมชุมชน StarX Inc, ค้นหา Discord และตรวจสอบสถิติเกม ลิงก์อย่างเป็นทางการจะแยกจากหน้า Codes และหน้าวิเคราะห์ข้อมูลของบุคคลที่สาม",
+      "intro": "World Fighters เผยแพร่บน Roblox โดย StarX Inc ประสบการณ์ Roblox อย่างเป็นทางการและชุมชน StarX Inc เป็นจุดเริ่มต้นหลัก ในขณะที่คำเชิญ Discord ใช้สำหรับการอัปเดต Codes และการพูดคุยของผู้เล่น",
+      "displayType": "card-list",
+      "links": [
+        {
+          "name": "ประสบการณ์ World Fighters Roblox",
+          "type": "หน้าเกมอย่างเป็นทางการ",
+          "href": "https://www.roblox.com/games/95630541662383/World-Fighters",
+          "useCase": "เล่นเกม, ดูแท็บร้านค้า, ตรวจสอบเซิร์ฟเวอร์ และเปิดใช้งาน World Fighters จากหน้า Roblox อย่างเป็นทางการ",
+          "status": "official"
+        },
+        {
+          "name": "ชุมชน StarX Inc Roblox",
+          "type": "ชุมชนผู้พัฒนาอย่างเป็นทางการ",
+          "href": "https://www.roblox.com/communities/33910482/StarX-Inc",
+          "useCase": "ติดตามกลุ่มผู้พัฒนาที่อยู่เบื้องหลัง World Fighters และประสบการณ์ Roblox ที่เกี่ยวข้อง",
+          "status": "official"
+        },
+        {
+          "name": "World Fighters Simulator Discord",
+          "type": "คำเชิญ Discord อย่างเป็นทางการ",
+          "href": "https://discord.gg/worldfighters",
+          "useCase": "เข้าร่วม World Fighters Discord เพื่อรับการแจ้งเตือนการอัปเดต, การปล่อย Codes ใหม่, การแชทในชุมชน และการประกาศเกี่ยวกับเกม",
+          "status": "official"
+        },
+        {
+          "name": "หน้า World Fighters ของ Rolimon",
+          "type": "ข้อมูลวิเคราะห์เกมโดยบุคคลที่สาม",
+          "href": "https://www.rolimons.com/game/95630541662383",
+          "useCase": "ตรวจสอบผู้เล่นออนไลน์, จำนวนการเข้าชม, เรตติ้ง, รายการโปรด, เวลาเล่นเฉลี่ย, CCU สูงสุด, เกมพาส, ตราสัญลักษณ์ และเวลาอัปเดต",
+          "status": "third-party"
+        },
+        {
+          "name": "Pocket Tactics World Fighters Codes",
+          "type": "ตัวติดตาม Codes โดยบุคคลที่สาม",
+          "href": "https://www.pockettactics.com/world-fighters-codes",
+          "useCase": "ตรวจสอบรายการ Codes ที่อัปเดตบ่อยครั้งพร้อมของรางวัลและคำแนะนำในการแลกรับ",
+          "status": "third-party"
+        },
+        {
+          "name": "Try Hard Guides World Fighters Codes",
+          "type": "ตัวติดตาม Codes โดยบุคคลที่สาม",
+          "href": "https://tryhardguides.com/world-fighters-codes/",
+          "useCase": "ตรวจสอบ Codes ที่ใช้งานได้, Codes ที่หมดอายุ, ขั้นตอนการแลกรับ และเคล็ดลับการแก้ปัญหา Codes",
+          "status": "third-party"
+        },
+        {
+          "name": "Pro Game Guides World Fighters Codes",
+          "type": "ตัวติดตาม Codes โดยบุคคลที่สาม",
+          "href": "https://progameguides.com/roblox/world-fighters-simulator-codes/",
+          "useCase": "ตรวจสอบ Codes ที่ใช้งานได้, ของรางวัลจาก Codes, ขั้นตอนการแลกรับ และข้อมูลอ้างอิงลิงก์ชุมชนอย่างเป็นทางการ",
+          "status": "third-party"
+        }
+      ]
+    },
+    "worldFightersTierList": {
+      "id": "world-fighters-tier-list",
+      "eyebrow": "ตัวเลือกที่คุ้มค่าที่สุด",
+      "title": "World Fighters Tier List",
+      "subtitle": "จัดอันดับ Gamepass ของ World Fighters ตามความคุ้มค่าในช่วงเริ่มต้น, ความเร็วในการฟาร์ม, ความสะดวกในการสุ่มกาชา และประโยชน์ในระยะยาว Tier List นี้เน้นไปที่ชื่อ Gamepass จริงและราคาที่ปรากฏในข้อมูลการติดตามสาธารณะของ Roblox",
+      "intro": "World Fighters มีชุด Gamepass มากมายที่ครอบคลุมทั้งการเพิ่มความก้าวหน้าโดยตรง, การเพิ่มดวง, ความเร็วในการเปิด, ความเร็วในการหมุน, คลังเก็บของ, VIP และอรรถประโยชน์ต่างๆ สำหรับผู้เล่นส่วนใหญ่ พลังในการฟาร์มโดยตรงและการได้รับคริสตัลควรมาเป็นอันดับแรก ตามด้วยดวงและความเร็วในการเปิด จากนั้นจึงเป็นคลังเก็บของและความสะดวกสบายตามสถานการณ์",
+      "displayType": "tier-grid",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "ความคุ้มค่าด้านความก้าวหน้าที่ดีที่สุด",
+          "entries": [
+            {
+              "name": "2x Damage",
+              "price": "299 Robux",
+              "role": "การเพิ่มความเสียหาย",
+              "whyItMatters": "ช่วยเพิ่มความเร็วในการกำจัดศัตรูโดยตรง ทำให้เป็นหนึ่งในการซื้อเพื่อความก้าวหน้าที่แข็งแกร่งที่สุดในช่วงต้นและช่วงกลางเกม"
+            },
+            {
+              "name": "2x Power",
+              "price": "299 Robux",
+              "role": "การเพิ่มพลัง",
+              "whyItMatters": "ปรับปรุงการเติบโตของความแข็งแกร่งหลักและช่วยให้ผู้เล่นผ่านศัตรูที่แข็งแกร่งได้เร็วขึ้น"
+            },
+            {
+              "name": "2x Crystals",
+              "price": "299 Robux",
+              "role": "การฟาร์มทรัพยากร",
+              "whyItMatters": "เพิ่มทรัพยากรหลักที่ใช้ในการฟาร์มในวงจรความก้าวหน้าของ World Fighters"
+            },
+            {
+              "name": "Extra Drops",
+              "price": "399 Robux",
+              "role": "ประสิทธิภาพในการฟาร์ม",
+              "whyItMatters": "เพิ่มความคุ้มค่าให้กับการฟาร์มศัตรูซ้ำๆ และการเล่นที่ต้องใช้เวลานาน"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "ความคุ้มค่าในการสุ่มกาชาและการปลดล็อกที่ยอดเยี่ยม",
+          "entries": [
+            {
+              "name": "Luck",
+              "price": "99 Robux",
+              "role": "การเพิ่มดวงสำหรับผู้เริ่มต้น",
+              "whyItMatters": "ตัวเลือกการเพิ่มดวงราคาประหยัดสำหรับผู้เล่นที่ต้องการความคุ้มค่าในการสุ่มมากขึ้นโดยไม่ต้องซื้อ Pass เพิ่มดวงขนาดใหญ่ก่อน"
+            },
+            {
+              "name": "Super Luck",
+              "price": "199 Robux",
+              "role": "การเพิ่มดวงที่ดีขึ้น",
+              "whyItMatters": "การอัปเกรดดวงที่แข็งแกร่งขึ้นสำหรับผู้เล่นที่เปิดดาว, สุ่มกาชา และตามหาการปลดล็อกที่ดียิ่งขึ้น"
+            },
+            {
+              "name": "Mega Luck",
+              "price": "399 Robux",
+              "role": "การเพิ่มดวงระดับสูง",
+              "whyItMatters": "เหมาะที่สุดสำหรับผู้เล่นที่สุ่มบ่อยๆ และต้องการการอัปเกรดที่เน้นดวงระดับพรีเมียม"
+            },
+            {
+              "name": "Extra Equip",
+              "price": "399 Robux",
+              "role": "พลังของทีม",
+              "whyItMatters": "ความคุ้มค่าของการสวมใส่เพิ่มเติมจะเพิ่มขึ้นเมื่อผู้เล่นปลดล็อกอวตาร, สัตว์เลี้ยง และ Units ที่แข็งแกร่งขึ้น"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "ความเร็วและความสะดวกสบายที่มีประโยชน์",
+          "entries": [
+            {
+              "name": "Fast Open",
+              "price": "299 Robux",
+              "role": "ความเร็วในการเปิด",
+              "whyItMatters": "มีประโยชน์สำหรับผู้เล่นที่เปิดดาวหรือของรางวัลซ้ำๆ และต้องการลดเวลาที่เสียไป"
+            },
+            {
+              "name": "Multi Open",
+              "price": "299 Robux",
+              "role": "การเปิดทีละหลายชิ้น",
+              "whyItMatters": "ช่วยปรับปรุงการเปิดซ้ำๆ และเข้าคู่กันได้ดีกับการอัปเกรดที่เน้นดวง"
+            },
+            {
+              "name": "Fast Spin",
+              "price": "399 Robux",
+              "role": "ความเร็วในการหมุน",
+              "whyItMatters": "ช่วยประหยัดเวลาในระหว่างการกระทำที่ต้องหมุนซ้ำๆ"
+            },
+            {
+              "name": "Multi Spin",
+              "price": "399 Robux",
+              "role": "การหมุนทีละหลายครั้ง",
+              "whyItMatters": "มีประโยชน์สำหรับผู้เล่นที่ใช้เวลามากกับระบบการหมุนและต้องการวงจรที่เร็วขึ้น"
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "ตัวเลือกเพื่อความสะดวกสบาย",
+          "entries": [
+            {
+              "name": "Small Storage",
+              "price": "49 Robux",
+              "role": "คลังเก็บของราคาประหยัด",
+              "whyItMatters": "ตัวเลือกคุณภาพชีวิตราคาถูกสำหรับผู้เล่นใหม่ที่ต้องการพื้นที่เพิ่มในช่วงแรก"
+            },
+            {
+              "name": "Big Storage",
+              "price": "99 Robux",
+              "role": "การขยายคลังเก็บของ",
+              "whyItMatters": "ดีกว่าสำหรับผู้เล่นที่สะสมอวตาร, สัตว์เลี้ยง และการปลดล็อกต่างๆ มากขึ้นเมื่อเวลาผ่านไป"
+            },
+            {
+              "name": "VIP",
+              "price": "399 Robux",
+              "role": "ความสะดวกสบายระดับพรีเมียม",
+              "whyItMatters": "ตัวเลือกระดับพรีเมียมที่กว้างขึ้นสำหรับผู้เล่นที่ต้องการสิทธิประโยชน์ของ VIP แทนที่จะเป็นการเพิ่มพลังเพียงอย่างเดียว"
+            }
+          ]
+        },
+        {
+          "tier": "D",
+          "label": "ตามสถานการณ์หรือลำดับความสำคัญท้ายๆ",
+          "entries": [
+            {
+              "name": "Remote Star",
+              "price": "499 Robux",
+              "role": "อรรถประโยชน์ระยะไกล",
+              "whyItMatters": "จะมีประโยชน์มากขึ้นหลังจากผู้เล่นเข้าใจวงจรของดาวและการเปิด และต้องการความสะดวกสบายจากระยะไกล"
+            },
+            {
+              "name": "Dual Sword",
+              "price": "399 Robux",
+              "role": "อรรถประโยชน์เฉพาะสายการเล่น",
+              "whyItMatters": "ควรพิจารณาซื้อในภายหลังหลังจากเพิ่มพลังการฟาร์มหลัก, ความเสียหาย, พลัง และทรัพยากรแล้ว"
+            }
+          ]
+        }
+      ],
+      "buyingNotes": [
+        "ให้ความสำคัญกับการเพิ่มพลังการฟาร์มโดยตรงก่อนความสะดวกสบายตามสถานการณ์",
+        "Pass เพิ่มดวงจะมีค่ามากขึ้นเมื่อคุณกำลังเปิดดาวหรือตามหาการปลดล็อกที่หายาก",
+        "คลังเก็บของและอรรถประโยชน์ระยะไกลเป็นตัวเลือกเพื่อความสะดวกสบายหลังจากเพิ่มความก้าวหน้าหลักแล้ว"
+      ]
+    },
+    "worldFightersSecretUnitsGuide": {
+      "id": "world-fighters-secret-units-guide",
+      "eyebrow": "Secret Units",
+      "title": "คู่มือ World Fighters Secret Units",
+      "subtitle": "เรียนรู้ว่าทำไม Secret Units ถึงมีความสำคัญ, Secret Luffy เหมาะกับความคืบหน้าในช่วงท้ายเกมอย่างไร และทรัพยากรใดที่ช่วยให้คุณตามหาตัวละครหายากได้อย่างมีประสิทธิภาพมากขึ้น",
+      "intro": "Secret Units เป็นหนึ่งในเป้าหมายระยะยาวที่ใหญ่ที่สุดใน World Fighters เพราะเป็นจุดสูงสุดของการสะสม และเชื่อมโยงโดยตรงกับการสุ่มกาชา, การเพิ่มดวง (luck boosts), กุญแจ, ดาว และความคืบหน้าของการปลุกพลัง ควรสร้างกิจวัตรการฟาร์มทรัพยากรก่อน จากนั้นจึงใช้ gems, รางวัลเพิ่มดวง และเครื่องมือเปิดที่เร็วขึ้นเมื่อคุณพร้อมที่จะตามหาตัวละครหายาก",
+      "displayType": "card-list",
+      "items": [
+        {
+          "title": "เป้าหมาย Secret Luffy",
+          "tag": "การตามหาความหายากระดับสูงสุด",
+          "description": "Secret Luffy เป็นตัวละครระดับสูงที่สำคัญในการตามหาใน World Fighters ผู้เล่นที่กำลังมองหา Secret Luffy ควรเน้นไปที่การฟาร์มทรัพยากร, การเข้าถึงกาชา, การเพิ่มดวง และความคืบหน้าในช่วงท้ายเกมก่อนที่จะใช้ gems จำนวนมาก"
+        },
+        {
+          "title": "เหรียญตรา First Secret Unit",
+          "tag": "ความสำเร็จในการสะสมของหายาก",
+          "description": "เหรียญตรา First Secret Unit เป็นความสำเร็จในการสะสมที่สำคัญซึ่งอยู่ไกลกว่าการกระทำในช่วงแรก เช่น การเปิดดาวหรือการสุ่มกาชา ให้ถือว่าเป็นเป้าหมายระยะยาวที่ได้รับการสนับสนุนจากเส้นทางการฟาร์มที่แข็งแกร่งกว่า"
+        },
+        {
+          "title": "เหรียญตรา First Secret Gacha",
+          "tag": "เป้าหมายการสุ่มในช่วงท้ายเกม",
+          "description": "First Secret Gacha อยู่ในระดับการตามหาช่วงท้ายเกม ควรเข้าหา Secret Gacha หลังจากที่ดาเมจ, ทรัพยากร, การเข้าถึงการสุ่ม และการสนับสนุนด้านดวงของคุณเสถียรพอสำหรับการสุ่มซ้ำๆ"
+        },
+        {
+          "title": "การสะสม Luck Boost",
+          "tag": "Luck Potion และ Gamepasses",
+          "description": "Codes มักจะให้รางวัลเป็น Luck Potions ในขณะที่ร้านค้าในเกมจะมี Luck, Super Luck และ Mega Luck boosts สิ่งเหล่านี้จะมีค่าที่สุดเมื่อใช้กับการสุ่มแบนเนอร์, การสุ่มกาชา, การเปิดดาว หรือการพยายามหา Secret Units"
+        },
+        {
+          "title": "กุญแจและการสนับสนุนทรัพยากร",
+          "tag": "Dragon Balls Key และ Saiyan Key",
+          "description": "Codes ที่ใช้งานได้หลายโค้ดให้รางวัลเป็น Dragon Balls Keys, Saiyan Keys, gems และ potions รางวัลเหล่านี้ช่วยลดความกดดันในการฟาร์มช่วงแรก และช่วยให้ผู้เล่นเข้าถึงโซนที่แข็งแกร่งขึ้นและโอกาสในการสุ่มที่ดีขึ้นได้เร็วขึ้น"
+        },
+        {
+          "title": "Secret Boss และเส้นทางความคืบหน้า",
+          "tag": "การฟาร์มในช่วงท้ายเกม",
+          "description": "การตามหา Secret Units จะได้ผลดีที่สุดหลังจากที่ผู้เล่นมีฐานดาเมจที่เสถียร, ปลดล็อกโซนมากขึ้น และมีเส้นทางที่ทำซ้ำได้สำหรับบอสหรือเป้าหมายที่มีมูลค่าสูง ให้ถือว่าการตามหา Secret เป็นระดับของความคืบหน้า ไม่ใช่ที่แรกที่จะใช้ทุกรางวัลที่มี"
+        }
+      ],
+      "routineTitle": "กิจวัตร World Fighters Secret",
+      "routine": [
+        "แลก Codes และเก็บสะสม gems, luck potions และกุญแจก่อนการสุ่มครั้งใหญ่",
+        "ดันโซนและความคืบหน้าของการปลุกพลังจนกว่าเส้นทางการฟาร์มจะเร็วพอที่จะรองรับการสุ่มซ้ำๆ ได้",
+        "ใช้ตัวช่วยเพิ่มโอกาสสุ่มของหายากในช่วงเวลาที่วางแผนจะสุ่มกาชาหรือเปิดดาว แทนที่จะใช้ในการฟาร์มช่วงแรกแบบทั่วไป"
+      ]
+    },
+    "worldFightersGachaAndStarGuide": {
+      "id": "world-fighters-gacha-and-star-guide",
+      "eyebrow": "กาชาและ Star",
+      "title": "คู่มือ Gacha และ Star ของ World Fighters",
+      "subtitle": "ทำความเข้าใจว่า Star Open, การสุ่มกาชา, แบนเนอร์, อัญมณี และรางวัลโชคเชื่อมโยงกันอย่างไรก่อนที่จะใช้ทรัพยากรของคุณ",
+      "intro": "World Fighters ใช้ลูปจำลองอนิเมะที่คุ้นเคย: ฟาร์มทรัพยากร, เปิด Star หรือสุ่มกาชา, ปรับปรุงคอลเลกชันของคุณ, จากนั้นบุกตะลุยโซนที่แข็งแกร่งขึ้น อัญมณีถูกใช้สำหรับแบนเนอร์ในเกม ในขณะที่ Star, การสุ่มกาชา, ยาเพิ่มโชค และการอัปเกรดความเร็วในการเปิด จะกำหนดประสิทธิภาพในการตามหาอวตาร, สัตว์เลี้ยง และ Units ระดับหายากที่ดีกว่า",
+      "displayType": "step-by-step",
+      "items": [
+        {
+          "step": 1,
+          "title": "รับรางวัลจาก Codes ก่อน",
+          "action": "แลก World Fighters โค้ด ที่ยังใช้งานได้ก่อนที่จะสุ่ม เพราะ Codes หลายอันจะให้อัญมณี, ยา และกุญแจ",
+          "whyItMatters": "Codes สามารถให้อัญมณีสำหรับแบนเนอร์, ยาเพิ่มโชคสำหรับการสุ่มระดับหายาก และกุญแจ เช่น กุญแจ Dragon Balls หรือ กุญแจ Saiyan ซึ่งช่วยให้ผู้เล่นใหม่เริ่มต้นได้เร็วขึ้น"
+        },
+        {
+          "step": 2,
+          "title": "เปิด Star แรกของคุณให้เร็ว",
+          "action": "ใช้ระบบ Star เมื่อคุณมีทรัพยากรเพียงพอและต้องการเริ่มสร้างคอลเลกชันอวตารหรือสัตว์เลี้ยงของคุณ",
+          "whyItMatters": "ความสำเร็จ Star Open ครั้งแรกเป็นขั้นตอนการพัฒนาตามธรรมชาติในช่วงแรก ก่อนที่จะไปถึงเป้าหมาย Secret ที่ลึกกว่าและช่วงการสุ่มระดับหายากที่ยาวนาน"
+        },
+        {
+          "step": 3,
+          "title": "ใช้การสุ่มกาชาเพื่อความคืบหน้าของแบนเนอร์",
+          "action": "ใช้อัญมณีกับแบนเนอร์หรือการสุ่มกาชาเมื่อรางวัลที่มีอยู่ตรงกับเป้าหมายความคืบหน้าใน World Fighters ของคุณ",
+          "whyItMatters": "อัญมณีเชื่อมโยงกับแบนเนอร์ในเกมที่สามารถปลดล็อกการปรับแต่งและตัวเลือกตัวละคร ดังนั้นการวางแผนการใช้จ่ายจะช่วยให้ความคืบหน้าในระยะยาวราบรื่นขึ้น"
+        },
+        {
+          "step": 4,
+          "title": "เก็บโชคไว้สำหรับช่วงการสุ่มระดับหายาก",
+          "action": "ใช้ยาเพิ่มโชคและการเพิ่มโชคเมื่อคุณกำลังสุ่มอย่างจริงจัง ไม่ใช่ระหว่างการฟาร์มช่วงแรกแบบทั่วไป",
+          "whyItMatters": "รางวัลโชคจะมีค่าที่สุดเมื่อใช้คู่กับแบนเนอร์, Star, การสุ่มกาชา หรือการพยายามสุ่ม Secret Units"
+        },
+        {
+          "step": 5,
+          "title": "ปรับปรุงประสิทธิภาพการเปิด",
+          "action": "พิจารณา Fast Open, Multi Open และ Remote Star หลังจากที่คุณรู้ว่าจะฟาร์มการสุ่มบ่อยๆ",
+          "whyItMatters": "การอัปเกรดที่เกี่ยวข้องกับการเปิดมีความสำคัญที่สุดในช่วงการเปิดกาชาหรือ Star ที่ยาวนาน ซึ่งเวลาที่ประหยัดได้จะรวมกันจากการสุ่มหลายครั้ง"
+        },
+        {
+          "step": 6,
+          "title": "ตามหา Secret Gacha ในภายหลัง",
+          "action": "ถือว่า First Secret Gacha เป็นเป้าหมายช่วงท้ายเกม หลังจากที่เส้นทางการฟาร์ม, ดาเมจ และการไหลเวียนของทรัพยากรของคุณคงที่แล้ว",
+          "whyItMatters": "Secret Gacha เป็นเป้าหมายระยะยาวของ World Fighters ซึ่งจะมีประสิทธิภาพมากขึ้นเมื่อได้รับการสนับสนุนจากทรัพยากรที่เตรียมไว้และการเพิ่มโชค"
+        }
+      ]
+    },
+    "worldFightersAwakeningGuide": {
+      "id": "world-fighters-awakening-guide",
+      "eyebrow": "การปลุกพลัง",
+      "title": "คู่มือการปลุกพลัง World Fighters",
+      "subtitle": "การปลุกพลังคือระดับการเติบโตแบบถาวรที่เปลี่ยนการฟาร์มแบบธรรมดาให้เป็นการเพิ่มความเสียหายและการพัฒนาพลังที่แข็งแกร่งขึ้นในระยะยาว",
+      "intro": "การปลุกพลังใน World Fighters จะมอบความเสียหายและการเพิ่มตัวคูณพลังอย่างถาวร และการปลุกพลังในระดับต่อๆ ไปจะต้องใช้พลังมากขึ้นในการปลดล็อก ใช้การปลุกพลังเป็นวงจรการพัฒนาที่วางแผนไว้: ฟาร์มพลัง, เคลียร์โซน, ปลดล็อกการปลุกพลังขั้นถัดไป แล้วทำซ้ำด้วย Units ที่แข็งแกร่งขึ้นและการไหลเวียนของทรัพยากรที่ดีขึ้น",
+      "displayType": "timeline-cards",
+      "items": [
+        {
+          "phase": "เฟส 1",
+          "title": "สร้างพลังพื้นฐาน",
+          "description": "เริ่มต้นด้วยการฝึกฝน, การคลิก, การเอาชนะศัตรู และทำเควสช่วงแรก เพื่อให้นักสู้ของคุณมีพละกำลังเพียงพอที่จะเข้าสู่เนื้อหาที่ยากขึ้น",
+          "focus": "การฟาร์มพลังและการเคลียร์ศัตรูในช่วงแรก"
+        },
+        {
+          "phase": "เฟส 2",
+          "title": "เคลียร์เควสแผนที่",
+          "description": "การก้าวไปสู่โลกใหม่มักจะต้องทำเควสหลักของแผนที่ปัจจุบันให้สำเร็จและรับกุญแจที่จำเป็นในการปลดล็อกการวาร์ปไปยังพื้นที่ถัดไป",
+          "focus": "การทำเควสให้สำเร็จและการปลดล็อกแผนที่"
+        },
+        {
+          "phase": "เฟส 3",
+          "title": "ปลดล็อกการปลุกพลังครั้งแรก",
+          "description": "การปลุกพลังครั้งแรกเป็นจุดเปลี่ยนสำคัญของความก้าวหน้าในช่วงต้นถึงช่วงกลางเกม ซึ่งจะช่วยให้บัญชีมีตัวคูณพลังที่เพิ่มขึ้นอย่างถาวรและทำให้วงจรการฟาร์มรอบถัดไปรวดเร็วยิ่งขึ้น",
+          "focus": "การเพิ่มตัวคูณพลังถาวรครั้งแรก"
+        },
+        {
+          "phase": "เฟส 4",
+          "title": "ทำซ้ำวงจรการปลุกพลัง",
+          "description": "การปลุกพลังในแต่ละครั้งถัดไปจะใช้พลังมากขึ้นแต่จะให้การเสริมพลังถาวรที่แข็งแกร่งกว่าเดิม สิ่งนี้ทำให้การปลุกพลังมีคุณค่าก่อนที่จะเริ่มฟาร์มในโซนที่ลึกขึ้น, เคลียร์บอส และการตามล่า Units ระดับหายาก",
+          "focus": "การขยายความเสียหายและตัวคูณพลัง"
+        },
+        {
+          "phase": "เฟส 5",
+          "title": "จับคู่การปลุกพลังกับการล่า Secret",
+          "description": "หลังจากเส้นทางการปลุกพลังของคุณเริ่มมั่นคงแล้ว Secret Units และ Secret Gacha จะกลายเป็นเป้าหมายระยะยาวที่เป็นไปได้มากขึ้น เพราะคุณสามารถฟาร์มเนื้อหาที่ยากขึ้นและทรัพยากรได้เร็วขึ้น",
+          "focus": "ความก้าวหน้าของ Secret Unit ในช่วงปลายเกม"
+        }
+      ]
+    },
+    "worldFightersCrystalsAndGemsGuide": {
+      "id": "world-fighters-crystals-and-gems-guide",
+      "eyebrow": "ทรัพยากร",
+      "title": "คู่มือคริสตัลและอัญมณี World Fighters",
+      "subtitle": "ติดตามว่าคริสตัล, อัญมณี, โพชั่น และกุญแจใช้ทำอะไร เพื่อไม่ให้เสียรางวัลช่วงต้นเกมไปโดยเปล่าประโยชน์",
+      "intro": "การพัฒนาใน World Fighters สร้างขึ้นจากการเอาชนะศัตรู, การสะสมคริสตัล, การปลดล็อกอวตารและสัตว์เลี้ยง และการใช้รางวัลจาก Codes เพื่อเร่งความเร็วในการฟาร์มช่วงแรก อัญมณีมีความสำคัญเป็นพิเศษเนื่องจากเชื่อมโยงกับแบนเนอร์และการสุ่มภายในเกม ในขณะที่โพชั่นและกุญแจช่วยให้ผู้เล่นฟาร์มได้เร็วขึ้นหรือปลดล็อกเส้นทางความคืบหน้าได้เร็วขึ้น",
+      "displayType": "table",
+      "tableHeaders": {
+        "resource": "ทรัพยากร World Fighters",
+        "source": "แหล่งที่มาหลัก",
+        "use": "การใช้งานหลัก",
+        "priority": "ลำดับความสำคัญ",
+        "bestUse": "การใช้งานที่คุ้มค่าที่สุด"
+      },
+      "items": [
+        {
+          "resource": "คริสตัล",
+          "mainSources": "การเอาชนะศัตรูและการฟาร์มปกติ",
+          "mainUses": "ความคืบหน้าหลัก, ขั้นตอนการปลดล็อกอวตารและสัตว์เลี้ยง, และการเติบโตของการฟาร์มช่วงแรก",
+          "priority": "สูง",
+          "bestUse": "ใช้ไปกับความคืบหน้าที่ช่วยเพิ่มความเร็วในการฟาร์มของคุณ ก่อนที่จะมุ่งเป้าไปที่เป้าหมายท้ายเกมที่หายาก"
+        },
+        {
+          "resource": "อัญมณี",
+          "mainSources": "Codes, รางวัลความสำเร็จ และรางวัลจากความคืบหน้า",
+          "mainUses": "แบนเนอร์ในเกม, การสุ่มกาชา, อวตาร และสัตว์เลี้ยง",
+          "priority": "สูงมาก",
+          "bestUse": "เก็บอัญมณีไว้สำหรับแบนเนอร์หรือรอบการสุ่มที่ช่วยพัฒนาทีมของคุณโดยตรง แทนที่จะใช้ทันที"
+        },
+        {
+          "resource": "โพชั่นเพิ่มโชค",
+          "mainSources": "World Fighters โค้ด ที่ใช้งานอยู่หลายโค้ดจะมีโพชั่นแต่ละชนิดรวมอยู่ด้วย",
+          "mainUses": "เพิ่มประสิทธิภาพในการสุ่มของหายากในช่วงกาชา, ดาว หรือแบนเนอร์",
+          "priority": "สูง",
+          "bestUse": "ใช้ก่อนรอบการสุ่มของหายากที่วางแผนไว้ โดยเฉพาะอย่างยิ่งเมื่อต้องการ Units ระดับ Secret หรือรางวัลแบนเนอร์ที่ดีกว่า"
+        },
+        {
+          "resource": "โพชั่นคริสตัล",
+          "mainSources": "รางวัลทั่วไปจาก World Fighters โค้ด",
+          "mainUses": "เพิ่มประสิทธิภาพการฟาร์มคริสตัล",
+          "priority": "สูง",
+          "bestUse": "เปิดใช้งานก่อนการฟาร์มศัตรูที่คุณสามารถฟาร์มได้อย่างต่อเนื่อง"
+        },
+        {
+          "resource": "โพชั่นเพิ่มพลัง",
+          "mainSources": "รางวัลทั่วไปจาก World Fighters โค้ด",
+          "mainUses": "เร่งการเติบโตของพลังและการเตรียมตัวสำหรับการตื่น (Awakening)",
+          "priority": "ปานกลาง-สูง",
+          "bestUse": "ใช้เมื่อคุณกำลังฝึกฝนอย่างจริงจังหรือกำลังผลักดันไปสู่ข้อกำหนดของการตื่น"
+        },
+        {
+          "resource": "โพชั่นเพิ่มดาเมจ",
+          "mainSources": "รางวัลทั่วไปจาก World Fighters โค้ด",
+          "mainUses": "ช่วยเอาชนะศัตรูที่แข็งแกร่งกว่า, บอส หรือเป้าหมายที่ท้าทายได้เร็วขึ้น",
+          "priority": "ปานกลาง-สูง",
+          "bestUse": "เก็บไว้สำหรับการต่อสู้ที่ยาก, โซนใหม่ หรือเส้นทางบอส แทนที่จะใช้ระหว่างการฟาร์มที่ง่าย"
+        },
+        {
+          "resource": "กุญแจดราก้อนบอล",
+          "mainSources": "World Fighters โค้ด ที่ใช้งานอยู่หลายโค้ด รวมถึงโค้ดรางวัลจากการเข้าชมและการกดไลค์",
+          "mainUses": "ความคืบหน้าที่ต้องใช้กุญแจและการเข้าถึงรางวัลในธีมดราก้อนบอล",
+          "priority": "สูง",
+          "bestUse": "เก็บไว้และใช้เมื่อโลก, เควส หรือเส้นทางรางวัลที่เกี่ยวข้องเปิดให้ใช้งาน"
+        },
+        {
+          "resource": "กุญแจชาวไซย่า",
+          "mainSources": "Codes ชดเชยการปิดปรับปรุงเซิร์ฟเวอร์ เช่น SRRY4SHUTDOWN, SRRY4SHUTDOWN2 และ SRRY4SHUTDOWN3",
+          "mainUses": "ความคืบหน้าของกุญแจธีมชาวไซย่าหรือการเข้าถึงรางวัล",
+          "priority": "สูง",
+          "bestUse": "แลกรับ Codes ปิดปรับปรุงโดยเร็ว เพื่อให้กุญแจพร้อมใช้งานเมื่อคุณไปถึงเนื้อหาที่ตรงกัน"
+        }
+      ]
+    },
+    "worldFightersPotionsGuide": {
+      "id": "world-fighters-potions-guide",
+      "eyebrow": "บูสต์",
+      "title": "คู่มือโพชั่น World Fighters",
+      "subtitle": "ใช้โพชั่น Power, Crystal, Damage และ Luck ในเวลาที่เหมาะสมเพื่อเร่งการฟาร์ม การบุกเบิกโซน และการสุ่มแบนเนอร์",
+      "intro": "โพชั่นเป็นหนึ่งในรางวัลที่พบบ่อยที่สุดจาก World Fighters โค้ด ชุดรางวัลส่วนใหญ่ในปัจจุบันจะให้โพชั่นแต่ละชนิดอย่างละหนึ่งขวด จึงควรใช้ในช่วงเวลาที่วางแผนไว้แทนที่จะเปิดใช้แบบสุ่มในขณะที่ไม่ได้ทำอะไร",
+      "displayType": "table",
+      "tableHeaders": {
+        "potion": "โพชั่น World Fighters",
+        "focus": "จุดเด่นของเอฟเฟกต์",
+        "bestTiming": "ช่วงเวลาที่เหมาะสมที่สุด",
+        "commonSources": "แหล่งที่มาของรางวัลทั่วไป"
+      },
+      "items": [
+        {
+          "potion": "Power Potion",
+          "focus": "การเติบโตของ Power และความเร็วในการก้าวหน้าโดยรวม",
+          "bestTiming": "ใช้ก่อนเริ่มเซสชันการฟาร์มศัตรูเป็นเวลานาน การบุกเบิกโซนใหม่ในช่วงแรก หรือเมื่อต้องการสะสมความแข็งแกร่งให้เพียงพอเพื่อผ่านไปยังพื้นที่ถัดไป",
+          "commonSources": [
+            "RELEASE",
+            "THXFOR4KLIKES",
+            "YAY5KLIKES!",
+            "900KVISITSTHANKYOU!"
+          ]
+        },
+        {
+          "potion": "Crystal Potion",
+          "focus": "การฟาร์ม Crystal เพื่อปลดล็อกและพัฒนาตัวละครในทีม",
+          "bestTiming": "ใช้เมื่อต้องกำจัดศัตรูซ้ำๆ เพื่อหา Crystal โดยเฉพาะก่อนที่จะสะสมเพื่อซื้ออวตาร สัตว์เลี้ยง หรือการอัปเกรดที่เกี่ยวข้องกับแบนเนอร์",
+          "commonSources": [
+            "RELEASE",
+            "RELEASEPATCH",
+            "COOL1.2MVISITS!",
+            "SPLENDID800KVISITS!"
+          ]
+        },
+        {
+          "potion": "Damage Potion",
+          "focus": "เพิ่มพลังโจมตีในการต่อสู้ให้สูงขึ้น",
+          "bestTiming": "ใช้ก่อนสู้กับบอส การท้าทายที่ยากขึ้น หรือในโซนใหม่ที่ศัตรูใช้เวลากำจัดนานเกินไป",
+          "commonSources": [
+            "SRRY4SHUTDOWN",
+            "SRRY4SHUTDOWN2",
+            "SRRY4SHUTDOWN3",
+            "THXFOR3KFAVORITES!"
+          ]
+        },
+        {
+          "potion": "Luck Potion",
+          "focus": "รางวัลที่อาศัยดวง การสุ่มหาของหายาก และการเตรียมตัวสำหรับกาชา",
+          "bestTiming": "ใช้ก่อนการเปิด Star, การสุ่มกาชา หรือช่วงเวลาที่ตามหา Units หายาก แทนที่จะใช้ระหว่างการเคลื่อนที่ปกติหรือตอนอยู่ในเมนู",
+          "commonSources": [
+            "2KCCU!",
+            "THANKYOU3KCCU",
+            "4KONCHAMBER!",
+            "ALREADY5K?"
+          ]
+        },
+        {
+          "potion": "Full Potion Bundle",
+          "focus": "โพชั่น Power, Crystal, Damage และ Luck อย่างละหนึ่งขวดรวมกัน",
+          "bestTiming": "เก็บชุดรวมโพชั่นไว้ใช้ในเซสชันที่เน้นเฉพาะจุด: เปิดใช้งาน Damage และ Power ก่อนการบุกเบิก, Crystal ก่อนการฟาร์ม และ Luck ก่อนการสุ่ม",
+          "commonSources": [
+            "8KCCUISAWESOME!",
+            "ALREADY1MVISITS!?",
+            "RELEASEPATCH",
+            "RELEASEPT2"
+          ]
+        }
+      ]
+    },
+    "worldFightersKeysAndTokensGuide": {
+      "id": "world-fighters-keys-and-tokens-guide",
+      "eyebrow": "ทรัพยากรพิเศษ",
+      "title": "คู่มือ World Fighters Keys และ Tokens",
+      "subtitle": "ติดตาม Dragon Balls Keys, Dragon Ball Tokens, Saiyan Keys, Gems และรางวัลสัตว์ขี่จาก World Fighters โค้ด ปัจจุบัน",
+      "intro": "Keys และ Tokens เป็นทรัพยากรที่ขึ้นอยู่กับการอัปเดตใน World Fighters สิ่งเหล่านี้มักจะปรากฏในชุด Codes สำหรับเป้าหมายสำคัญ, การปิดเซิร์ฟเวอร์ และแพตช์เปิดตัว ดังนั้นผู้เล่นควรรับสิทธิ์ตั้งแต่เนิ่นๆ และเก็บไว้สำหรับแบนเนอร์, กิจกรรม หรือหน้าจอปลดล็อกที่ตรงกัน",
+      "displayType": "card-list",
+      "items": [
+        {
+          "name": "Dragon Balls Key",
+          "type": "ทรัพยากร Key",
+          "rewardExamples": [
+            "8KCCUISAWESOME!",
+            "900KVISITSTHANKYOU!",
+            "RELEASEPATCH",
+            "RELEASEPT2"
+          ],
+          "howToUse": "ให้ความสำคัญกับการเก็บ Dragon Balls Keys สำหรับเส้นทางการปลดล็อกธีมมังกร, การสุ่มพิเศษ หรือความคืบหน้าเฉพาะการอัปเดต แทนที่จะใช้ทันที"
+        },
+        {
+          "name": "Dragon Ball Token",
+          "type": "ทรัพยากร Token",
+          "rewardExamples": [
+            "2KCCU!",
+            "THANKYOU3KCCU",
+            "4KONCHAMBER!",
+            "ALREADY5K?"
+          ],
+          "howToUse": "ถือว่า Dragon Ball Tokens เป็นสกุลเงินความคืบหน้าที่จำกัดซึ่งเชื่อมโยงกับรางวัลธีมมังกร สะสมพวกมันจากชุด Codes ก่อนตัดสินใจปลดล็อกครั้งใหญ่"
+        },
+        {
+          "name": "Saiyan Key",
+          "type": "Key พิเศษ",
+          "rewardExamples": [
+            "SRRY4SHUTDOWN",
+            "SRRY4SHUTDOWN2",
+            "SRRY4SHUTDOWN3"
+          ],
+          "howToUse": "Saiyan Keys ส่วนใหญ่จะเชื่อมโยงกับรางวัลประเภทการชดเชยการปิดเซิร์ฟเวอร์ เก็บพวกมันไว้จนกว่าฟีเจอร์ธีมไซย่า, แบนเนอร์ หรือเส้นทางการปลดล็อกที่เกี่ยวข้องจะพร้อมใช้งานในเซสชันของคุณ"
+        },
+        {
+          "name": "Gems",
+          "type": "สกุลเงินแบนเนอร์",
+          "rewardExamples": [
+            "RELEASE",
+            "EVENT2.5K!",
+            "THANKS1KLIKES",
+            "COOL1.2MVISITS!"
+          ],
+          "howToUse": "ใช้ Gems สำหรับการสุ่มแบนเนอร์ในเกมที่ช่วยปลดล็อกอวตารและสัตว์เลี้ยง รวมการใช้ Gems เข้ากับจังหวะของ Luck Potion เมื่อต้องการสุ่มหาของที่หายากขึ้น"
+        },
+        {
+          "name": "Gadi Jetpack Mount",
+          "type": "รางวัลสัตว์ขี่",
+          "rewardExamples": [
+            "TIOGADIHIT!"
+          ],
+          "howToUse": "รับ Codes สัตว์ขี่ให้เร็วที่สุดเท่าที่จะเป็นไปได้ เนื่องจากรางวัลสัตว์ขี่ที่ไม่ซ้ำใครนั้นพบได้น้อยกว่าชุด Potion และ Gems มาตรฐาน"
+        }
+      ]
+    },
+    "worldFightersAvatarsAndPetsGuide": {
+      "id": "world-fighters-avatars-and-pets-guide",
+      "eyebrow": "การสร้างทีม",
+      "title": "คู่มืออวตารและสัตว์เลี้ยง World Fighters",
+      "subtitle": "สร้างทีมของคุณด้วยการฟาร์ม Crystals, ใช้ Gems ในแบนเนอร์ และตามหาสัตว์เลี้ยงสุดพิเศษที่ช่วยสนับสนุนการพัฒนาในระยะยาว",
+      "intro": "World Fighters ถูกสร้างขึ้นรอบๆ การเอาชนะศัตรู, การสะสม Crystals และการปลดล็อกอวตารใหม่รวมถึงสัตว์เลี้ยงสุดพิเศษ สำหรับผู้เล่นใหม่ วิธีที่ปลอดภัยที่สุดคือการพัฒนาทีมปัจจุบันของคุณก่อน จากนั้นจึงใช้ Gems ที่สะสมไว้ในช่วงการสุ่มแบนเนอร์หรือกาชาที่ต้องการ",
+      "displayType": "card-list",
+      "cardLabels": {
+        "unlock": "เส้นทางการปลดล็อก World Fighters",
+        "tip": "เคล็ดลับสำหรับผู้เริ่มต้น World Fighters"
+      },
+      "items": [
+        {
+          "name": "อวตาร",
+          "role": "การปลดล็อกตัวละครหลักในทีม",
+          "howToUnlock": "ฟาร์มศัตรูเพื่อรับ Crystals และใช้ Gems ในแบนเนอร์เพื่อปลดล็อกตัวเลือกตัวละครเพิ่มเติม",
+          "priority": "สูง",
+          "beginnerTip": "มุ่งเน้นไปที่อวตารหลักที่แข็งแกร่งก่อนที่จะกระจายทรัพยากรไปยังตัวละครหลายตัวเกินไป"
+        },
+        {
+          "name": "สัตว์เลี้ยงสุดพิเศษ",
+          "role": "การสะสมคู่หูและการสนับสนุนการพัฒนา",
+          "howToUnlock": "ใช้ทรัพยากรที่เกี่ยวข้องกับแบนเนอร์และรางวัลจากกิจกรรมเพื่อตามหาสัตว์เลี้ยงไปพร้อมกับการปลดล็อกอวตาร",
+          "priority": "สูง",
+          "beginnerTip": "อย่าละเลยสัตว์เลี้ยงในขณะที่ตะลุยด่านต่างๆ เพราะพวกมันเป็นส่วนหนึ่งของการสร้างทีมในระยะยาว"
+        },
+        {
+          "name": "Crystals",
+          "role": "ทรัพยากรหลักในการฟาร์ม",
+          "howToUnlock": "เอาชนะศัตรูในโลกที่ได้รับแรงบันดากใจจากอนิเมะเพื่อสะสม Crystals",
+          "priority": "สูง",
+          "beginnerTip": "ใช้ Crystal Potion ก่อนเริ่มการฟาร์มศัตรูซ้ำๆ เพื่อให้การปลดล็อกมีประสิทธิภาพมากขึ้น"
+        },
+        {
+          "name": "Gems",
+          "role": "สกุลเงินสำหรับแบนเนอร์และกาชา",
+          "howToUnlock": "แลก Codes ที่ใช้งานได้, ทำเป้าหมายการพัฒนาให้สำเร็จ และรับรางวัลตามความสำเร็จ",
+          "priority": "สูง",
+          "beginnerTip": "เก็บสะสม Gems ไว้สำหรับช่วงแบนเนอร์ที่สำคัญ แทนที่จะใช้รางวัลเล็กๆ น้อยๆ ทันทีที่ได้รับ"
+        },
+        {
+          "name": "การเปิด Star ครั้งแรก",
+          "role": "ความสำเร็จในช่วงแรกของการสร้างทีม",
+          "howToUnlock": "เปิด Star แรกของคุณหลังจากเข้าถึงระบบที่กำหนดในเกม",
+          "priority": "ปานกลาง",
+          "beginnerTip": "ใช้สิ่งนี้เป็นขั้นตอนแรกในการทำความเข้าใจการสุ่มอวตารและสัตว์เลี้ยง"
+        },
+        {
+          "name": "การสุ่มกาชาครั้งแรก",
+          "role": "ความสำเร็จในการพัฒนากาชา",
+          "howToUnlock": "สุ่มหนึ่งครั้งในระบบกาชาหลังจากสะสมทรัพยากรเพียงพอ",
+          "priority": "ปานกลาง",
+          "beginnerTip": "ใช้ Luck Potion ควบคู่กับการสุ่มกาชาเมื่อต้องการตามหา Units หรือสัตว์เลี้ยงระดับหายาก"
+        },
+        {
+          "name": "คำท้าทายร่วมกัน",
+          "role": "เส้นทางรางวัลแบบร่วมมือกัน",
+          "howToUnlock": "เล่นกับเพื่อนและทำคำท้าทายร่วมกันเพื่อรับรางวัลในโหมดเกมต่างๆ",
+          "priority": "ปานกลาง",
+          "beginnerTip": "การเล่นเป็นกลุ่มช่วยให้ผู้เล่นใหม่พัฒนาได้เร็วขึ้นในขณะที่เรียนรู้ด่านที่ยากขึ้น"
+        }
+      ]
+    },
+    "worldFightersZonesProgressionGuide": {
+      "id": "world-fighters-zones-progression-guide",
+      "eyebrow": "การเลื่อนระดับ",
+      "title": "คู่มือการเลื่อนระดับโซน World Fighters",
+      "subtitle": "ติดตามเส้นทางจากโซน 1 ถึงโซน 6 และใช้ข้อมูลตราเกียรติยศเพื่อทำความเข้าใจว่าผู้เล่นส่วนใหญ่เริ่มช้าลงที่จุดไหน",
+      "intro": "การเลื่อนระดับโซนใน World Fighters จะยากขึ้นอย่างมากหลังจากพื้นที่เริ่มต้น ข้อมูลตราเกียรติยศแสดงให้เห็นถึงการลดลงอย่างรวดเร็วจากโซน 1 และโซน 2 ไปยังโซนถัดไป ดังนั้นผู้เล่นควรให้ความสำคัญกับแต่ละโซนใหม่เป็นจุดพักฟาร์มก่อนที่จะลุยต่อไป",
+      "displayType": "timeline-cards",
+      "metricLabels": {
+        "badgeWinRate": "อัตราการชนะตราเกียรติยศ",
+        "awarded": "ได้รับแล้ว"
+      },
+      "items": [
+        {
+          "zone": "โซน 1",
+          "stage": "เส้นทางเริ่มต้น",
+          "badgeWinRate": "51.4%",
+          "awarded": "140,947",
+          "progressionFocus": "เรียนรู้การฟาร์มศัตรู, สะสม Crystals, แลก Codes เริ่มต้น และปลดล็อกการอัปเกรดตัวละครชุดแรกของคุณ",
+          "recommendedBoosts": [
+            "Power Potion",
+            "Crystal Potion"
+          ],
+          "checkpoint": "บรรลุเสถียรภาพในการฟาร์มขั้นพื้นฐานก่อนที่จะทุ่มเงินไปกับการสุ่ม (pulls)"
+        },
+        {
+          "zone": "โซน 2",
+          "stage": "กำแพงการเลื่อนระดับครั้งแรก",
+          "badgeWinRate": "16.6%",
+          "awarded": "57,951",
+          "progressionFocus": "การกำจัดศัตรูเริ่มช้าลง ดังนั้นควรหมั่นอัปเกรดอวตารและสัตว์เลี้ยงก่อนที่จะเร่งรีบไปยังโซนถัดไป",
+          "recommendedBoosts": [
+            "Power Potion",
+            "Damage Potion"
+          ],
+          "checkpoint": "ฟาร์มจนกว่าศัตรูระดับมาตรฐานจะไม่ใช้เวลานานเกินไปในการกำจัด"
+        },
+        {
+          "zone": "โซน 3",
+          "stage": "เข้าสู่ช่วงกลางเกม",
+          "badgeWinRate": "9.3%",
+          "awarded": "35,579",
+          "progressionFocus": "เริ่มให้ความสำคัญกับการสุ่มแบนเนอร์, การอัปเกรดสัตว์เลี้ยง และจังหวะการใช้โพชั่นเป็นส่วนหนึ่งของการเลื่อนระดับตามปกติ",
+          "recommendedBoosts": [
+            "Crystal Potion",
+            "Luck Potion"
+          ],
+          "checkpoint": "ใช้ Luck Potion ก่อนเซสชันการสุ่ม และใช้ Crystal Potion ก่อนการฟาร์มซ้ำๆ"
+        },
+        {
+          "zone": "โซน 4",
+          "stage": "ช่วงกลางเกมที่ยากขึ้น",
+          "badgeWinRate": "5.7%",
+          "awarded": "23,802",
+          "progressionFocus": "ลุยต่อหลังจากเพิ่มพลังโจมตีและสะสมทรัพยากรให้เพียงพอสำหรับตัวเลือกตัวละครที่แข็งแกร่งขึ้นเท่านั้น",
+          "recommendedBoosts": [
+            "Damage Potion",
+            "Power Potion"
+          ],
+          "checkpoint": "หากรู้สึกว่ากำจัดศัตรูได้ช้า ให้ฟาร์มในโซนก่อนหน้าพร้อมใช้ไอเทมเสริมแทนที่จะฝืนดันระดับต่อ"
+        },
+        {
+          "zone": "โซน 5",
+          "stage": "ประตูสู่ช่วงท้ายเกม",
+          "badgeWinRate": "4.6%",
+          "awarded": "19,409",
+          "progressionFocus": "เตรียมตัวด้วยชุดโพชั่นแบบจัดเต็ม, อวตารที่แข็งแกร่งขึ้น และการสนับสนุนจากสัตว์เลี้ยงที่ดีขึ้นก่อนที่จะเริ่มเซสชันการเล่นที่ยาวนาน",
+          "recommendedBoosts": [
+            "Power Potion",
+            "Damage Potion",
+            "Crystal Potion"
+          ],
+          "checkpoint": "ใช้โซนนี้เป็นจุดพักฟาร์มที่สำคัญก่อนเข้าสู่เนื้อหาช่วงท้ายเกม"
+        },
+        {
+          "zone": "โซน 6",
+          "stage": "เป้าหมายช่วงท้ายเกมในปัจจุบัน",
+          "badgeWinRate": "3.7%",
+          "awarded": "15,330",
+          "progressionFocus": "ความสนใจของชุมชนมุ่งเน้นไปที่การเลื่อนระดับในธีมมังกรช่วงท้ายเกม, Units หายาก และการตามล่า Secret Unit ในระยะนี้",
+          "recommendedBoosts": [
+            "Damage Potion",
+            "Luck Potion",
+            "Crystal Potion"
+          ],
+          "checkpoint": "เก็บ Luck Potion ไว้สำหรับการสุ่มตัวหายาก และใช้ Damage Potion เมื่อต้องรับมือกับศัตรูที่แข็งแกร่งที่สุด"
+        }
+      ]
+    },
+    "worldFightersRaidsGuide": {
+      "id": "world-fighters-raids-guide",
+      "eyebrow": "ความคืบหน้าของ Raids",
+      "title": "คู่มือ World Fighters Raids",
+      "subtitle": "เรียนรู้วิธีการทำงานของ Tempest Invasion, เมื่อไหร่ควรใช้ Slime Keys และวิธีที่ผู้เล่น F2P สามารถใช้ Raids เพื่อเสริมความแข็งแกร่งให้กับทีม",
+      "intro": "Raids ใน World Fighters ปัจจุบันเน้นไปที่ Tempest Invasion ซึ่งเป็นโหมดแบบเวฟที่เพิ่มเข้ามาใน Update 1 โหมดนี้เชื่อมโยง Slime Keys, รางวัลจากเวฟ, การอัปเกรด, ความสำเร็จ และการฟาร์ม Units ที่แข็งแกร่งขึ้นเข้าด้วยกันเป็นกิจกรรมช่วงท้ายเกมที่ทำซ้ำได้",
+      "displayType": "step-by-step",
+      "labels": {
+        "step": "ขั้นตอน",
+        "playerGoal": "เป้าหมายของผู้เล่น World Fighters",
+        "bestFor": "เหมาะสำหรับ"
+      },
+      "checklistTitle": "รายการตรวจสอบความพร้อมสำหรับ World Fighters Raids",
+      "readinessChecklist": [
+        "ปลดล็อก Tempest Federation ก่อนใช้ Slime Keys",
+        "ฟาร์ม Slime Keys ให้เพียงพอสำหรับการลองเล่น Tempest Invasion หลายๆ ครั้ง",
+        "อัปเกรดระยะการโจมตี (Attack Distance) ก่อนที่จะลุยเวฟที่ลึกขึ้น",
+        "ใช้รางวัลจาก Raids เพื่อเพิ่มดาเมจ, โชค และการสุ่มกาชาในอนาคต",
+        "ให้ถือว่าการเล่น World Fighters Raids แต่ละครั้งเป็นการผลักดันไปสู่หลักไมล์ของเวฟที่สูงขึ้น"
+      ],
+      "items": [
+        {
+          "step": 1,
+          "title": "ไปให้ถึง Tempest Federation ก่อน",
+          "description": "Tempest Invasion เชื่อมโยงกับพื้นที่อัปเดต Tempest Federation ดังนั้นผู้เล่น World Fighters ควรผ่านโซนก่อนหน้าและสร้างทีมที่แข็งแกร่งพอที่จะรับมือกับศัตรูใหม่ๆ",
+          "player_goal": "ปลดล็อกโซนใหม่ เริ่มฟาร์มศัตรูในโซนนั้น และเตรียมทีมหลักของคุณให้พร้อมก่อนเข้าสู่เวฟของ Raids",
+          "best_for": "ผู้เล่นที่มีทีม World Fighters ที่มั่นคงแล้วและต้องการก้าวเข้าสู่การพัฒนาใน Update 1"
+        },
+        {
+          "step": 2,
+          "title": "ฟาร์ม Slime Keys",
+          "description": "Slime Keys จำเป็นสำหรับการเข้าสู่ Tempest Invasion เส้นทางการฟาร์มใน World Fighters ปัจจุบันรวมถึงการดรอปจากศัตรูและการดรอปจากบอสลับในพื้นที่ Tempest Federation",
+          "player_goal": "สะสมกุญแจไว้จำนวนหนึ่งก่อนที่จะพยายามลุย Raids หลายๆ ครั้ง",
+          "best_sources": [
+            "การฟาร์มศัตรูใน Tempest Federation",
+            "การดรอปจากบอสลับ",
+            "เส้นทางรางวัลที่เกี่ยวข้องกับอัปเดต"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "อัปเกรดระยะก่อนลุยเวฟลึกๆ",
+          "description": "Tempest Invasion จะส่งศัตรูมาจากหลายทิศทางในขณะที่ผู้เล่นอยู่ตรงกลาง ระยะการโจมตี (Attack Distance) มีค่ามากเป็นพิเศษเพราะช่วยให้ Units ของ World Fighters เริ่มโจมตีศัตรูได้เร็วขึ้นก่อนที่พวกมันจะรุมล้อมตรงกลาง",
+          "player_goal": "อัปเกรดความสามารถที่เป็นประโยชน์ใน Raids ก่อนที่จะพึ่งพาเพียงแค่ดาเมจดิบๆ",
+          "recommended_upgrade_order": [
+            "ระยะการโจมตี (Attack Distance)",
+            "ความเร็วในการโจมตี (Attack Speed)",
+            "ดาเมจ (Damage)",
+            "พลัง (Power)",
+            "ประสิทธิภาพของคริสตัล"
+          ],
+          "best_for": "ผู้เล่น F2P ที่พยายามเอาชีวิตรอดในเวฟที่มากขึ้นผ่านการอัปเกรด World Fighters ที่มีประสิทธิภาพ"
+        },
+        {
+          "step": 4,
+          "title": "ผลักดันหลักไมล์ของเวฟ",
+          "description": "Tempest Invasion ปรับขนาดรางวัลตามความคืบหน้าและรวมถึงหลักไมล์ความสำเร็จตั้งแต่เวฟแรกๆ ไปจนถึงเวฟ 100 การไปถึงเวฟ 10 ถึง 15 ถือเป็นเกณฑ์มาตรฐานเริ่มต้นที่มีประโยชน์สำหรับผู้เล่น World Fighters Raids หน้าใหม่",
+          "player_goal": "ใช้การเล่นแต่ละครั้งเพื่อผลักดันให้สูงขึ้นอีกหนึ่งระดับเวฟ จากนั้นนำรางวัลที่ได้ไปลงทุนต่อในการอัปเกรดและ Units ที่แข็งแกร่งขึ้น",
+          "milestones": [
+            "เวฟ 5",
+            "เวฟ 10",
+            "เวฟ 15",
+            "เวฟ 25+",
+            "เป้าหมายเวฟ 100"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "เปลี่ยนรางวัลจาก Raids เป็นพลังของทีม",
+          "description": "ความคืบหน้าของ Raids สนับสนุนการเติบโตของบัญชี World Fighters ในระยะยาวผ่านสกุลเงินใหม่, ความสำเร็จ, การอัปเกรด และการพัฒนา Units ผู้เล่น F2P ควรใช้ Raids เป็นเส้นทางที่ทำซ้ำได้เพื่อเพิ่มดาเมจ, โชค และประสิทธิภาพในการสุ่มกาชาในอนาคต",
+          "player_goal": "หมุนเวียนระหว่างการฟาร์ม Tempest, การลองเล่น Raids, การอัปเกรด และการสุ่มตู้แบนเนอร์",
+          "best_for": "ผู้เล่นที่ต้องการเส้นทางที่ไม่ต้องใช้ Robux เพื่อให้ได้ Units ที่แข็งแกร่งขึ้นและการพัฒนาในช่วงท้ายเกมที่ดีขึ้น"
+        }
+      ]
+    },
+    "worldFightersSideQuestsAndChallenges": {
+      "id": "world-fighters-side-quests-and-challenges",
+      "eyebrow": "เควสและการท้าทาย",
+      "title": "เควสรองและการท้าทายใน World Fighters",
+      "subtitle": "ใช้รายการตรวจสอบ World Fighters นี้เพื่อแยกความคืบหน้าหลัก, วัตถุประสงค์รอง, การท้าทายแบบ Co-op และกิจกรรมอัปเดต",
+      "intro": "World Fighters ถูกสร้างขึ้นจากการกำจัดศัตรู, รวบรวมคริสตัล, ปลดล็อกอวตารและสัตว์เลี้ยง และพิชิตการท้าทายกับเพื่อนๆ เควสรองและการท้าทายเหมาะสำหรับใช้เป็นความคืบหน้าชั้นที่สองในขณะที่คุณฟาร์มในโซนต่างๆ, สู้กับบอส และเตรียมตัวสำหรับ Raids",
+      "displayType": "accordion",
+      "labels": {
+        "stage": "ด่านที่แนะนำ",
+        "rewardFocus": "เน้นรางวัล"
+      },
+      "items": [
+        {
+          "question": "ลูปความคืบหน้าหลักของ World Fighters คืออะไร?",
+          "answer": "กำจัดศัตรูเพื่อรวบรวมคริสตัล จากนั้นใช้ทรัพยากรเพื่อปลดล็อกอวตาร, สัตว์เลี้ยง และ Units ที่แข็งแกร่งขึ้น ลูป World Fighters นี้ควรเป็นความสำคัญอันดับแรกของคุณเสมอ เพราะการท้าทายทุกอย่างจะง่ายขึ้นเมื่อทีมหลักของคุณแข็งแกร่งขึ้น",
+          "category": "ความคืบหน้าหลัก",
+          "recommended_stage": "ผู้เล่นทุกคน",
+          "reward_focus": [
+            "คริสตัล",
+            "อวตาร",
+            "สัตว์เลี้ยง",
+            "การเติบโตของพลัง"
+          ]
+        },
+        {
+          "question": "ฉันควรทำเควสรองของ World Fighters เมื่อไหร่?",
+          "answer": "ทำเควสรองในขณะที่ฟาร์มในโซนต่างๆ แทนที่จะมองว่าเป็นงานแยกต่างหาก หากวัตถุประสงค์ของเควส World Fighters ทับซ้อนกับศัตรู, บอส, ดาว หรือการฟาร์มทรัพยากรที่คุณต้องการอยู่แล้ว ให้ทำมันให้เสร็จก่อนย้ายไปพื้นที่ถัดไป",
+          "category": "วัตถุประสงค์รอง",
+          "recommended_stage": "ช่วงต้นถึงช่วงกลางเกม",
+          "reward_focus": [
+            "ความคืบหน้าเพิ่มเติม",
+            "การผ่านโซน",
+            "ประสิทธิภาพของทรัพยากร"
+          ]
+        },
+        {
+          "question": "การท้าทายแบบ Co-op ใน World Fighters ช่วยได้อย่างไร?",
+          "answer": "World Fighters รองรับการเล่นกับเพื่อนและทำภารกิจท้าทายร่วมกัน พร้อมรับรางวัลร่วมกันในโหมดเกมต่างๆ Co-op จะมีประโยชน์เมื่อศัตรูใช้เวลากำจัดนานเกินไปหากเล่นคนเดียว, เมื่อเส้นทางบอสเดินช้า หรือเมื่อผู้เล่นหลายคนต้องการฟาร์มเนื้อหาอัปเดตเดียวกัน",
+          "category": "การท้าทายแบบ Co-op",
+          "recommended_stage": "ช่วงกลางเกมและ Raids",
+          "reward_focus": [
+            "รางวัลร่วมกัน",
+            "การเคลียร์ที่เร็วขึ้น",
+            "การฟาร์มแบบกลุ่ม"
+          ]
+        },
+        {
+          "question": "Raids ใน World Fighters แตกต่างจากการท้าทายปกติอย่างไร?",
+          "answer": "การท้าทายปกติจะสนับสนุนการฟาร์มในโซนและความคืบหน้าของบัญชี ในขณะที่ Tempest Invasion เป็นโหมดเวฟสไตล์ Raids ที่ใช้กุญแจสไลม์ และให้รางวัลตามความคืบหน้าของเวฟที่ลึกขึ้น ให้ถือว่า World Fighters Raids เป็นกิจกรรมเฉพาะหลังจากที่ทีมและการอัปเกรดระยะของคุณพร้อมแล้ว",
+          "category": "การท้าทาย Raids",
+          "recommended_stage": "ช่วงท้ายเกม",
+          "reward_focus": [
+            "เป้าหมายเวฟ",
+            "สกุลเงินใหม่",
+            "ความสำเร็จ",
+            "ความคืบหน้าสำหรับ F2P"
+          ]
+        },
+        {
+          "question": "ผู้เล่น F2P ควรให้ความสำคัญกับการท้าทายใดใน World Fighters ก่อน?",
+          "answer": "ผู้เล่น F2P ควรจัดลำดับความสำคัญของสิ่งที่จะช่วยเพิ่มความเร็วในการฟาร์ม World Fighters ในระยะยาว: คริสตัล, อัญมณี, กุญแจ, สกุลเงินสำหรับอัปเกรด, โบนัสโชค และ Units ที่แข็งแกร่งขึ้น ส่วนรางวัลความสวยงามควรเก็บไว้ภายหลัง เว้นแต่จะมาจากเส้นทางเดียวกับที่คุณกำลังฟาร์มอยู่",
+          "category": "ลำดับความสำคัญ F2P",
+          "recommended_stage": "ผู้เล่นทุกคน",
+          "reward_focus": [
+            "กุญแจ",
+            "อัญมณี",
+            "คริสตัล",
+            "การเพิ่มโชค",
+            "วัสดุอัปเกรด"
+          ]
+        },
+        {
+          "question": "บอสลับของ World Fighters อยู่ตรงไหนของการท้าทาย?",
+          "answer": "บอสลับใน Tempest Federation ทำหน้าที่เหมือนเส้นทางการท้าทาย World Fighters ที่มีมูลค่าสูง เส้นทางนี้อยู่ใกล้กับพื้นที่ Tempest Raids บริเวณด้านหลังซ้ายและเส้นทางอุโมงค์ลับ รางวัลอาจรวมถึง กุญแจสไลม์, โทเคนปีศาจ, ปีก, ไอเทมตกแต่ง และคริสตัล",
+          "category": "การท้าทายที่ซ่อนอยู่",
+          "recommended_stage": "ความคืบหน้า Update 1",
+          "reward_focus": [
+            "กุญแจสไลม์",
+            "โทเคนปีศาจ",
+            "ปีก",
+            "ไอเทมตกแต่ง",
+            "คริสตัล"
+          ]
+        }
+      ]
+    },
+    "worldFightersGamepassesGuide": {
+      "id": "world-fighters-gamepasses-guide",
+      "eyebrow": "มูลค่า Robux",
+      "title": "คู่มือ Gamepasses ของ World Fighters",
+      "subtitle": "เปรียบเทียบ Gamepasses หลักของ World Fighters ตามมูลค่าการฟาร์ม, มูลค่ากาชา และความสะดวกสบายก่อนตัดสินใจใช้ Robux",
+      "intro": "Gamepasses ของ World Fighters ส่วนใหญ่จะช่วยเพิ่มความเร็วในการฟาร์ม, พลังโจมตี, ดวง (Luck), พื้นที่เก็บของ และความสะดวกในการสุ่ม สำหรับผู้เล่นส่วนใหญ่ มูลค่าที่คุ้มค่าที่สุดจะมาจากตัวช่วยเร่งความคืบหน้าโดยตรงก่อน ตามด้วยดวงและความเร็วในการเปิดหลังจากที่คุณเริ่มฟาร์มแบนเนอร์อย่างจริงจัง",
+      "displayType": "tier-grid",
+      "tiers": [
+        {
+          "tier": "S Tier",
+          "label": "Pass หลักเพื่อความคืบหน้า",
+          "entries": [
+            {
+              "pass": "คริสตัล x2",
+              "price_robux": 299,
+              "role": "ตัวคูณการฟาร์มเงิน",
+              "best_for": "ผู้เล่น World Fighters ที่ฟาร์มศัตรูบ่อยครั้งและต้องการความคืบหน้าของอวตาร, สัตว์เลี้ยง และการอัปเกรดที่เร็วขึ้น",
+              "buy_priority": "Pass การฟาร์มที่สำคัญ"
+            },
+            {
+              "pass": "ดาเมจ x2",
+              "price_robux": 299,
+              "role": "เพิ่มความเร็วในการกำจัดศัตรูและบอส",
+              "best_for": "ผู้เล่น World Fighters ที่กำลังตะลุยโซน, บอส และเวฟ Raids ซึ่งการกำจัดศัตรูได้เร็วขึ้นจะช่วยเพิ่มความคืบหน้าโดยตรง",
+              "buy_priority": "Pass การต่อสู้ที่สำคัญ"
+            },
+            {
+              "pass": "สวมใส่เพิ่ม",
+              "price_robux": 399,
+              "role": "ขยายพลังของทีม",
+              "best_for": "ผู้เล่น World Fighters ที่มี Units แข็งแกร่งหลายตัว ซึ่งจะได้รับประโยชน์มากขึ้นจากการสวมใส่ตัวละครเพิ่มอีกหนึ่งตัว",
+              "buy_priority": "Pass ทีมที่มีผลกระทบสูง"
+            }
+          ]
+        },
+        {
+          "tier": "A Tier",
+          "label": "Pass เพิ่มพลังและดวงระดับสูง",
+          "entries": [
+            {
+              "pass": "พลัง x2",
+              "price_robux": 299,
+              "role": "ตัวคูณการเติบโตของพลัง",
+              "best_for": "ผู้เล่น World Fighters ที่ใช้เวลาฝึกฝนมากและต้องการการเติบโตของพลังที่ดีขึ้นระหว่างโซน",
+              "buy_priority": "Pass ความคืบหน้าที่แข็งแกร่ง"
+            },
+            {
+              "pass": "Super Luck",
+              "price_robux": 199,
+              "role": "ตัวช่วยสุ่มตัวละครระดับหายาก",
+              "best_for": "ผู้เล่น World Fighters ที่ตามหา Units ระดับ Mythic และ Secret จากดวงดาว, แบนเนอร์ และระบบกาชา",
+              "buy_priority": "Pass กาชาที่แข็งแกร่ง"
+            },
+            {
+              "pass": "Mega Luck",
+              "price_robux": 399,
+              "role": "เพิ่มดวงระดับพรีเมียม",
+              "best_for": "ผู้เล่น World Fighters ที่ฟาร์มแบนเนอร์อย่างหนักและต้องการสะสมค่าดวงเพื่อล่าตัวละครหายาก",
+              "buy_priority": "Pass กาชาสำหรับช่วงท้ายเกม"
+            }
+          ]
+        },
+        {
+          "tier": "B Tier",
+          "label": "เครื่องมือฟาร์มและเปิดที่ยอดเยี่ยม",
+          "entries": [
+            {
+              "pass": "Luck",
+              "price_robux": 99,
+              "role": "เพิ่มดวงระดับเริ่มต้น",
+              "best_for": "ผู้เล่น World Fighters สายประหยัดที่ต้องการวิธีราคาถูกในการเพิ่มโอกาสในกาชา",
+              "buy_priority": "Pass กาชาราคาประหยัด"
+            },
+            {
+              "pass": "เปิดหลายใบ",
+              "price_robux": 299,
+              "role": "เปิดดวงดาวได้เร็วขึ้น",
+              "best_for": "ผู้เล่น World Fighters ที่ฟาร์มเพชรได้เพียงพอแล้วและต้องการเปิดแบนเนอร์ให้เร็วขึ้น",
+              "buy_priority": "Pass ประหยัดเวลา"
+            },
+            {
+              "pass": "เปิดแบบเร็ว",
+              "price_robux": 299,
+              "role": "ความสะดวกในการเปิดที่รวดเร็ว",
+              "best_for": "ผู้เล่น World Fighters ที่ใช้เวลานานในการสุ่มดวงดาวและต้องการลดเวลาที่เสียไป",
+              "buy_priority": "Pass ประหยัดเวลา"
+            },
+            {
+              "pass": "Remote Star",
+              "price_robux": 499,
+              "role": "ความสะดวกในการสุ่มจากระยะไกล",
+              "best_for": "ผู้เล่น World Fighters ที่ฟาร์มห่างจากตำแหน่งดวงดาวและต้องการเข้าถึงแบนเนอร์ได้สะดวกขึ้น",
+              "buy_priority": "Pass เพื่อความสะดวกสบาย"
+            },
+            {
+              "pass": "ดรอปเพิ่ม",
+              "price_robux": 399,
+              "role": "ตัวช่วยฟาร์มไอเทมดรอป",
+              "best_for": "ผู้เล่น World Fighters ที่ฟาร์มบอส, กุญแจ หรือเส้นทางอัปเดต ซึ่งไอเทมดรอปพิเศษจะช่วยให้การฟาร์มซ้ำคุ้มค่าขึ้น",
+              "buy_priority": "Pass สนับสนุนการฟาร์ม"
+            }
+          ]
+        },
+        {
+          "tier": "C Tier",
+          "label": "Pass เสริมเพื่อความสะดวกสบาย",
+          "entries": [
+            {
+              "pass": "VIP",
+              "price_robux": 399,
+              "role": "Pass บัญชีพรีเมียม",
+              "best_for": "ผู้เล่น World Fighters ที่ต้องการ Pass พรีเมียมทั่วไปหลังจากซื้อตัวอัปเกรดการฟาร์มหรือการต่อสู้โดยตรงแล้ว",
+              "buy_priority": "Pass พรีเมียมทางเลือก"
+            },
+            {
+              "pass": "ที่เก็บของขนาดเล็ก",
+              "price_robux": 49,
+              "role": "ความสะดวกในการเก็บของ",
+              "best_for": "ผู้เล่น World Fighters ที่ต้องการอัปเกรดพื้นที่เก็บของในราคาถูก",
+              "buy_priority": "Pass ยูทิลิตี้ราคาประหยัด"
+            },
+            {
+              "pass": "ที่เก็บของขนาดใหญ่",
+              "price_robux": 99,
+              "role": "ความสะดวกในการเก็บของ",
+              "best_for": "ผู้เล่น World Fighters ที่สะสม Units, สัตว์เลี้ยง หรือทรัพยากรจำนวนมากและต้องการพื้นที่เพิ่ม",
+              "buy_priority": "Pass ยูทิลิตี้"
+            }
+          ]
+        }
+      ]
+    },
+    "worldFightersUpdatesAndPatchNotes": {
+      "id": "world-fighters-updates-and-patch-notes",
+      "eyebrow": "Patch Tracker",
+      "title": "World Fighters Updates and Patch Notes",
+      "subtitle": "Follow the World Fighters update cycle, including Release PT2, Release PT3, Update 1, QoL changes, raids, new units, and code waves.",
+      "intro": "World Fighters has moved quickly from release codes into larger update drops, with milestone rewards, new areas, Tempest Federation content, raid-style gameplay, and QoL improvements. This timeline helps players see what changed and what to do next.",
+      "displayType": "timeline-cards",
+      "labels": {
+        "playerFocus": "World Fighters Player Focus",
+        "relatedCodes": "Related World Fighters Codes"
+      },
+      "items": [
+        {
+          "label": "Launch Release",
+          "date": "Launch week",
+          "type": "Release",
+          "highlights": [
+            "World Fighters launched as an anime-themed Roblox simulator by StarX Inc.",
+            "Core loop focuses on defeating enemies, collecting Cristals, and unlocking avatars and pets.",
+            "Early release codes gave potions and gems to help new players start faster."
+          ],
+          "player_focus": "Use release rewards early, clear the first zones, and build a basic World Fighters team before spending heavily on banners.",
+          "related_codes": [
+            "RELEASE"
+          ]
+        },
+        {
+          "label": "Release Patch",
+          "date": "Post-launch patch",
+          "type": "Patch",
+          "highlights": [
+            "Release Patch reward codes added more potions, gems, and Dragon Balls Keys.",
+            "Shutdown and milestone codes helped World Fighters players recover resources after early server restarts.",
+            "Potions became a common reward pattern across active codes."
+          ],
+          "player_focus": "Redeem patch and shutdown codes before farming so Power, Crystal, Damage, and Luck Potion boosts are ready for active sessions.",
+          "related_codes": [
+            "RELEASEPATCH",
+            "SRRY4SHUTDOWN",
+            "SRRY4SHUTDOWN2",
+            "SRRY4SHUTDOWN3"
+          ]
+        },
+        {
+          "label": "Release PT2",
+          "date": "Release Part 2",
+          "type": "Content update",
+          "highlights": [
+            "Release PT2 continued the early World Fighters update cycle with new reward codes.",
+            "The RELEASEPT2 code rewarded one of each potion, 100 gems, and five Dragon Balls Keys.",
+            "Player milestones around visits, likes, favorites, and CCU continued to trigger new code drops."
+          ],
+          "player_focus": "Use Dragon Balls Keys and gems around World Fighters banner sessions, especially when Luck Potion boosts are active.",
+          "related_codes": [
+            "RELEASEPT2",
+            "THANKS1KLIKES",
+            "THX3KLIKES!",
+            "THXFOR200KVISITS!"
+          ]
+        },
+        {
+          "label": "Update 1: Tempest Federation",
+          "date": "April 22, 2026",
+          "type": "Major update",
+          "highlights": [
+            "Tempest Federation added a new World Fighters progression zone.",
+            "The update introduced 6 new enemies, 6 new units, a new star banner, and a new secret unit.",
+            "Tempest upgrades added Attack Distance, Attack Speed, Damage, Power, and Crystal efficiency.",
+            "The rename system added random power multiplier value for units."
+          ],
+          "player_focus": "Farm the new zone first, upgrade range for raid performance, and use rename boosts on your strongest World Fighters units.",
+          "related_codes": [
+            "COOL1.2MVISITS!",
+            "YAY5KLIKES!",
+            "8KCCUISAWESOME!"
+          ]
+        },
+        {
+          "label": "Update 1: Tempest Invasion Raids",
+          "date": "April 22, 2026",
+          "type": "Raid update",
+          "highlights": [
+            "Tempest Invasion added a World Fighters raid-style mode that requires Slime Keys.",
+            "The mode features wave progression up to 100 waves.",
+            "Enemies approach from multiple directions while the player holds the center.",
+            "Rewards scale with wave progress and support F2P account growth."
+          ],
+          "player_focus": "Farm Slime Keys, push wave milestones, then reinvest rewards into upgrades, gacha, awakenings, and stronger World Fighters units.",
+          "related_codes": []
+        },
+        {
+          "label": "Update 1: QoL and F2P Improvements",
+          "date": "April 22, 2026",
+          "type": "QoL update",
+          "highlights": [
+            "Gems were added to chests for better F2P progression.",
+            "New music and sound effects were added.",
+            "Mount dash and position-saving improvements made World Fighters farming smoother.",
+            "Bug fixes reduced crashes and kicks."
+          ],
+          "player_focus": "Use the smoother World Fighters farming loop to stay in long sessions, farm chests, and prepare for deeper raid attempts.",
+          "related_codes": [
+            "RELEASEQOL"
+          ]
+        },
+        {
+          "label": "Release PT3 Code Wave",
+          "date": "April 24, 2026",
+          "type": "Code update",
+          "highlights": [
+            "The World Fighters game title highlights Release PT3.",
+            "Multiple Release PT3-era codes added potions, gems, and Dragon Balls Keys.",
+            "New milestone codes covered visits, likes, favorites, and concurrent player milestones."
+          ],
+          "player_focus": "Redeem the newest World Fighters code wave before grinding, then spend gems and keys during focused gacha sessions.",
+          "related_codes": [
+            "8KCCUISAWESOME!",
+            "YAY5KLIKES!",
+            "COOL1.2MVISITS!",
+            "SPLENDID800KVISITS!",
+            "900KVISITSTHANKYOU!",
+            "ALREADY1MVISITS!?"
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "World Fighters FAQ",
+    "titleHighlight": "คำถาม",
+    "subtitle": "คำตอบด่วนสำหรับ World Fighters โค้ด, ความก้าวหน้า, ลิงก์ Roblox และการเลือกเกมพาส",
+    "questions": [
+      {
+        "question": "World Fighters คืออะไร?",
+        "answer": "World Fighters คือเกมจำลองการต่อสู้บน Roblox ที่ได้รับแรงบันดาลใจจากอนิเมะจาก StarX Inc ซึ่งผู้เล่นจะต้องเอาชนะศัตรู, สะสม Cristals, ปลดล็อกอวตารและสัตว์เลี้ยง และเดินทางไปยังโซนใหม่ๆ"
+      },
+      {
+        "question": "ฉันจะแลก World Fighters โค้ด ได้ที่ไหน?",
+        "answer": "เปิด World Fighters บน Roblox, กด Shop, เลื่อนไปที่ช่องใส่โค้ด, วางโค้ดตามที่ปรากฏ และกด Redeem"
+      },
+      {
+        "question": "World Fighters โค้ด ให้รางวัลอะไรบ้าง?",
+        "answer": "World Fighters โค้ด สามารถให้ Power Potion, Crystal Potion, Damage Potion, Luck Potion, Gems, Dragon Balls Keys, Saiyan Keys และรางวัลพิเศษอื่นๆ"
+      },
+      {
+        "question": "ผู้เล่นใหม่ควรทำอะไรเป็นอย่างแรกใน World Fighters?",
+        "answer": "ผู้เล่นใหม่ของ World Fighters ควรแลกโค้ด, ฟาร์มศัตรูเพื่อหา Cristals, ใช้บูสต์ระหว่างการฟาร์ม, ปลดล็อกอวตารและสัตว์เลี้ยง และทำเควสแผนที่ให้สำเร็จเพื่อไปยังโซนใหม่ๆ"
+      },
+      {
+        "question": "Discord ของ World Fighters อยู่ที่ไหน?",
+        "answer": "สามารถเข้าถึง Discord ของ World Fighters ได้ผ่านคำเชิญสาธารณะที่ discord.gg/worldfighters"
+      },
+      {
+        "question": "เกมพาสไหนของ World Fighters ที่ดีที่สุดในช่วงเริ่มเกม?",
+        "answer": "ความคุ้มค่าที่สุดของเกมพาส World Fighters ในช่วงเริ่มต้นมาจากการเพิ่มความก้าวหน้าโดยตรง เช่น 2x Damage, 2x Power, 2x Crystals และ Extra Drops"
+      }
+    ]
+  },
+  "cta": {
+    "title": "พร้อมที่จะเล่น World Fighters หรือยัง?",
+    "description": "เข้าร่วม World Fighters Discord เพื่อรับ Codes, บันทึกการอัปเดต, เคล็ดลับ Raids และความช่วยเหลือในความก้าวหน้าจากชุมชน จากนั้นเริ่มสัมผัสประสบการณ์ Roblox อย่างเป็นทางการ",
+    "joinCommunity": "เข้าร่วม World Fighters Discord",
+    "joinGame": "เล่น World Fighters บน Roblox"
+  },
+  "footer": {
+    "title": "World Fighters Wiki",
+    "description": "แหล่งรวมข้อมูลที่สมบูรณ์แบบสำหรับ World Fighters โค้ด, Units, บอส, โลกต่างๆ, Passives, Raids, การอัปเดต และคู่มือความคืบหน้าใน Roblox",
+    "resources": "แหล่งข้อมูล",
+    "community": "ชุมชน",
+    "legal": "กฎหมาย",
+    "discord": "World Fighters Discord",
+    "twitter": "Tanlugi บน X",
+    "steamCommunity": "StarX Roblox Group",
+    "steamStore": "หน้า World Fighters Roblox",
+    "about": "เกี่ยวกับ",
+    "privacy": "นโยบายความเป็นส่วนตัว",
+    "terms": "ข้อกำหนดการให้บริการ",
+    "copyrightNotice": "ลิขสิทธิ์",
+    "copyright": "© 2026 World Fighters Wiki ไม่มีความเกี่ยวข้องกับ StarX Inc หรือ Roblox Corporation",
+    "disclaimer": "เว็บไซต์แหล่งข้อมูลที่สร้างโดยแฟนคลับอย่างไม่เป็นทางการสำหรับผู้เล่น World Fighters"
+  },
+  "pages": {
+    "codes": {
+      "title": "World Fighters Codes",
+      "description": "World Fighters โค้ด, ขั้นตอนการแลก, ประเภทรางวัล และลำดับความสำคัญในการใช้ Codes สำหรับผู้เล่น Roblox",
+      "metaTitle": "World Fighters Codes - รางวัลและคู่มือการแลก",
+      "metaDescription": "ใช้ World Fighters โค้ด เพื่อรับเพชร, เหรียญ, บูสต์ และรางวัล Roblox อื่นๆ พร้อมขั้นตอนการแลกที่ง่ายและเคล็ดลับการวางแผนการใช้รางวัล",
+      "categoryLabel": "WORLD FIGHTERS CODES",
+      "whatIs": "World Fighters Codes คืออะไร?",
+      "whatIsDescription": "World Fighters Codes คือชุดรหัสรางวัลที่ผู้เล่นสามารถแลกได้ใน Roblox เพื่อรับเพชร, เหรียญ, บูสต์, สกิน, ไอเทมรีเซ็ต และทรัพยากรอื่นๆ เพื่อความก้าวหน้าในเกม",
+      "why": "ทำไมต้องใช้ World Fighters โค้ด?",
+      "whySteps": {
+        "step1Title": "รับรางวัลฟรี",
+        "step1Description": "แลก World Fighters โค้ด ก่อนเริ่มการฟาร์ม เพื่อให้เพชร, เหรียญ, บูสต์ และไอเทมรีเซ็ตพร้อมใช้งานเมื่อคุณต้องการ",
+        "step2Title": "วางแผนจังหวะการใช้ทรัพยากร",
+        "step2Description": "ใช้รางวัลจาก Codes ในช่วงเวลาการสุ่มเรียก, การอัปเกรดตัวละคร และช่วงการเล่นที่ยาวนาน แทนที่จะใช้รางวัลทันทีที่ได้รับ",
+        "step3Title": "ช่วยเหลือในช่วงเริ่มต้นเกม",
+        "step3Description": "ผู้เล่นใหม่สามารถใช้รางวัลจาก World Fighters โค้ด เพื่อลดความกดดันในการฟาร์มช่วงแรก ในขณะที่เรียนรู้เรื่องการต่อสู้, แบนเนอร์ และการปลดล็อกแผนที่"
+      },
+      "featured": "World Fighters Codes ที่แนะนำ",
+      "all": "World Fighters Codes ทั้งหมด"
+    },
+    "guide": {
+      "title": "คู่มือ World Fighters",
+      "description": "บทความคู่มือ World Fighters สำหรับผู้เริ่มต้น, การเพิ่มดาเมจ, เส้นทางที่มีประสิทธิภาพ และการพัฒนาจากมือใหม่สู่มือโปร",
+      "metaTitle": "คู่มือ World Fighters - เคล็ดลับสำหรับผู้เริ่มต้นและการพัฒนา",
+      "metaDescription": "อ่านบทความคู่มือ World Fighters สำหรับเส้นทางผู้เริ่มต้น, การเพิ่มดาเมจ, การพัฒนาที่รวดเร็ว, การวางแผนอัปเดต และเคล็ดลับการเล่นเกม Roblox",
+      "categoryLabel": "คู่มือ WORLD FIGHTERS",
+      "whatIs": "คู่มือ World Fighters คืออะไร?",
+      "whatIsDescription": "หมวดหมู่คู่มือ World Fighters อธิบายถึงวิธีการเริ่มต้น, วิธีการเล่น, วิธีเพิ่ม DPS และวิธีเปลี่ยนจากการฟาร์มช่วงแรกไปสู่โซนที่แข็งแกร่งขึ้น",
+      "why": "ทำไมต้องอ่านคู่มือ World Fighters?",
+      "whySteps": {
+        "step1Title": "เริ่มต้นด้วยเป้าหมายที่ชัดเจน",
+        "step1Description": "ทำตามเส้นทางผู้เริ่มต้นของ World Fighters ที่ครอบคลุมถึง Codes, ทรัพยากรช่วงแรก, เป้าหมายการต่อสู้ครั้งแรก และนิสัยที่มีประสิทธิภาพในการเล่นครั้งแรก",
+        "step2Title": "ปรับปรุงการเพิ่มดาเมจ",
+        "step2Description": "เรียนรู้ว่าควรฟาร์มเมื่อไหร่, ควรเรียก (summon) เมื่อไหร่ และวิธีเพิ่ม DPS โดยไม่สิ้นเปลืองทรัพยากรไปกับการอัปเกรดที่กระจัดกระจาย",
+        "step3Title": "ใช้อัปเดตอย่างมีประสิทธิภาพ",
+        "step3Description": "คู่มือการอัปเดต World Fighters ช่วยให้คุณระบุลำดับความสำคัญใหม่ๆ, การเปลี่ยนแปลงเส้นทาง และโอกาสในการพัฒนาหลังจากแต่ละ Release PT3"
+      },
+      "featured": "บทความคู่มือ World Fighters ที่แนะนำ",
+      "all": "บทความคู่มือ World Fighters ทั้งหมด"
+    },
+    "resources": {
+      "title": "ทรัพยากร World Fighters",
+      "description": "ทรัพยากร World Fighters ที่ครอบคลุมถึง gems, crystals, tokens, keys, potions และการวางแผนรับรางวัลฟรี",
+      "metaTitle": "ทรัพยากร World Fighters - Gems, Crystals, Keys และ Potions",
+      "metaDescription": "ติดตามทรัพยากร World Fighters รวมถึง gems, crystals, tokens, keys, potions, รางวัลฟรี และลำดับความสำคัญในการใช้จ่ายเพื่อการพัฒนาใน Roblox",
+      "categoryLabel": "ทรัพยากร WORLD FIGHTERS",
+      "whatIs": "ทรัพยากร World Fighters คืออะไร?",
+      "whatIsDescription": "ทรัพยากร World Fighters คือสกุลเงิน, keys, crystals, tokens, potions และไอเทมรางวัลที่ใช้ในการ summon, ฟาร์ม, ปลดล็อกระบบ และบุกเบิกโซนต่างๆ",
+      "why": "ทำไมต้องติดตามทรัพยากร World Fighters?",
+      "whySteps": {
+        "step1Title": "ใช้จ่ายอย่างมีจุดมุ่งหมาย",
+        "step1Description": "ทำความเข้าใจว่าทรัพยากร World Fighters ใดที่รองรับการ summons, บูสต์, อัปเกรด และการฟาร์มซ้ำๆ",
+        "step2Title": "ฟาร์มไอเทมที่ถูกต้อง",
+        "step2Description": "ใช้คู่มือทรัพยากรเพื่อมุ่งเน้นไปที่ gems, crystals, tokens, keys หรือ potions ขึ้นอยู่กับอุปสรรคในการพัฒนาของคุณในปัจจุบัน",
+        "step3Title": "หลีกเลี่ยงความสิ้นเปลือง",
+        "step3Description": "วางแผนจังหวะการใช้ potion, การใช้ key และการใช้ gem สำหรับการเล่นที่ยาวนานขึ้นและการปลดล็อกที่มีความหมาย"
+      },
+      "featured": "ทรัพยากร World Fighters ที่แนะนำ",
+      "all": "คู่มือทรัพยากร World Fighters ทั้งหมด"
+    },
+    "units": {
+      "title": "World Fighters Units",
+      "description": "World Fighters Units, เส้นทางกาชา, Secret Units, การวางแผนดวง, การเปิดดาว และลำดับความสำคัญของ Units ที่ดีที่สุด",
+      "metaTitle": "World Fighters Units - Units ที่ดีที่สุดและคู่มือกาชา",
+      "metaDescription": "สำรวจ World Fighters Units, Secret Units, กลยุทธ์กาชา, การวางแผนดวง, เส้นทางการเปิดดาว และลำดับความสำคัญของ Units ที่ดีที่สุดสำหรับผู้เล่น Roblox",
+      "categoryLabel": "WORLD FIGHTERS UNITS",
+      "whatIs": "World Fighters Units คืออะไร?",
+      "whatIsDescription": "World Fighters Units คือตัวละครและการสุ่มที่เป็นตัวขับเคลื่อนความแข็งแกร่งของทีม, การเติบโตของ DPS, เป้าหมายการสะสมของหายาก และความก้าวหน้าของบัญชีในระยะยาว",
+      "why": "ทำไมต้องศึกษา World Fighters Units?",
+      "whySteps": {
+        "step1Title": "สร้างทีมที่แข็งแกร่งขึ้น",
+        "step1Description": "เปรียบเทียบ World Fighters Units ตามประโยชน์ในช่วงเริ่มต้น, มูลค่าความเสียหาย, ความหายาก และบทบาทก่อนที่จะลงทุนทรัพยากร",
+        "step2Title": "วางแผนการสุ่มกาชา",
+        "step2Description": "ใช้คู่มือกาชา, ดวง และการเปิดดาว เพื่อตัดสินใจว่าเมื่อใดที่การสุ่มคุ้มค่ากับราคาที่จ่าย",
+        "step3Title": "ตามหา Secret Units",
+        "step3Description": "คู่มือ Secret Units อธิบายถึงเป้าหมายการสุ่มของหายาก และวิธีที่พวกมันเข้ากับความก้าวหน้าในช่วงหลังโดยไม่ทำให้เสียสมาธิจากการฟาร์มหลัก"
+      },
+      "featured": "World Fighters Units ที่แนะนำ",
+      "all": "คู่มือ World Fighters Units ทั้งหมด"
+    },
+    "bosses": {
+      "title": "World Fighters Bosses",
+      "description": "World Fighters บอส, ตำแหน่งบอสลับ, เส้นทาง Kaido, บันทึกโลก One Piece และเคล็ดลับการฟาร์มบอส",
+      "metaTitle": "World Fighters Bosses - ตำแหน่งลับและคู่มือ Kaido",
+      "metaDescription": "ค้นหา World Fighters บอส, ตำแหน่งบอสลับ, เส้นทาง Kaido, บันทึกโลก One Piece, กลไกของบอส และลำดับความสำคัญในการฟาร์ม",
+      "categoryLabel": "WORLD FIGHTERS BOSSES",
+      "whatIs": "World Fighters Bosses คืออะไร?",
+      "whatIsDescription": "World Fighters Bosses คือศัตรูที่มีมูลค่าสูงและการเผชิญหน้าแบบลับๆ ที่เป็นตัวกำหนดรางวัล, ความก้าวหน้าของแผนที่, เป้าหมายการสะสม และวงจรการฟาร์มที่แข็งแกร่งขึ้น",
+      "why": "ทำไมต้องติดตามคู่มือ World Fighters บอส?",
+      "whySteps": {
+        "step1Title": "ค้นหาเป้าหมายที่ซ่อนอยู่",
+        "step1Description": "ใช้คู่มือ World Fighters บอส เพื่อค้นหาบอสลับ, บอสกิจกรรม และเป้าหมายเส้นทางที่สำคัญได้อย่างรวดเร็วยิ่งขึ้น",
+        "step2Title": "เตรียมความพร้อมด้านความเสียหายของคุณ",
+        "step2Description": "บทความเกี่ยวกับบอสจะอธิบายว่าเมื่อใดควรกลับมาพร้อมกับ Units ที่แข็งแกร่งขึ้น, บูสต์ที่ดีขึ้น และ DPS ที่เพียงพอสำหรับการกำจัดซ้ำ",
+        "step3Title": "ฟาร์มรางวัลที่ดีกว่า",
+        "step3Description": "เน้นการฟาร์มบอสเพื่อรับไอเทมดรอป, ความก้าวหน้าในการสะสม, การปลดล็อกแผนที่ และโบนัสบัญชีในระยะยาว"
+      },
+      "featured": "World Fighters บอส ที่แนะนำ",
+      "all": "คู่มือ World Fighters บอส ทั้งหมด"
+    },
+    "quests": {
+      "title": "ภารกิจ World Fighters",
+      "description": "ภารกิจ World Fighters, NPC ภารกิจรอง, เส้นทางท้าทาย, ตำแหน่ง NPC และรายการตรวจสอบที่เน้นรางวัล",
+      "metaTitle": "ภารกิจ World Fighters - NPC ภารกิจรองและรางวัล",
+      "metaDescription": "ทำภารกิจ World Fighters ให้สำเร็จด้วยตำแหน่ง NPC ภารกิจรอง เส้นทางท้าทาย รายการตรวจสอบรางวัล และเคล็ดลับการวางแผนความคืบหน้า",
+      "categoryLabel": "ภารกิจ WORLD FIGHTERS",
+      "whatIs": "ภารกิจ World Fighters คืออะไร?",
+      "whatIsDescription": "ภารกิจ World Fighters คืองานของ NPC ภารกิจรอง การท้าทาย และลำดับของรางวัลที่ช่วยนำทางการพัฒนาแผนที่และปลดล็อกทรัพยากรที่มีประโยชน์",
+      "why": "ทำไมต้องทำภารกิจ World Fighters?",
+      "whySteps": {
+        "step1Title": "เดินตามเส้นทาง NPC",
+        "step1Description": "คู่มือภารกิจช่วยให้คุณค้นหา NPC ของ World Fighters เข้าใจขั้นตอนภารกิจรอง และหลีกเลี่ยงการพลาดลำดับของรางวัล",
+        "step2Title": "เปลี่ยนงานให้เป็นความคืบหน้า",
+        "step2Description": "ใช้บทความการท้าทายและภารกิจเพื่อเชื่อมต่อเป้าหมายเข้ากับทรัพยากร การปลดล็อก และเหตุการณ์สำคัญของโซน",
+        "step3Title": "สะสมรางวัลที่ดียิ่งขึ้น",
+        "step3Description": "คู่มือรางวัลจะอธิบายว่าเส้นทางภารกิจใดที่ควรให้ความสำคัญในช่วงต้น กลาง และท้ายของเกม"
+      },
+      "featured": "ภารกิจ World Fighters ที่แนะนำ",
+      "all": "คู่มือภารกิจ World Fighters ทั้งหมด"
+    },
+    "raids": {
+      "title": "World Fighters Raids",
+      "description": "World Fighters Raids, เส้นทาง Raids สายฟรี (F2P), การป้องกันมังกร, คู่มือการบุกรุก, การป้องกันเวฟ และรางวัล Raids",
+      "metaTitle": "World Fighters Raids - รางวัล, การป้องกัน และคู่มือการบุกรุก",
+      "metaDescription": "เตรียมพร้อมสำหรับ World Fighters Raids ด้วยเส้นทางสายฟรี (F2P), รางวัล Raids, การป้องกันมังกร, คู่มือการบุกรุก, การป้องกันเวฟ และเคล็ดลับการวางแผนทีม",
+      "categoryLabel": "WORLD FIGHTERS RAIDS",
+      "whatIs": "World Fighters Raids คืออะไร?",
+      "whatIsDescription": "World Fighters Raids คือโหมดท้าทาย เช่น การป้องกัน การบุกรุก และการต่อสู้แบบเวฟที่ให้รางวัลแก่ทีมที่เตรียมตัวมาดีและมีกลยุทธ์ที่ทำซ้ำได้",
+      "why": "ทำไมต้องลง World Fighters Raids?",
+      "whySteps": {
+        "step1Title": "เรียนรู้ข้อกำหนด Raids",
+        "step1Description": "คู่มือ Raids อธิบายว่าเมื่อใดที่บัญชี World Fighters ของคุณมีพลังโจมตี บูสต์ และความแข็งแกร่งของทีมเพียงพอที่จะลองโหมดท้าทาย",
+        "step2Title": "ปรับปรุงความสม่ำเสมอในแต่ละเวฟ",
+        "step2Description": "บทความเกี่ยวกับการป้องกันและการบุกรุกมุ่งเน้นไปที่การผ่านด่านซ้ำๆ การวางแผนการเอาตัวรอด และการจัดการเวลาทรัพยากรที่ดีขึ้น",
+        "step3Title": "มุ่งเน้นไปที่รางวัล Raids",
+        "step3Description": "ใช้คู่มือรางวัลเพื่อตัดสินใจว่าควรลง World Fighters Raids ไหนซ้ำเพื่อรับทรัพยากร การอัปเกรด และความคืบหน้าของกิจกรรม"
+      },
+      "featured": "World Fighters Raids ที่แนะนำ",
+      "all": "คู่มือ World Fighters Raids ทั้งหมด"
+    }
   }
 }

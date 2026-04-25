@@ -14,10 +14,13 @@ export function ArticleStructuredData({
 	slug,
 }: ArticleStructuredDataProps) {
 	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://worldfighters.wiki'
+	const localePrefix = locale === 'en' ? '' : `/${locale}`
 	const articleUrl =
 		locale === 'en'
 			? `${siteUrl}/${contentType}/${slug}`
 			: `${siteUrl}/${locale}/${contentType}/${slug}`
+	const listUrl = `${siteUrl}${localePrefix}/${contentType}`
+	const homeUrl = locale === 'en' ? siteUrl : `${siteUrl}/${locale}`
 
 	const breadcrumbData = {
 		'@context': 'https://schema.org',
@@ -27,13 +30,13 @@ export function ArticleStructuredData({
 				'@type': 'ListItem',
 				position: 1,
 				name: 'Home',
-				item: siteUrl,
+				item: homeUrl,
 			},
 			{
 				'@type': 'ListItem',
 				position: 2,
 				name: contentType.charAt(0).toUpperCase() + contentType.slice(1),
-				item: `${siteUrl}/${contentType}`,
+				item: listUrl,
 			},
 			{
 				'@type': 'ListItem',

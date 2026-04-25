@@ -218,9 +218,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (isListPage) {
     try {
-      const contentTypeTitle = contentType.charAt(0).toUpperCase() + contentType.slice(1)
-      const title = `${contentTypeTitle} - ${siteName}`
-      const description = `Browse ${contentTypeTitle.toLowerCase()} guides and resources for World Fighters codes, units, bosses, worlds, raids, and Roblox progression.`
+      const t = await getTranslations({ locale, namespace: `pages.${contentType}` })
+      const title = `${t('metaTitle')} - ${siteName}`
+      const description = t('metaDescription')
       const path = `/${contentType}`
 
       return {

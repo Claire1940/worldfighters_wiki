@@ -4,6 +4,24 @@ import { routing, type Locale } from '@/i18n/routing'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://worldfighters.wiki'
 
+function localizedUrl(path: string, locale: Locale): string {
+	const normalizedPath = path === '/' ? '' : path.replace(/\/$/, '')
+	return locale === 'en'
+		? `${BASE_URL}${normalizedPath}`
+		: `${BASE_URL}/${locale}${normalizedPath}`
+}
+
+function languageAlternates(path: string) {
+	const languages: Record<string, string> = {}
+
+	for (const locale of routing.locales) {
+		languages[locale] = localizedUrl(path, locale)
+	}
+
+	languages['x-default'] = localizedUrl(path, 'en')
+	return { languages }
+}
+
 // 静态页面配置
 const staticPagesConfig: Record<string, { priority: number; changeFrequency: 'monthly' | 'yearly' }> = {
 	'about': { priority: 0.6, changeFrequency: 'monthly' },
@@ -14,38 +32,38 @@ const staticPagesConfig: Record<string, { priority: number; changeFrequency: 'mo
 
 // 内容类型优先级配置
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'codes': 0.95,
+	'guide': 0.9,
+	'resources': 0.85,
+	'units': 0.85,
+	'bosses': 0.8,
+	'quests': 0.8,
+	'raids': 0.8,
 }
 
 // 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'codes': 'daily',
+	'guide': 'weekly',
+	'resources': 'weekly',
+	'units': 'weekly',
+	'bosses': 'weekly',
+	'quests': 'weekly',
+	'raids': 'weekly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 	const sitemap: MetadataRoute.Sitemap = []
+	const lastModified = new Date()
 
 	// 1. 首页（所有语言版本）
 	for (const locale of routing.locales) {
 		sitemap.push({
-			url: locale === 'en' ? BASE_URL : `${BASE_URL}/${locale}`,
-			lastModified: new Date(),
+			url: localizedUrl('/', locale),
+			lastModified,
 			changeFrequency: 'daily',
 			priority: 1.0,
+			alternates: languageAlternates('/'),
 		})
 	}
 
@@ -54,16 +72,32 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 	for (const locale of routing.locales) {
 		for (const page of staticPages) {
 			const config = staticPagesConfig[page] || { priority: 0.5, changeFrequency: 'monthly' as const }
+			const pagePath = `/${page}`
 			sitemap.push({
-				url: locale === 'en' ? `${BASE_URL}/${page}` : `${BASE_URL}/${locale}/${page}`,
-				lastModified: new Date(),
+				url: localizedUrl(pagePath, locale),
+				lastModified,
 				changeFrequency: config.changeFrequency,
 				priority: config.priority,
+				alternates: languageAlternates(pagePath),
 			})
 		}
 	}
 
-	// 3. 所有 MDX 文章（所有语言版本和内容类型）
+	// 3. 内容分类页（所有语言版本）
+	for (const locale of routing.locales) {
+		for (const contentType of CONTENT_TYPES) {
+			const contentPath = `/${contentType}`
+			sitemap.push({
+				url: localizedUrl(contentPath, locale),
+				lastModified,
+				changeFrequency: contentTypeChangeFrequency[contentType] || 'weekly',
+				priority: contentTypePriority[contentType] || 0.7,
+				alternates: languageAlternates(contentPath),
+			})
+		}
+	}
+
+	// 4. 所有 MDX 文章（所有语言版本和内容类型）
 	for (const locale of routing.locales) {
 		for (const contentType of CONTENT_TYPES) {
 			try {
@@ -72,22 +106,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
 				for (const article of articles) {
 					// 构建完整的文章 URL
-					const articleUrl =
-						locale === 'en'
-							? `${BASE_URL}/${contentType}/${article.slug}`
-							: `${BASE_URL}/${locale}/${contentType}/${article.slug}`
+					const articlePath = `/${contentType}/${article.slug}`
 
 					// 获取该内容类型的优先级和更新频率
 					const priority = contentTypePriority[contentType] || 0.7
 					const changeFrequency = contentTypeChangeFrequency[contentType] || 'weekly'
 
 					sitemap.push({
-						url: articleUrl,
+						url: localizedUrl(articlePath, locale),
 						lastModified: article.frontmatter.date
 							? new Date(article.frontmatter.date)
-							: new Date(),
+							: lastModified,
 						changeFrequency: changeFrequency,
 						priority: priority,
+						alternates: languageAlternates(articlePath),
 					})
 				}
 			} catch (error) {

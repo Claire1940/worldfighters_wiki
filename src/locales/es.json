@@ -1,28 +1,28 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "World Fighters Wiki - Codes, Units y Guía para Principiantes",
+      "description": "World Fighters Wiki ayuda a los jugadores de Roblox a encontrar nuevos Codes, listas de Units, consejos para principiantes, ubicaciones de jefes, mundos, Passives, Raids y notas de actualización en un solo lugar.",
+      "keywords": "World Fighters, World Fighters Wiki, World Fighters Codes, simulador de lucha de Roblox, StarX Inc",
+      "ogTitle": "World Fighters Wiki - Codes, Units y Guía para Principiantes",
+      "ogDescription": "World Fighters Wiki ayuda a los jugadores de Roblox a seguir Codes, luchadores, mundos, jefes, Passives, Raids, actualizaciones y consejos de progresión para principiantes.",
+      "twitterTitle": "World Fighters Wiki - Codes, Units y Guía para Principiantes",
+      "twitterDescription": "World Fighters Wiki ayuda a los jugadores de Roblox a seguir Codes, luchadores, mundos, jefes, Passives, Raids, actualizaciones y consejos de progresión para principiantes."
     }
   },
   "nav": {
     "codes": "Codes",
-    "guide": "Guide",
-    "resources": "Resources",
+    "guide": "Guía",
+    "resources": "Recursos",
     "units": "Units",
-    "bosses": "Bosses",
-    "quests": "Quests",
+    "bosses": "Jefes",
+    "quests": "Misiones",
     "raids": "Raids"
   },
   "common": {
     "home": "Inicio",
     "more": "Más",
-    "playNow": "Juega en Steam",
+    "playNow": "Jugar en Roblox",
     "switchLanguage": "Cambiar idioma",
     "switchTheme": "Cambiar tema",
     "lightMode": "Modo claro",
@@ -34,899 +34,1814 @@
     "readMore": "Leer más"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "Simulador de lucha de Roblox inspirado en el anime",
+    "title": "World Fighters Wiki",
+    "description": "World Fighters Wiki ayuda a los jugadores de Roblox a seguir Codes gratuitos, luchadores inspirados en el anime, mundos, jefes, Passives, Raids, actualizaciones y consejos de progresión para principiantes.",
+    "getFreeCodesCTA": "Únete a Discord para obtener Codes",
+    "playOnRobloxCTA": "Jugar en Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "1.6M+",
+        "label": "Visitas totales"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "8.7K",
+        "label": "Jugadores activos"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
+        "value": "4.1K",
+        "label": "Favoritos"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "582K+",
+        "label": "Miembros del grupo StarX"
       }
     }
   },
   "gameFeature": {
-    "title": "Jugabilidad de Lucid Blocks",
-    "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
+    "title": "World Fighters Gameplay",
+    "description": "Defeat enemies, collect Cristals, unlock avatars and pets, redeem codes, and push through anime-inspired Roblox worlds with friends."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Todo lo que necesitas para explorar, fabricar y sobrevivir en Lucid Blocks",
+    "title": "World Fighters",
+    "titleHighlight": "Resources",
+    "subtitle": "Jump from Latest Updates into the main World Fighters codes, beginner route, official links, tier list, Secret units, gacha, awakening, resources, potions, keys, roster, zones, raids, quests, gamepasses, and patch notes modules.",
     "cards": [
       {
+        "icon": "ClipboardCheck",
+        "title": "World Fighters Codes",
+        "description": "Working codes, potion rewards, gems, keys, and redemption steps.",
+        "href": "#world-fighters-codes"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Guía para principiantes",
-        "description": "Primeros pasos, exploración y progresión inicial"
+        "title": "World Fighters Beginner Guide",
+        "description": "A first-session route for farming, avatars, pets, and zones.",
+        "href": "#world-fighters-beginner-guide"
       },
       {
-        "icon": "Sparkles",
-        "title": "Fabricación de Apotheosis",
-        "description": "Sistema de fusión libre y recetas iniciales"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Herramientas y armas",
-        "description": "Pico de escarcha, Azrael, __PROTECTED_6a765cb2__ y más"
-      },
-      {
-        "icon": "Package",
-        "title": "Almacenamiento e inventario",
-        "description": "Cubos de suministros, gabinetes y almacenamiento de Qualia"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia y construcción de bases",
-        "description": "Qualia personal y configuración de la base"
-      },
-      {
-        "icon": "Eye",
-        "title": "Regiones del mundo",
-        "description": "Fog Meadow, Ciénaga de la Esencia y más"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Criaturas y enemigos",
-        "description": "Maniquíes, arañas y cómo sobrevivir"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Equipo de movilidad",
-        "description": "__PROTECTED_6a765cb2__, Guante planeador, __PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Cultivo y crecimiento",
-        "description": "Progresión de semillas y recolección de materiales"
+        "icon": "ExternalLink",
+        "title": "World Fighters Discord and Official Links",
+        "description": "Official Roblox, StarX Inc, Discord, and useful player resources.",
+        "href": "#world-fighters-discord-and-official-links"
       },
       {
         "icon": "Star",
-        "title": "Mejores desbloqueos iniciales",
-        "description": "Mejoras prioritarias para la primera hora"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Seguimiento de logros",
-        "description": "Los 19 logros y condiciones de Steam"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Preguntas frecuentes del modo un jugador",
-        "description": "Preguntas sobre plataformas, precio, cooperativo e idiomas"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck y controles",
-        "description": "Configuración de Proton 9.0.4 y consejos para el control"
-      },
-      {
-        "icon": "Settings",
-        "title": "Ajustes y accesibilidad",
-        "description": "Ocultar manos, __PROTECTED_38625270__ y opciones de pantalla"
-      },
-      {
-        "icon": "Clock",
-        "title": "Actualizaciones y notas del parche",
-        "description": "Correcciones recientes y notas de la hoja de ruta"
+        "title": "World Fighters Tier List",
+        "description": "Gamepass value tiers for progression, farming, luck, and utility.",
+        "href": "#world-fighters-tier-list"
       },
       {
         "icon": "Shield",
-        "title": "Solución de cierres inesperados",
-        "description": "Verificación de __PROTECTED_38625270__, ruta de registros y reporte de errores"
+        "title": "World Fighters Secret Units Guide",
+        "description": "Secret Luffy, Secret Gacha, luck boosts, keys, and late-game chase planning.",
+        "href": "#world-fighters-secret-units-guide"
+      },
+      {
+        "icon": "Package",
+        "title": "World Fighters Gacha and Star Guide",
+        "description": "How stars, banners, gems, rolls, and luck sessions connect.",
+        "href": "#world-fighters-gacha-and-star-guide"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "World Fighters Awakening Guide",
+        "description": "Permanent growth milestones for power, damage, zones, and Secret hunts.",
+        "href": "#world-fighters-awakening-guide"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "World Fighters Crystals and Gems Guide",
+        "description": "Resource sources, spending priorities, potions, keys, and best-use timing.",
+        "href": "#world-fighters-crystals-and-gems-guide"
+      },
+      {
+        "icon": "Download",
+        "title": "World Fighters Potions Guide",
+        "description": "Power, Crystal, Damage, and Luck Potion timing for farming and pulls.",
+        "href": "#world-fighters-potions-guide"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "World Fighters Keys and Tokens Guide",
+        "description": "Dragon Balls Keys, Dragon Ball Tokens, Saiyan Keys, gems, and mount rewards.",
+        "href": "#world-fighters-keys-and-tokens-guide"
+      },
+      {
+        "icon": "Users",
+        "title": "World Fighters Avatars and Pets Guide",
+        "description": "Roster priorities for avatars, exclusive pets, Crystals, Gems, and shared challenges.",
+        "href": "#world-fighters-avatars-and-pets-guide"
+      },
+      {
+        "icon": "Home",
+        "title": "World Fighters Zones Progression Guide",
+        "description": "Zone 1 through Zone 6 checkpoints, recommended boosts, and farming goals.",
+        "href": "#world-fighters-zones-progression-guide"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "World Fighters Raids Guide",
+        "description": "Tempest Invasion steps, Slime Keys, upgrades, wave goals, and F2P raid planning.",
+        "href": "#world-fighters-raids-guide"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "World Fighters Side Quests and Challenges",
+        "description": "Main progress, side objectives, co-op challenges, raids, and hidden challenge rewards.",
+        "href": "#world-fighters-side-quests-and-challenges"
+      },
+      {
+        "icon": "Settings",
+        "title": "World Fighters Gamepasses Guide",
+        "description": "Robux pass priorities for farming, damage, luck, storage, and summon convenience.",
+        "href": "#world-fighters-gamepasses-guide"
+      },
+      {
+        "icon": "Clock",
+        "title": "World Fighters Updates and Patch Notes",
+        "description": "Release updates, Tempest Federation, raid changes, QoL improvements, and code waves.",
+        "href": "#world-fighters-updates-and-patch-notes"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Guía para principiantes de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "Comienza aprendiendo cómo se conectan la exploración, la fusión y la progresión. Lucid Blocks premia la experimentación, por lo que el progreso temprano proviene de recolectar materiales inusuales, probar combinaciones y desbloquear tu Qualia personal.",
+    "worldFightersCodes": {
+      "id": "world-fighters-codes",
+      "eyebrow": "Codes y recompensas gratuitas",
+      "title": "Códigos de World Fighters",
+      "subtitle": "Canjea Códigos de World Fighters para obtener pociones, gemas, Dragon Balls Keys, Saiyan Keys y recompensas especiales. Comienza con los códigos de Release Pt3 más recientes antes de reclamar los códigos de hitos antiguos.",
+      "intro": "Los Códigos de World Fighters se lanzan en torno a actualizaciones, hitos de visitas, hitos de 'me gusta', hitos de CCU y compensaciones por cierre. Las recompensas iniciales más útiles son Power Potion, Crystal Potion, Damage Potion, Luck Potion, gemas y llaves que te ayudan a desbloquear avatares, mascotas y progresar más rápido.",
+      "displayType": "code-cards",
+      "codes": [
+        {
+          "code": "8KCCUISAWESOME!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 250 gemas y 1 Dragon Balls Key",
+          "tag": "Release Pt3",
+          "priority": "newest"
+        },
+        {
+          "code": "COOL1.2MVISITS!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "newest"
+        },
+        {
+          "code": "YAY5KLIKES!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "Like Milestone",
+          "priority": "newest"
+        },
+        {
+          "code": "RELEASEQOL",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion y 100 gemas",
+          "tag": "QoL Update",
+          "priority": "newest"
+        },
+        {
+          "code": "900KVISITSTHANKYOU!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "high"
+        },
+        {
+          "code": "ALREADY1MVISITS!?",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "high"
+        },
+        {
+          "code": "SPLENDID800KVISITS!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "high"
+        },
+        {
+          "code": "THXFOR4KLIKES",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "Like Milestone",
+          "priority": "high"
+        },
+        {
+          "code": "THXFOR3KFAVORITES!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "Favorite Milestone",
+          "priority": "high"
+        },
+        {
+          "code": "RELEASEPT2",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 5 Dragon Balls Keys",
+          "tag": "Release Pt2",
+          "priority": "high"
+        },
+        {
+          "code": "RELEASEPATCH",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 5 Dragon Balls Keys",
+          "tag": "Patch Reward",
+          "priority": "high"
+        },
+        {
+          "code": "SRRY4SHUTDOWN",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion y 1 Saiyan Key",
+          "tag": "Shutdown Compensation",
+          "priority": "high"
+        },
+        {
+          "code": "SRRY4SHUTDOWN2",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion y 1 Saiyan Key",
+          "tag": "Shutdown Compensation",
+          "priority": "high"
+        },
+        {
+          "code": "SRRY4SHUTDOWN3",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion y 1 Saiyan Key",
+          "tag": "Shutdown Compensation",
+          "priority": "high"
+        },
+        {
+          "code": "THANKS1KLIKES",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 200 gemas y 1 Dragon Balls Key",
+          "tag": "Like Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "100KVISITSONCHAMBER!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "TIOGADIHIT!",
+          "status": "working",
+          "reward": "Montura Gadi Jetpack",
+          "tag": "Special Reward",
+          "priority": "medium"
+        },
+        {
+          "code": "EVENT2.5K!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion y 500 gemas",
+          "tag": "Event Code",
+          "priority": "medium"
+        },
+        {
+          "code": "RELEASE",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion y 50 gemas",
+          "tag": "Launch Code",
+          "priority": "medium"
+        },
+        {
+          "code": "2KCCU!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "CCU Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "THANKYOU3KCCU",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "CCU Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "4KONCHAMBER!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "CCU Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "6KTHXSOMUCH",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "CCU Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "7KISALOT!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "CCU Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "ALREADY5K?",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "CCU Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "TY2KLIKES!!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "Like Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "THX3KLIKES!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "Like Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "THXFOR200KVISITS!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "300KVISITSTHANKYOU!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "400KVISITSINCREDIBLE",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "WOW500KVISITS!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "600KVISITSYAY!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "700KVISITSINGAME",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "Visit Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "1KFAVORITESTHX!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "Favorite Milestone",
+          "priority": "medium"
+        },
+        {
+          "code": "2KFAVORITESTHANKYOU!",
+          "status": "working",
+          "reward": "1 Power Potion, 1 Crystal Potion, 1 Damage Potion, 1 Luck Potion, 100 gemas y 1 Dragon Balls Key",
+          "tag": "Favorite Milestone",
+          "priority": "medium"
+        }
+      ],
+      "redeemGuide": {
+        "label": "Pasos para canjear Códigos de World Fighters",
+        "steps": [
+          "Inicia World Fighters en Roblox.",
+          "Presiona el botón Shop en el lado izquierdo de la pantalla.",
+          "Deslízate hasta el cuadro de codes cerca de la parte inferior del menú Shop.",
+          "Pega un code exactamente como se muestra y presiona Canjear."
+        ]
+      },
+      "summary": [
+        "Canjea primero los más recientes códigos de Release Pt3 y de hitos.",
+        "Las recompensas de pociones son más útiles mientras eliminas enemigos activamente.",
+        "Las llaves y gemas ayudan a acelerar los desbloqueos iniciales, avatares, mascotas e intentos de gacha."
+      ]
+    },
+    "worldFightersBeginnerGuide": {
+      "id": "world-fighters-beginner-guide",
+      "eyebrow": "Ruta para Principiantes",
+      "title": "Guía para Principiantes de World Fighters",
+      "subtitle": "Aprende el ciclo inicial: derrota enemigos, recolecta Cristals, desbloquea avatares y mascotas, usa Codes y avanza hacia nuevos mundos. Esta ruta está diseñada para jugadores que comienzan desde su primera sesión.",
+      "intro": "World Fighters es un simulador de Roblox inspirado en el anime donde los jugadores derrotan enemigos, recolectan Cristals, desbloquean avatares y mascotas, y completan desafíos con amigos. Los nuevos jugadores deben enfocarse en canjear Codes, mejorar el daño y el poder, abrir recompensas iniciales y completar misiones de mapa que desbloquean la siguiente zona.",
+      "displayType": "step-by-step",
       "steps": [
         {
-          "title": "Explora antes de comprometerte",
-          "description": "Camina hacia el exterior, mina bloques comunes y conserva cualquier botín extraño que encuentres. El progreso inicial se trata menos de misiones fijas y más de descubrir en qué se pueden convertir los materiales."
+          "step": 1,
+          "title": "Comienza desde la experiencia oficial de Roblox",
+          "goal": "Únete a World Fighters desde la página oficial del juego de StarX Inc.",
+          "details": "El juego es compatible con PC, móviles, tabletas y consolas, por lo que los nuevos jugadores pueden comenzar en cualquier dispositivo principal de Roblox. Usa la página oficial primero para evitar copias falsas y experiencias clonadas desactualizadas.",
+          "keyResources": [
+            "Página oficial del juego",
+            "Página del desarrollador StarX Inc"
+          ]
         },
         {
-          "title": "Desbloquea tu Qualia personal pronto",
-          "description": "Tu Qualia personal es uno de los hitos iniciales más importantes. Te brinda un lugar confiable para reagruparte y construir a su alrededor."
+          "step": 2,
+          "title": "Canjea Codes antes de farmear",
+          "goal": "Reclama pociones, gemas y llaves antes de luchar contra enemigos más fuertes.",
+          "details": "Los Codes otorgan potenciadores iniciales como Power Potion, Crystal Potion, Damage Potion, Luck Potion, gemas, Dragon Balls Keys y Saiyan Keys. Canjea primero los Codes más recientes de Release PT3 y de hitos, ya que los Codes de actualización y compensación son los regalos de mayor prioridad.",
+          "keyResources": [
+            "Power Potion",
+            "Crystal Potion",
+            "Damage Potion",
+            "Luck Potion",
+            "Gemas",
+            "Llaves"
+          ]
         },
         {
-          "title": "Usa Osmio para progresar rápido al inicio",
-          "description": "El Osmio es uno de los materiales iniciales más útiles. Una ruta inicial popular es combinar Osmio con palos para fabricar un Pico de Escarcha para minar rápido."
+          "step": 3,
+          "title": "Derrota enemigos para recolectar Cristals",
+          "goal": "Construye tu primer ciclo de progresión en torno al farmeo de enemigos.",
+          "details": "World Fighters describe su ciclo principal como derrotar enemigos para recolectar Cristals. Usa los potenciadores iniciales cuando estés farmeando activamente para que tus bonificaciones de poder, daño, suerte y obtención de cristales se conviertan en un progreso más rápido.",
+          "keyResources": [
+            "Cristals",
+            "Botín de enemigos",
+            "Potenciadores de pociones"
+          ]
         },
         {
-          "title": "Registra las buenas fusiones",
-          "description": "Lleva un registro de las combinaciones exitosas en tu diario. Lucid Blocks tiene muchas rutas de fusión posibles, por lo que anotar los resultados útiles ahorra mucho tiempo."
+          "step": 4,
+          "title": "Desbloquea avatares y mascotas",
+          "goal": "Usa los recursos obtenidos para expandir tu alineación.",
+          "details": "Los avatares y mascotas son parte de la ruta principal de desbloqueo en World Fighters. Los nuevos jugadores deben tratar las gemas iniciales, Cristals, estrellas y tiradas de gacha como herramientas de progresión en lugar de gastarlo todo al azar.",
+          "keyResources": [
+            "Avatares",
+            "Mascotas",
+            "Estrellas",
+            "Tiradas de gacha"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Completa misiones de mapa para desbloquear nuevas zonas",
+          "goal": "Completa el objetivo del mapa actual y muévete al siguiente mundo.",
+          "details": "Progresar a un nuevo mapa se basa en completar la misión principal del área actual y obtener la llave requerida. Las insignias de zona como Zone 1, Zone 2, Zone 3, Zone 4, Zone 5 y Zone 6 facilitan el seguimiento del progreso.",
+          "keyResources": [
+            "Misiones de mapa",
+            "Llaves de zona",
+            "Insignias de zona"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Usa amigos y recompensas compartidas",
+          "goal": "Juega con amigos para terminar los desafíos de manera más eficiente.",
+          "details": "World Fighters permite jugar con amigos y obtener recompensas compartidas en los modos de juego. El juego en grupo es útil cuando los enemigos tardan más en ser derrotados, cuando los desafíos requieren constancia o cuando quieres acelerar las sesiones de farmeo repetitivas.",
+          "keyResources": [
+            "Desafíos cooperativos",
+            "Recompensas compartidas",
+            "Farmeo en equipo"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Sigue los hitos iniciales",
+          "goal": "Usa las insignias como una lista de verificación sencilla para la progresión inicial.",
+          "details": "Los hitos de progresión inicial incluyen Welcome to World Fighters, First Star Open, First Gacha Roll, First Secret Unit, First Secret Gacha, First Awakening e insignias de superación de zona. Estos hitos muestran si tu cuenta aún está en la fase inicial o lista para un farmeo más profundo.",
+          "keyResources": [
+            "First Star Open",
+            "First Gacha Roll",
+            "First Awakening",
+            "Progreso de zona"
+          ]
         }
       ],
-      "quickTips": [
-        "Apotheosis no requiere una lista de recetas fija.",
-        "La generación de mundo infinito significa que moverte hacia arriba o hacia lo profundo puede revelar materiales completamente diferentes.",
-        "Las herramientas de movimiento y el equipo de utilidad se convierten en una gran mejora de calidad de vida una vez que comienzas a desbloquearlos.",
-        "Perderse al principio es normal, pero las herramientas útiles, el almacenamiento y las opciones de movimiento crecen como bola de nieve rápidamente una vez que tus primeras buenas fusiones empiezan a funcionar."
+      "checklistTitle": "Prioridades para Principiantes de World Fighters",
+      "checklist": [
+        "Comienza desde la experiencia oficial de Roblox.",
+        "Canjea Codes antes de las sesiones largas de farmeo.",
+        "Usa potenciadores mientras derrotas enemigos para obtener Cristals.",
+        "Gasta los recursos iniciales en avatares, mascotas, estrellas y progreso de gacha.",
+        "Completa misiones de mapa para avanzar a través de nuevas zonas."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Artesanía de Apotheosis en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "Apotheosis es el sistema de fusión sin restricciones del juego. En lugar de memorizar un libro de recetas tradicional, combinas materiales, observas el resultado y construyes tu propio conocimiento de artesanía con el tiempo.",
-      "cards": [
+    "worldFightersOfficialLinks": {
+      "id": "world-fighters-discord-and-official-links",
+      "eyebrow": "Enlaces Oficiales",
+      "title": "World Fighters Discord y Enlaces Oficiales",
+      "subtitle": "Usa estos enlaces para jugar World Fighters, unirte a la comunidad de StarX Inc, encontrar el Discord y consultar estadísticas del juego. Los enlaces oficiales están separados de las páginas de Codes y analíticas de terceros.",
+      "intro": "World Fighters es publicado en Roblox por StarX Inc. La experiencia oficial de Roblox y la comunidad de StarX Inc son los puntos de partida principales, mientras que la invitación de Discord se usa para actualizaciones, Codes y discusión entre jugadores.",
+      "displayType": "card-list",
+      "links": [
         {
-          "name": "Fusión de forma libre",
-          "description": "Apotheosis te permite fusionar diferentes objetos sin necesidad de seguir una lista de recetas fija."
+          "name": "Experiencia de World Fighters en Roblox",
+          "type": "Página oficial del juego",
+          "href": "https://www.roblox.com/games/95630541662383/World-Fighters",
+          "useCase": "Juega el juego, mira la pestaña de la Tienda, consulta los Servidores e inicia World Fighters desde la página oficial de Roblox.",
+          "status": "official"
         },
         {
-          "name": "Múltiples resultados útiles",
-          "description": "Diferentes materiales suelen orientarse hacia ciertos resultados. Los descubrimientos de la comunidad muestran que insumos similares pueden derivar en herramientas prácticas, almacenamiento o mejoras de combate."
+          "name": "Comunidad de StarX Inc en Roblox",
+          "type": "Comunidad oficial de desarrolladores",
+          "href": "https://www.roblox.com/communities/33910482/StarX-Inc",
+          "useCase": "Sigue al grupo de desarrolladores detrás de World Fighters y experiencias relacionadas de Roblox.",
+          "status": "official"
         },
         {
-          "name": "Artesanía basada en el diario",
-          "description": "La mejor manera de aprender Apotheosis es registrar tus combinaciones exitosas. Tu diario se convertirá rápidamente en tu propia referencia de artesanía."
+          "name": "Discord de World Fighters Simulator",
+          "type": "Invitación oficial de Discord",
+          "href": "https://discord.gg/worldfighters",
+          "useCase": "Únete al Discord de World Fighters para avisos de actualización, nuevos lanzamientos de Codes, chat de la comunidad y anuncios del juego.",
+          "status": "official"
         },
         {
-          "name": "Fusiones iniciales probadas por la comunidad",
-          "description": "Ejemplos iniciales populares incluyen Osmio más Palo para un Pico de Escarcha, Palo más Apéndice de Tungsteno para Azrael, y Azrael más Magnetita para el Estoque de Zarcillo."
+          "name": "Página de World Fighters en Rolimon's",
+          "type": "Analíticas de juegos de terceros",
+          "href": "https://www.rolimons.com/game/95630541662383",
+          "useCase": "Consulta jugadores en vivo, visitas, calificación, favoritos, promedio de tiempo de juego, pico de CCU, gamepasses, emblemas y el cronograma de actualizaciones.",
+          "status": "third-party"
+        },
+        {
+          "name": "World Fighters Codes en Pocket Tactics",
+          "type": "Seguidor de Codes de terceros",
+          "href": "https://www.pockettactics.com/world-fighters-codes",
+          "useCase": "Consulta una lista de Codes actualizada frecuentemente con recompensas e instrucciones de canje.",
+          "status": "third-party"
+        },
+        {
+          "name": "World Fighters Codes en Try Hard Guides",
+          "type": "Seguidor de Codes de terceros",
+          "href": "https://tryhardguides.com/world-fighters-codes/",
+          "useCase": "Consulta Codes funcionales, Codes expirados, pasos de canje y consejos para la resolución de problemas con Codes.",
+          "status": "third-party"
+        },
+        {
+          "name": "World Fighters Codes en Pro Game Guides",
+          "type": "Seguidor de Codes de terceros",
+          "href": "https://progameguides.com/roblox/world-fighters-simulator-codes/",
+          "useCase": "Consulta Codes activos, recompensas de Codes, pasos de canje y referencias a enlaces oficiales de la comunidad.",
+          "status": "third-party"
+        }
+      ]
+    },
+    "worldFightersTierList": {
+      "id": "world-fighters-tier-list",
+      "eyebrow": "Mejores opciones por su valor",
+      "title": "World Fighters Tier List",
+      "subtitle": "Clasifica los gamepasses de World Fighters según su valor de progresión temprana, velocidad de farmeo, conveniencia de gacha y utilidad a largo plazo. Esta tier list se enfoca en nombres de gamepasses reales y precios visibles en los datos de seguimiento públicos de Roblox.",
+      "intro": "World Fighters tiene un amplio conjunto de gamepasses que cubren potenciadores de progresión directa, aumentos de suerte, velocidad de apertura, velocidad de giro, almacenamiento, VIP y utilidad. Para la mayoría de los jugadores, el poder de farmeo directo y la ganancia de cristales son lo primero, seguidos de la suerte y la velocidad de apertura, y luego el almacenamiento y la conveniencia situacional.",
+      "displayType": "tier-grid",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Mejor valor de progresión",
+          "entries": [
+            {
+              "name": "2x de Daño",
+              "price": "299 Robux",
+              "role": "Escalado de daño",
+              "whyItMatters": "Mejora directamente la velocidad para derrotar enemigos, convirtiéndolo en una de las compras de progresión más fuertes para el inicio y mitad del juego."
+            },
+            {
+              "name": "2x de Poder",
+              "price": "299 Robux",
+              "role": "Escalado de poder",
+              "whyItMatters": "Mejora el crecimiento de la fuerza base y ayuda a los jugadores a avanzar más rápido contra enemigos más fuertes."
+            },
+            {
+              "name": "2x de Cristales",
+              "price": "299 Robux",
+              "role": "Farmeo de recursos",
+              "whyItMatters": "Potencia el recurso principal de farmeo utilizado en el ciclo de progresión de World Fighters."
+            },
+            {
+              "name": "Drops Extra",
+              "price": "399 Robux",
+              "role": "Eficiencia de farmeo",
+              "whyItMatters": "Añade valor al farmeo repetido de enemigos y a las largas sesiones de grind."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Gran valor en gacha y desbloqueos",
+          "entries": [
+            {
+              "name": "Suerte",
+              "price": "99 Robux",
+              "role": "Aumento de suerte inicial",
+              "whyItMatters": "Opción de suerte de bajo costo para jugadores que quieren un mejor valor al girar sin comprar primero los pases de suerte más grandes."
+            },
+            {
+              "name": "Súper Suerte",
+              "price": "199 Robux",
+              "role": "Mejor aumento de suerte",
+              "whyItMatters": "Una mejora de suerte más fuerte para jugadores que abren estrellas, tiran en el gacha y buscan mejores desbloqueos."
+            },
+            {
+              "name": "Mega Suerte",
+              "price": "399 Robux",
+              "role": "Aumento de suerte de alto nivel",
+              "whyItMatters": "Ideal para jugadores que tiran con frecuencia y quieren una mejora premium centrada en la suerte."
+            },
+            {
+              "name": "Equipamiento Extra",
+              "price": "399 Robux",
+              "role": "Poder de alineación",
+              "whyItMatters": "El valor del equipamiento extra aumenta a medida que el jugador desbloquea avatares, mascotas y Units más fuertes."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Velocidad y conveniencia útiles",
+          "entries": [
+            {
+              "name": "Apertura Rápida",
+              "price": "299 Robux",
+              "role": "Velocidad de apertura",
+              "whyItMatters": "Útil para jugadores que abren estrellas o recompensas repetidamente y quieren menos tiempo de espera."
+            },
+            {
+              "name": "Apertura Múltiple",
+              "price": "299 Robux",
+              "role": "Apertura en lote",
+              "whyItMatters": "Mejora las sesiones de apertura repetidas y combina bien con las mejoras centradas en la suerte."
+            },
+            {
+              "name": "Giro Rápido",
+              "price": "399 Robux",
+              "role": "Velocidad de giro",
+              "whyItMatters": "Ahorra tiempo durante acciones repetidas basadas en giros."
+            },
+            {
+              "name": "Giro Múltiple",
+              "price": "399 Robux",
+              "role": "Giros en lote",
+              "whyItMatters": "Útil para jugadores que pasan mucho tiempo en los sistemas de giro y quieren un ciclo más rápido."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Opciones de comodidad",
+          "entries": [
+            {
+              "name": "Almacenamiento Pequeño",
+              "price": "49 Robux",
+              "role": "Almacenamiento de bajo costo",
+              "whyItMatters": "Opción económica de calidad de vida para nuevos jugadores que quieren espacio extra desde el principio."
+            },
+            {
+              "name": "Almacenamiento Grande",
+              "price": "99 Robux",
+              "role": "Expansión de almacenamiento",
+              "whyItMatters": "Mejor para jugadores que coleccionan más avatares, mascotas y desbloqueos con el tiempo."
+            },
+            {
+              "name": "VIP",
+              "price": "399 Robux",
+              "role": "Conveniencia premium",
+              "whyItMatters": "Una opción premium más amplia para jugadores que quieren beneficios VIP en lugar de un solo potenciador específico."
+            }
+          ]
+        },
+        {
+          "tier": "D",
+          "label": "Situacional o prioridad tardía",
+          "entries": [
+            {
+              "name": "Estrella Remota",
+              "price": "499 Robux",
+              "role": "Utilidad remota",
+              "whyItMatters": "Más útil después de que los jugadores entienden el ciclo de estrellas y aperturas y buscan conveniencia remota."
+            },
+            {
+              "name": "Espada Dual",
+              "price": "399 Robux",
+              "role": "Utilidad específica para builds",
+              "whyItMatters": "Es mejor tratarlo como una compra tardía después de los potenciadores principales de farmeo, daño, poder y recursos."
+            }
+          ]
         }
       ],
-      "milestones": [
-        "Fusionar un objeto",
-        "Fusionar una alimaña",
-        "Fusionar un artefacto divino"
+      "buyingNotes": [
+        "Prioriza los potenciadores de farmeo directo antes que la conveniencia situacional.",
+        "Los pases de suerte ganan valor cuando estás abriendo estrellas o buscando desbloqueos raros.",
+        "El almacenamiento y la utilidad remota son opciones de comodidad después de los potenciadores de progresión principales."
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Herramientas y armas de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mezcla equipo de utilidad oficial con armas iniciales descubiertas por la comunidad. La mejor configuración suele ser una mezcla de minería rápida, travesía segura y una opción de combate confiable.",
+    "worldFightersSecretUnitsGuide": {
+      "id": "world-fighters-secret-units-guide",
+      "eyebrow": "Secret Units",
+      "title": "Guía de Secret Units de World Fighters",
+      "subtitle": "Descubre por qué las Secret Units son importantes, cómo encaja Secret Luffy en el progreso del juego avanzado y qué recursos te ayudan a buscar pulls raros de manera más eficiente.",
+      "intro": "Las Secret Units son uno de los objetivos a largo plazo más importantes en World Fighters porque se encuentran en la cima de la colección y se conectan directamente con las tiradas de gacha, potenciadores de suerte, llaves, stars y el progreso de despertar. Crea primero una rutina de recursos, luego usa gemas, recompensas de suerte y herramientas de apertura rápida cuando estés listo para buscar pulls raros.",
+      "displayType": "card-list",
       "items": [
         {
-          "name": "Pico de Escarcha",
-          "type": "Herramienta de minería",
-          "description": "Un pico inicial rápido y económico hecho de Osmio y Palo. Los jugadores lo usan para acelerar la recolección inicial de materiales."
+          "title": "Objetivo: Secret Luffy",
+          "tag": "Búsqueda de máxima rareza",
+          "description": "Secret Luffy es una de las principales Units de búsqueda de alto nivel en World Fighters. Los jugadores que busquen a Secret Luffy deben centrarse en el farmeo de recursos, el acceso al gacha, los potenciadores de suerte y el progreso del juego avanzado antes de gastar gemas en exceso."
         },
         {
-          "name": "Azrael",
-          "type": "Arma inicial",
-          "description": "Una ruta práctica para un arma inicial fabricada con un Palo y un Apéndice de Tungsteno."
+          "title": "Insignia de la primera Secret Unit",
+          "tag": "Hito de colección rara",
+          "description": "La insignia de la primera Secret Unit es un hito de colección importante que se sitúa mucho más allá de las acciones iniciales, como abrir stars o tirar en el gacha. Considéralo un objetivo a largo plazo respaldado por rutas de farmeo más sólidas."
         },
         {
-          "name": "Estoque de Zarcillo",
-          "type": "Arma mejorada",
-          "description": "Una continuación más fuerte creada al combinar Azrael con Magnetita. Es una de las rutas de combate inicial-media más útiles compartidas por los jugadores."
+          "title": "Insignia del primer Secret Gacha",
+          "tag": "Objetivo de pulls para el juego avanzado",
+          "description": "El primer Secret Gacha pertenece a la etapa de búsqueda del juego avanzado. Aborda el Secret Gacha una vez que tu daño, recursos, acceso a tiradas y apoyo de suerte sean lo suficientemente estables para sesiones de pulls repetidas."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de travesía oficial que mejora enormemente el movimiento y la exploración vertical."
+          "title": "Acumulación de potenciadores de suerte",
+          "tag": "Luck Potion y Gamepasses",
+          "description": "Los Codes suelen otorgar Luck Potions, mientras que la tienda del juego incluye potenciadores de Luck, Super Luck y Mega Luck. Estos son más valiosos cuando se usan en tiradas de banners, sesiones de gacha, apertura de stars o intentos de Secret Units."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de movimiento oficial que ayuda a cubrir terreno de forma más segura y eficiente."
+          "title": "Llaves y apoyo de recursos",
+          "tag": "Dragon Balls Key y Saiyan Key",
+          "description": "Muchos Codes activos recompensan con Dragon Balls Keys, Saiyan Keys, gemas y pociones. Estas recompensas reducen la presión del farmeo inicial y ayudan a los jugadores a llegar más rápido a zonas más fuertes y mejores oportunidades de pulls."
         },
         {
-          "name": "Varita de Bola",
-          "type": "Arma de utilidad",
-          "description": "Un objeto de utilidad a distancia oficial que expande tus opciones de combate y acertijos."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de travesía",
-          "description": "Un objeto de utilidad oficial para llegar a áreas que de otro modo ralentizarían la exploración."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Destacados oficialmente como parte del conjunto de herramientas principal y útiles para atravesar amenazas u obstáculos."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Almacenamiento e inventario de Lucid Blocks",
-      "displayType": "solutionCards",
-      "intro": "La presión del inventario comienza temprano en Lucid Blocks, por lo que construir almacenamiento debería ser uno de tus primeros objetivos. Ya destacan varias soluciones probadas por jugadores reales.",
-      "solutions": [
-        {
-          "name": "Cubo de Almacenamiento",
-          "role": "Almacenamiento tipo cofre",
-          "description": "Los Cubos de Almacenamiento son una de las soluciones prácticas más tempranas y los jugadores los tratan como el contenedor principal tipo cofre del juego."
-        },
-        {
-          "name": "Gabinete",
-          "role": "Almacenamiento de base simple",
-          "description": "Los gabinetes son otra opción de almacenamiento confirmada. Una receta inicial compartida usa 1 de Madera cortada y 1 de Cuerda."
-        },
-        {
-          "name": "Qualia personal",
-          "role": "Centro de almacenamiento a largo plazo",
-          "description": "Una vez desbloqueada, tu Qualia personal se convierte en un lugar natural para organizar materiales, fabricar en paz y expandir la configuración de tu base."
-        },
-        {
-          "name": "Seguimiento en el diario",
-          "role": "Eficiencia de inventario",
-          "description": "Registrar combinaciones útiles en tu diario reduce el desperdicio de materiales y facilita mucho la gestión del inventario."
+          "title": "Jefe secreto y ruta de progreso",
+          "tag": "Farmeo de juego avanzado",
+          "description": "La caza de Secret Units funciona mejor después de que los jugadores tengan una base de daño estable, más zonas desbloqueadas y una ruta repetible para jefes u objetivos de alto valor. Trata la caza de Secret Units como una capa de progreso, no como el primer lugar donde gastar cada recompensa."
         }
       ],
-      "managementTips": [
-        "Prioriza una opción de almacenamiento confiable antes de acumular botines raros.",
-        "Construye alrededor de tu Qualia personal una vez que esté disponible.",
-        "Mantén separados los materiales de artesanía, las herramientas de combate y el equipo de movimiento para que las mejoras sean más fáciles de planificar.",
-        "Usa tu diario como parte de la gestión del inventario, no solo para descubrir recetas."
+      "routineTitle": "Rutina secreta de World Fighters",
+      "routine": [
+        "Canjea Codes y acumula gemas, Luck Potions y llaves antes de largas sesiones de pulls.",
+        "Avanza en las zonas y el progreso de despertar hasta que las rutas de farmeo sean lo suficientemente rápidas para mantener tiradas repetidas.",
+        "Gasta los potenciadores de pulls raros durante sesiones planificadas de gacha o stars en lugar del farmeo inicial casual."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia y construcción de bases en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "La Qualia es uno de los hitos de progresión más importantes en Lucid Blocks. Te brinda un espacio personal para reagruparte, almacenar materiales y convertir gradualmente el progreso de exploración en una verdadera base de operaciones.",
-      "cards": [
-        {
-          "name": "Qualia personal",
-          "description": "Desbloquear una Qualia es un hito inicial que te da un lugar más confiable al cual regresar mientras exploras el mundo exterior."
-        },
-        {
-          "name": "Construcción centrada en el almacenamiento",
-          "description": "Muchos jugadores comienzan usando su Qualia como un centro de almacenamiento antes de convertirla en una base más grande con espacios organizados para artesanía y construcción."
-        },
-        {
-          "name": "Construcción creativa de hogares",
-          "description": "Lucid Blocks admite la construcción creativa, y los jugadores ya están usando los espacios de Qualia para crear casas y diseños personalizados."
-        },
-        {
-          "name": "Centro de progresión",
-          "description": "Una base sólida te ayuda a separar el botín de exploración, los materiales de artesanía, las semillas, las herramientas y el equipo de movilidad para planificar mejor tus próximas mejoras."
-        }
-      ],
-      "highlights": [
-        "Entrar en una qualia",
-        "Almacenar materiales de forma segura",
-        "Expandir de la utilidad a la decoración",
-        "Usar el espacio de la base para apoyar la artesanía y el cultivo"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Regiones del mundo de Lucid Blocks",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza generación de mundo infinito, por lo que los jugadores siguen descubriendo nuevos entornos y estructuras. Algunos lugares con nombre ya aparecen en los logros y en las discusiones de la comunidad.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Área destacada por la comunidad",
-          "description": "Fog Meadow ya es conocida entre los jugadores como un área tensa asociada con amenazas ocultas y encuentros peligrosos."
-        },
-        {
-          "name": "Línea ley de Tiamana",
-          "type": "Punto de referencia de descubrimiento",
-          "description": "La línea ley de tiamana es lo suficientemente importante como para tener su propio hito de logro, lo que la convierte en uno de los descubrimientos mundiales con nombre más claros hasta ahora."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Espacio de construcción",
-          "description": "Los jugadores ya están usando Clonaqualia como un lugar para construir casas, almacenar materiales y experimentar con diseños más permanentes."
-        },
-        {
-          "name": "Ciénaga de Esencia",
-          "type": "Área de recolección",
-          "description": "La Ciénaga de Esencia está siendo compartida por los jugadores como una ubicación útil para recolectar recursos, especialmente para luchar contra slimes y ganar experiencia."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas y enemigos de Lucid Blocks",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mezcla criaturas surreales con peligros reales. Las descripciones oficiales y las publicaciones de la comunidad apuntan a un mundo lleno de vida extraña, amenazas hostiles y algunos encuentros destacados que los jugadores recuerdan rápidamente.",
-      "creatures": [
-        {
-          "name": "Maniquíes",
-          "role": "Enemigo hostil",
-          "description": "Los maniquíes son uno de los enemigos nombrados oficialmente en el mundo y parte del catálogo de amenazas surreales del juego."
-        },
-        {
-          "name": "Geles blandos",
-          "role": "Enemigo hostil",
-          "description": "Los geles blandos son otro tipo de enemigo nombrado oficialmente y ayudan a definir el extraño estilo biológico del juego."
-        },
-        {
-          "name": "Seres de dimensiones superiores",
-          "role": "Enemigo hostil",
-          "description": "Estos seres se presentan como parte del catálogo de enemigos más abstractos e inquietantes del mundo."
-        },
-        {
-          "name": "Arañas colosales",
-          "role": "Amenaza mayor",
-          "description": "Las arañas son uno de los enemigos más temidos de inmediato en las discusiones de la comunidad y son claramente un peligro memorable."
-        },
-        {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura con nombre",
-          "description": "__PROTECTED_26ee183b__ es lo suficientemente notable como para tener su propio logro, lo que lo convierte en uno de los encuentros con criaturas nombradas más claros del juego."
-        },
-        {
-          "name": "Alimañas adorables",
-          "role": "Criatura interactuable",
-          "description": "Las alimañas no solo son parte de la progresión de fusión, también se les puede cambiar el nombre, dándoles un papel más personal que a los enemigos estándar."
-        },
-        {
-          "name": "Criatura blasfema",
-          "role": "Amenaza de élite",
-          "description": "La criatura blasfema está vinculada a un logro de combate dedicado, lo que la marca como un encuentro enemigo significativo."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Equipo de movilidad de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Las mejoras de movimiento son uno de los mayores saltos en la calidad de vida en Lucid Blocks. Una vez que desbloqueas tus primeras herramientas de travesía, la exploración se vuelve más rápida, segura y mucho más gratificante.",
+    "worldFightersGachaAndStarGuide": {
+      "id": "world-fighters-gacha-and-star-guide",
+      "eyebrow": "Gacha y Stars",
+      "title": "Guía de Gacha y Stars de World Fighters",
+      "subtitle": "Entiende cómo se conectan Star Open, Gacha Roll, banners, gemas y recompensas de suerte antes de gastar tus recursos.",
+      "intro": "World Fighters utiliza un ciclo familiar de simulador de anime: farmear recursos, abrir stars o tirar en el gacha, mejorar tu colección y luego avanzar a zonas más fuertes. Las gemas se usan para los banners del juego, mientras que las stars, las tiradas de gacha, las Luck Potions y las mejoras de velocidad de apertura determinan qué tan eficientemente buscas mejores avatars, mascotas y Units raras.",
+      "displayType": "step-by-step",
       "items": [
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de travesía",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y tiene su propio logro dedicado."
+          "step": 1,
+          "title": "Reclama primero las recompensas de los Codes",
+          "action": "Canjea Codes activos de World Fighters antes de tirar, ya que muchos Codes otorgan gemas, pociones y llaves.",
+          "whyItMatters": "Los Codes pueden proporcionar gemas para banners, Luck Potions para pulls raros y llaves como Dragon Balls Keys o Saiyan Keys, brindando a los nuevos jugadores un inicio más rápido."
         },
         {
-          "name": "Guante planeador",
-          "type": "Movilidad aérea",
-          "description": "El guante planeador permite un viaje mucho más fluido y es otro hito importante de progresión con su propio logro."
+          "step": 2,
+          "title": "Abre tu primera Star pronto",
+          "action": "Usa el sistema de Stars una vez que tengas suficientes recursos y quieras comenzar a construir tu colección de avatars o mascotas.",
+          "whyItMatters": "El primer hito de Star Open es un paso natural de progreso inicial antes de hitos de Secret Units más profundos y largas sesiones de pulls raros."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de travesía",
-          "description": "Los planeadores abeja se destacan oficialmente como parte del conjunto de herramientas de movimiento del juego para cubrir terreno de manera más eficiente."
+          "step": 3,
+          "title": "Usa tiradas de gacha para el progreso de banners",
+          "action": "Gasta gemas en banners o tiradas de gacha cuando las recompensas disponibles coincidan con tu objetivo de progreso en World Fighters.",
+          "whyItMatters": "Las gemas están vinculadas a los banners del juego que pueden desbloquear opciones de personalización y catálogo, por lo que un gasto planificado mantiene el progreso a largo plazo más organizado."
         },
         {
-          "name": "Varita de Bola",
-          "type": "Equipo de utilidad",
-          "description": "Las varitas de bola son una de las herramientas especiales destacadas oficialmente y expanden la forma en que te mueves o interactúas con el mundo."
+          "step": 4,
+          "title": "Guarda la suerte para sesiones de pulls raros",
+          "action": "Usa Luck Potions y potenciadores enfocados en la suerte cuando realices una sesión de tiradas seria, no durante el farmeo inicial casual.",
+          "whyItMatters": "Las recompensas de suerte son más valiosas cuando se combinan con banners, stars, tiradas de gacha o intentos de Secret Units."
         },
         {
-          "name": "Equipo de buceo",
-          "type": "Equipo de exploración",
-          "description": "El equipo de buceo figura oficialmente como parte del conjunto de utilidad principal para llegar a áreas que de otro modo serían más difíciles de explorar."
+          "step": 5,
+          "title": "Mejora la eficiencia de apertura",
+          "action": "Considera Fast Open, Multi Open y Remote Star una vez que sepas que farmearás tiradas con frecuencia.",
+          "whyItMatters": "Las mejoras relacionadas con la apertura son más importantes durante largas sesiones de gacha o apertura de stars, donde el tiempo ahorrado se acumula a través de muchas tiradas."
         },
         {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Los explosivos están destacados oficialmente y vinculados a un hito de logro, lo que los hace parte de la progresión de utilidad principal del juego."
+          "step": 6,
+          "title": "Busca el Secret Gacha más adelante",
+          "action": "Trata el primer Secret Gacha como un hito del juego avanzado después de que tu ruta de farmeo, daño y flujo de recursos sean estables.",
+          "whyItMatters": "El Secret Gacha es un objetivo a largo plazo de World Fighters que se vuelve más eficiente cuando se apoya en recursos preparados y potenciadores de suerte."
         }
-      ],
-      "unlockMilestones": [
-        "Dominar un gancho",
-        "Volar con el guante planeador",
-        "Empuñar una varita de proyectiles",
-        "Empuñar un explosivo"
       ]
     },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo y crecimiento en Lucid Blocks",
-      "displayType": "mixedCards",
-      "intro": "El crecimiento es parte de la progresión real en Lucid Blocks. El cultivo no se trata solo de plantar y cosechar, sino también de establecer rutas de materiales repetibles que mantengan el flujo de tus herramientas, armas y opciones de artesanía.",
-      "sections": [
+    "worldFightersAwakeningGuide": {
+      "id": "world-fighters-awakening-guide",
+      "eyebrow": "Despertar",
+      "title": "Guía de Despertar de World Fighters",
+      "subtitle": "El despertar es una capa de crecimiento permanente que convierte el farmeo básico en un daño a largo plazo y una progresión de poder más fuertes.",
+      "intro": "Los despertares de World Fighters proporcionan picos permanentes de multiplicadores de daño y poder, y los despertares posteriores requieren más poder para desbloquearse. Usa el despertar como un ciclo de progresión planificado: farmea poder, despeja zonas, desbloquea el siguiente despertar y luego repite con Units más fuertes y un mejor flujo de recursos.",
+      "displayType": "timeline-cards",
+      "items": [
         {
-          "name": "Progresión de semillas",
-          "description": "Plantar y fertilizar semillas es un hito real en el juego, y cosechar una nuez completamente crecida es parte de la misma ruta de crecimiento."
+          "phase": "Fase 1",
+          "title": "Construir poder base",
+          "description": "Comienza entrenando, haciendo clic, derrotando enemigos y completando misiones iniciales para que tu luchador tenga la fuerza suficiente para avanzar hacia contenido más difícil.",
+          "focus": "Farmeo de poder y eliminación de enemigos iniciales"
         },
         {
-          "name": "Recolección de materiales",
-          "description": "Un ciclo práctico de recolección inicial es crear Cápsulas de Mercurio, que generan pequeños slimes que sueltan zarcillos y viscosidad para materiales de artesanía repetibles."
+          "phase": "Fase 2",
+          "title": "Completar misiones del mapa",
+          "description": "Progresar a nuevos mundos generalmente requiere completar la misión principal de tu mapa actual y ganar la llave necesaria para desbloquear el teletransporte a la siguiente área.",
+          "focus": "Cumplimiento de misiones y desbloqueo de mapas"
         },
         {
-          "name": "Sustento de herramientas",
-          "description": "La recolección de recursos se vuelve mucho más fuerte una vez que puedes reunir consistentemente Osmio, fragmentos de vidrio, plantas y materiales de slime para artesanías posteriores."
+          "phase": "Fase 3",
+          "title": "Desbloquear el primer despertar",
+          "description": "El primer despertar es un marcador de progresión importante de etapa inicial a media que le da a la cuenta un pico de multiplicador permanente y hace que el siguiente ciclo de farmeo sea más rápido.",
+          "focus": "Primer pico de multiplicador permanente"
         },
         {
-          "name": "Rutina de base",
-          "description": "La mejor configuración de cultivo apoya más que solo la comida. Debería abastecer tu almacenamiento, herramientas de movimiento, mejoras de armas y futuros experimentos de fusión."
+          "phase": "Fase 4",
+          "title": "Repetir ciclos de despertar",
+          "description": "Cada despertar sucesivo requiere más poder pero otorga una mejora permanente más fuerte. Esto hace que el despertar sea valioso antes del farmeo en zonas más profundas, derrotas de jefes y la búsqueda de Units raras.",
+          "focus": "Escalamiento de daño y multiplicador de poder"
+        },
+        {
+          "phase": "Fase 5",
+          "title": "Combinar el despertar con cacerías secretas",
+          "description": "Una vez que tu camino de despertar sea estable, las Units Secretas y el Gacha Secreto se convierten en objetivos a largo plazo más realistas porque puedes farmear contenido y recursos difíciles más rápido.",
+          "focus": "Progresión de Units Secretas en el juego tardío"
         }
-      ],
-      "growthMilestones": [
-        "Fertilizar una semilla",
-        "Cosechar una nuez completamente crecida",
-        "Crear ciclos de materiales repetibles",
-        "Convertir el cultivo en progresión a largo plazo"
       ]
     },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Mejores desbloqueos iniciales de Lucid Blocks",
-      "displayType": "priorityCards",
-      "intro": "Los desbloqueos iniciales más fuertes son aquellos que mejoran la seguridad, el almacenamiento y el movimiento. En Lucid Blocks, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
-      "priorities": [
+    "worldFightersCrystalsAndGemsGuide": {
+      "id": "world-fighters-crystals-and-gems-guide",
+      "eyebrow": "Recursos",
+      "title": "Guía de Cristales y Gemas de World Fighters",
+      "subtitle": "Sigue para qué se usan los Cristales, Gemas, Pociones y Llaves para no desperdiciar las recompensas del inicio del juego.",
+      "intro": "La progresión de World Fighters se basa en derrotar enemigos, recolectar Cristales, desbloquear avatares y mascotas, y usar recompensas de Codes para acelerar el proceso inicial. Las Gemas son especialmente importantes porque se conectan con los banners y tiradas del juego, mientras que las pociones y llaves ayudan a los jugadores a farmear más rápido o desbloquear rutas de progreso antes.",
+      "displayType": "table",
+      "tableHeaders": {
+        "resource": "Recurso de World Fighters",
+        "source": "Fuente principal",
+        "use": "Uso principal",
+        "priority": "Prioridad",
+        "bestUse": "Mejor uso"
+      },
+      "items": [
         {
-          "name": "Qualia personal",
-          "priority": "Esencial",
-          "description": "Tan pronto como obtengas acceso a tu Qualia personal, tu partida se volverá mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y el reagrupamiento."
+          "resource": "Cristales",
+          "mainSources": "Derrotar enemigos y farmeo regular",
+          "mainUses": "Progresión central, flujo de desbloqueo de avatares y mascotas, y crecimiento de farmeo inicial",
+          "priority": "Alta",
+          "bestUse": "Gasta en progresión que mejore tu velocidad de farmeo antes de perseguir objetivos raros del final del juego."
         },
         {
-          "name": "Pico de Escarcha",
+          "resource": "Gemas",
+          "mainSources": "Codes, recompensas por hitos y recompensas de progresión",
+          "mainUses": "Banners del juego, tiradas de gacha, avatares y mascotas",
           "priority": "Muy alta",
-          "description": "Una herramienta de minería inicial rápida y barata hecha de Osmio y Palo. Es una de las mejoras más útiles para acelerar la recolección inicial de recursos."
+          "bestUse": "Ahorra gemas para banners o sesiones de tiradas que mejoren directamente tu equipo en lugar de gastarlas de inmediato."
         },
         {
-          "name": "Cubo de Almacenamiento",
-          "priority": "Muy alta",
-          "description": "La presión del inventario comienza pronto, por lo que obtener tu primer contenedor confiable tipo cofre es una mejora importante de calidad de vida."
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
+          "resource": "Poción de Suerte",
+          "mainSources": "Muchos Codes de World Fighters activos incluyen una de cada poción",
+          "mainUses": "Mejorar la eficiencia de obtención de objetos raros durante sesiones de gacha, estrellas o banners",
           "priority": "Alta",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más rápida y segura."
+          "bestUse": "Úsala antes de sesiones planificadas de obtención de objetos raros, especialmente al buscar Units Secretas o mejores recompensas de banner."
         },
         {
-          "name": "Guante planeador",
+          "resource": "Poción de Cristales",
+          "mainSources": "Recompensa común de Codes de World Fighters",
+          "mainUses": "Potenciar las sesiones de farmeo de cristales",
           "priority": "Alta",
-          "description": "El guante planeador añade otro gran impulso a la movilidad y hace que el movimiento a larga distancia sea mucho más eficiente."
+          "bestUse": "Actívala antes de sesiones de eliminación de enemigos donde puedas farmear continuamente."
         },
         {
-          "name": "Varita de proyectiles o bombas",
+          "resource": "Poción de Poder",
+          "mainSources": "Recompensa común de Codes de World Fighters",
+          "mainUses": "Acelerar el crecimiento de poder y la preparación para el despertar",
+          "priority": "Media-Alta",
+          "bestUse": "Úsala cuando estés entrenando activamente o avanzando hacia un requisito de despertar."
+        },
+        {
+          "resource": "Poción de Daño",
+          "mainSources": "Recompensa común de Codes de World Fighters",
+          "mainUses": "Ayudar a derrotar enemigos más fuertes, jefes u objetivos de desafío más rápido",
+          "priority": "Media-Alta",
+          "bestUse": "Ahórrala para combates difíciles, nuevas zonas o rutas de jefes en lugar de usarla durante el farmeo fácil."
+        },
+        {
+          "resource": "Llave de Dragon Balls",
+          "mainSources": "Muchos Codes de World Fighters activos, incluyendo Codes de hitos por visitas y me gusta",
+          "mainUses": "Progresión basada en llaves y acceso a recompensas temáticas de Dragon Ball",
           "priority": "Alta",
-          "description": "Una herramienta a distancia o una opción explosiva te brinda una respuesta más segura ante enemigos peligrosos y encuentros tipo desafío."
+          "bestUse": "Guárdala y úsala cuando el mundo, misión o ruta de recompensa relacionada esté disponible."
+        },
+        {
+          "resource": "Llave Saiyan",
+          "mainSources": "Codes de compensación por cierre como SRRY4SHUTDOWN, SRRY4SHUTDOWN2 y SRRY4SHUTDOWN3",
+          "mainUses": "Progresión de llaves temáticas de Saiyan o acceso a recompensas",
+          "priority": "Alta",
+          "bestUse": "Canjea los Codes de cierre pronto para que la llave esté lista cuando llegues al contenido correspondiente."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Seguimiento de logros de Lucid Blocks",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks tiene actualmente 19 logros de Steam, y se dividen naturalmente en progresión de exploración, artesanía, movilidad, combate y crecimiento.",
-      "groups": [
+    "worldFightersPotionsGuide": {
+      "id": "world-fighters-potions-guide",
+      "eyebrow": "Potenciadores",
+      "title": "Guía de pociones de World Fighters",
+      "subtitle": "Usa pociones de Poder, Cristal, Daño y Suerte en el momento adecuado para acelerar el farmeo, el avance de zonas y las tiradas de banners.",
+      "intro": "Las pociones son una de las recompensas de Codes de World Fighters más comunes. La mayoría de los paquetes de recompensas actuales otorgan una poción de cada tipo, lo que las hace ideales para ser usadas en sesiones planificadas en lugar de abrirlas al azar mientras se está inactivo.",
+      "displayType": "table",
+      "tableHeaders": {
+        "potion": "Poción de World Fighters",
+        "focus": "Enfoque del efecto",
+        "bestTiming": "Mejor momento",
+        "commonSources": "Fuentes comunes de recompensas"
+      },
+      "items": [
         {
-          "name": "Exploración",
-          "achievements": [
-            {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entrar en una qualia."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubrir una línea ley de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Superar un desafío de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Logro oculto."
-            }
+          "potion": "Poción de Poder",
+          "focus": "Crecimiento de poder y velocidad de progresión general",
+          "bestTiming": "Úsala antes de sesiones largas de farmeo de enemigos, avances iniciales de zona o cuando estés acumulando suficiente fuerza para superar el siguiente área.",
+          "commonSources": [
+            "RELEASE",
+            "THXFOR4KLIKES",
+            "YAY5KLIKES!",
+            "900KVISITSTHANKYOU!"
           ]
         },
         {
-          "name": "Artesanía e invocación",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fusionar un objeto."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fusionar una alimaña."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fusionar un artefacto divino."
-            },
-            {
-              "title": "Arcángel β",
-              "description": "Invoca tu fe."
-            }
+          "potion": "Poción de Cristal",
+          "focus": "Farmeo de cristales para desbloqueos y progresión del róster",
+          "bestTiming": "Úsala al derrotar enemigos repetidamente para obtener cristales, especialmente antes de ahorrar para avatares, mascotas o mejoras relacionadas con banners.",
+          "commonSources": [
+            "RELEASE",
+            "RELEASEPATCH",
+            "COOL1.2MVISITS!",
+            "SPLENDID800KVISITS!"
           ]
         },
         {
-          "name": "Movilidad y utilidad",
-          "achievements": [
-            {
-              "title": "Virtud α",
-              "description": "Volar con el guante planeador."
-            },
-            {
-              "title": "Virtud β",
-              "description": "Dominar un gancho."
-            },
-            {
-              "title": "Arcángel α",
-              "description": "Empuñar una varita de proyectiles."
-            },
-            {
-              "title": "Arcángel γ",
-              "description": "Empuñar un explosivo."
-            }
+          "potion": "Poción de Daño",
+          "focus": "Mayor rendimiento de combate durante las batallas",
+          "bestTiming": "Úsala antes de jefes, desafíos más difíciles o una nueva zona donde los enemigos tarden demasiado en ser derrotados.",
+          "commonSources": [
+            "SRRY4SHUTDOWN",
+            "SRRY4SHUTDOWN2",
+            "SRRY4SHUTDOWN3",
+            "THXFOR3KFAVORITES!"
           ]
         },
         {
-          "name": "Combate y criaturas",
-          "achievements": [
-            {
-              "title": "Masacre de __PROTECTED_26ee183b__",
-              "description": "Derrotar osos burbuja inocentes."
-            },
-            {
-              "title": "Arcángel δ",
-              "description": "Eliminar una criatura blasfema."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morir."
-            },
-            {
-              "title": "Dominio γ",
-              "description": "Cambiar el nombre a una alimaña adorable."
-            }
+          "potion": "Poción de Suerte",
+          "focus": "Recompensas basadas en la suerte, tiradas raras y preparación para el gacha",
+          "bestTiming": "Úsala justo antes de Star Open, Gacha Roll o sesiones de búsqueda de Units raras, en lugar de hacerlo durante el movimiento normal o el tiempo en los menús.",
+          "commonSources": [
+            "2KCCU!",
+            "THANKYOU3KCCU",
+            "4KONCHAMBER!",
+            "ALREADY5K?"
           ]
         },
         {
-          "name": "Crecimiento y cultivo",
-          "achievements": [
-            {
-              "title": "Dominio α",
-              "description": "Fertilizar una semilla."
-            },
-            {
-              "title": "Dominio β",
-              "description": "Cosechar una nuez completamente crecida."
-            },
-            {
-              "title": "Dominio δ",
-              "description": "Logro oculto."
-            }
+          "potion": "Paquete de pociones completo",
+          "focus": "Una poción de Poder, Cristal, Daño y Suerte juntas",
+          "bestTiming": "Guarda los paquetes completos para sesiones enfocadas: activa Daño y Poder antes de avanzar, Cristal antes de farmear y Suerte antes de las tiradas.",
+          "commonSources": [
+            "8KCCUISAWESOME!",
+            "ALREADY1MVISITS!?",
+            "RELEASEPATCH",
+            "RELEASEPT2"
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Preguntas frecuentes sobre un solo jugador y plataformas de Lucid Blocks",
+    "worldFightersKeysAndTokensGuide": {
+      "id": "world-fighters-keys-and-tokens-guide",
+      "eyebrow": "Recursos especiales",
+      "title": "Guía de Llaves y Tokens de World Fighters",
+      "subtitle": "Rastrea Llaves de Dragon Balls, Tokens de Dragon Ball, Llaves Saiyan, Gemas y recompensas de monturas de los Codes actuales de World Fighters.",
+      "intro": "Las llaves y los tokens son recursos sensibles a las actualizaciones en World Fighters. Suelen aparecer en paquetes de Codes por hitos, cierres y parches de lanzamiento, por lo que los jugadores deben reclamarlos pronto y guardarlos para el banner, evento o pantalla de desbloqueo correspondiente.",
+      "displayType": "card-list",
+      "items": [
+        {
+          "name": "Llave de Dragon Balls",
+          "type": "Recurso de llave",
+          "rewardExamples": [
+            "8KCCUISAWESOME!",
+            "900KVISITSTHANKYOU!",
+            "RELEASEPATCH",
+            "RELEASEPT2"
+          ],
+          "howToUse": "Prioriza guardar las Llaves de Dragon Balls para rutas de desbloqueo temáticas de Dragon, tiradas especiales o progresión específica de actualizaciones en lugar de gastarlas de inmediato."
+        },
+        {
+          "name": "Token de Dragon Ball",
+          "type": "Recurso de token",
+          "rewardExamples": [
+            "2KCCU!",
+            "THANKYOU3KCCU",
+            "4KONCHAMBER!",
+            "ALREADY5K?"
+          ],
+          "howToUse": "Trata los Tokens de Dragon Ball como moneda de progresión limitada vinculada a recompensas temáticas de Dragon. Acumúlalos de paquetes de Codes antes de tomar decisiones de desbloqueo importantes."
+        },
+        {
+          "name": "Llave Saiyan",
+          "type": "Llave especial",
+          "rewardExamples": [
+            "SRRY4SHUTDOWN",
+            "SRRY4SHUTDOWN2",
+            "SRRY4SHUTDOWN3"
+          ],
+          "howToUse": "Las Llaves Saiyan están vinculadas principalmente a recompensas de compensación por cierres. Guárdalas hasta que la función, banner o ruta de desbloqueo temática de Saiyan esté disponible en tu sesión."
+        },
+        {
+          "name": "Gemas",
+          "type": "Moneda de banner",
+          "rewardExamples": [
+            "RELEASE",
+            "EVENT2.5K!",
+            "THANKS1KLIKES",
+            "COOL1.2MVISITS!"
+          ],
+          "howToUse": "Usa Gemas para tiradas de banners en el juego que ayudan a desbloquear avatares y mascotas. Combina el gasto de Gemas con el tiempo de la Poción de Suerte cuando busques tiradas más raras."
+        },
+        {
+          "name": "Montura Gadi Jetpack",
+          "type": "Recompensa de montura",
+          "rewardExamples": [
+            "TIOGADIHIT!"
+          ],
+          "howToUse": "Reclama el Code de la montura lo antes posible, ya que las recompensas de monturas únicas son menos comunes que los paquetes estándar de pociones y gemas."
+        }
+      ]
+    },
+    "worldFightersAvatarsAndPetsGuide": {
+      "id": "world-fighters-avatars-and-pets-guide",
+      "eyebrow": "Construcción de Plantilla",
+      "title": "Guía de Avatares y Mascotas de World Fighters",
+      "subtitle": "Construye tu plantilla farmeando Cristales, gastando Gemas en banners y buscando mascotas exclusivas que apoyen la progresión a largo plazo.",
+      "intro": "World Fighters se basa en derrotar enemigos, recolectar Cristales y desbloquear nuevos avatares y mascotas exclusivas. Para los jugadores nuevos, el enfoque más seguro es mejorar primero tu plantilla activa y luego gastar las Gemas ahorradas durante sesiones enfocadas en banners o gacha.",
+      "displayType": "card-list",
+      "cardLabels": {
+        "unlock": "Ruta de desbloqueo de World Fighters",
+        "tip": "Consejo para principiantes de World Fighters"
+      },
+      "items": [
+        {
+          "name": "Avatares",
+          "role": "Desbloqueos de plantilla principal",
+          "howToUnlock": "Farmea enemigos para obtener Cristales y usa Gemas en banners para desbloquear más opciones de personajes.",
+          "priority": "Alta",
+          "beginnerTip": "Enfócate en un avatar activo más fuerte antes de repartir recursos en demasiados personajes."
+        },
+        {
+          "name": "Mascotas Exclusivas",
+          "role": "Colección de compañeros y apoyo a la progresión",
+          "howToUnlock": "Usa recursos relacionados con banners y recompensas de eventos para buscar mascotas junto con los desbloqueos de avatares.",
+          "priority": "Alta",
+          "beginnerTip": "No ignores a las mascotas mientras avanzas por las zonas; son parte de la búsqueda de la plantilla a largo plazo."
+        },
+        {
+          "name": "Cristales",
+          "role": "Recurso principal de farmeo",
+          "howToUnlock": "Derrota enemigos en mundos inspirados en el anime para recolectar Cristales.",
+          "priority": "Alta",
+          "beginnerTip": "Usa una Poción de Cristales antes de sesiones repetidas de farmeo de enemigos para que el progreso de desbloqueo sea más eficiente."
+        },
+        {
+          "name": "Gemas",
+          "role": "Moneda de banner y gacha",
+          "howToUnlock": "Canjea Codes activos, completa objetivos de progresión y reclama recompensas por hitos.",
+          "priority": "Alta",
+          "beginnerTip": "Ahorra Gemas para sesiones de banners significativas en lugar de gastar cada pequeña recompensa de inmediato."
+        },
+        {
+          "name": "Primera Estrella Abierta",
+          "role": "Hito temprano de la plantilla",
+          "howToUnlock": "Abre tu primera Estrella tras alcanzar el sistema de juego requerido.",
+          "priority": "Media",
+          "beginnerTip": "Usa esto como el primer paso para entender las tiradas de avatares y mascotas."
+        },
+        {
+          "name": "Primera Tirada de Gacha",
+          "role": "Hito de progresión de gacha",
+          "howToUnlock": "Tira una vez en el sistema gacha tras recolectar suficientes recursos.",
+          "priority": "Media",
+          "beginnerTip": "Combina los intentos de gacha con una Poción de Suerte cuando busques Units o mascotas raras."
+        },
+        {
+          "name": "Desafíos Compartidos",
+          "role": "Ruta de recompensas cooperativas",
+          "howToUnlock": "Juega con amigos y completen desafíos juntos para obtener recompensas compartidas en los modos de juego.",
+          "priority": "Media",
+          "beginnerTip": "El juego en grupo ayuda a los jugadores nuevos a progresar mientras aprenden zonas más difíciles."
+        }
+      ]
+    },
+    "worldFightersZonesProgressionGuide": {
+      "id": "world-fighters-zones-progression-guide",
+      "eyebrow": "Progresión",
+      "title": "Guía de Progresión de Zonas de World Fighters",
+      "subtitle": "Sigue la ruta de la Zona 1 a la Zona 6 y usa los datos de insignias para entender dónde se ralentiza la mayoría de los jugadores.",
+      "intro": "La progresión de zonas en World Fighters se vuelve mucho más difícil después del área inicial. Los datos de insignias muestran una caída drástica desde la Zona 1 y la Zona 2 hacia las zonas posteriores, por lo que los jugadores deben tratar cada zona nueva como un punto de control de farmeo antes de avanzar.",
+      "displayType": "timeline-cards",
+      "metricLabels": {
+        "badgeWinRate": "Tasa de obtención de insignias",
+        "awarded": "Otorgadas"
+      },
+      "items": [
+        {
+          "zone": "Zona 1",
+          "stage": "Ruta inicial",
+          "badgeWinRate": "51.4%",
+          "awarded": "140,947",
+          "progressionFocus": "Aprende a farmear enemigos, recolecta Cristales, canjea Codes iniciales y desbloquea tus primeras mejoras de alineación.",
+          "recommendedBoosts": [
+            "Poción de Poder",
+            "Poción de Cristal"
+          ],
+          "checkpoint": "Alcanza una estabilidad básica de farmeo antes de gastar mucho en invocaciones."
+        },
+        {
+          "zone": "Zona 2",
+          "stage": "Primer muro de progresión",
+          "badgeWinRate": "16.6%",
+          "awarded": "57,951",
+          "progressionFocus": "La eliminación de enemigos comienza a ralentizarse, así que mejora tus avatares y mascotas antes de apresurarte a la siguiente zona.",
+          "recommendedBoosts": [
+            "Poción de Poder",
+            "Poción de Daño"
+          ],
+          "checkpoint": "Farmea hasta que los enemigos estándar ya no tarden demasiado en ser derrotados."
+        },
+        {
+          "zone": "Zona 3",
+          "stage": "Entrada al mid-game",
+          "badgeWinRate": "9.3%",
+          "awarded": "35,579",
+          "progressionFocus": "Empieza a tratar las invocaciones de banners, las mejoras de mascotas y el tiempo de las pociones como parte de la progresión normal.",
+          "recommendedBoosts": [
+            "Poción de Cristal",
+            "Poción de Suerte"
+          ],
+          "checkpoint": "Usa la Poción de Suerte antes de las sesiones de invocación y la Poción de Cristal antes del farmeo repetitivo."
+        },
+        {
+          "zone": "Zona 4",
+          "stage": "Mid-game más difícil",
+          "badgeWinRate": "5.7%",
+          "awarded": "23,802",
+          "progressionFocus": "Avanza solo después de mejorar el daño infligido y recolectar suficientes recursos para opciones de alineación más fuertes.",
+          "recommendedBoosts": [
+            "Poción de Daño",
+            "Poción de Poder"
+          ],
+          "checkpoint": "Si los enemigos se sienten lentos, farmea en la zona anterior con potenciadores en lugar de forzar el progreso."
+        },
+        {
+          "zone": "Zona 5",
+          "stage": "Barrera de progresión tardía",
+          "badgeWinRate": "4.6%",
+          "awarded": "19,409",
+          "progressionFocus": "Prepárate con paquetes completos de pociones, avatares más fuertes y mejor apoyo de mascotas antes de intentar sesiones largas.",
+          "recommendedBoosts": [
+            "Poción de Poder",
+            "Poción de Daño",
+            "Poción de Cristal"
+          ],
+          "checkpoint": "Usa esta zona como un punto de control de farmeo serio antes del contenido de late-game."
+        },
+        {
+          "zone": "Zona 6",
+          "stage": "Objetivo actual de late-game",
+          "badgeWinRate": "3.7%",
+          "awarded": "15,330",
+          "progressionFocus": "El interés de la comunidad se centra en la progresión tardía con temática de dragones, Units raras y la búsqueda de Secret Units en esta etapa.",
+          "recommendedBoosts": [
+            "Poción de Daño",
+            "Poción de Suerte",
+            "Poción de Cristal"
+          ],
+          "checkpoint": "Guarda la Poción de Suerte para invocaciones raras y usa la Poción de Daño al enfrentarte a los enemigos más fuertes."
+        }
+      ]
+    },
+    "worldFightersRaidsGuide": {
+      "id": "world-fighters-raids-guide",
+      "eyebrow": "Progresión de Raids",
+      "title": "Guía de World Fighters Raids",
+      "subtitle": "Aprende cómo funciona Tempest Invasion, cuándo gastar Slime Keys y cómo los jugadores F2P pueden usar Raids para fortalecer sus equipos.",
+      "intro": "Las Raids en World Fighters se centran actualmente en Tempest Invasion, un modo basado en oleadas añadido con la Update 1. El modo conecta Slime Keys, recompensas de oleadas, mejoras, logros y el farmeo de Units más fuertes en una actividad repetible de juego tardío.",
+      "displayType": "step-by-step",
+      "labels": {
+        "step": "Paso",
+        "playerGoal": "Objetivo del Jugador de World Fighters",
+        "bestFor": "Ideal para"
+      },
+      "checklistTitle": "Lista de Preparación para World Fighters Raids",
+      "readinessChecklist": [
+        "Desbloquea Tempest Federation antes de gastar Slime Keys.",
+        "Farmea suficientes Slime Keys para varios intentos de Tempest Invasion.",
+        "Mejora la Distancia de Ataque antes de avanzar a oleadas más profundas.",
+        "Usa las recompensas de Raids para mejorar el daño, la suerte y futuras sesiones de gacha.",
+        "Trata cada partida de World Fighters Raids como un intento de alcanzar un nuevo hito de oleada."
+      ],
+      "items": [
+        {
+          "step": 1,
+          "title": "Llega Primero a Tempest Federation",
+          "description": "Tempest Invasion está vinculada al área de actualización de Tempest Federation, por lo que los jugadores de World Fighters deben progresar a través de las zonas anteriores y construir un equipo lo suficientemente fuerte para enfrentar a los nuevos enemigos.",
+          "player_goal": "Desbloquea la nueva zona, comienza a farmear a sus enemigos y prepara tu alineación principal antes de entrar en las oleadas de Raids.",
+          "best_for": "Jugadores que ya tienen un equipo estable en World Fighters y quieren avanzar en la progresión de la Update 1."
+        },
+        {
+          "step": 2,
+          "title": "Farmear Slime Keys",
+          "description": "Se requieren Slime Keys para entrar a Tempest Invasion. Las rutas de farmeo actuales en World Fighters incluyen drops de enemigos y drops de jefes secretos en el área de Tempest Federation.",
+          "player_goal": "Crea una pequeña reserva de llaves antes de intentar múltiples Raids.",
+          "best_sources": [
+            "Farmeo de enemigos en Tempest Federation",
+            "Drops de jefes secretos",
+            "Rutas de recompensas relacionadas con la actualización"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Mejora el Rango Antes de las Oleadas Profundas",
+          "description": "Tempest Invasion envía enemigos desde múltiples direcciones mientras el jugador defiende el centro. La Distancia de Ataque es especialmente valiosa porque ayuda a que las Units de World Fighters comiencen a golpear a los enemigos antes de que amontonen el centro.",
+          "player_goal": "Mejora la utilidad en Raids antes de confiar solo en el daño puro.",
+          "recommended_upgrade_order": [
+            "Distancia de Ataque",
+            "Velocidad de Ataque",
+            "Daño",
+            "Poder",
+            "Eficiencia de cristales"
+          ],
+          "best_for": "Jugadores F2P que intentan sobrevivir a más oleadas mediante mejoras eficientes en World Fighters."
+        },
+        {
+          "step": 4,
+          "title": "Alcanza Hitos de Oleadas",
+          "description": "Tempest Invasion escala las recompensas según el progreso e incluye hitos de logros desde las primeras oleadas hasta la oleada 100. Llegar a la oleada 10 o 15 ya es un punto de referencia inicial útil para los nuevos jugadores de World Fighters Raids.",
+          "player_goal": "Usa cada partida para alcanzar un rango de oleada superior, luego reinvierte las recompensas en mejoras y Units más fuertes.",
+          "milestones": [
+            "Oleada 5",
+            "Oleada 10",
+            "Oleada 15",
+            "Oleada 25+",
+            "Objetivo: Oleada 100"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Convierte las Recompensas de Raids en Poder de Equipo",
+          "description": "El progreso en Raids apoya el crecimiento a largo plazo de la cuenta de World Fighters a través de nueva moneda, logros, mejoras y progresión de Units. Los jugadores F2P deben usar las Raids como un camino repetible para mejorar el daño, la suerte y la eficiencia futura en el gacha.",
+          "player_goal": "Alterna entre el farmeo en Tempest, intentos de Raids, mejoras y tiros al banner.",
+          "best_for": "Jugadores que quieren una ruta sin Robux para obtener Units más fuertes y un mejor escalado en el juego tardío."
+        }
+      ]
+    },
+    "worldFightersSideQuestsAndChallenges": {
+      "id": "world-fighters-side-quests-and-challenges",
+      "eyebrow": "Misiones y desafíos",
+      "title": "Misiones secundarias y desafíos de World Fighters",
+      "subtitle": "Usa esta lista de verificación de World Fighters para separar la progresión principal, los objetivos secundarios, los desafíos cooperativos y las actividades de actualización.",
+      "intro": "World Fighters se basa en derrotar enemigos, recolectar Cristales, desbloquear avatares y mascotas, y completar desafíos con amigos. Las misiones secundarias y los desafíos se aprovechan mejor como una segunda capa de progresión mientras farmeas zonas, derrotas jefes y te preparas para las Raids.",
       "displayType": "accordion",
-      "intro": "Estas son las preguntas principales sobre plataformas y acceso que los jugadores suelen hacer antes de comprar Lucid Blocks.",
-      "faqs": [
+      "labels": {
+        "stage": "Etapa recomendada",
+        "rewardFocus": "Enfoque de recompensa"
+      },
+      "items": [
         {
-          "question": "¿Es Lucid Blocks para un solo jugador?",
-          "answer": "Sí. Lucid Blocks es un juego para un solo jugador."
+          "question": "¿Cuál es el ciclo de progresión principal de World Fighters?",
+          "answer": "Derrota enemigos para recolectar Cristales, luego gasta recursos para desbloquear avatares, mascotas y Units más fuertes. Este ciclo de World Fighters debe seguir siendo tu prioridad principal porque cada desafío se vuelve más fácil cuando tu equipo principal es más fuerte.",
+          "category": "Progresión principal",
+          "recommended_stage": "Todos los jugadores",
+          "reward_focus": [
+            "Cristales",
+            "Avatares",
+            "Mascotas",
+            "Crecimiento de poder"
+          ]
         },
         {
-          "question": "¿Está planeado el multijugador o cooperativo?",
-          "answer": "No. No se planea multijugador para el lanzamiento ni para futuras actualizaciones."
+          "question": "¿Cuándo debo hacer las misiones secundarias de World Fighters?",
+          "answer": "Haz las misiones secundarias mientras farmeas en una zona en lugar de tratarlas como tareas aparte. Si el objetivo de una misión de World Fighters coincide con enemigos, jefes, estrellas o el farmeo de recursos que ya necesitas, complétalo antes de pasar a la siguiente área.",
+          "category": "Objetivos secundarios",
+          "recommended_stage": "Etapa inicial a media",
+          "reward_focus": [
+            "Progresión extra",
+            "Completado de zona",
+            "Eficiencia de recursos"
+          ]
         },
         {
-          "question": "¿Dónde puedo jugar Lucid Blocks?",
-          "answer": "Actualmente está disponible en Steam para Windows."
+          "question": "¿Cómo ayudan los desafíos cooperativos de World Fighters?",
+          "answer": "World Fighters permite jugar con amigos y completar desafíos juntos, con recompensas compartidas en todos los modos de juego. El modo cooperativo es útil cuando los enemigos tardan demasiado en solitario, cuando una ruta de jefe es lenta o cuando varios jugadores quieren farmear el mismo contenido de una actualización.",
+          "category": "Desafíos cooperativos",
+          "recommended_stage": "Etapa media y Raids",
+          "reward_focus": [
+            "Recompensas compartidas",
+            "Limpieza más rápida",
+            "Farmeo grupal"
+          ]
         },
         {
-          "question": "¿Cuánto cuesta Lucid Blocks?",
-          "answer": "$9.99 en Steam."
+          "question": "¿En qué se diferencian las Raids de World Fighters de los desafíos normales?",
+          "answer": "Los desafíos normales apoyan el farmeo de zonas y la progresión de la cuenta, mientras que Invasión Tempestad es un modo de oleadas tipo raid que utiliza Llaves Slime y otorga un mayor progreso en las oleadas. Trata las Raids de World Fighters como una actividad dedicada una vez que tu equipo y las mejoras de rango estén listos.",
+          "category": "Desafío de Raid",
+          "recommended_stage": "Etapa avanzada",
+          "reward_focus": [
+            "Hitos de oleada",
+            "Nueva moneda",
+            "Logros",
+            "Progresión F2P"
+          ]
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello."
+          "question": "¿Qué desafío de World Fighters deberían priorizar los jugadores F2P?",
+          "answer": "Los jugadores F2P deben priorizar cualquier cosa que mejore la velocidad de farmeo a largo plazo en World Fighters: Cristales, gemas, llaves, moneda de mejora, bonos de suerte y Units más fuertes. Es mejor dejar las recompensas cosméticas para después, a menos que provengan de la misma ruta que ya estés farmeando.",
+          "category": "Prioridad F2P",
+          "recommended_stage": "Todos los jugadores",
+          "reward_focus": [
+            "Llaves",
+            "Gemas",
+            "Cristales",
+            "Mejoras de suerte",
+            "Materiales de mejora"
+          ]
         },
         {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 o 9.0.4 es la configuración recomendada habitualmente para Steam Deck."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Habrá soporte para Mac o Android?",
-          "answer": "Es posible que sean compatibles en el futuro, pero no son plataformas de lanzamiento actuales."
-        },
-        {
-          "question": "¿Lucid Blocks tiene traducciones?",
-          "answer": "No. Actualmente no hay traducciones planeadas."
-        },
-        {
-          "question": "¿Lucid Blocks seguirá recibiendo actualizaciones?",
-          "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "question": "¿Dónde encaja el jefe oculto de World Fighters en los desafíos?",
+          "answer": "El jefe oculto en la Federación Tempestad funciona como una ruta de desafío de alto valor en World Fighters. La ruta está cerca del área de la Raid de Tempestad, por la parte trasera izquierda y el camino del túnel oculto, y las recompensas pueden incluir Llaves Slime, Tokens Demonio, alas, cosméticos y Cristales.",
+          "category": "Desafío oculto",
+          "recommended_stage": "Progresión de la Actualización 1",
+          "reward_focus": [
+            "Llaves Slime",
+            "Tokens Demonio",
+            "Alas",
+            "Cosméticos",
+            "Cristales"
+          ]
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks en Steam Deck y controles",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks puede ejecutarse en Steam Deck, pero la configuración predeterminada puede necesitar ajustes. El teclado y el mouse siguen siendo la opción más fluida para los menús y el juego en general.",
-      "faqs": [
+    "worldFightersGamepassesGuide": {
+      "id": "world-fighters-gamepasses-guide",
+      "eyebrow": "Valor de Robux",
+      "title": "Guía de Gamepasses de World Fighters",
+      "subtitle": "Compara los principales gamepasses de World Fighters por valor de farmeo, valor de gacha y valor de conveniencia antes de gastar Robux.",
+      "intro": "Los gamepasses de World Fighters mejoran principalmente la velocidad de farmeo, la producción de daño, la suerte, el almacenamiento y la conveniencia de invocación. Para la mayoría de los jugadores, el mayor valor proviene primero de los aumentos directos de progresión, y luego de los pases de suerte y velocidad de apertura una vez que estés farmeando banners activamente.",
+      "displayType": "tier-grid",
+      "tiers": [
         {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 funciona bien, y Proton 9.0.4 es una solución compartida habitualmente para problemas en Steam Deck."
+          "tier": "Tier S",
+          "label": "Pases de progresión principales",
+          "entries": [
+            {
+              "pass": "2x Cristales",
+              "price_robux": 299,
+              "role": "Multiplicador de farmeo de moneda",
+              "best_for": "Jugadores de World Fighters que farmean enemigos a menudo y quieren una progresión más rápida de avatar, mascotas y mejoras.",
+              "buy_priority": "Pase de farmeo principal"
+            },
+            {
+              "pass": "2x Daño",
+              "price_robux": 299,
+              "role": "Aumento de velocidad para derrotar enemigos y jefes",
+              "best_for": "Jugadores de World Fighters que avanzan en zonas, jefes y oleadas de Raids donde las eliminaciones más rápidas mejoran directamente la progresión.",
+              "buy_priority": "Pase de combate principal"
+            },
+            {
+              "pass": "Equipamiento Extra",
+              "price_robux": 399,
+              "role": "Expansión de poder de la alineación",
+              "best_for": "Jugadores de World Fighters con múltiples Units fuertes que obtienen más valor al añadir otro luchador equipado.",
+              "buy_priority": "Pase de equipo de alto impacto"
+            }
+          ]
         },
         {
-          "question": "¿Qué debo hacer si los controles de Steam Deck no funcionan?",
-          "answer": "Fuerza la compatibilidad y cambia el juego a Proton 9.0.4. Es posible que la configuración predeterminada no acepte correctamente la entrada del control."
+          "tier": "Tier A",
+          "label": "Pases fuertes de escalado y suerte",
+          "entries": [
+            {
+              "pass": "2x Poder",
+              "price_robux": 299,
+              "role": "Multiplicador de crecimiento de poder",
+              "best_for": "Jugadores de World Fighters que pasan mucho tiempo entrenando y quieren un mejor escalado entre zonas.",
+              "buy_priority": "Pase de progresión fuerte"
+            },
+            {
+              "pass": "Súper Suerte",
+              "price_robux": 199,
+              "role": "Soporte para obtener rarezas altas",
+              "best_for": "Jugadores de World Fighters que buscan Units Míticas y Secretas en estrellas, banners y sistemas gacha.",
+              "buy_priority": "Pase de gacha fuerte"
+            },
+            {
+              "pass": "Mega Suerte",
+              "price_robux": 399,
+              "role": "Aumento de suerte premium",
+              "best_for": "Farmeadores intensos de banners en World Fighters que quieren acumular valor de suerte para cazar Units raras.",
+              "buy_priority": "Pase de gacha de juego tardío"
+            }
+          ]
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús del juego no están diseñados para ello."
+          "tier": "Tier B",
+          "label": "Herramientas útiles de farmeo y apertura",
+          "entries": [
+            {
+              "pass": "Suerte",
+              "price_robux": 99,
+              "role": "Aumento de suerte de nivel inicial",
+              "best_for": "Jugadores de World Fighters de bajo presupuesto que buscan una forma económica de mejorar sus sesiones de gacha.",
+              "buy_priority": "Pase de gacha económico"
+            },
+            {
+              "pass": "Apertura Múltiple",
+              "price_robux": 299,
+              "role": "Apertura de estrellas más rápida",
+              "best_for": "Jugadores de World Fighters que ya farmean suficientes gemas y quieren sesiones de banners más rápidas.",
+              "buy_priority": "Pase para ahorrar tiempo"
+            },
+            {
+              "pass": "Apertura Rápida",
+              "price_robux": 299,
+              "role": "Conveniencia en velocidad de apertura",
+              "best_for": "Jugadores de World Fighters que pasan largas sesiones tirando estrellas y quieren menos tiempo de inactividad.",
+              "buy_priority": "Pase para ahorrar tiempo"
+            },
+            {
+              "pass": "Estrella Remota",
+              "price_robux": 499,
+              "role": "Conveniencia de invocación remota",
+              "best_for": "Jugadores de World Fighters que farmean lejos de una ubicación de estrella y quieren un acceso a banners más fluido.",
+              "buy_priority": "Pase de conveniencia"
+            },
+            {
+              "pass": "Drops Extra",
+              "price_robux": 399,
+              "role": "Soporte de farmeo de drops",
+              "best_for": "Jugadores de World Fighters que farmean jefes, llaves o rutas de actualización donde los drops extra mejoran las ejecuciones repetidas.",
+              "buy_priority": "Pase de soporte de farmeo"
+            }
+          ]
         },
         {
-          "question": "¿Es posible el soporte para Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Cuál es la mejor configuración de entrada?",
-          "answer": "El teclado y el mouse son la opción más fluida para la navegación por los menús y el juego general momento a momento."
+          "tier": "Tier C",
+          "label": "Pases de comodidad opcionales",
+          "entries": [
+            {
+              "pass": "VIP",
+              "price_robux": 399,
+              "role": "Pase de cuenta premium",
+              "best_for": "Jugadores de World Fighters que quieren un pase premium general después de comprar mejoras directas de farmeo o combate.",
+              "buy_priority": "Pase premium opcional"
+            },
+            {
+              "pass": "Almacenamiento Pequeño",
+              "price_robux": 49,
+              "role": "Conveniencia de almacenamiento",
+              "best_for": "Jugadores de World Fighters que necesitan una mejora económica de comodidad para el inventario.",
+              "buy_priority": "Pase de utilidad de bajo costo"
+            },
+            {
+              "pass": "Almacenamiento Grande",
+              "price_robux": 99,
+              "role": "Conveniencia de almacenamiento",
+              "best_for": "Jugadores de World Fighters que coleccionan muchas Units, mascotas o recursos y quieren más espacio.",
+              "buy_priority": "Pase de utilidad"
+            }
+          ]
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Ajustes y accesibilidad de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks ya cuenta con algunos ajustes prácticos y notas de compatibilidad que son importantes de inmediato cuando los jugadores inician el juego por primera vez.",
-      "settings": [
+    "worldFightersUpdatesAndPatchNotes": {
+      "id": "world-fighters-updates-and-patch-notes",
+      "eyebrow": "Seguimiento de parches",
+      "title": "Actualizaciones y notas del parche de World Fighters",
+      "subtitle": "Sigue el ciclo de actualizaciones de World Fighters, incluyendo Release PT2, Release PT3, Update 1, cambios de QoL, Raids, nuevas Units y oleadas de Codes.",
+      "intro": "World Fighters ha avanzado rápidamente desde los Codes de lanzamiento hacia actualizaciones más grandes, con recompensas por hitos, nuevas áreas, contenido de Tempest Federation, jugabilidad estilo Raids y mejoras de QoL. Esta cronología ayuda a los jugadores a ver qué cambió y qué hacer a continuación.",
+      "displayType": "timeline-cards",
+      "labels": {
+        "playerFocus": "Enfoque del jugador de World Fighters",
+        "relatedCodes": "Codes de World Fighters relacionados"
+      },
+      "items": [
         {
-          "name": "Ajustes de pantalla",
-          "type": "Opción de comodidad",
-          "description": "Los ajustes de pantalla incluyen una opción que permite a los jugadores ocultar las manos en pantalla."
+          "label": "Lanzamiento inicial",
+          "date": "Semana de lanzamiento",
+          "type": "Release",
+          "highlights": [
+            "World Fighters se lanzó como un simulador de Roblox con temática de anime por StarX Inc.",
+            "El ciclo principal se enfoca en derrotar enemigos, recolectar Cristales y desbloquear avatares y mascotas.",
+            "Los Codes de lanzamiento inicial otorgaron pociones y gemas para ayudar a los nuevos jugadores a comenzar más rápido."
+          ],
+          "player_focus": "Usa las recompensas de lanzamiento temprano, completa las primeras zonas y construye un equipo básico de World Fighters antes de gastar mucho en banners.",
+          "related_codes": [
+            "RELEASE"
+          ]
         },
         {
-          "name": "Compatibilidad de gráficos",
-          "type": "Requisito del sistema",
-          "description": "Se requiere soporte de __PROTECTED_38625270__ para que los gráficos se rendericen correctamente. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados y errores gráficos graves."
+          "label": "Parche de lanzamiento",
+          "date": "Parche post-lanzamiento",
+          "type": "Patch",
+          "highlights": [
+            "Los Codes de recompensa del Parche de lanzamiento agregaron más pociones, gemas y Dragon Balls Keys.",
+            "Los Codes de cierre y de hitos ayudaron a los jugadores de World Fighters a recuperar recursos tras los reinicios iniciales del servidor.",
+            "Las pociones se convirtieron en un patrón de recompensa común en los Codes activos."
+          ],
+          "player_focus": "Canjea los Codes de parche y de cierre antes de farmear para que los potenciadores de Power, Crystal, Damage y Luck Potion estén listos para las sesiones activas.",
+          "related_codes": [
+            "RELEASEPATCH",
+            "SRRY4SHUTDOWN",
+            "SRRY4SHUTDOWN2",
+            "SRRY4SHUTDOWN3"
+          ]
         },
         {
-          "name": "Preferencia de entrada",
-          "type": "Configuración de control",
-          "description": "Existe soporte para controles, pero el teclado y el mouse brindan una experiencia más fluida porque los menús no están diseñados para el uso de controles."
+          "label": "Release PT2",
+          "date": "Lanzamiento Parte 2",
+          "type": "Actualización de contenido",
+          "highlights": [
+            "Release PT2 continuó el ciclo inicial de actualizaciones de World Fighters con nuevos Codes de recompensa.",
+            "El Code RELEASEPT2 otorgó una poción de cada tipo, 100 gemas y cinco Dragon Balls Keys.",
+            "Los hitos de los jugadores en cuanto a visitas, likes, favoritos y CCU continuaron activando nuevos lanzamientos de Codes."
+          ],
+          "player_focus": "Usa Dragon Balls Keys y gemas durante las sesiones de banners de World Fighters, especialmente cuando los potenciadores de Luck Potion estén activos.",
+          "related_codes": [
+            "RELEASEPT2",
+            "THANKS1KLIKES",
+            "THX3KLIKES!",
+            "THXFOR200KVISITS!"
+          ]
         },
         {
-          "name": "Soporte de idiomas",
-          "type": "Localización",
-          "description": "La configuración actual es solo en inglés y no hay traducciones planeadas en este momento."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Actualizaciones y notas del parche de Lucid Blocks",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks ya está recibiendo correcciones rápidas post-lanzamiento y pequeñas actualizaciones de usabilidad.",
-      "entries": [
-        {
-          "title": "Actualización 2.8.2",
-          "type": "Actualización de IU",
-          "description": "Se cambió el nombre de \"awaken\" (despertar) a \"exit\" (salir) en el menú principal."
+          "label": "Update 1: Tempest Federation",
+          "date": "22 de abril de 2026",
+          "type": "Actualización mayor",
+          "highlights": [
+            "Tempest Federation agregó una nueva zona de progresión en World Fighters.",
+            "La actualización introdujo 6 nuevos enemigos, 6 nuevas Units, un nuevo banner de estrella y una nueva unidad secreta.",
+            "Las mejoras de Tempest agregaron Attack Distance, Attack Speed, Damage, Power y eficiencia de Crystal.",
+            "El sistema de cambio de nombre agregó un valor multiplicador de poder aleatorio para las Units."
+          ],
+          "player_focus": "Farmea la nueva zona primero, mejora el alcance para el rendimiento en Raids y usa potenciadores de cambio de nombre en tus Units de World Fighters más fuertes.",
+          "related_codes": [
+            "COOL1.2MVISITS!",
+            "YAY5KLIKES!",
+            "8KCCUISAWESOME!"
+          ]
         },
         {
-          "title": "Pequeño parche para cierres al iniciar",
-          "type": "Hotfix",
-          "description": "Se lanzó un parche dedicado para los jugadores cuyo juego se cerraba inesperadamente al iniciar."
+          "label": "Update 1: Tempest Invasion Raids",
+          "date": "22 de abril de 2026",
+          "type": "Actualización de Raids",
+          "highlights": [
+            "Tempest Invasion agregó un modo estilo Raids en World Fighters que requiere Slime Keys.",
+            "El modo presenta una progresión de oleadas hasta 100 oleadas.",
+            "Los enemigos se acercan desde múltiples direcciones mientras el jugador mantiene el centro.",
+            "Las recompensas escalan con el progreso de las oleadas y apoyan el crecimiento de las cuentas F2P."
+          ],
+          "player_focus": "Farmea Slime Keys, alcanza hitos de oleadas y luego reinvierte las recompensas en mejoras, gacha, despertares y Units de World Fighters más fuertes.",
+          "related_codes": []
         },
         {
-          "title": "Soporte de contenido post-lanzamiento",
-          "type": "Nota de hoja de ruta",
-          "description": "Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Solución de cierres inesperados y solución de problemas de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "La mayoría de los problemas inmediatos de inicio y cierres deben revisarse en un orden sencillo: nivel de parche, soporte de gráficos, compatibilidad de plataforma y registros.",
-      "steps": [
-        {
-          "title": "Instala el último hotfix para cierres inesperados",
-          "description": "Si el juego se cierra al iniciar, actualiza primero y prueba de nuevo con el parche más reciente para cierres al inicio."
+          "label": "Update 1: Mejoras de QoL y F2P",
+          "date": "22 de abril de 2026",
+          "type": "Actualización de QoL",
+          "highlights": [
+            "Se agregaron gemas a los cofres para una mejor progresión F2P.",
+            "Se agregaron nueva música y efectos de sonido.",
+            "Las mejoras en el impulso de montura y el guardado de posición hicieron que el farmeo en World Fighters sea más fluido.",
+            "Las correcciones de errores redujeron los cierres inesperados y las expulsiones."
+          ],
+          "player_focus": "Usa el ciclo de farmeo más fluido de World Fighters para permanecer en sesiones largas, farmear cofres y prepararte para intentos de Raids más profundos.",
+          "related_codes": [
+            "RELEASEQOL"
+          ]
         },
         {
-          "title": "Verifica el soporte de __PROTECTED_38625270__",
-          "description": "Lucid Blocks requiere soporte de __PROTECTED_38625270__. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados o problemas graves de renderizado."
-        },
-        {
-          "title": "Usa Proton 9.0.4 en Steam Deck",
-          "description": "Si la entrada o el comportamiento de inicio en Steam Deck fallan, fuerza la compatibilidad y cambia a Proton 9.0.4."
-        },
-        {
-          "title": "Recopila registros de cierres (logs)",
-          "description": "Abre Ejecutar de Windows, pega %APPDATA%, ve a lucid blocks/logs y reúne los archivos .txt para solucionar el problema."
-        },
-        {
-          "title": "Reporta el problema correctamente",
-          "description": "Comparte los registros y los detalles del dispositivo a través del foro oficial de reportes de errores en Discord o en la página de la comunidad de Steam."
+          "label": "Oleada de Codes de Release PT3",
+          "date": "24 de abril de 2026",
+          "type": "Actualización de Codes",
+          "highlights": [
+            "El título del juego World Fighters destaca Release PT3.",
+            "Múltiples Codes de la era de Release PT3 agregaron pociones, gemas y Dragon Balls Keys.",
+            "Nuevos Codes de hitos cubrieron visitas, likes, favoritos e hitos de jugadores concurrentes."
+          ],
+          "player_focus": "Canjea la nueva oleada de Codes de World Fighters antes de grindear, luego gasta gemas y llaves durante las sesiones enfocadas en gacha.",
+          "related_codes": [
+            "8KCCUISAWESOME!",
+            "YAY5KLIKES!",
+            "COOL1.2MVISITS!",
+            "SPLENDID800KVISITS!",
+            "900KVISITSTHANKYOU!",
+            "ALREADY1MVISITS!?"
+          ]
         }
       ]
     }
   },
   "faq": {
-    "title": "Preguntas",
-    "titleHighlight": "frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Lucid Blocks",
+    "title": "FAQ de World Fighters",
+    "titleHighlight": "Preguntas",
+    "subtitle": "Respuestas rápidas sobre Códigos de World Fighters, progresión, enlaces de Roblox y opciones de gamepass.",
     "questions": [
       {
-        "question": "¿Es Lucid Blocks un juego para un solo jugador?",
-        "answer": "Sí. Lucid Blocks es un juego exclusivamente para un solo jugador, sin planes para multijugador o cooperativo."
+        "question": "¿Qué es World Fighters?",
+        "answer": "World Fighters es un simulador de lucha en Roblox inspirado en el anime de StarX Inc donde los jugadores derrotan enemigos, recolectan cristales, desbloquean avatares y mascotas, y avanzan a través de nuevas zonas."
       },
       {
-        "question": "¿Qué es el sistema Apotheosis en Lucid Blocks?",
-        "answer": "Apotheosis es el sistema de creación por fusión de forma libre de Lucid Blocks. En lugar de seguir recetas fijas, combinas materiales y descubres tus propias rutas de creación."
+        "question": "¿Dónde canjeo los Códigos de World Fighters?",
+        "answer": "Abre World Fighters en Roblox, presiona Shop, desplázate hasta el cuadro de códigos, pega un código exactamente como se muestra y presiona Canjear."
       },
       {
-        "question": "¿Dónde puedo jugar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponible actualmente en Steam para Windows. El soporte para Linux y Steam Deck está disponible a través de Proton 9.0."
+        "question": "¿Qué recompensas dan los Códigos de World Fighters?",
+        "answer": "Los Códigos de World Fighters pueden dar Power Potion, Crystal Potion, Damage Potion, Luck Potion, Gems, Dragon Balls Keys, Saiyan Keys y recompensas especiales."
       },
       {
-        "question": "¿Cuánto cuesta Lucid Blocks?",
-        "answer": "Lucid Blocks cuesta $9.99 en Steam."
+        "question": "¿Qué deberían hacer primero los principiantes en World Fighters?",
+        "answer": "Los nuevos jugadores de World Fighters deben canjear Codes, farmear enemigos para obtener cristales, usar potenciadores durante el farmeo activo, desbloquear avatares y mascotas, y completar misiones de mapa para llegar a nuevas zonas."
       },
       {
-        "question": "¿Lucid Blocks es compatible con controles?",
-        "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello. El teclado y el mouse son la opción más fluida."
+        "question": "¿Dónde está el Discord de World Fighters?",
+        "answer": "El Discord de World Fighters está disponible a través de la invitación pública en discord.gg/worldfighters."
       },
       {
-        "question": "¿Recibirá actualizaciones Lucid Blocks?",
-        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
+        "question": "¿Qué gamepasses de World Fighters son mejores al principio?",
+        "answer": "El mejor valor de gamepass inicial en World Fighters proviene de potenciadores de progresión directa como 2x Damage, 2x Power, 2x Crystals y Extra Drops."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "title": "¿Listo para jugar World Fighters?",
+    "description": "Únete al Discord de World Fighters para obtener Codes, notas de actualización, consejos de Raids y ayuda de progresión de la comunidad, luego inicia la experiencia oficial de Roblox.",
+    "joinCommunity": "Únete al Discord de World Fighters",
+    "joinGame": "Juega World Fighters en Roblox"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
+    "title": "World Fighters Wiki",
+    "description": "Tu centro de recursos completo para Códigos de World Fighters, Units, jefes, mundos, Passives, Raids, actualizaciones y guías de progresión de Roblox.",
     "resources": "Recursos",
     "community": "Comunidad",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
-    "steamStore": "Tienda de Steam",
+    "discord": "Discord de World Fighters",
+    "twitter": "Tanlugi en X",
+    "steamCommunity": "Grupo de Roblox de StarX",
+    "steamStore": "Página de Roblox de World Fighters",
     "about": "Acerca de",
     "privacy": "Política de privacidad",
     "terms": "Términos de servicio",
-    "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
-    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 World Fighters Wiki. No afiliado con StarX Inc o Roblox Corporation.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans para jugadores de World Fighters."
   },
   "pages": {
-    "guides": {
-      "title": "Guías de Lucid Blocks",
-      "description": "Guías completas de juego, desde conceptos básicos para principiantes hasta estrategias avanzadas de Apotheosis. Domina la supervivencia y la fabricación.",
-      "metaTitle": "Guías de Lucid Blocks - Estrategias de principiante a avanzado",
-      "metaDescription": "Guías completas de Lucid Blocks que cubren consejos para principiantes, el sistema Apotheosis, estrategias de supervivencia y tácticas expertas para dominar este sandbox surrealista.",
-      "categoryLabel": "GUÍAS DEL JUEGO",
-      "whatIs": "¿Qué son las guías?",
-      "whatIsDescription": "Guías exhaustivas que cubren mecánicas de juego, estrategias de supervivencia y el sistema de fabricación Apotheosis. Aprende todo, desde los primeros pasos hasta técnicas avanzadas.",
-      "why": "¿Por qué leer las guías?",
+    "codes": {
+      "title": "Códigos de World Fighters",
+      "description": "Códigos de World Fighters, pasos para canjear, tipos de recompensas y prioridades de uso de Codes para jugadores de Roblox.",
+      "metaTitle": "Códigos de World Fighters - Guía de recompensas y canje",
+      "metaDescription": "Usa Códigos de World Fighters para reclamar gemas, monedas, potenciadores y otras recompensas de Roblox, con pasos sencillos de canje y consejos de planificación de recompensas.",
+      "categoryLabel": "CÓDIGOS DE WORLD FIGHTERS",
+      "whatIs": "¿Qué son los Códigos de World Fighters?",
+      "whatIsDescription": "Los Códigos de World Fighters son cadenas de recompensas que los jugadores pueden canjear en Roblox por gemas, monedas, potenciadores, skins, objetos de reinicio y otros recursos de progresión.",
+      "why": "¿Por qué usar Códigos de World Fighters?",
       "whySteps": {
-        "step1Title": "Aprende las mecánicas principales",
-        "step1Description": "Entiende el sistema Apotheosis y evita errores comunes de principiante",
-        "step2Title": "Progresión rápida",
-        "step2Description": "Sigue caminos probados para sobrevivir y prosperar en este mundo surrealista",
-        "step3Title": "Domina las estrategias",
-        "step3Description": "Desarrolla tácticas avanzadas para la exploración y la fabricación"
+        "step1Title": "Reclama recompensas gratuitas",
+        "step1Description": "Canjea Códigos de World Fighters antes de una sesión de farmeo para que las gemas, monedas, potenciadores y objetos de reinicio estén listos cuando los necesites.",
+        "step2Title": "Planifica el uso de recursos",
+        "step2Description": "Usa las recompensas de los Codes en momentos de invocación, mejoras de personajes y sesiones de juego largas en lugar de gastar cada recompensa de inmediato.",
+        "step3Title": "Apoya la progresión inicial",
+        "step3Description": "Los nuevos jugadores pueden usar las recompensas de los Códigos de World Fighters para reducir la presión del farmeo inicial mientras aprenden sobre el combate, los banners y los desbloqueos de mapas."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías"
+      "featured": "Códigos de World Fighters destacados",
+      "all": "Todos los Códigos de World Fighters"
     },
-    "crafting": {
-      "title": "Fabricación en Lucid Blocks",
-      "description": "Domina el sistema de fusión Apotheosis con mecánicas de esencia, recetas y estrategias de fabricación para objetos poderosos.",
-      "metaTitle": "Fabricación en Lucid Blocks - Sistema Apotheosis y recetas",
-      "metaDescription": "Domina el sistema de fabricación Apotheosis de Lucid Blocks. Aprende mecánicas de esencia, recetas de fusión y estrategias para crear herramientas y armas poderosas.",
-      "categoryLabel": "SISTEMA DE FABRICACIÓN",
-      "whatIs": "¿Qué es la fabricación?",
-      "whatIsDescription": "El sistema Apotheosis es una mecánica de fusión única impulsada por esencias donde combinas hasta seis objetos para descubrir nuevas recetas. Sin menús de fabricación fijos: la experimentación es la clave.",
-      "why": "¿Por qué dominar la fabricación?",
+    "guide": {
+      "title": "Guía de World Fighters",
+      "description": "Artículos de la guía de World Fighters para principiantes, crecimiento de daño, rutas eficientes y progresión de novato a pro.",
+      "metaTitle": "Guía de World Fighters - Consejos para Principiantes y Progresión",
+      "metaDescription": "Lee artículos de la guía de World Fighters para rutas de principiantes, crecimiento de daño, progresión rápida, planificación de actualizaciones y consejos de juego en Roblox.",
+      "categoryLabel": "GUÍA DE WORLD FIGHTERS",
+      "whatIs": "¿Qué es la Guía de World Fighters?",
+      "whatIsDescription": "La categoría de Guía de World Fighters explica cómo empezar, cómo jugar, cómo aumentar el DPS y cómo pasar del farmeo inicial a zonas más fuertes.",
+      "why": "¿Por qué leer la guía de World Fighters?",
       "whySteps": {
-        "step1Title": "Desbloquea objetos poderosos",
-        "step1Description": "Descubre herramientas esenciales, armas y equipo de movilidad a través de la fusión",
-        "step2Title": "Entiende las esencias",
-        "step2Description": "Aprende cómo se combinan las esencias de los objetos para crear resultados predecibles",
-        "step3Title": "Optimiza recursos",
-        "step3Description": "Usa mecánicas de dilución para maximizar la producción con materiales baratos"
+        "step1Title": "Comienza con Objetivos Claros",
+        "step1Description": "Sigue una ruta para principiantes de World Fighters que cubre Codes, recursos iniciales, primeros objetivos de combate y hábitos eficientes para la primera sesión.",
+        "step2Title": "Mejora el Crecimiento de Daño",
+        "step2Description": "Aprende cuándo farmear, cuándo invocar y cómo aumentar el DPS sin desperdiciar recursos en mejoras dispersas.",
+        "step3Title": "Usa las Actualizaciones de Manera Eficiente",
+        "step3Description": "Las guías de actualización de World Fighters te ayudan a identificar nuevas prioridades, cambios de ruta y oportunidades de progresión después de cada lanzamiento."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de fabricación"
+      "featured": "Artículos Destacados de la Guía de World Fighters",
+      "all": "Todos los Artículos de la Guía de World Fighters"
     },
-    "items": {
-      "title": "Objetos de Lucid Blocks",
-      "description": "Guías detalladas de objetos que cubren herramientas, armas, equipo de movilidad y soluciones de almacenamiento con recetas de fabricación y consejos de uso.",
-      "metaTitle": "Objetos de Lucid Blocks - Guía de herramientas, armas y equipo",
-      "metaDescription": "Base de datos completa de objetos para Lucid Blocks, incluyendo herramientas, armas, equipo de movilidad y almacenamiento. Aprende a fabricar y usar cada objeto de manera efectiva.",
-      "categoryLabel": "OBJETOS Y EQUIPAMIENTO",
-      "whatIs": "¿Qué son los objetos?",
-      "whatIsDescription": "Guías exhaustivas de herramientas, armas, equipo de movilidad y objetos funcionales. Aprende recetas de fabricación, estrategias de uso y combinaciones óptimas.",
-      "why": "¿Por qué consultar las guías de objetos?",
+    "resources": {
+      "title": "Recursos de World Fighters",
+      "description": "Recursos de World Fighters que cubren gemas, cristales, tokens, llaves, pociones y planificación de recompensas gratuitas.",
+      "metaTitle": "Recursos de World Fighters - Gemas, Cristales, Llaves y Pociones",
+      "metaDescription": "Rastrea los recursos de World Fighters incluyendo gemas, cristales, tokens, llaves, pociones, recompensas gratuitas y prioridades de gasto para la progresión en Roblox.",
+      "categoryLabel": "RECURSOS DE WORLD FIGHTERS",
+      "whatIs": "¿Qué son los Recursos de World Fighters?",
+      "whatIsDescription": "Los Recursos de World Fighters son las monedas, llaves, cristales, tokens, pociones y objetos de recompensa que se usan para invocar, farmear, desbloquear sistemas y avanzar en las zonas.",
+      "why": "¿Por qué rastrear los recursos de World Fighters?",
       "whySteps": {
-        "step1Title": "Aprende recetas de fabricación",
-        "step1Description": "Descubre cómo fabricar herramientas y armas esenciales usando Apotheosis",
-        "step2Title": "Optimiza tu equipamiento",
-        "step2Description": "Elige los mejores objetos para tu estilo de juego y etapa de progresión",
-        "step3Title": "Mejora tu supervivencia",
-        "step3Description": "Equípate con equipo de movilidad y armas para navegar por este mundo peligroso"
+        "step1Title": "Gasta con un Propósito",
+        "step1Description": "Entiende qué recursos de World Fighters apoyan las invocaciones, potenciadores, mejoras y sesiones de farmeo repetidas.",
+        "step2Title": "Farmea los Objetos Correctos",
+        "step2Description": "Usa guías de recursos para enfocarte en gemas, cristales, tokens, llaves o pociones dependiendo de tu barrera de progresión actual.",
+        "step3Title": "Evita el Desperdicio",
+        "step3Description": "Planifica el momento de las pociones, el uso de llaves y el gasto de gemas en torno a sesiones más largas y desbloqueos significativos."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los objetos"
+      "featured": "Recursos Destacados de World Fighters",
+      "all": "Todas las Guías de Recursos de World Fighters"
     },
-    "biomes": {
-      "title": "Biomas de Lucid Blocks",
-      "description": "Explora las regiones del mundo, características ambientales, ubicaciones de recursos y consejos de supervivencia para cada bioma.",
-      "metaTitle": "Biomas de Lucid Blocks - Regiones del mundo y exploración",
-      "metaDescription": "Explora los biomas de Lucid Blocks, incluyendo las Líneas Ley de Tiamana, Fog Meadow y regiones surrealistas. Encuentra recursos, evita peligros y navega por un mundo infinito.",
-      "categoryLabel": "REGIONES DEL MUNDO",
-      "whatIs": "¿Qué son los biomas?",
-      "whatIsDescription": "Guías de las diferentes regiones del mundo, características ambientales, distribución de recursos y zonas de peligro. Aprende qué esperar y cómo prepararte para cada área.",
-      "why": "¿Por qué explorar los biomas?",
+    "units": {
+      "title": "Units de World Fighters",
+      "description": "Units de World Fighters, rutas de gacha, Units secretas, planificación de suerte, aperturas de estrellas y prioridades de las mejores Units.",
+      "metaTitle": "Units de World Fighters - Mejores Units y Guía de Gacha",
+      "metaDescription": "Explora las Units de World Fighters, Units secretas, estrategia de gacha, planificación de suerte, rutas de apertura de estrellas y prioridades de las mejores Units para jugadores de Roblox.",
+      "categoryLabel": "UNITS DE WORLD FIGHTERS",
+      "whatIs": "¿Qué son las Units de World Fighters?",
+      "whatIsDescription": "Las Units de World Fighters son los personajes y tiradas que impulsan la fuerza del equipo, el crecimiento del DPS, los objetivos de colección raras y la progresión de la cuenta a largo plazo.",
+      "why": "¿Por qué estudiar las Units de World Fighters?",
       "whySteps": {
-        "step1Title": "Encuentra recursos",
-        "step1Description": "Localiza materiales raros y esencias específicas de cada región",
-        "step2Title": "Evita peligros",
-        "step2Description": "Entiende los riesgos ambientales y las criaturas hostiles",
-        "step3Title": "Planifica tu exploración",
-        "step3Description": "Prepara las herramientas y el equipo adecuados para cada tipo de bioma"
+        "step1Title": "Construye una Alineación más Fuerte",
+        "step1Description": "Compara las Units de World Fighters por utilidad temprana, valor de daño, rareza y rol antes de invertir recursos.",
+        "step2Title": "Planifica Sesiones de Gacha",
+        "step2Description": "Usa guías de gacha, suerte y aperturas de estrellas para decidir cuándo una sesión de tiradas vale el costo.",
+        "step3Title": "Busca Units Secretas",
+        "step3Description": "Las guías de Units secretas explican los objetivos de tiradas raras y cómo encajan en la progresión tardía sin distraer del farmeo principal."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los biomas"
+      "featured": "Units Destacadas de World Fighters",
+      "all": "Todas las Guías de Units de World Fighters"
     },
-    "building": {
-      "title": "Construcción en Lucid Blocks",
-      "description": "Domina las dimensiones personales Qualia, la construcción de bases, la gestión de almacenamiento y técnicas creativas de construcción.",
-      "metaTitle": "Construcción en Lucid Blocks - Qualia y construcción de bases",
-      "metaDescription": "Domina la construcción en Lucid Blocks con las dimensiones personales Qualia, construcción de bases, soluciones de almacenamiento y técnicas creativas de construcción.",
-      "categoryLabel": "CONSTRUCCIÓN Y BASES",
-      "whatIs": "¿Qué es la construcción?",
-      "whatIsDescription": "Guías sobre el sistema de dimensiones personales Qualia, construcción de bases, gestión de almacenamiento y construcción creativa. Aprende a crear tu refugio seguro en este mundo surrealista.",
-      "why": "¿Por qué construir bases?",
+    "bosses": {
+      "title": "Jefes de World Fighters",
+      "description": "Jefes de World Fighters, ubicaciones de jefes secretos, rutas de Kaido, notas del mundo de One Piece y consejos para farmear jefes.",
+      "metaTitle": "Jefes de World Fighters - Ubicaciones Secretas y Guía de Kaido",
+      "metaDescription": "Encuentra jefes de World Fighters, ubicaciones de jefes secretos, rutas de Kaido, notas del mundo de One Piece, mecánicas de jefes y prioridades de farmeo.",
+      "categoryLabel": "JEFES DE WORLD FIGHTERS",
+      "whatIs": "¿Qué son los Jefes de World Fighters?",
+      "whatIsDescription": "Los Jefes de World Fighters son enemigos de alto valor y encuentros secretos que limitan las recompensas, el progreso del mapa, los objetivos de colección y los ciclos de farmeo más fuertes.",
+      "why": "¿Por qué seguir las guías de jefes de World Fighters?",
       "whySteps": {
-        "step1Title": "Crea espacios seguros",
-        "step1Description": "Establece bases seguras para el almacenamiento y las operaciones de fabricación",
-        "step2Title": "Gestiona tus recursos",
-        "step2Description": "Organiza tus materiales de manera eficiente con soluciones de almacenamiento",
-        "step3Title": "Desbloquea Qualia",
-        "step3Description": "Accede a dimensiones de bolsillo personales para la máxima comodidad"
+        "step1Title": "Encuentra Objetivos Ocultos",
+        "step1Description": "Usa las guías de jefes de World Fighters para localizar jefes secretos, jefes de eventos y objetivos de ruta importantes más rápidamente.",
+        "step2Title": "Prepara tu Daño",
+        "step2Description": "Los artículos de jefes explican cuándo regresar con Units más fuertes, mejores potenciadores y suficiente DPS para despejes repetidos.",
+        "step3Title": "Farmea Mejores Recompensas",
+        "step3Description": "Enfoca el farmeo de jefes en drops, progreso de colección, desbloqueos de mapas y bonificaciones de cuenta a largo plazo."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de construcción"
+      "featured": "Jefes de World Fighters Destacados",
+      "all": "Todas las Guías de Jefes de World Fighters"
     },
-    "support": {
-      "title": "Soporte de Lucid Blocks",
-      "description": "Soporte técnico, compatibilidad de plataformas, optimización de rendimiento y solución de problemas comunes.",
-      "metaTitle": "Soporte de Lucid Blocks - Ayuda técnica y soluciones",
-      "metaDescription": "Obtén soporte técnico para Lucid Blocks, incluyendo la configuración de Steam Deck, soluciones a cierres inesperados, optimización de rendimiento y guías de compatibilidad de plataformas.",
-      "categoryLabel": "SOPORTE TÉCNICO",
-      "whatIs": "¿Qué es el soporte?",
-      "whatIsDescription": "Guías técnicas que cubren la compatibilidad de plataformas, optimización de rendimiento, soluciones a cierres inesperados y problemas comunes. Obtén ayuda con Steam Deck, preguntas sobre multijugador y ajustes.",
-      "why": "¿Por qué consultar el soporte?",
+    "quests": {
+      "title": "Misiones de World Fighters",
+      "description": "Misiones de World Fighters, NPCs de misiones secundarias, rutas de desafíos, ubicaciones de NPCs y listas de verificación enfocadas en recompensas.",
+      "metaTitle": "Misiones de World Fighters - NPCs de Misiones Secundarias y Recompensas",
+      "metaDescription": "Completa misiones de World Fighters con ubicaciones de NPCs de misiones secundarias, rutas de desafíos, listas de verificación de recompensas y consejos de planificación de progresión.",
+      "categoryLabel": "MISIONES DE WORLD FIGHTERS",
+      "whatIs": "¿Qué son las Misiones de World Fighters?",
+      "whatIsDescription": "Las Misiones de World Fighters son tareas de NPCs, misiones secundarias, desafíos y cadenas de recompensas que guían el progreso del mapa y desbloquean recursos útiles.",
+      "why": "¿Por qué completar las misiones de World Fighters?",
       "whySteps": {
-        "step1Title": "Soluciona problemas técnicos",
-        "step1Description": "Resuelve cierres inesperados, problemas de rendimiento y de compatibilidad",
-        "step2Title": "Optimiza el rendimiento",
-        "step2Description": "Configura los ajustes para obtener la mejor experiencia en tu plataforma",
-        "step3Title": "Compatibilidad de plataformas",
-        "step3Description": "Aprende sobre Steam Deck, soporte para controles y requisitos del sistema"
+        "step1Title": "Sigue las Rutas de NPCs",
+        "step1Description": "Las guías de misiones te ayudan a encontrar NPCs de World Fighters, entender los pasos de las misiones secundarias y evitar perder cadenas de recompensas.",
+        "step2Title": "Convierte Tareas en Progreso",
+        "step2Description": "Usa los artículos de desafíos y misiones para conectar objetivos con recursos, desbloqueos y hitos de zona.",
+        "step3Title": "Colecciona Mejores Recompensas",
+        "step3Description": "Las guías de recompensas explican qué líneas de misiones vale la pena priorizar durante la progresión temprana, media y tardía."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los artículos de soporte"
+      "featured": "Misiones de World Fighters Destacadas",
+      "all": "Todas las Guías de Misiones de World Fighters"
+    },
+    "raids": {
+      "title": "Raids de World Fighters",
+      "description": "Raids de World Fighters, rutas de Raids F2P, defensa de dragón, guías de invasión, defensa de oleadas y recompensas de Raids.",
+      "metaTitle": "Raids de World Fighters - Recompensas, Guía de Defensa e Invasión",
+      "metaDescription": "Prepárate para las Raids de World Fighters con rutas F2P, recompensas de Raids, defensa de dragón, guías de invasión, defensa de oleadas y consejos de planificación de equipo.",
+      "categoryLabel": "RAIDS DE WORLD FIGHTERS",
+      "whatIs": "¿Qué son las Raids de World Fighters?",
+      "whatIsDescription": "Las Raids de World Fighters son modos de desafío como defensa, invasión y combates basados en oleadas que recompensan a los equipos preparados y la estrategia repetible.",
+      "why": "¿Por qué participar en las Raids de World Fighters?",
+      "whySteps": {
+        "step1Title": "Aprende los Requisitos de las Raids",
+        "step1Description": "Las guías de Raids explican cuándo tu cuenta de World Fighters tiene suficiente daño, potenciadores y fuerza de equipo para intentar los modos de desafío.",
+        "step2Title": "Mejora la Consistencia de las Oleadas",
+        "step2Description": "Los artículos de defensa e invasión se centran en despejes repetibles, planificación de supervivencia y mejor gestión de recursos.",
+        "step3Title": "Apunta a las Recompensas de las Raids",
+        "step3Description": "Usa las guías de recompensas para decidir qué Raids de World Fighters repetir para obtener recursos, mejoras y progreso de eventos."
+      },
+      "featured": "Raids de World Fighters Destacadas",
+      "all": "Todas las Guías de Raids de World Fighters"
     }
   }
 }
