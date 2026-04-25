@@ -171,15 +171,22 @@ export async function getAllContent(
     }
   }
 
-  // 按日期排序(最新的在前)
+  // 按更新时间排序(最新的在前)，优先 lastModified，缺失时回退 date。
   return items.sort((a, b) => {
     // 添加 frontmatter 存在性检查(防御性编程)
     if (!a.frontmatter || !b.frontmatter) {
       console.warn('Missing frontmatter in content item:', { a: a.slug, b: b.slug })
       return 0
     }
-    if (!a.frontmatter.date || !b.frontmatter.date) return 0
-    return new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime()
+    const getTime = (item: ContentItem) => {
+      const fm = item.frontmatter
+      if (fm.lastModified) return new Date(fm.lastModified).getTime()
+      if (fm.date) return new Date(fm.date).getTime()
+      return 0
+    }
+    const timeDiff = getTime(b) - getTime(a)
+    if (timeDiff !== 0) return timeDiff
+    return a.slug.localeCompare(b.slug)
   })
 }
 

@@ -10,7 +10,15 @@
       "twitterDescription": "World Fighters Wiki helps Roblox players track codes, fighters, worlds, bosses, passives, raids, updates, and beginner progression tips."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "resources": "Resources",
+    "units": "Units",
+    "bosses": "Bosses",
+    "quests": "Quests",
+    "raids": "Raids"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1695,85 +1703,145 @@
     "disclaimer": "Unofficial fan-made resource website for World Fighters players."
   },
   "pages": {
-    "guides": {
-      "title": "World Fighters Guides",
-      "description": "World Fighters guides for codes, beginner progression, units, raids, bosses, worlds, and update planning.",
-      "metaTitle": "World Fighters Guides - Codes, Units & Progression",
-      "metaDescription": "World Fighters guides covering codes, beginner tips, unit progression, bosses, raids, worlds, passives, and updates for Roblox players.",
-      "categoryLabel": "WORLD FIGHTERS GUIDES",
-      "whatIs": "What are World Fighters Guides?",
-      "whatIsDescription": "World Fighters guides explain codes, resources, units, bosses, raids, worlds, and beginner decisions in a clear progression order.",
-      "why": "Why read World Fighters guides?",
-      "whySteps": {
-        "step1Title": "Claim Rewards",
-        "step1Description": "Find World Fighters codes and understand which rewards to use first.",
-        "step2Title": "Progress Faster",
-        "step2Description": "Plan farming, avatars, pets, and zone goals around the early progression loop.",
-        "step3Title": "Prepare for Updates",
-        "step3Description": "Track World Fighters update notes, raids, bosses, and new resource priorities."
-      },
-      "featured": "Featured World Fighters Guides",
-      "all": "All World Fighters Guides"
-    },
     "codes": {
       "title": "World Fighters Codes",
-      "description": "Working World Fighters codes, rewards, and redemption steps for Roblox players.",
-      "metaTitle": "World Fighters Codes - Free Potions, Gems & Keys",
-      "metaDescription": "Find World Fighters codes for free potions, gems, Dragon Balls Keys, Saiyan Keys, and Roblox progression rewards.",
+      "description": "World Fighters codes, redeem steps, reward types, and code-use priorities for Roblox players.",
+      "metaTitle": "World Fighters Codes - Rewards and Redeem Guide",
+      "metaDescription": "Use World Fighters codes to claim gems, coins, boosts, and other Roblox rewards, with simple redeem steps and reward-planning tips.",
       "categoryLabel": "WORLD FIGHTERS CODES",
       "whatIs": "What are World Fighters Codes?",
-      "whatIsDescription": "World Fighters codes are reward strings released around updates, milestones, compensation, and community events.",
+      "whatIsDescription": "World Fighters Codes are reward strings players can redeem in Roblox for gems, coins, boosts, skins, reset items, and other progression resources.",
       "why": "Why use World Fighters codes?",
       "whySteps": {
-        "step1Title": "Get Free Rewards",
-        "step1Description": "Claim potions, gems, keys, and special rewards without spending Robux.",
-        "step2Title": "Boost Early Farming",
-        "step2Description": "Use rewards while farming enemies and collecting Cristals.",
-        "step3Title": "Save Time",
-        "step3Description": "Start new sessions with extra resources before grinding zones."
+        "step1Title": "Claim Free Rewards",
+        "step1Description": "Redeem World Fighters codes before a farming session so gems, coins, boosts, and reset items are ready when you need them.",
+        "step2Title": "Plan Resource Timing",
+        "step2Description": "Use code rewards around summoning, character upgrades, and longer play sessions instead of spending each reward immediately.",
+        "step3Title": "Support Early Progression",
+        "step3Description": "New players can use World Fighters code rewards to reduce early grind pressure while learning combat, banners, and map unlocks."
       },
       "featured": "Featured World Fighters Codes",
       "all": "All World Fighters Codes"
     },
-    "beginner": {
-      "title": "World Fighters Beginner Guide",
-      "description": "World Fighters beginner route for codes, Cristals, avatars, pets, map quests, and early zones.",
-      "metaTitle": "World Fighters Beginner Guide - First Session Route",
-      "metaDescription": "Learn how to start World Fighters with codes, Cristals, avatars, pets, map quests, zones, and efficient Roblox progression.",
-      "categoryLabel": "BEGINNER ROUTE",
-      "whatIs": "What is the World Fighters Beginner Guide?",
-      "whatIsDescription": "The World Fighters Beginner Guide outlines the first-session loop from code redemption to farming, unlocks, and zone progression.",
-      "why": "Why follow the World Fighters beginner route?",
+    "guide": {
+      "title": "World Fighters Guide",
+      "description": "World Fighters guide articles for beginners, damage growth, efficient routes, and noob-to-pro progression.",
+      "metaTitle": "World Fighters Guide - Beginner Tips and Progression",
+      "metaDescription": "Read World Fighters guide articles for beginner routes, damage growth, fast progression, update planning, and Roblox gameplay tips.",
+      "categoryLabel": "WORLD FIGHTERS GUIDE",
+      "whatIs": "What is the World Fighters Guide?",
+      "whatIsDescription": "The World Fighters Guide category explains how to start, how to play, how to increase DPS, and how to move from early farming into stronger zones.",
+      "why": "Why read the World Fighters guide?",
       "whySteps": {
-        "step1Title": "Start Cleanly",
-        "step1Description": "Use the official Roblox experience and redeem available rewards first.",
-        "step2Title": "Spend Resources Better",
-        "step2Description": "Understand when to use potions, gems, keys, Cristals, avatars, and pets.",
-        "step3Title": "Move Through Zones",
-        "step3Description": "Use map quests and zone milestones as a clear progression checklist."
+        "step1Title": "Start With Clear Goals",
+        "step1Description": "Follow a World Fighters beginner route that covers codes, early resources, first combat goals, and efficient first-session habits.",
+        "step2Title": "Improve Damage Growth",
+        "step2Description": "Learn when to farm, when to summon, and how to raise DPS without wasting resources on scattered upgrades.",
+        "step3Title": "Use Updates Efficiently",
+        "step3Description": "World Fighters update guides help you identify new priorities, route changes, and progression opportunities after each release."
       },
-      "featured": "Featured World Fighters Beginner Tips",
-      "all": "All World Fighters Beginner Guides"
+      "featured": "Featured World Fighters Guide Articles",
+      "all": "All World Fighters Guide Articles"
     },
-    "tierList": {
-      "title": "World Fighters Tier List",
-      "description": "World Fighters gamepass tier list for progression value, farming speed, luck, storage, and utility.",
-      "metaTitle": "World Fighters Tier List - Best Gamepass Value",
-      "metaDescription": "Compare World Fighters gamepasses by progression value, farming boosts, luck, opening speed, storage, and utility for Roblox players.",
-      "categoryLabel": "GAMEPASS TIER LIST",
-      "whatIs": "What is the World Fighters Tier List?",
-      "whatIsDescription": "The World Fighters Tier List ranks gamepasses by early progression value, farming speed, gacha convenience, and long-term utility.",
-      "why": "Why check the World Fighters tier list?",
+    "resources": {
+      "title": "World Fighters Resources",
+      "description": "World Fighters resources covering gems, crystals, tokens, keys, potions, and free reward planning.",
+      "metaTitle": "World Fighters Resources - Gems, Crystals, Keys and Potions",
+      "metaDescription": "Track World Fighters resources including gems, crystals, tokens, keys, potions, free rewards, and spending priorities for Roblox progression.",
+      "categoryLabel": "WORLD FIGHTERS RESOURCES",
+      "whatIs": "What are World Fighters Resources?",
+      "whatIsDescription": "World Fighters Resources are the currencies, keys, crystals, tokens, potions, and reward items used to summon, farm, unlock systems, and push zones.",
+      "why": "Why track World Fighters resources?",
       "whySteps": {
-        "step1Title": "Prioritize Core Boosts",
-        "step1Description": "Compare 2x Damage, 2x Power, 2x Crystals, and Extra Drops first.",
-        "step2Title": "Plan Gacha Upgrades",
-        "step2Description": "Understand when Luck, Super Luck, Mega Luck, Fast Open, and Multi Open matter.",
-        "step3Title": "Avoid Low Priority Purchases",
-        "step3Description": "Separate comfort tools from progression-focused gamepasses."
+        "step1Title": "Spend With Purpose",
+        "step1Description": "Understand which World Fighters resources support summons, boosts, upgrades, and repeated farming sessions.",
+        "step2Title": "Farm the Right Items",
+        "step2Description": "Use resource guides to focus on gems, crystals, tokens, keys, or potions depending on your current progression wall.",
+        "step3Title": "Avoid Waste",
+        "step3Description": "Plan potion timing, key use, and gem spending around longer sessions and meaningful unlocks."
       },
-      "featured": "Featured World Fighters Tier Picks",
-      "all": "All World Fighters Tier List Guides"
+      "featured": "Featured World Fighters Resources",
+      "all": "All World Fighters Resource Guides"
+    },
+    "units": {
+      "title": "World Fighters Units",
+      "description": "World Fighters units, gacha routes, secret units, luck planning, star opens, and best-unit priorities.",
+      "metaTitle": "World Fighters Units - Best Units and Gacha Guide",
+      "metaDescription": "Explore World Fighters units, secret units, gacha strategy, luck planning, star open routes, and best-unit priorities for Roblox players.",
+      "categoryLabel": "WORLD FIGHTERS UNITS",
+      "whatIs": "What are World Fighters Units?",
+      "whatIsDescription": "World Fighters Units are the characters and pulls that drive team strength, DPS growth, rare collection goals, and long-term account progression.",
+      "why": "Why study World Fighters units?",
+      "whySteps": {
+        "step1Title": "Build a Stronger Roster",
+        "step1Description": "Compare World Fighters units by early usefulness, damage value, rarity, and role before investing resources.",
+        "step2Title": "Plan Gacha Sessions",
+        "step2Description": "Use gacha, luck, and star open guides to decide when a pull session is worth the cost.",
+        "step3Title": "Chase Secret Units",
+        "step3Description": "Secret unit guides explain rare-pull goals and how they fit into late progression without distracting from core farming."
+      },
+      "featured": "Featured World Fighters Units",
+      "all": "All World Fighters Unit Guides"
+    },
+    "bosses": {
+      "title": "World Fighters Bosses",
+      "description": "World Fighters bosses, secret boss locations, Kaido routes, One Piece world notes, and boss farming tips.",
+      "metaTitle": "World Fighters Bosses - Secret Locations and Kaido Guide",
+      "metaDescription": "Find World Fighters bosses, secret boss locations, Kaido routes, One Piece world notes, boss mechanics, and farming priorities.",
+      "categoryLabel": "WORLD FIGHTERS BOSSES",
+      "whatIs": "What are World Fighters Bosses?",
+      "whatIsDescription": "World Fighters Bosses are high-value enemies and secret encounters that gate rewards, map progress, collection goals, and stronger farming loops.",
+      "why": "Why follow World Fighters boss guides?",
+      "whySteps": {
+        "step1Title": "Find Hidden Targets",
+        "step1Description": "Use World Fighters boss guides to locate secret bosses, event bosses, and important route targets more quickly.",
+        "step2Title": "Prepare Your Damage",
+        "step2Description": "Boss articles explain when to return with stronger units, better boosts, and enough DPS for repeated clears.",
+        "step3Title": "Farm Better Rewards",
+        "step3Description": "Focus boss farming on drops, collection progress, map unlocks, and long-term account bonuses."
+      },
+      "featured": "Featured World Fighters Bosses",
+      "all": "All World Fighters Boss Guides"
+    },
+    "quests": {
+      "title": "World Fighters Quests",
+      "description": "World Fighters quests, side quest NPCs, challenge routes, NPC locations, and reward-focused checklists.",
+      "metaTitle": "World Fighters Quests - Side Quest NPCs and Rewards",
+      "metaDescription": "Complete World Fighters quests with side quest NPC locations, challenge routes, reward checklists, and progression planning tips.",
+      "categoryLabel": "WORLD FIGHTERS QUESTS",
+      "whatIs": "What are World Fighters Quests?",
+      "whatIsDescription": "World Fighters Quests are NPC tasks, side quests, challenges, and reward chains that guide map progress and unlock useful resources.",
+      "why": "Why complete World Fighters quests?",
+      "whySteps": {
+        "step1Title": "Follow NPC Routes",
+        "step1Description": "Quest guides help you find World Fighters NPCs, understand side quest steps, and avoid missing reward chains.",
+        "step2Title": "Turn Tasks Into Progress",
+        "step2Description": "Use challenge and quest articles to connect objectives with resources, unlocks, and zone milestones.",
+        "step3Title": "Collect Better Rewards",
+        "step3Description": "Reward guides explain which quest lines are worth prioritizing during early, mid, and late progression."
+      },
+      "featured": "Featured World Fighters Quests",
+      "all": "All World Fighters Quest Guides"
+    },
+    "raids": {
+      "title": "World Fighters Raids",
+      "description": "World Fighters raids, F2P raid routes, dragon defense, invasion guides, wave defense, and raid rewards.",
+      "metaTitle": "World Fighters Raids - Rewards, Defense and Invasion Guide",
+      "metaDescription": "Prepare for World Fighters raids with F2P routes, raid rewards, dragon defense, invasion guides, wave defense, and team planning tips.",
+      "categoryLabel": "WORLD FIGHTERS RAIDS",
+      "whatIs": "What are World Fighters Raids?",
+      "whatIsDescription": "World Fighters Raids are challenge modes such as defense, invasion, and wave-based fights that reward prepared teams and repeatable strategy.",
+      "why": "Why run World Fighters raids?",
+      "whySteps": {
+        "step1Title": "Learn Raid Requirements",
+        "step1Description": "Raid guides explain when your World Fighters account has enough damage, boosts, and team strength to attempt challenge modes.",
+        "step2Title": "Improve Wave Consistency",
+        "step2Description": "Defense and invasion articles focus on repeatable clears, survival planning, and better resource timing.",
+        "step3Title": "Target Raid Rewards",
+        "step3Description": "Use reward guides to decide which World Fighters raids to repeat for resources, upgrades, and event progress."
+      },
+      "featured": "Featured World Fighters Raids",
+      "all": "All World Fighters Raid Guides"
     }
   }
 }

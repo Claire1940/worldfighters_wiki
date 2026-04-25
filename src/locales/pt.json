@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Guias",
-    "crafting": "Criação",
-    "items": "Itens",
-    "biomes": "Biomas",
-    "building": "Construção",
-    "support": "Suporte"
+    "codes": "Codes",
+    "guide": "Guide",
+    "resources": "Resources",
+    "units": "Units",
+    "bosses": "Bosses",
+    "quests": "Quests",
+    "raids": "Raids"
   },
   "common": {
     "home": "Início",

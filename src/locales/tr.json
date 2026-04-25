@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "codes": "Codes",
+    "guide": "Guide",
+    "resources": "Resources",
+    "units": "Units",
+    "bosses": "Bosses",
+    "quests": "Quests",
+    "raids": "Raids"
   },
   "common": {
     "home": "Ana Sayfa",

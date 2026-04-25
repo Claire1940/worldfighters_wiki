@@ -1,4 +1,4 @@
-import { notFound, redirect } from 'next/navigation'
+import { notFound } from 'next/navigation'
 import { getTranslations } from 'next-intl/server'
 import {
   getAllContentPaths,
@@ -49,14 +49,6 @@ export default async function UnifiedContentPage({ params }: PageProps) {
  */
 async function renderListPage(contentType: ContentType, locale: Language) {
   const items = await getAllContent(contentType, locale)
-
-  // 如果只有一篇文章，直接跳转到详情页
-  if (items.length === 1) {
-    const singleArticle = items[0]
-    const detailPath = `/${contentType}/${singleArticle.slug}`
-    const fullPath = locale === 'en' ? detailPath : `/${locale}${detailPath}`
-    redirect(fullPath)
-  }
 
   const t = await getTranslations(`pages.${contentType}`)
 

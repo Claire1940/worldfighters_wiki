@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "resources": "Resources",
+    "units": "Units",
+    "bosses": "Bosses",
+    "quests": "Quests",
+    "raids": "Raids"
+  }
+}
