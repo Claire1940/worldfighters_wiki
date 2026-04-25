@@ -57,7 +57,7 @@
   "tools": {
     "title": "World Fighters",
     "titleHighlight": "Resources",
-    "subtitle": "Jump from Latest Updates into the main World Fighters codes, beginner route, official links, and gamepass tier list modules.",
+    "subtitle": "Jump from Latest Updates into the main World Fighters codes, beginner route, official links, tier list, Secret units, gacha, awakening, and resource modules.",
     "cards": [
       {
         "icon": "ClipboardCheck",
@@ -82,6 +82,30 @@
         "title": "World Fighters Tier List",
         "description": "Gamepass value tiers for progression, farming, luck, and utility.",
         "href": "#world-fighters-tier-list"
+      },
+      {
+        "icon": "Shield",
+        "title": "World Fighters Secret Units Guide",
+        "description": "Secret Luffy, Secret Gacha, luck boosts, keys, and late-game chase planning.",
+        "href": "#world-fighters-secret-units-guide"
+      },
+      {
+        "icon": "Package",
+        "title": "World Fighters Gacha and Star Guide",
+        "description": "How stars, banners, gems, rolls, and luck sessions connect.",
+        "href": "#world-fighters-gacha-and-star-guide"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "World Fighters Awakening Guide",
+        "description": "Permanent growth milestones for power, damage, zones, and Secret hunts.",
+        "href": "#world-fighters-awakening-guide"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "World Fighters Crystals and Gems Guide",
+        "description": "Resource sources, spending priorities, potions, keys, and best-use timing.",
+        "href": "#world-fighters-crystals-and-gems-guide"
       }
     ]
   },
@@ -658,6 +682,211 @@
         "Prioritize direct farming boosts before situational convenience.",
         "Luck passes gain value when you are opening stars or chasing rare unlocks.",
         "Storage and remote utility are comfort picks after core progression boosts."
+      ]
+    },
+    "worldFightersSecretUnitsGuide": {
+      "id": "world-fighters-secret-units-guide",
+      "eyebrow": "Secret Units",
+      "title": "World Fighters Secret Units Guide",
+      "subtitle": "Learn why Secret units matter, how Secret Luffy fits into late-game progression, and which resources help you chase rare pulls more efficiently.",
+      "intro": "Secret units are one of the biggest long-term goals in World Fighters because they sit at the top of the collection grind and connect directly with gacha rolls, luck boosts, keys, stars, and awakening progression. Build a resource routine first, then use gems, luck rewards, and faster opening tools when you are ready to chase rare pulls.",
+      "displayType": "card-list",
+      "items": [
+        {
+          "title": "Secret Luffy Target",
+          "tag": "Top Rarity Chase",
+          "description": "Secret Luffy is a major high-end chase unit in World Fighters. Players searching for Secret Luffy should focus on resource farming, gacha access, luck boosts, and late-game progression before spending gems heavily."
+        },
+        {
+          "title": "First Secret Unit Badge",
+          "tag": "Rare Collection Milestone",
+          "description": "The First Secret Unit badge is an important collection milestone that sits far beyond early actions such as opening stars or rolling gacha. Treat it as a long-term target supported by stronger farming routes."
+        },
+        {
+          "title": "First Secret Gacha Badge",
+          "tag": "Late-Game Pull Goal",
+          "description": "First Secret Gacha belongs in the late-game chase layer. Approach Secret Gacha after your damage, resources, roll access, and luck support are stable enough for repeated pull sessions."
+        },
+        {
+          "title": "Luck Boost Stack",
+          "tag": "Luck Potion and Gamepasses",
+          "description": "Codes commonly reward Luck Potions, while the game store includes Luck, Super Luck, and Mega Luck boosts. These are most valuable when used around banner rolls, gacha sessions, star openings, or Secret Unit attempts."
+        },
+        {
+          "title": "Keys and Resource Support",
+          "tag": "Dragon Balls Key and Saiyan Key",
+          "description": "Many active codes reward Dragon Balls Keys, Saiyan Keys, gems, and potions. These rewards reduce early farming pressure and help players reach stronger zones and better pull opportunities faster."
+        },
+        {
+          "title": "Secret Boss and Progression Route",
+          "tag": "Late-Game Farming",
+          "description": "Secret unit hunting works best after players have a stable damage base, more unlocked zones, and a repeatable route for bosses or high-value targets. Treat Secret hunting as a progression layer, not the first place to spend every reward."
+        }
+      ],
+      "routineTitle": "World Fighters Secret Routine",
+      "routine": [
+        "Redeem codes and bank gems, luck potions, and keys before long pull sessions.",
+        "Push zones and awakening progress until farming routes are fast enough to sustain repeated rolls.",
+        "Spend rare-pull boosts during planned gacha or star sessions instead of casual early farming."
+      ]
+    },
+    "worldFightersGachaAndStarGuide": {
+      "id": "world-fighters-gacha-and-star-guide",
+      "eyebrow": "Gacha & Stars",
+      "title": "World Fighters Gacha and Star Guide",
+      "subtitle": "Understand how Star Open, Gacha Roll, banners, gems, and luck rewards connect before spending your resources.",
+      "intro": "World Fighters uses a familiar anime-simulator loop: farm resources, open stars or roll gacha, improve your collection, then push stronger zones. Gems are used for in-game banners, while stars, gacha rolls, luck potions, and opening-speed upgrades shape how efficiently you chase better avatars, pets, and rare units.",
+      "displayType": "step-by-step",
+      "items": [
+        {
+          "step": 1,
+          "title": "Claim Code Rewards First",
+          "action": "Redeem active World Fighters codes before rolling because many codes give gems, potions, and keys.",
+          "whyItMatters": "Codes can supply gems for banners, Luck Potions for rare pulls, and keys such as Dragon Balls Keys or Saiyan Keys, giving new players a faster start."
+        },
+        {
+          "step": 2,
+          "title": "Open Your First Star Early",
+          "action": "Use the Star system once you have enough resources and want to begin building your avatar or pet collection.",
+          "whyItMatters": "The first Star Open milestone is a natural early progression step before deeper Secret milestones and long rare-pull sessions."
+        },
+        {
+          "step": 3,
+          "title": "Use Gacha Rolls for Banner Progress",
+          "action": "Spend gems on banner or gacha rolls when the available rewards match your World Fighters progression goal.",
+          "whyItMatters": "Gems are tied to in-game banners that can unlock customization and roster options, so planned spending keeps long-term progress cleaner."
+        },
+        {
+          "step": 4,
+          "title": "Save Luck for Rare-Pull Sessions",
+          "action": "Use Luck Potions and luck-focused boosts when you are doing a serious roll session, not during casual early farming.",
+          "whyItMatters": "Luck rewards are most valuable when paired with banners, stars, gacha rolls, or Secret Unit attempts."
+        },
+        {
+          "step": 5,
+          "title": "Improve Opening Efficiency",
+          "action": "Consider Fast Open, Multi Open, and Remote Star after you know you will farm rolls often.",
+          "whyItMatters": "Opening-related upgrades matter most during long gacha or star-opening sessions where saved time compounds across many rolls."
+        },
+        {
+          "step": 6,
+          "title": "Chase Secret Gacha Later",
+          "action": "Treat First Secret Gacha as a late-game milestone after your farming route, damage, and resource flow are stable.",
+          "whyItMatters": "Secret Gacha is a long-term World Fighters target that becomes more efficient when supported by prepared resources and luck boosts."
+        }
+      ]
+    },
+    "worldFightersAwakeningGuide": {
+      "id": "world-fighters-awakening-guide",
+      "eyebrow": "Awakening",
+      "title": "World Fighters Awakening Guide",
+      "subtitle": "Awakening is a permanent growth layer that turns raw farming into stronger long-term damage and power progression.",
+      "intro": "World Fighters awakenings provide permanent damage and power multiplier spikes, and later awakenings require more power to unlock. Use awakening as a planned progression cycle: farm power, clear zones, unlock the next awakening, then repeat with stronger units and better resource flow.",
+      "displayType": "timeline-cards",
+      "items": [
+        {
+          "phase": "Phase 1",
+          "title": "Build Base Power",
+          "description": "Start by training, clicking, defeating enemies, and completing early quests so your fighter has enough strength to push into stronger content.",
+          "focus": "Power farming and early enemy clears"
+        },
+        {
+          "phase": "Phase 2",
+          "title": "Clear Map Quests",
+          "description": "Progressing to new worlds usually requires completing the main quest for your current map and earning the key needed to unlock the next area teleport.",
+          "focus": "Quest completion and map unlocks"
+        },
+        {
+          "phase": "Phase 3",
+          "title": "Unlock First Awakening",
+          "description": "The first awakening is a major early-to-mid progression marker that gives the account a permanent multiplier spike and makes the next farming cycle faster.",
+          "focus": "First permanent multiplier spike"
+        },
+        {
+          "phase": "Phase 4",
+          "title": "Repeat Awakening Cycles",
+          "description": "Each successive awakening requires more power but gives a stronger permanent boost. This makes awakening valuable before deeper zone farming, boss clears, and rare-unit chasing.",
+          "focus": "Scaling damage and power multiplier"
+        },
+        {
+          "phase": "Phase 5",
+          "title": "Pair Awakening With Secret Hunts",
+          "description": "After your awakening path is stable, Secret units and Secret Gacha become more realistic long-term goals because you can farm harder content and resources faster.",
+          "focus": "Late-game Secret Unit progression"
+        }
+      ]
+    },
+    "worldFightersCrystalsAndGemsGuide": {
+      "id": "world-fighters-crystals-and-gems-guide",
+      "eyebrow": "Resources",
+      "title": "World Fighters Crystals and Gems Guide",
+      "subtitle": "Track what Crystals, Gems, Potions, and Keys are used for so you do not waste early-game rewards.",
+      "intro": "World Fighters progression is built around defeating enemies, collecting Crystals, unlocking avatars and pets, and using code rewards to speed up the early grind. Gems are especially important because they connect to in-game banners and rolls, while potions and keys help players farm faster or unlock progress routes sooner.",
+      "displayType": "table",
+      "tableHeaders": {
+        "resource": "World Fighters Resource",
+        "source": "Main Source",
+        "use": "Main Use",
+        "priority": "Priority",
+        "bestUse": "Best Use"
+      },
+      "items": [
+        {
+          "resource": "Crystals",
+          "mainSources": "Defeating enemies and regular farming",
+          "mainUses": "Core progression, avatar and pet unlock flow, and early farming growth",
+          "priority": "High",
+          "bestUse": "Spend on progression that improves your farming speed before chasing rare late-game goals."
+        },
+        {
+          "resource": "Gems",
+          "mainSources": "Codes, milestone rewards, and progression rewards",
+          "mainUses": "In-game banners, gacha rolls, avatars, and pets",
+          "priority": "Very High",
+          "bestUse": "Save gems for banners or roll sessions that directly improve your team instead of spending them immediately."
+        },
+        {
+          "resource": "Luck Potion",
+          "mainSources": "Many active World Fighters codes include one of each potion",
+          "mainUses": "Improving rare-pull efficiency during gacha, star, or banner sessions",
+          "priority": "High",
+          "bestUse": "Use before planned rare-pull sessions, especially when chasing Secret units or better banner rewards."
+        },
+        {
+          "resource": "Crystal Potion",
+          "mainSources": "Common World Fighters code reward",
+          "mainUses": "Boosting crystal farming sessions",
+          "priority": "High",
+          "bestUse": "Activate before enemy-grind sessions where you can farm continuously."
+        },
+        {
+          "resource": "Power Potion",
+          "mainSources": "Common World Fighters code reward",
+          "mainUses": "Speeding up power growth and awakening preparation",
+          "priority": "Medium-High",
+          "bestUse": "Use when you are actively training or pushing toward an awakening requirement."
+        },
+        {
+          "resource": "Damage Potion",
+          "mainSources": "Common World Fighters code reward",
+          "mainUses": "Helping defeat stronger enemies, bosses, or challenge targets faster",
+          "priority": "Medium-High",
+          "bestUse": "Save for hard fights, new zones, or boss routes instead of using during easy farming."
+        },
+        {
+          "resource": "Dragon Balls Key",
+          "mainSources": "Many active World Fighters codes, including visit and like milestone codes",
+          "mainUses": "Key-based progression and Dragon Ball-themed reward access",
+          "priority": "High",
+          "bestUse": "Keep and use when the related world, quest, or reward path becomes available."
+        },
+        {
+          "resource": "Saiyan Key",
+          "mainSources": "Shutdown compensation codes such as SRRY4SHUTDOWN, SRRY4SHUTDOWN2, and SRRY4SHUTDOWN3",
+          "mainUses": "Saiyan-themed key progression or reward access",
+          "priority": "High",
+          "bestUse": "Redeem shutdown codes early so the key is ready when you reach the matching content."
+        }
       ]
     }
   },

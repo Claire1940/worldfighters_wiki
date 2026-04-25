@@ -174,6 +174,10 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
   const beginnerModule = t.modules.worldFightersBeginnerGuide
   const linksModule = t.modules.worldFightersOfficialLinks
   const tierModule = t.modules.worldFightersTierList
+  const secretUnitsModule = t.modules.worldFightersSecretUnitsGuide
+  const gachaModule = t.modules.worldFightersGachaAndStarGuide
+  const awakeningModule = t.modules.worldFightersAwakeningGuide
+  const resourcesModule = t.modules.worldFightersCrystalsAndGemsGuide
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -324,6 +328,54 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               </div>
               <h3 className="font-semibold mb-2">{navCards[3].title}</h3>
               <p className="text-sm text-muted-foreground">{navCards[3].description}</p>
+            </a>
+
+            <a
+              href="#world-fighters-secret-units-guide"
+              onClick={(event) => handleAnchorClick(event, 'world-fighters-secret-units-guide')}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={navCards[4].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{navCards[4].title}</h3>
+              <p className="text-sm text-muted-foreground">{navCards[4].description}</p>
+            </a>
+
+            <a
+              href="#world-fighters-gacha-and-star-guide"
+              onClick={(event) => handleAnchorClick(event, 'world-fighters-gacha-and-star-guide')}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={navCards[5].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{navCards[5].title}</h3>
+              <p className="text-sm text-muted-foreground">{navCards[5].description}</p>
+            </a>
+
+            <a
+              href="#world-fighters-awakening-guide"
+              onClick={(event) => handleAnchorClick(event, 'world-fighters-awakening-guide')}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={navCards[6].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{navCards[6].title}</h3>
+              <p className="text-sm text-muted-foreground">{navCards[6].description}</p>
+            </a>
+
+            <a
+              href="#world-fighters-crystals-and-gems-guide"
+              onClick={(event) => handleAnchorClick(event, 'world-fighters-crystals-and-gems-guide')}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={navCards[7].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{navCards[7].title}</h3>
+              <p className="text-sm text-muted-foreground">{navCards[7].description}</p>
             </a>
           </div>
         </div>
@@ -610,6 +662,220 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
                 </div>
                 <p className="text-sm text-muted-foreground">{note}</p>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 5: World Fighters Secret Units Guide */}
+      <section id="world-fighters-secret-units-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{secretUnitsModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{secretUnitsModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {secretUnitsModule.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {secretUnitsModule.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+            {secretUnitsModule.items.map((item: any) => (
+              <article
+                key={item.title}
+                className="p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+              >
+                <div className="flex items-start justify-between gap-4 mb-4">
+                  <div>
+                    <span className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] text-xs text-[hsl(var(--nav-theme-light))]">
+                      <Sparkles className="w-3.5 h-3.5" />
+                      {item.tag}
+                    </span>
+                    <h3 className="text-xl font-bold mt-3">{item.title}</h3>
+                  </div>
+                  <Star className="w-5 h-5 shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                </div>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  {item.description}
+                </p>
+              </article>
+            ))}
+          </div>
+
+          <div className="scroll-reveal mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+            {secretUnitsModule.routine.map((item: string, index: number) => (
+              <div key={item} className="p-5 rounded-xl border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.06)]">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[hsl(var(--nav-theme)/0.16)] text-[hsl(var(--nav-theme-light))] font-bold">
+                    {index + 1}
+                  </span>
+                  <h3 className="font-bold">{secretUnitsModule.routineTitle}</h3>
+                </div>
+                <p className="text-sm text-muted-foreground">{item}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 6: World Fighters Gacha and Star Guide */}
+      <section id="world-fighters-gacha-and-star-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Package className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{gachaModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{gachaModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {gachaModule.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {gachaModule.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-5">
+            {gachaModule.items.map((step: any, index: number) => (
+              <article
+                key={step.title}
+                className="grid grid-cols-1 lg:grid-cols-[4rem_1fr] gap-4 p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+              >
+                <div className="flex lg:block">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[hsl(var(--nav-theme)/0.16)] border border-[hsl(var(--nav-theme)/0.4)] text-[hsl(var(--nav-theme-light))] text-lg font-bold">
+                    {index + 1}
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-2">{step.title}</h3>
+                  <p className="text-sm text-[hsl(var(--nav-theme-light))] mb-3">{step.action}</p>
+                  <p className="text-muted-foreground leading-relaxed">{step.whyItMatters}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 7: World Fighters Awakening Guide */}
+      <section id="world-fighters-awakening-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{awakeningModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{awakeningModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {awakeningModule.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {awakeningModule.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-5 gap-4">
+            {awakeningModule.items.map((phase: any, index: number) => (
+              <article
+                key={phase.phase}
+                className="relative p-5 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+              >
+                <div className="flex items-center justify-between gap-3 mb-4">
+                  <span className="inline-flex items-center px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] text-xs text-[hsl(var(--nav-theme-light))]">
+                    {phase.phase}
+                  </span>
+                  <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[hsl(var(--nav-theme)/0.16)] text-[hsl(var(--nav-theme-light))] font-bold">
+                    {index + 1}
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold mb-2">{phase.title}</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                  {phase.description}
+                </p>
+                <p className="text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                  {phase.focus}
+                </p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 8: World Fighters Crystals and Gems Guide */}
+      <section id="world-fighters-crystals-and-gems-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Sparkles className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{resourcesModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{resourcesModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {resourcesModule.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {resourcesModule.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border bg-card">
+            <table className="w-full text-sm">
+              <thead className="bg-[hsl(var(--nav-theme)/0.08)] text-left">
+                <tr>
+                  <th className="px-5 py-4 font-semibold">{resourcesModule.tableHeaders.resource}</th>
+                  <th className="px-5 py-4 font-semibold">{resourcesModule.tableHeaders.source}</th>
+                  <th className="px-5 py-4 font-semibold">{resourcesModule.tableHeaders.use}</th>
+                  <th className="px-5 py-4 font-semibold">{resourcesModule.tableHeaders.priority}</th>
+                  <th className="px-5 py-4 font-semibold">{resourcesModule.tableHeaders.bestUse}</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-border">
+                {resourcesModule.items.map((item: any) => (
+                  <tr key={item.resource} className="hover:bg-white/[0.03] transition-colors">
+                    <td className="px-5 py-4 font-bold text-[hsl(var(--nav-theme-light))]">{item.resource}</td>
+                    <td className="px-5 py-4 text-muted-foreground">{item.mainSources}</td>
+                    <td className="px-5 py-4 text-muted-foreground">{item.mainUses}</td>
+                    <td className="px-5 py-4">
+                      <span className="inline-flex px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.25)] text-xs text-[hsl(var(--nav-theme-light))]">
+                        {item.priority}
+                      </span>
+                    </td>
+                    <td className="px-5 py-4 text-muted-foreground">{item.bestUse}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="scroll-reveal md:hidden grid grid-cols-1 gap-4">
+            {resourcesModule.items.map((item: any) => (
+              <article key={item.resource} className="p-5 rounded-xl border border-border bg-card">
+                <div className="flex items-start justify-between gap-3 mb-3">
+                  <h3 className="text-lg font-bold text-[hsl(var(--nav-theme-light))]">{item.resource}</h3>
+                  <span className="inline-flex px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.25)] text-xs">
+                    {item.priority}
+                  </span>
+                </div>
+                <div className="space-y-3 text-sm">
+                  <p>
+                    <span className="font-semibold">{resourcesModule.tableHeaders.source}: </span>
+                    <span className="text-muted-foreground">{item.mainSources}</span>
+                  </p>
+                  <p>
+                    <span className="font-semibold">{resourcesModule.tableHeaders.use}: </span>
+                    <span className="text-muted-foreground">{item.mainUses}</span>
+                  </p>
+                  <p>
+                    <span className="font-semibold">{resourcesModule.tableHeaders.bestUse}: </span>
+                    <span className="text-muted-foreground">{item.bestUse}</span>
+                  </p>
+                </div>
+              </article>
             ))}
           </div>
         </div>

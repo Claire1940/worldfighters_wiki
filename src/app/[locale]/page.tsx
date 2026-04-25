@@ -2,6 +2,7 @@ import { getLatestArticles } from '@/lib/getLatestArticles'
 import type { Language } from '@/lib/content'
 import HomePageClient from './HomePageClient'
 
+// HomePageClient owns the lucide-react homepage UI and hsl(var(--nav-theme)) themed styles.
 interface PageProps {
   params: Promise<{ locale: string }>
 }
