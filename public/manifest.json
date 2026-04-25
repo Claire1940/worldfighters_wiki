@@ -1,12 +1,16 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "World Fighters Wiki - Codes, Units & Beginner Guide",
+  "short_name": "World Fighters",
+  "description": "World Fighters Wiki helps Roblox players find codes, unit lists, beginner tips, boss locations, worlds, passives, raids, and update notes.",
+  "id": "/",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#7f39ef",
+  "background_color": "#080613",
+  "lang": "en",
+  "categories": ["games", "entertainment", "utilities"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
