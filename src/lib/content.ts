@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+import matter from 'gray-matter'
 import { CONTENT_TYPES as CONFIG_CONTENT_TYPES } from '@/config/navigation'
 import type { Locale } from '@/i18n/routing'
 
@@ -75,6 +76,25 @@ export interface ContentData {
   frontmatter: ContentFrontmatter
 }
 
+function readContentFrontmatter(filePath: string): ContentFrontmatter | null {
+  if (!fs.existsSync(filePath)) return null
+
+  const source = fs.readFileSync(filePath, 'utf8')
+  const frontmatter = matter(source).data
+  if (frontmatter.title && frontmatter.description) {
+    return frontmatter as ContentFrontmatter
+  }
+
+  const metadataMatch = source.match(/export\s+const\s+metadata\s*=\s*({[\s\S]*?\n})/)
+  if (!metadataMatch) return null
+
+  try {
+    return Function(`"use strict"; return (${metadataMatch[1]})`)() as ContentFrontmatter
+  } catch {
+    return null
+  }
+}
+
 /**
  * 辅助函数：递归获取目录下所有 MDX 文件的 slug
  */
@@ -119,27 +139,31 @@ export async function getAllContent(
     slugs = [...new Set([...slugs, ...enSlugs])]
   }
 
-  // 使用 import 获取每个文件的 metadata
+  // 从文件系统读取每个文件的 metadata，避免空 content/ 目录触发打包期动态 import 警告。
   for (const slug of slugs) {
     try {
       // 先尝试当前语言（反查真实文件名以处理含特殊字符的文件名）
       const realSlug = findFileBySlug(contentDir, slug) || slug
-      const mod = await import(`../../content/${language}/${contentType}/${realSlug}.mdx`)
-      items.push({
-        slug,
-        frontmatter: mod.metadata as ContentFrontmatter,
-      })
+      const frontmatter = readContentFrontmatter(path.join(contentDir, `${realSlug}.mdx`))
+      if (frontmatter) {
+        items.push({
+          slug,
+          frontmatter,
+        })
+      }
     } catch {
       // Fallback 到英文
       if (language !== 'en') {
         try {
           const enContentDir = path.join(process.cwd(), 'content', 'en', contentType)
           const enRealSlug = findFileBySlug(enContentDir, slug) || slug
-          const mod = await import(`../../content/en/${contentType}/${enRealSlug}.mdx`)
-          items.push({
-            slug,
-            frontmatter: mod.metadata as ContentFrontmatter,
-          })
+          const frontmatter = readContentFrontmatter(path.join(enContentDir, `${enRealSlug}.mdx`))
+          if (frontmatter) {
+            items.push({
+              slug,
+              frontmatter,
+            })
+          }
         } catch {
           // 跳过无法加载的文件
         }
@@ -214,7 +238,7 @@ export function isValidContentType(type: string): type is ContentType {
  * 验证语言是否有效
  */
 export function isValidLanguage(lang: string): lang is Language {
-  const validLanguages: Language[] = ['en', 'ru', 'pt', 'de', 'es', 'ja', 'tr', 'fr']
+  const validLanguages: Language[] = ['en', 'pt', 'es', 'th']
   return validLanguages.includes(lang as Language)
 }
 

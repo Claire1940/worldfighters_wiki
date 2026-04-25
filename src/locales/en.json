@@ -10,14 +10,7 @@
       "twitterDescription": "World Fighters Wiki helps Roblox players find new codes, unit lists, beginner tips, boss locations, worlds, passives, raids, and update notes."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
