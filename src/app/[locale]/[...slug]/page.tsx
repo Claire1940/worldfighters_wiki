@@ -214,7 +214,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale, slug } = await params
   const contentType = slug[0]
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://worldfighters.wiki'
+  const siteName = 'World Fighters Wiki'
+  const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
 
   if (!isValidContentType(contentType)) {
     return { title: 'Not Found' }
@@ -223,12 +225,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const isListPage = slug.length === 1
 
   if (isListPage) {
-    // 列表页元数据
-    const t = await getTranslations(`pages.${contentType}`)
-
     try {
-      const title = t('metaTitle')
-      const description = t('metaDescription')
+      const contentTypeTitle = contentType.charAt(0).toUpperCase() + contentType.slice(1)
+      const title = `${contentTypeTitle} - ${siteName}`
+      const description = `Browse ${contentTypeTitle.toLowerCase()} guides and resources for World Fighters codes, units, bosses, worlds, raids, and Roblox progression.`
       const path = `/${contentType}`
 
       return {
@@ -239,6 +239,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           title,
           description,
           url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+          siteName,
+          images: [heroImageUrl],
         },
         robots: {
           index: true,
@@ -254,13 +256,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       }
     } catch {
       // 如果翻译不存在，使用默认值
-      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Lucid Blocks Wiki`
+      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - ${siteName}`
       const path = `/${contentType}`
 
       return {
         title: defaultTitle,
-        description: `Browse all ${contentType} content for Lucid Blocks Wiki`,
+        description: `Browse all ${contentType} content for ${siteName}`,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
+        openGraph: {
+          title: defaultTitle,
+          description: `Browse all ${contentType} content for ${siteName}`,
+          url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+          siteName,
+          images: [heroImageUrl],
+        },
         robots: {
           index: true,
           follow: true,
@@ -290,14 +299,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       const fullPath = `/${slug.join('/')}`
 
       return {
-        title: `${metadata.title} - Lucid Blocks Wiki`,
+        title: `${metadata.title} - ${siteName}`,
         description: metadata.description,
         alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
         openGraph: {
           title: metadata.title,
           description: metadata.description,
-          images: metadata.image ? [metadata.image] : [],
+          images: metadata.image ? [metadata.image] : [heroImageUrl],
           url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+          siteName,
         },
         robots: {
           index: true,
@@ -325,14 +335,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           const fullPath = `/${slug.join('/')}`
 
           return {
-            title: `${metadata.title} - Lucid Blocks Wiki`,
+            title: `${metadata.title} - ${siteName}`,
             description: metadata.description,
             alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
             openGraph: {
               title: metadata.title,
               description: metadata.description,
-              images: metadata.image ? [metadata.image] : [],
+              images: metadata.image ? [metadata.image] : [heroImageUrl],
               url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+              siteName,
             },
             robots: {
               index: true,

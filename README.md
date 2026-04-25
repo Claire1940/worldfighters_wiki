@@ -1,7 +1,7 @@
 # Game Wiki Template
 
 A production-ready, multilingual game wiki template built with Next.js 15.
-Powers 47+ game wiki sites with SEO optimization, MDX content, and Docker deployment.
+Powers 59+ game wiki sites with SEO optimization, MDX content, and Docker deployment.
 
 ## Features
 
@@ -63,6 +63,18 @@ Powers 47+ game wiki sites with SEO optimization, MDX content, and Docker deploy
 | Pilgrimmed Wiki | https://www.pilgrammedwiki.wiki |
 | Sol Cesto Wiki | https://www.sol-cesto.wiki |
 | Metro 2039 Wiki | https://www.metro2039.wiki |
+| Mongilstardive Wiki | https://www.mongilstardive.wiki |
+| Treeshateyou Wiki | https://www.treeshateyou.wiki |
+| 67speed Wiki | https://www.67speed.wiki |
+| Brainrotevolution Wiki | https://www.brainrotevolution.wiki |
+| Windrosewiki Wiki | https://www.windrosewiki.wiki |
+| Locked2 Wiki | https://www.locked2.wiki |
+| Saros Wiki | https://www.saros.wiki |
+| Vampire Crawlers Wiki | https://www.vampire-crawlers.wiki |
+| Slimeseaswiki Wiki | https://www.slimeseaswiki.wiki |
+| Dragonquestsmashgrow Wiki | https://www.dragonquestsmashgrow.wiki |
+| Splatoonraiders Wiki | https://www.splatoonraiders.wiki |
+| World Fighters Wiki | https://www.worldfighters.wiki |
 
 ## Tech Stack
 

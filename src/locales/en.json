@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "World Fighters Wiki - Codes, Units & Beginner Guide",
+      "description": "World Fighters Wiki helps Roblox players find new codes, unit lists, beginner tips, boss locations, worlds, passives, raids, and update notes in one place.",
+      "keywords": "World Fighters, World Fighters wiki, Roblox codes, units, bosses, raids, updates",
+      "ogTitle": "World Fighters Wiki - Codes, Units & Beginner Guide",
+      "ogDescription": "World Fighters Wiki helps Roblox players find new codes, unit lists, beginner tips, boss locations, worlds, passives, raids, and update notes in one place.",
+      "twitterTitle": "World Fighters Wiki - Codes, Units & Beginner Guide",
+      "twitterDescription": "World Fighters Wiki helps Roblox players find new codes, unit lists, beginner tips, boss locations, worlds, passives, raids, and update notes."
     }
   },
   "nav": {
@@ -33,27 +33,27 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Anime-Inspired Roblox Fighting Simulator",
+    "title": "World Fighters Wiki",
+    "description": "World Fighters Wiki helps Roblox players track free codes, anime-inspired fighters, worlds, bosses, passives, raids, updates, and beginner progression tips.",
+    "getFreeCodesCTA": "Join Discord for Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "1.6M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "8.7K",
+        "label": "Active Players"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "4.1K",
+        "label": "Favorites"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "582K+",
+        "label": "StarX Group Members"
       }
     }
   },
@@ -784,26 +784,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Play World Fighters?",
+    "description": "Join the World Fighters Discord for codes, update notes, raid tips, and community progression help.",
+    "joinCommunity": "Join World Fighters Discord",
+    "joinGame": "Play World Fighters on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "World Fighters Wiki",
+    "description": "Your complete resource hub for World Fighters codes, units, bosses, worlds, passives, raids, updates, and Roblox progression guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "twitter": "Tanlugi on X",
+    "steamCommunity": "StarX Roblox Group",
+    "steamStore": "Roblox Game Page",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 World Fighters Wiki. Not affiliated with StarX Inc or Roblox Corporation.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
