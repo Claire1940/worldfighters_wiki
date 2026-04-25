@@ -33,6 +33,7 @@ import { SidebarAd } from '@/components/ads/SidebarAd'
 import { scrollToSection } from '@/lib/scrollToSection'
 import { DynamicIcon } from '@/components/ui/DynamicIcon'
 import type { ContentItemWithType } from '@/lib/getLatestArticles'
+import type { ModuleLinkMap } from '@/lib/buildModuleLinkMap'
 
 const HeroStats = lazy(() => import('@/components/home/HeroStats'))
 const FAQSection = lazy(() => import('@/components/home/FAQSection'))
@@ -42,8 +43,36 @@ const LoadingPlaceholder = ({ height = 'h-64' }: { height?: string }) => (
   <div className={`${height} bg-white/5 border border-border rounded-xl animate-pulse`} />
 )
 
+function LinkedTitle({
+  linkData,
+  children,
+  className,
+  locale,
+}: {
+  linkData: { url: string; title: string } | null | undefined
+  children: React.ReactNode
+  className?: string
+  locale: string
+}) {
+  if (linkData) {
+    const href = locale === 'en' ? linkData.url : `/${locale}${linkData.url}`
+    return (
+      <Link
+        href={href}
+        className={`${className || ''} hover:text-[hsl(var(--nav-theme-light))] hover:underline decoration-[hsl(var(--nav-theme-light))/0.4] underline-offset-4 transition-colors`}
+        title={linkData.title}
+      >
+        {children}
+      </Link>
+    )
+  }
+
+  return <>{children}</>
+}
+
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[]
+  moduleLinkMap: ModuleLinkMap
   locale: string
 }
 
@@ -65,7 +94,7 @@ function priorityClassName(priority: string) {
   return 'bg-white/5 border-border text-muted-foreground'
 }
 
-export default function HomePageClient({ latestArticles, locale }: HomePageClientProps) {
+export default function HomePageClient({ latestArticles, moduleLinkMap, locale }: HomePageClientProps) {
   const t = useMessages() as any
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://worldfighters.wiki'
   const robloxGameUrl = 'https://www.roblox.com/games/95630541662383/World-Fighters'
@@ -507,7 +536,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <ClipboardCheck className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{codesModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{codesModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap.worldFightersCodes} locale={locale}>
+                {codesModule.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {codesModule.subtitle}
             </p>
@@ -600,7 +633,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <BookOpen className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{beginnerModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{beginnerModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap.worldFightersBeginnerGuide} locale={locale}>
+                {beginnerModule.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {beginnerModule.subtitle}
             </p>
@@ -666,7 +703,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <ExternalLink className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{linksModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{linksModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap.worldFightersOfficialLinks} locale={locale}>
+                {linksModule.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {linksModule.subtitle}
             </p>
@@ -715,7 +756,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Star className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{tierModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{tierModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap.worldFightersTierList} locale={locale}>
+                {tierModule.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {tierModule.subtitle}
             </p>
@@ -787,7 +832,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{secretUnitsModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{secretUnitsModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap.worldFightersSecretUnitsGuide} locale={locale}>
+                {secretUnitsModule.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {secretUnitsModule.subtitle}
             </p>
@@ -843,7 +892,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Package className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{gachaModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{gachaModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap.worldFightersGachaAndStarGuide} locale={locale}>
+                {gachaModule.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {gachaModule.subtitle}
             </p>
@@ -882,7 +935,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{awakeningModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{awakeningModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap.worldFightersAwakeningGuide} locale={locale}>
+                {awakeningModule.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {awakeningModule.subtitle}
             </p>
@@ -926,7 +983,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Sparkles className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{resourcesModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{resourcesModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap.worldFightersCrystalsAndGemsGuide} locale={locale}>
+                {resourcesModule.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {resourcesModule.subtitle}
             </p>
@@ -1001,7 +1062,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <FlaskConical className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{potionsModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{potionsModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap.worldFightersPotionsGuide} locale={locale}>
+                {potionsModule.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {potionsModule.subtitle}
             </p>
@@ -1079,7 +1144,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <KeyRound className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{keysModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{keysModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap.worldFightersKeysAndTokensGuide} locale={locale}>
+                {keysModule.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {keysModule.subtitle}
             </p>
@@ -1128,7 +1197,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <PawPrint className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{avatarsModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{avatarsModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap.worldFightersAvatarsAndPetsGuide} locale={locale}>
+                {avatarsModule.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {avatarsModule.subtitle}
             </p>
@@ -1177,7 +1250,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <MapPinned className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{zonesModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{zonesModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap.worldFightersZonesProgressionGuide} locale={locale}>
+                {zonesModule.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {zonesModule.subtitle}
             </p>
@@ -1246,7 +1323,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Gamepad2 className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{raidsModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{raidsModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap.worldFightersRaidsGuide} locale={locale}>
+                {raidsModule.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {raidsModule.subtitle}
             </p>
@@ -1355,7 +1436,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <AlertTriangle className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{challengesModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{challengesModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap.worldFightersSideQuestsAndChallenges} locale={locale}>
+                {challengesModule.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {challengesModule.subtitle}
             </p>
@@ -1420,7 +1505,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Settings className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{gamepassesModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{gamepassesModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap.worldFightersGamepassesGuide} locale={locale}>
+                {gamepassesModule.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {gamepassesModule.subtitle}
             </p>
@@ -1476,7 +1565,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Clock className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{updatesModule.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{updatesModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap.worldFightersUpdatesAndPatchNotes} locale={locale}>
+                {updatesModule.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {updatesModule.subtitle}
             </p>
