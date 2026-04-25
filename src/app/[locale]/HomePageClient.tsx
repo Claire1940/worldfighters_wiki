@@ -2,18 +2,22 @@
 
 import { useEffect, useState, Suspense, lazy } from 'react'
 import {
+  AlertTriangle,
   ArrowRight,
   BookOpen,
   Check,
+  Clock,
   ClipboardCheck,
   Copy,
   ExternalLink,
   FlaskConical,
+  Gamepad2,
   KeyRound,
   MapPinned,
   MessageCircle,
   Package,
   PawPrint,
+  Settings,
   Shield,
   Sparkles,
   Star,
@@ -186,6 +190,10 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
   const keysModule = t.modules.worldFightersKeysAndTokensGuide
   const avatarsModule = t.modules.worldFightersAvatarsAndPetsGuide
   const zonesModule = t.modules.worldFightersZonesProgressionGuide
+  const raidsModule = t.modules.worldFightersRaidsGuide
+  const challengesModule = t.modules.worldFightersSideQuestsAndChallenges
+  const gamepassesModule = t.modules.worldFightersGamepassesGuide
+  const updatesModule = t.modules.worldFightersUpdatesAndPatchNotes
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -432,6 +440,54 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               </div>
               <h3 className="font-semibold mb-2">{navCards[11].title}</h3>
               <p className="text-sm text-muted-foreground">{navCards[11].description}</p>
+            </a>
+
+            <a
+              href="#world-fighters-raids-guide"
+              onClick={(event) => handleAnchorClick(event, 'world-fighters-raids-guide')}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={navCards[12].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{navCards[12].title}</h3>
+              <p className="text-sm text-muted-foreground">{navCards[12].description}</p>
+            </a>
+
+            <a
+              href="#world-fighters-side-quests-and-challenges"
+              onClick={(event) => handleAnchorClick(event, 'world-fighters-side-quests-and-challenges')}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={navCards[13].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{navCards[13].title}</h3>
+              <p className="text-sm text-muted-foreground">{navCards[13].description}</p>
+            </a>
+
+            <a
+              href="#world-fighters-gamepasses-guide"
+              onClick={(event) => handleAnchorClick(event, 'world-fighters-gamepasses-guide')}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={navCards[14].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{navCards[14].title}</h3>
+              <p className="text-sm text-muted-foreground">{navCards[14].description}</p>
+            </a>
+
+            <a
+              href="#world-fighters-updates-and-patch-notes"
+              onClick={(event) => handleAnchorClick(event, 'world-fighters-updates-and-patch-notes')}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={navCards[15].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{navCards[15].title}</h3>
+              <p className="text-sm text-muted-foreground">{navCards[15].description}</p>
             </a>
           </div>
         </div>
@@ -1176,6 +1232,311 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
                 <p className="text-sm font-medium text-[hsl(var(--nav-theme-light))]">
                   {item.checkpoint}
                 </p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 13: World Fighters Raids Guide */}
+      <section id="world-fighters-raids-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Gamepad2 className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{raidsModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{raidsModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {raidsModule.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {raidsModule.intro}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 xl:grid-cols-[1fr_22rem] gap-6 items-start">
+            <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+              {raidsModule.items.map((step: any) => (
+                <article
+                  key={step.step}
+                  className="p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                >
+                  <div className="flex items-start justify-between gap-4 mb-4">
+                    <div>
+                      <span className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] text-xs text-[hsl(var(--nav-theme-light))]">
+                        <Gamepad2 className="w-3.5 h-3.5" />
+                        {raidsModule.labels.step} {step.step}
+                      </span>
+                      <h3 className="text-xl font-bold mt-3">{step.title}</h3>
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                    {step.description}
+                  </p>
+                  <div className="space-y-3 text-sm">
+                    <p>
+                      <span className="font-semibold">{raidsModule.labels.playerGoal}: </span>
+                      <span className="text-muted-foreground">{step.player_goal}</span>
+                    </p>
+                    {step.best_for && (
+                      <p>
+                        <span className="font-semibold">{raidsModule.labels.bestFor}: </span>
+                        <span className="text-muted-foreground">{step.best_for}</span>
+                      </p>
+                    )}
+                  </div>
+                  {step.best_sources && (
+                    <div className="mt-4 flex flex-wrap gap-2">
+                      {step.best_sources.map((source: string) => (
+                        <span
+                          key={source}
+                          className="px-2.5 py-1 rounded-full bg-white/5 border border-border text-xs text-muted-foreground"
+                        >
+                          {source}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                  {step.recommended_upgrade_order && (
+                    <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-2">
+                      {step.recommended_upgrade_order.map((upgrade: string, index: number) => (
+                        <div
+                          key={upgrade}
+                          className="flex items-center gap-2 rounded-lg border border-[hsl(var(--nav-theme)/0.2)] bg-[hsl(var(--nav-theme)/0.06)] px-3 py-2 text-xs text-muted-foreground"
+                        >
+                          <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[hsl(var(--nav-theme)/0.16)] text-[hsl(var(--nav-theme-light))] font-bold">
+                            {index + 1}
+                          </span>
+                          {upgrade}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                  {step.milestones && (
+                    <div className="mt-4 flex flex-wrap gap-2">
+                      {step.milestones.map((milestone: string) => (
+                        <span
+                          key={milestone}
+                          className="px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] text-xs text-[hsl(var(--nav-theme-light))]"
+                        >
+                          {milestone}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                </article>
+              ))}
+            </div>
+
+            <aside className="scroll-reveal xl:sticky xl:top-24 p-6 rounded-xl border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.06)]">
+              <div className="flex items-center gap-2 mb-5">
+                <Check className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                <h3 className="font-bold">{raidsModule.checklistTitle}</h3>
+              </div>
+              <div className="space-y-3">
+                {raidsModule.readinessChecklist.map((item: string) => (
+                  <div key={item} className="flex items-start gap-2 text-sm text-muted-foreground">
+                    <Check className="w-4 h-4 mt-0.5 shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                    {item}
+                  </div>
+                ))}
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 14: World Fighters Side Quests and Challenges */}
+      <section id="world-fighters-side-quests-and-challenges" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <AlertTriangle className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{challengesModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{challengesModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {challengesModule.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {challengesModule.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-2 gap-4">
+            {challengesModule.items.map((item: any, index: number) => (
+              <details
+                key={item.question}
+                open={index === 0}
+                className="group rounded-xl border border-border bg-card p-5 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+              >
+                <summary className="list-none cursor-pointer">
+                  <div className="flex items-start justify-between gap-4">
+                    <div>
+                      <span className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] text-xs text-[hsl(var(--nav-theme-light))]">
+                        <AlertTriangle className="w-3.5 h-3.5" />
+                        {item.category}
+                      </span>
+                      <h3 className="text-xl font-bold mt-3">{item.question}</h3>
+                    </div>
+                    <ArrowRight className="w-5 h-5 shrink-0 text-muted-foreground transition-transform group-open:rotate-90 group-hover:text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                </summary>
+                <div className="mt-5 space-y-4">
+                  <p className="text-sm text-muted-foreground leading-relaxed">{item.answer}</p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.2)] bg-[hsl(var(--nav-theme)/0.06)] p-3">
+                      <p className="text-xs text-muted-foreground">{challengesModule.labels.stage}</p>
+                      <p className="font-semibold text-[hsl(var(--nav-theme-light))]">{item.recommended_stage}</p>
+                    </div>
+                    <div className="rounded-lg border border-border bg-white/5 p-3">
+                      <p className="text-xs text-muted-foreground">{challengesModule.labels.rewardFocus}</p>
+                      <p className="font-semibold">{item.reward_focus[0]}</p>
+                    </div>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {item.reward_focus.map((reward: string) => (
+                      <span
+                        key={reward}
+                        className="px-2.5 py-1 rounded-full bg-white/5 border border-border text-xs text-muted-foreground"
+                      >
+                        {reward}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 15: World Fighters Gamepasses Guide */}
+      <section id="world-fighters-gamepasses-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Settings className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{gamepassesModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{gamepassesModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {gamepassesModule.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {gamepassesModule.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 xl:grid-cols-4 gap-4">
+            {gamepassesModule.tiers.map((tier: any) => (
+              <article key={tier.tier} className="rounded-xl border border-border bg-card p-5">
+                <div className="flex items-center justify-between gap-3 mb-5">
+                  <div>
+                    <p className="text-sm text-muted-foreground">{tier.label}</p>
+                    <h3 className="text-3xl font-bold text-[hsl(var(--nav-theme-light))]">{tier.tier}</h3>
+                  </div>
+                  <Settings className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+                </div>
+
+                <div className="space-y-3">
+                  {tier.entries.map((entry: any) => (
+                    <div
+                      key={entry.pass}
+                      className="rounded-lg border border-border bg-white/5 p-4 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                    >
+                      <div className="flex items-start justify-between gap-3 mb-3">
+                        <div>
+                          <h4 className="font-bold">{entry.pass}</h4>
+                          <p className="text-xs text-[hsl(var(--nav-theme-light))]">{entry.role}</p>
+                        </div>
+                        <span className="px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] text-xs">
+                          {entry.price_robux} Robux
+                        </span>
+                      </div>
+                      <p className="text-sm text-muted-foreground leading-relaxed mb-3">{entry.best_for}</p>
+                      <p className="text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                        {entry.buy_priority}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 16: World Fighters Updates and Patch Notes */}
+      <section id="world-fighters-updates-and-patch-notes" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Clock className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{updatesModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{updatesModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {updatesModule.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {updatesModule.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-5">
+            {updatesModule.items.map((item: any, index: number) => (
+              <article
+                key={item.label}
+                className="grid grid-cols-1 lg:grid-cols-[5rem_1fr] gap-4 rounded-xl border border-border bg-card p-5 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+              >
+                <div className="flex lg:flex-col items-center lg:items-start gap-3">
+                  <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[hsl(var(--nav-theme)/0.16)] border border-[hsl(var(--nav-theme)/0.4)] text-[hsl(var(--nav-theme-light))] font-bold">
+                    {index + 1}
+                  </span>
+                </div>
+                <div>
+                  <div className="flex flex-wrap items-center gap-2 mb-3">
+                    <span className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] text-xs text-[hsl(var(--nav-theme-light))]">
+                      <Clock className="w-3.5 h-3.5" />
+                      {item.date}
+                    </span>
+                    <span className="px-2.5 py-1 rounded-full bg-white/5 border border-border text-xs text-muted-foreground">
+                      {item.type}
+                    </span>
+                  </div>
+                  <h3 className="text-2xl font-bold mb-4">{item.label}</h3>
+                  <div className="grid grid-cols-1 lg:grid-cols-[1fr_18rem] gap-5">
+                    <div className="space-y-3">
+                      {item.highlights.map((highlight: string) => (
+                        <div key={highlight} className="flex items-start gap-2 text-sm text-muted-foreground">
+                          <Check className="w-4 h-4 mt-0.5 shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                          {highlight}
+                        </div>
+                      ))}
+                    </div>
+                    <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.2)] bg-[hsl(var(--nav-theme)/0.06)] p-4">
+                      <p className="text-xs text-muted-foreground mb-2">{updatesModule.labels.playerFocus}</p>
+                      <p className="text-sm text-muted-foreground leading-relaxed mb-4">{item.player_focus}</p>
+                      {item.related_codes.length > 0 && (
+                        <div>
+                          <p className="text-xs text-muted-foreground mb-2">{updatesModule.labels.relatedCodes}</p>
+                          <div className="flex flex-wrap gap-2">
+                            {item.related_codes.map((code: string) => (
+                              <span
+                                key={code}
+                                className="px-2.5 py-1 rounded-full bg-white/5 border border-border text-xs font-mono tracking-normal"
+                              >
+                                {code}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </div>
               </article>
             ))}
           </div>

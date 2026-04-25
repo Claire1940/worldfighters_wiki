@@ -57,7 +57,7 @@
   "tools": {
     "title": "World Fighters",
     "titleHighlight": "Resources",
-    "subtitle": "Jump from Latest Updates into the main World Fighters codes, beginner route, official links, tier list, Secret units, gacha, awakening, resources, potions, keys, roster, and zone modules.",
+    "subtitle": "Jump from Latest Updates into the main World Fighters codes, beginner route, official links, tier list, Secret units, gacha, awakening, resources, potions, keys, roster, zones, raids, quests, gamepasses, and patch notes modules.",
     "cards": [
       {
         "icon": "ClipboardCheck",
@@ -130,6 +130,30 @@
         "title": "World Fighters Zones Progression Guide",
         "description": "Zone 1 through Zone 6 checkpoints, recommended boosts, and farming goals.",
         "href": "#world-fighters-zones-progression-guide"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "World Fighters Raids Guide",
+        "description": "Tempest Invasion steps, Slime Keys, upgrades, wave goals, and F2P raid planning.",
+        "href": "#world-fighters-raids-guide"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "World Fighters Side Quests and Challenges",
+        "description": "Main progress, side objectives, co-op challenges, raids, and hidden challenge rewards.",
+        "href": "#world-fighters-side-quests-and-challenges"
+      },
+      {
+        "icon": "Settings",
+        "title": "World Fighters Gamepasses Guide",
+        "description": "Robux pass priorities for farming, damage, luck, storage, and summon convenience.",
+        "href": "#world-fighters-gamepasses-guide"
+      },
+      {
+        "icon": "Clock",
+        "title": "World Fighters Updates and Patch Notes",
+        "description": "Release updates, Tempest Federation, raid changes, QoL improvements, and code waves.",
+        "href": "#world-fighters-updates-and-patch-notes"
       }
     ]
   },
@@ -1193,6 +1217,425 @@
             "Crystal Potion"
           ],
           "checkpoint": "Save Luck Potion for rare pulls and use Damage Potion when pushing the strongest enemies."
+        }
+      ]
+    },
+    "worldFightersRaidsGuide": {
+      "id": "world-fighters-raids-guide",
+      "eyebrow": "Raid Progression",
+      "title": "World Fighters Raids Guide",
+      "subtitle": "Learn how Tempest Invasion works, when to spend Slime Keys, and how F2P players can use raids to strengthen their teams.",
+      "intro": "Raids in World Fighters currently center on Tempest Invasion, a wave-based mode added with Update 1. The mode connects Slime Keys, wave rewards, upgrades, achievements, and stronger unit farming into one repeatable late-game activity.",
+      "displayType": "step-by-step",
+      "labels": {
+        "step": "Step",
+        "playerGoal": "World Fighters Player Goal",
+        "bestFor": "Best For"
+      },
+      "checklistTitle": "World Fighters Raid Readiness Checklist",
+      "readinessChecklist": [
+        "Unlock Tempest Federation before spending Slime Keys.",
+        "Farm enough Slime Keys for several Tempest Invasion attempts.",
+        "Upgrade Attack Distance before pushing deeper waves.",
+        "Use raid rewards to improve damage, luck, and future gacha sessions.",
+        "Treat each World Fighters raid run as a wave milestone push."
+      ],
+      "items": [
+        {
+          "step": 1,
+          "title": "Reach Tempest Federation First",
+          "description": "Tempest Invasion is tied to the Tempest Federation update area, so World Fighters players should progress through earlier zones and build a team strong enough to handle the new enemies.",
+          "player_goal": "Unlock the new zone, start farming its enemies, and prepare your main lineup before entering raid waves.",
+          "best_for": "Players who already have a stable World Fighters team and want to move into Update 1 progression."
+        },
+        {
+          "step": 2,
+          "title": "Farm Slime Keys",
+          "description": "Slime Keys are required to enter Tempest Invasion. Current World Fighters farming routes include enemy drops and secret boss drops in the Tempest Federation area.",
+          "player_goal": "Build a small key stockpile before pushing multiple raid attempts.",
+          "best_sources": [
+            "Tempest Federation enemy farming",
+            "Secret boss drops",
+            "Update-related reward routes"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Upgrade Range Before Deep Waves",
+          "description": "Tempest Invasion sends enemies from multiple directions while the player holds the center. Attack Distance is especially valuable because it helps World Fighters units start hitting enemies earlier before they crowd the middle.",
+          "player_goal": "Upgrade raid utility before relying only on raw damage.",
+          "recommended_upgrade_order": [
+            "Attack Distance",
+            "Attack Speed",
+            "Damage",
+            "Power",
+            "Crystal efficiency"
+          ],
+          "best_for": "F2P players trying to survive more waves through efficient World Fighters upgrades."
+        },
+        {
+          "step": 4,
+          "title": "Push Wave Milestones",
+          "description": "Tempest Invasion scales rewards by progress and includes achievement milestones from early waves up to wave 100. Reaching wave 10 to 15 is already a useful early benchmark for newer World Fighters raid players.",
+          "player_goal": "Use each run to push one wave bracket higher, then reinvest rewards into upgrades and stronger units.",
+          "milestones": [
+            "Wave 5",
+            "Wave 10",
+            "Wave 15",
+            "Wave 25+",
+            "Wave 100 target"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Turn Raid Rewards Into Team Power",
+          "description": "Raid progress supports long-term World Fighters account growth through new currency, achievements, upgrades, and unit progression. F2P players should use raids as a repeatable path to improve damage, luck, and future gacha efficiency.",
+          "player_goal": "Cycle between Tempest farming, raid attempts, upgrades, and banner pulls.",
+          "best_for": "Players who want a non-Robux route to stronger units and better late-game scaling."
+        }
+      ]
+    },
+    "worldFightersSideQuestsAndChallenges": {
+      "id": "world-fighters-side-quests-and-challenges",
+      "eyebrow": "Quests & Challenges",
+      "title": "World Fighters Side Quests and Challenges",
+      "subtitle": "Use this World Fighters checklist to separate main progression, side objectives, co-op challenges, and update activities.",
+      "intro": "World Fighters is built around defeating enemies, collecting Cristals, unlocking avatars and pets, and completing challenges with friends. Side quests and challenges are best used as a second layer of progression while you farm zones, push bosses, and prepare for raids.",
+      "displayType": "accordion",
+      "labels": {
+        "stage": "Recommended Stage",
+        "rewardFocus": "Reward Focus"
+      },
+      "items": [
+        {
+          "question": "What is the World Fighters main progression loop?",
+          "answer": "Defeat enemies to collect Cristals, then spend resources to unlock stronger avatars, pets, and units. This World Fighters loop should stay your first priority because every challenge becomes easier when your main team is stronger.",
+          "category": "Main Progression",
+          "recommended_stage": "All players",
+          "reward_focus": [
+            "Cristals",
+            "Avatars",
+            "Pets",
+            "Power growth"
+          ]
+        },
+        {
+          "question": "When should I do World Fighters side quests?",
+          "answer": "Do side quests while farming a zone instead of treating them as separate chores. If a World Fighters quest objective overlaps with enemies, bosses, stars, or resource farming you already need, finish it before moving to the next area.",
+          "category": "Side Objectives",
+          "recommended_stage": "Early to mid game",
+          "reward_focus": [
+            "Extra progression",
+            "Zone completion",
+            "Resource efficiency"
+          ]
+        },
+        {
+          "question": "How do World Fighters co-op challenges help?",
+          "answer": "World Fighters supports playing with friends and completing challenges together, with shared rewards across game modes. Co-op is useful when enemies take too long solo, when a boss route is slow, or when multiple players want to farm the same update content.",
+          "category": "Co-op Challenges",
+          "recommended_stage": "Mid game and raids",
+          "reward_focus": [
+            "Shared rewards",
+            "Faster clears",
+            "Group farming"
+          ]
+        },
+        {
+          "question": "How are World Fighters raids different from normal challenges?",
+          "answer": "Normal challenges support zone farming and account progression, while Tempest Invasion is a raid-style wave mode that uses Slime Keys and rewards deeper wave progress. Treat World Fighters raids as a dedicated activity after your team and range upgrades are ready.",
+          "category": "Raid Challenge",
+          "recommended_stage": "Late game",
+          "reward_focus": [
+            "Wave milestones",
+            "New currency",
+            "Achievements",
+            "F2P progression"
+          ]
+        },
+        {
+          "question": "Which World Fighters challenge should F2P players prioritize?",
+          "answer": "F2P players should prioritize anything that improves long-term World Fighters farming speed: Cristals, gems, keys, upgrade currency, luck bonuses, and stronger units. Cosmetic rewards are better saved for later unless they come from the same route you are already farming.",
+          "category": "F2P Priority",
+          "recommended_stage": "All players",
+          "reward_focus": [
+            "Keys",
+            "Gems",
+            "Cristals",
+            "Luck boosts",
+            "Upgrade materials"
+          ]
+        },
+        {
+          "question": "Where does the World Fighters hidden boss fit into challenges?",
+          "answer": "The hidden boss in Tempest Federation works like a high-value World Fighters challenge route. The route is near the Tempest Raid area, around the back-left side and hidden tunnel path, and rewards can include Slime Keys, Demon Tokens, wings, cosmetics, and Cristals.",
+          "category": "Hidden Challenge",
+          "recommended_stage": "Update 1 progression",
+          "reward_focus": [
+            "Slime Keys",
+            "Demon Tokens",
+            "Wings",
+            "Cosmetics",
+            "Cristals"
+          ]
+        }
+      ]
+    },
+    "worldFightersGamepassesGuide": {
+      "id": "world-fighters-gamepasses-guide",
+      "eyebrow": "Robux Value",
+      "title": "World Fighters Gamepasses Guide",
+      "subtitle": "Compare the main World Fighters gamepasses by farming value, gacha value, and convenience value before spending Robux.",
+      "intro": "World Fighters gamepasses mostly improve farming speed, damage output, luck, storage, and summon convenience. For most players, the strongest value comes from direct progression boosts first, then luck and opening-speed passes after you are actively farming banners.",
+      "displayType": "tier-grid",
+      "tiers": [
+        {
+          "tier": "S Tier",
+          "label": "Core progression passes",
+          "entries": [
+            {
+              "pass": "2x Crystals",
+              "price_robux": 299,
+              "role": "Currency farming multiplier",
+              "best_for": "World Fighters players who farm enemies often and want faster avatar, pet, and upgrade progression.",
+              "buy_priority": "Core farming pass"
+            },
+            {
+              "pass": "2x Damage",
+              "price_robux": 299,
+              "role": "Enemy and boss clear-speed boost",
+              "best_for": "World Fighters players pushing zones, bosses, and raid waves where faster kills directly improve progression.",
+              "buy_priority": "Core combat pass"
+            },
+            {
+              "pass": "Extra Equip",
+              "price_robux": 399,
+              "role": "Lineup power expansion",
+              "best_for": "World Fighters players with multiple strong units who gain more value from adding another equipped fighter.",
+              "buy_priority": "High-impact team pass"
+            }
+          ]
+        },
+        {
+          "tier": "A Tier",
+          "label": "Strong scaling and luck passes",
+          "entries": [
+            {
+              "pass": "2x Power",
+              "price_robux": 299,
+              "role": "Power growth multiplier",
+              "best_for": "World Fighters players who spend a lot of time training and want better scaling between zones.",
+              "buy_priority": "Strong progression pass"
+            },
+            {
+              "pass": "Super Luck",
+              "price_robux": 199,
+              "role": "High-rarity pull support",
+              "best_for": "World Fighters players chasing Mythic and Secret units from stars, banners, and gacha systems.",
+              "buy_priority": "Strong gacha pass"
+            },
+            {
+              "pass": "Mega Luck",
+              "price_robux": 399,
+              "role": "Premium luck boost",
+              "best_for": "Heavy World Fighters banner farmers who want to stack luck value for rare unit hunting.",
+              "buy_priority": "Late-game gacha pass"
+            }
+          ]
+        },
+        {
+          "tier": "B Tier",
+          "label": "Useful farming and opening tools",
+          "entries": [
+            {
+              "pass": "Luck",
+              "price_robux": 99,
+              "role": "Entry-level luck boost",
+              "best_for": "Low-spend World Fighters players who want a cheaper way to improve gacha sessions.",
+              "buy_priority": "Budget gacha pass"
+            },
+            {
+              "pass": "Multi Open",
+              "price_robux": 299,
+              "role": "Faster star opening",
+              "best_for": "World Fighters players who already farm enough gems and want faster banner sessions.",
+              "buy_priority": "Time-saving pass"
+            },
+            {
+              "pass": "Fast Open",
+              "price_robux": 299,
+              "role": "Opening-speed convenience",
+              "best_for": "World Fighters players who spend long sessions rolling stars and want less downtime.",
+              "buy_priority": "Time-saving pass"
+            },
+            {
+              "pass": "Remote Star",
+              "price_robux": 499,
+              "role": "Remote summon convenience",
+              "best_for": "World Fighters players who farm far from a star location and want smoother banner access.",
+              "buy_priority": "Convenience pass"
+            },
+            {
+              "pass": "Extra Drops",
+              "price_robux": 399,
+              "role": "Drop farming support",
+              "best_for": "World Fighters players farming bosses, keys, or update routes where extra drops improve repeat runs.",
+              "buy_priority": "Farming support pass"
+            }
+          ]
+        },
+        {
+          "tier": "C Tier",
+          "label": "Optional comfort passes",
+          "entries": [
+            {
+              "pass": "VIP",
+              "price_robux": 399,
+              "role": "Premium account pass",
+              "best_for": "World Fighters players who want a general premium pass after buying direct farming or combat upgrades.",
+              "buy_priority": "Optional premium pass"
+            },
+            {
+              "pass": "Small Storage",
+              "price_robux": 49,
+              "role": "Storage convenience",
+              "best_for": "World Fighters players who need a cheap inventory comfort upgrade.",
+              "buy_priority": "Low-cost utility pass"
+            },
+            {
+              "pass": "Big Storage",
+              "price_robux": 99,
+              "role": "Storage convenience",
+              "best_for": "World Fighters players who collect many units, pets, or resources and want more room.",
+              "buy_priority": "Utility pass"
+            }
+          ]
+        }
+      ]
+    },
+    "worldFightersUpdatesAndPatchNotes": {
+      "id": "world-fighters-updates-and-patch-notes",
+      "eyebrow": "Patch Tracker",
+      "title": "World Fighters Updates and Patch Notes",
+      "subtitle": "Follow the World Fighters update cycle, including Release PT2, Release PT3, Update 1, QoL changes, raids, new units, and code waves.",
+      "intro": "World Fighters has moved quickly from release codes into larger update drops, with milestone rewards, new areas, Tempest Federation content, raid-style gameplay, and QoL improvements. This timeline helps players see what changed and what to do next.",
+      "displayType": "timeline-cards",
+      "labels": {
+        "playerFocus": "World Fighters Player Focus",
+        "relatedCodes": "Related World Fighters Codes"
+      },
+      "items": [
+        {
+          "label": "Launch Release",
+          "date": "Launch week",
+          "type": "Release",
+          "highlights": [
+            "World Fighters launched as an anime-themed Roblox simulator by StarX Inc.",
+            "Core loop focuses on defeating enemies, collecting Cristals, and unlocking avatars and pets.",
+            "Early release codes gave potions and gems to help new players start faster."
+          ],
+          "player_focus": "Use release rewards early, clear the first zones, and build a basic World Fighters team before spending heavily on banners.",
+          "related_codes": [
+            "RELEASE"
+          ]
+        },
+        {
+          "label": "Release Patch",
+          "date": "Post-launch patch",
+          "type": "Patch",
+          "highlights": [
+            "Release Patch reward codes added more potions, gems, and Dragon Balls Keys.",
+            "Shutdown and milestone codes helped World Fighters players recover resources after early server restarts.",
+            "Potions became a common reward pattern across active codes."
+          ],
+          "player_focus": "Redeem patch and shutdown codes before farming so Power, Crystal, Damage, and Luck Potion boosts are ready for active sessions.",
+          "related_codes": [
+            "RELEASEPATCH",
+            "SRRY4SHUTDOWN",
+            "SRRY4SHUTDOWN2",
+            "SRRY4SHUTDOWN3"
+          ]
+        },
+        {
+          "label": "Release PT2",
+          "date": "Release Part 2",
+          "type": "Content update",
+          "highlights": [
+            "Release PT2 continued the early World Fighters update cycle with new reward codes.",
+            "The RELEASEPT2 code rewarded one of each potion, 100 gems, and five Dragon Balls Keys.",
+            "Player milestones around visits, likes, favorites, and CCU continued to trigger new code drops."
+          ],
+          "player_focus": "Use Dragon Balls Keys and gems around World Fighters banner sessions, especially when Luck Potion boosts are active.",
+          "related_codes": [
+            "RELEASEPT2",
+            "THANKS1KLIKES",
+            "THX3KLIKES!",
+            "THXFOR200KVISITS!"
+          ]
+        },
+        {
+          "label": "Update 1: Tempest Federation",
+          "date": "April 22, 2026",
+          "type": "Major update",
+          "highlights": [
+            "Tempest Federation added a new World Fighters progression zone.",
+            "The update introduced 6 new enemies, 6 new units, a new star banner, and a new secret unit.",
+            "Tempest upgrades added Attack Distance, Attack Speed, Damage, Power, and Crystal efficiency.",
+            "The rename system added random power multiplier value for units."
+          ],
+          "player_focus": "Farm the new zone first, upgrade range for raid performance, and use rename boosts on your strongest World Fighters units.",
+          "related_codes": [
+            "COOL1.2MVISITS!",
+            "YAY5KLIKES!",
+            "8KCCUISAWESOME!"
+          ]
+        },
+        {
+          "label": "Update 1: Tempest Invasion Raids",
+          "date": "April 22, 2026",
+          "type": "Raid update",
+          "highlights": [
+            "Tempest Invasion added a World Fighters raid-style mode that requires Slime Keys.",
+            "The mode features wave progression up to 100 waves.",
+            "Enemies approach from multiple directions while the player holds the center.",
+            "Rewards scale with wave progress and support F2P account growth."
+          ],
+          "player_focus": "Farm Slime Keys, push wave milestones, then reinvest rewards into upgrades, gacha, awakenings, and stronger World Fighters units.",
+          "related_codes": []
+        },
+        {
+          "label": "Update 1: QoL and F2P Improvements",
+          "date": "April 22, 2026",
+          "type": "QoL update",
+          "highlights": [
+            "Gems were added to chests for better F2P progression.",
+            "New music and sound effects were added.",
+            "Mount dash and position-saving improvements made World Fighters farming smoother.",
+            "Bug fixes reduced crashes and kicks."
+          ],
+          "player_focus": "Use the smoother World Fighters farming loop to stay in long sessions, farm chests, and prepare for deeper raid attempts.",
+          "related_codes": [
+            "RELEASEQOL"
+          ]
+        },
+        {
+          "label": "Release PT3 Code Wave",
+          "date": "April 24, 2026",
+          "type": "Code update",
+          "highlights": [
+            "The World Fighters game title highlights Release PT3.",
+            "Multiple Release PT3-era codes added potions, gems, and Dragon Balls Keys.",
+            "New milestone codes covered visits, likes, favorites, and concurrent player milestones."
+          ],
+          "player_focus": "Redeem the newest World Fighters code wave before grinding, then spend gems and keys during focused gacha sessions.",
+          "related_codes": [
+            "8KCCUISAWESOME!",
+            "YAY5KLIKES!",
+            "COOL1.2MVISITS!",
+            "SPLENDID800KVISITS!",
+            "900KVISITSTHANKYOU!",
+            "ALREADY1MVISITS!?"
+          ]
         }
       ]
     }
