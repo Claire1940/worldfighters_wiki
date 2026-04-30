@@ -17,7 +17,8 @@
     "units": "Units",
     "bosses": "Bosses",
     "quests": "Quests",
-    "raids": "Raids"
+    "raids": "Raids",
+    "community": "Community"
   },
   "common": {
     "home": "Home",
@@ -1842,6 +1843,26 @@
       },
       "featured": "Featured World Fighters Raids",
       "all": "All World Fighters Raid Guides"
+    },
+    "community": {
+      "title": "World Fighters Community",
+      "description": "World Fighters community links, Discord guidance, private servers, updates, and social resources.",
+      "metaTitle": "World Fighters Community - Discord, Updates and Links",
+      "metaDescription": "Find World Fighters community resources including Discord guidance, Roblox links, private servers, updates, and player discussion tips.",
+      "categoryLabel": "WORLD FIGHTERS COMMUNITY",
+      "whatIs": "What is the World Fighters community?",
+      "whatIsDescription": "The World Fighters community section collects Discord, Roblox, Reddit, update, private server, and social-link resources for active players.",
+      "why": "Why use World Fighters community resources?",
+      "whySteps": {
+        "step1Title": "Follow Official Links",
+        "step1Description": "Use community articles to find safer starting points for Discord, Roblox, and update information.",
+        "step2Title": "Coordinate Progression",
+        "step2Description": "Community resources help players share code drops, team ideas, boss timing, and farming plans.",
+        "step3Title": "Track Updates",
+        "step3Description": "Update and social-link guides make it easier to follow new events, announcements, and player discussions."
+      },
+      "featured": "Featured World Fighters Community Articles",
+      "all": "All World Fighters Community Articles"
     }
   }
 }

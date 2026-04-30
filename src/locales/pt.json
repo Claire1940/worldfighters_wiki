@@ -17,7 +17,8 @@
     "units": "Units",
     "bosses": "Chefes",
     "quests": "Missões",
-    "raids": "Raids"
+    "raids": "Raids",
+    "community": "Comunidade"
   },
   "common": {
     "home": "Início",
@@ -1842,6 +1843,26 @@
       },
       "featured": "World Fighters Raids em Destaque",
       "all": "Todos os Guias de World Fighters Raids"
+    },
+    "community": {
+      "title": "Comunidade de World Fighters",
+      "description": "Links da comunidade de World Fighters, guia do Discord, servidores privados, atualizações e recursos sociais.",
+      "metaTitle": "Comunidade de World Fighters - Discord, Atualizações e Links",
+      "metaDescription": "Encontre recursos da comunidade de World Fighters, incluindo guia do Discord, links do Roblox, servidores privados, atualizações e dicas de discussão.",
+      "categoryLabel": "COMUNIDADE DE WORLD FIGHTERS",
+      "whatIs": "O que é a comunidade de World Fighters?",
+      "whatIsDescription": "A seção de comunidade de World Fighters reúne recursos de Discord, Roblox, Reddit, atualizações, servidores privados e links sociais para jogadores ativos.",
+      "why": "Por que usar recursos da comunidade de World Fighters?",
+      "whySteps": {
+        "step1Title": "Siga links oficiais",
+        "step1Description": "Use artigos da comunidade para encontrar pontos de partida mais seguros para Discord, Roblox e informações de atualização.",
+        "step2Title": "Coordene a progressão",
+        "step2Description": "Recursos da comunidade ajudam jogadores a compartilhar novos códigos, ideias de equipe, horários de chefes e planos de farming.",
+        "step3Title": "Acompanhe atualizações",
+        "step3Description": "Guias de atualização e links sociais facilitam acompanhar eventos, anúncios e discussões de jogadores."
+      },
+      "featured": "Artigos em destaque da comunidade de World Fighters",
+      "all": "Todos os artigos da comunidade de World Fighters"
     }
   }
 }

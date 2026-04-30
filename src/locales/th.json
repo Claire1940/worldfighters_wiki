@@ -17,7 +17,8 @@
     "units": "Units",
     "bosses": "บอส",
     "quests": "เควสต์",
-    "raids": "Raids"
+    "raids": "Raids",
+    "community": "ชุมชน"
   },
   "common": {
     "home": "หน้าแรก",
@@ -1842,6 +1843,26 @@
       },
       "featured": "World Fighters Raids ที่แนะนำ",
       "all": "คู่มือ World Fighters Raids ทั้งหมด"
+    },
+    "community": {
+      "title": "ชุมชน World Fighters",
+      "description": "ลิงก์ชุมชน World Fighters, คำแนะนำ Discord, เซิร์ฟเวอร์ส่วนตัว, อัปเดต และแหล่งข้อมูลโซเชียล",
+      "metaTitle": "ชุมชน World Fighters - Discord, อัปเดต และลิงก์",
+      "metaDescription": "ค้นหาแหล่งข้อมูลชุมชน World Fighters รวมถึงคำแนะนำ Discord, ลิงก์ Roblox, เซิร์ฟเวอร์ส่วนตัว, อัปเดต และเคล็ดลับการพูดคุยของผู้เล่น",
+      "categoryLabel": "ชุมชน WORLD FIGHTERS",
+      "whatIs": "ชุมชน World Fighters คืออะไร?",
+      "whatIsDescription": "ส่วนชุมชน World Fighters รวมแหล่งข้อมูล Discord, Roblox, Reddit, อัปเดต, เซิร์ฟเวอร์ส่วนตัว และลิงก์โซเชียลสำหรับผู้เล่นที่ active",
+      "why": "ทำไมต้องใช้แหล่งข้อมูลชุมชน World Fighters?",
+      "whySteps": {
+        "step1Title": "ติดตามลิงก์ทางการ",
+        "step1Description": "ใช้บทความชุมชนเพื่อค้นหาจุดเริ่มต้นที่ปลอดภัยกว่าสำหรับ Discord, Roblox และข้อมูลอัปเดต",
+        "step2Title": "ประสานงานความคืบหน้า",
+        "step2Description": "แหล่งข้อมูลชุมชนช่วยให้ผู้เล่นแชร์โค้ดใหม่ ไอเดียทีม เวลาบอส และแผนฟาร์ม",
+        "step3Title": "ติดตามอัปเดต",
+        "step3Description": "คู่มืออัปเดตและลิงก์โซเชียลช่วยให้ติดตามกิจกรรม ประกาศ และบทสนทนาของผู้เล่นได้ง่ายขึ้น"
+      },
+      "featured": "บทความชุมชน World Fighters ที่แนะนำ",
+      "all": "บทความชุมชน World Fighters ทั้งหมด"
     }
   }
 }

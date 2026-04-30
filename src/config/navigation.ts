@@ -51,6 +51,12 @@ export const NAVIGATION_CONFIG: NavigationItem[] = [
 		icon: Shield,
 		isContentType: true,
 	},
+	{
+		key: 'community',
+		path: '/community',
+		icon: Users,
+		isContentType: true,
+	},
 ]
 
 // 从配置派生内容类型列表（用于路由和内容加载）
