@@ -1,0 +1,1254 @@
+{
+  "en": {
+    "bosses": [
+      {
+        "slug": "World-Fighters-Kaido",
+        "file": "World-Fighters-Kaido"
+      },
+      {
+        "slug": "World-Fighters-boss-guide",
+        "file": "World-Fighters-boss-guide"
+      },
+      {
+        "slug": "World-Fighters-how-to-get-Kaido",
+        "file": "World-Fighters-how-to-get-Kaido"
+      },
+      {
+        "slug": "World-Fighters-one-piece-world",
+        "file": "World-Fighters-one-piece-world"
+      },
+      {
+        "slug": "World-Fighters-secret-boss-locations",
+        "file": "World-Fighters-secret-boss-locations"
+      },
+      {
+        "slug": "World-Fighters-slime-update",
+        "file": "World-Fighters-slime-update"
+      },
+      {
+        "slug": "world-fighters-boss-fights",
+        "file": "world-fighters-boss-fights"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "World-Fighters-codes",
+        "file": "World-Fighters-codes"
+      },
+      {
+        "slug": "code-world-fighter",
+        "file": "code-world-fighter"
+      },
+      {
+        "slug": "code-world-fighters",
+        "file": "code-world-fighters"
+      },
+      {
+        "slug": "code-world-figther",
+        "file": "code-world-figther"
+      },
+      {
+        "slug": "code-world-flighter",
+        "file": "code-world-flighter"
+      },
+      {
+        "slug": "codes-for-world-fighters",
+        "file": "codes-for-world-fighters"
+      },
+      {
+        "slug": "codes-world-fighters",
+        "file": "codes-world-fighters"
+      },
+      {
+        "slug": "world-fighters-kaido-location",
+        "file": "world-fighters-kaido-location"
+      },
+      {
+        "slug": "world-fighters-passive-punks",
+        "file": "world-fighters-passive-punks"
+      },
+      {
+        "slug": "world-fighters-passive",
+        "file": "world-fighters-passive"
+      },
+      {
+        "slug": "world-fighters-roblox-code",
+        "file": "world-fighters-roblox-code"
+      },
+      {
+        "slug": "world-fighters-update-1-code-guide",
+        "file": "world-fighters-update-1-code-guide"
+      },
+      {
+        "slug": "world-fighters-update-1-codes",
+        "file": "world-fighters-update-1-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "World-Fighters-best-gamepasses",
+        "file": "World-Fighters-best-gamepasses"
+      },
+      {
+        "slug": "World-Fighters-discord",
+        "file": "World-Fighters-discord"
+      },
+      {
+        "slug": "World-Fighters-private-server",
+        "file": "World-Fighters-private-server"
+      },
+      {
+        "slug": "World-Fighters-reddit",
+        "file": "World-Fighters-reddit"
+      },
+      {
+        "slug": "World-Fighters-release-pt3",
+        "file": "World-Fighters-release-pt3"
+      },
+      {
+        "slug": "World-Fighters-simulator",
+        "file": "World-Fighters-simulator"
+      },
+      {
+        "slug": "World-Fighters-update",
+        "file": "World-Fighters-update"
+      },
+      {
+        "slug": "discord-world-fighters",
+        "file": "discord-world-fighters"
+      },
+      {
+        "slug": "world-fighter-discord",
+        "file": "world-fighter-discord"
+      },
+      {
+        "slug": "world-fighters-roblox-discord",
+        "file": "world-fighters-roblox-discord"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "World-Fighters-beginner-guide",
+        "file": "World-Fighters-beginner-guide"
+      },
+      {
+        "slug": "World-Fighters-damage-guide",
+        "file": "World-Fighters-damage-guide"
+      },
+      {
+        "slug": "World-Fighters-fastest-way-to-increase-dps",
+        "file": "World-Fighters-fastest-way-to-increase-dps"
+      },
+      {
+        "slug": "World-Fighters-guide",
+        "file": "World-Fighters-guide"
+      },
+      {
+        "slug": "World-Fighters-how-to-get-op-fast",
+        "file": "World-Fighters-how-to-get-op-fast"
+      },
+      {
+        "slug": "World-Fighters-how-to-play",
+        "file": "World-Fighters-how-to-play"
+      },
+      {
+        "slug": "World-Fighters-noob-to-pro",
+        "file": "World-Fighters-noob-to-pro"
+      },
+      {
+        "slug": "World-Fighters-release-guide",
+        "file": "World-Fighters-release-guide"
+      },
+      {
+        "slug": "World-Fighters-tips-and-tricks",
+        "file": "World-Fighters-tips-and-tricks"
+      },
+      {
+        "slug": "World-Fighters-update-guide",
+        "file": "World-Fighters-update-guide"
+      },
+      {
+        "slug": "roblox-world-fighters",
+        "file": "roblox-world-fighters"
+      },
+      {
+        "slug": "world-fighters-beginner-progression",
+        "file": "world-fighters-beginner-progression"
+      },
+      {
+        "slug": "world-fighters-best-passives",
+        "file": "world-fighters-best-passives"
+      },
+      {
+        "slug": "world-fighters-craft",
+        "file": "world-fighters-craft"
+      },
+      {
+        "slug": "world-fighters-damage-build",
+        "file": "world-fighters-damage-build"
+      },
+      {
+        "slug": "world-fighters-leveling-guide",
+        "file": "world-fighters-leveling-guide"
+      },
+      {
+        "slug": "world-fighters-passive-guide",
+        "file": "world-fighters-passive-guide"
+      },
+      {
+        "slug": "world-fighters-tier-list",
+        "file": "world-fighters-tier-list"
+      },
+      {
+        "slug": "world-fighters-update-1-guide",
+        "file": "world-fighters-update-1-guide"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "World-Fighters-challenges",
+        "file": "World-Fighters-challenges"
+      },
+      {
+        "slug": "World-Fighters-every-side-quest-npc",
+        "file": "World-Fighters-every-side-quest-npc"
+      },
+      {
+        "slug": "World-Fighters-npc-locations",
+        "file": "World-Fighters-npc-locations"
+      },
+      {
+        "slug": "World-Fighters-quest-guide",
+        "file": "World-Fighters-quest-guide"
+      },
+      {
+        "slug": "World-Fighters-rewards-guide",
+        "file": "World-Fighters-rewards-guide"
+      },
+      {
+        "slug": "World-Fighters-side-quest-npc",
+        "file": "World-Fighters-side-quest-npc"
+      },
+      {
+        "slug": "World-Fighters-side-quest",
+        "file": "World-Fighters-side-quest"
+      },
+      {
+        "slug": "World-Fighters-side-quests",
+        "file": "World-Fighters-side-quests"
+      }
+    ],
+    "raids": [
+      {
+        "slug": "World-Fighters-dragon-defense",
+        "file": "World-Fighters-dragon-defense"
+      },
+      {
+        "slug": "World-Fighters-f2p-raids",
+        "file": "World-Fighters-f2p-raids"
+      },
+      {
+        "slug": "World-Fighters-invasion-guide",
+        "file": "World-Fighters-invasion-guide"
+      },
+      {
+        "slug": "World-Fighters-raid-rewards",
+        "file": "World-Fighters-raid-rewards"
+      },
+      {
+        "slug": "World-Fighters-raids",
+        "file": "World-Fighters-raids"
+      },
+      {
+        "slug": "World-Fighters-tempest-invasion",
+        "file": "World-Fighters-tempest-invasion"
+      },
+      {
+        "slug": "World-Fighters-wave-defense",
+        "file": "World-Fighters-wave-defense"
+      },
+      {
+        "slug": "world-fighters-best-raid-units",
+        "file": "world-fighters-best-raid-units"
+      }
+    ],
+    "resources": [
+      {
+        "slug": "World-Fighters-crystals-guide",
+        "file": "World-Fighters-crystals-guide"
+      },
+      {
+        "slug": "World-Fighters-free-gems",
+        "file": "World-Fighters-free-gems"
+      },
+      {
+        "slug": "World-Fighters-free-potions",
+        "file": "World-Fighters-free-potions"
+      },
+      {
+        "slug": "World-Fighters-gems-guide",
+        "file": "World-Fighters-gems-guide"
+      },
+      {
+        "slug": "World-Fighters-how-to-get-gem",
+        "file": "World-Fighters-how-to-get-gem"
+      },
+      {
+        "slug": "World-Fighters-keys-guide",
+        "file": "World-Fighters-keys-guide"
+      },
+      {
+        "slug": "World-Fighters-potions-guide",
+        "file": "World-Fighters-potions-guide"
+      },
+      {
+        "slug": "World-Fighters-tokens-guide",
+        "file": "World-Fighters-tokens-guide"
+      },
+      {
+        "slug": "world-fighters-free-rewards",
+        "file": "world-fighters-free-rewards"
+      },
+      {
+        "slug": "world-fighters-gem-farming",
+        "file": "world-fighters-gem-farming"
+      },
+      {
+        "slug": "world-fighters-key-farming",
+        "file": "world-fighters-key-farming"
+      }
+    ],
+    "units": [
+      {
+        "slug": "World-Fighters-best-units",
+        "file": "World-Fighters-best-units"
+      },
+      {
+        "slug": "World-Fighters-gacha-guide",
+        "file": "World-Fighters-gacha-guide"
+      },
+      {
+        "slug": "World-Fighters-luck-guide",
+        "file": "World-Fighters-luck-guide"
+      },
+      {
+        "slug": "World-Fighters-new-units",
+        "file": "World-Fighters-new-units"
+      },
+      {
+        "slug": "World-Fighters-secret-gacha",
+        "file": "World-Fighters-secret-gacha"
+      },
+      {
+        "slug": "World-Fighters-secret-units",
+        "file": "World-Fighters-secret-units"
+      },
+      {
+        "slug": "World-Fighters-star-open-guide",
+        "file": "World-Fighters-star-open-guide"
+      },
+      {
+        "slug": "world-fighters-all-units",
+        "file": "world-fighters-all-units"
+      },
+      {
+        "slug": "world-fighters-best-units-tier-list",
+        "file": "world-fighters-best-units-tier-list"
+      },
+      {
+        "slug": "world-fighters-secret-unit-guide",
+        "file": "world-fighters-secret-unit-guide"
+      },
+      {
+        "slug": "world-fighters-tier-list",
+        "file": "world-fighters-tier-list"
+      },
+      {
+        "slug": "world-fighters-unit-tier-list",
+        "file": "world-fighters-unit-tier-list"
+      }
+    ]
+  },
+  "es": {
+    "bosses": [
+      {
+        "slug": "World-Fighters-Kaido",
+        "file": "World-Fighters-Kaido"
+      },
+      {
+        "slug": "World-Fighters-boss-guide",
+        "file": "World-Fighters-boss-guide"
+      },
+      {
+        "slug": "World-Fighters-how-to-get-Kaido",
+        "file": "World-Fighters-how-to-get-Kaido"
+      },
+      {
+        "slug": "World-Fighters-one-piece-world",
+        "file": "World-Fighters-one-piece-world"
+      },
+      {
+        "slug": "World-Fighters-secret-boss-locations",
+        "file": "World-Fighters-secret-boss-locations"
+      },
+      {
+        "slug": "World-Fighters-slime-update",
+        "file": "World-Fighters-slime-update"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "World-Fighters-codes",
+        "file": "World-Fighters-codes"
+      },
+      {
+        "slug": "code-world-fighter",
+        "file": "code-world-fighter"
+      },
+      {
+        "slug": "code-world-fighters",
+        "file": "code-world-fighters"
+      },
+      {
+        "slug": "code-world-figther",
+        "file": "code-world-figther"
+      },
+      {
+        "slug": "code-world-flighter",
+        "file": "code-world-flighter"
+      },
+      {
+        "slug": "codes-for-world-fighters",
+        "file": "codes-for-world-fighters"
+      },
+      {
+        "slug": "codes-world-fighters",
+        "file": "codes-world-fighters"
+      },
+      {
+        "slug": "world-fighters-roblox-code",
+        "file": "world-fighters-roblox-code"
+      },
+      {
+        "slug": "world-fighters-update-1-code-guide",
+        "file": "world-fighters-update-1-code-guide"
+      },
+      {
+        "slug": "world-fighters-update-1-codes",
+        "file": "world-fighters-update-1-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "World-Fighters-best-gamepasses",
+        "file": "World-Fighters-best-gamepasses"
+      },
+      {
+        "slug": "World-Fighters-discord",
+        "file": "World-Fighters-discord"
+      },
+      {
+        "slug": "World-Fighters-private-server",
+        "file": "World-Fighters-private-server"
+      },
+      {
+        "slug": "World-Fighters-reddit",
+        "file": "World-Fighters-reddit"
+      },
+      {
+        "slug": "World-Fighters-release-pt3",
+        "file": "World-Fighters-release-pt3"
+      },
+      {
+        "slug": "World-Fighters-simulator",
+        "file": "World-Fighters-simulator"
+      },
+      {
+        "slug": "World-Fighters-update",
+        "file": "World-Fighters-update"
+      },
+      {
+        "slug": "discord-world-fighters",
+        "file": "discord-world-fighters"
+      },
+      {
+        "slug": "world-fighter-discord",
+        "file": "world-fighter-discord"
+      },
+      {
+        "slug": "world-fighters-roblox-discord",
+        "file": "world-fighters-roblox-discord"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "World-Fighters-beginner-guide",
+        "file": "World-Fighters-beginner-guide"
+      },
+      {
+        "slug": "World-Fighters-damage-guide",
+        "file": "World-Fighters-damage-guide"
+      },
+      {
+        "slug": "World-Fighters-fastest-way-to-increase-dps",
+        "file": "World-Fighters-fastest-way-to-increase-dps"
+      },
+      {
+        "slug": "World-Fighters-guide",
+        "file": "World-Fighters-guide"
+      },
+      {
+        "slug": "World-Fighters-how-to-get-op-fast",
+        "file": "World-Fighters-how-to-get-op-fast"
+      },
+      {
+        "slug": "World-Fighters-how-to-play",
+        "file": "World-Fighters-how-to-play"
+      },
+      {
+        "slug": "World-Fighters-noob-to-pro",
+        "file": "World-Fighters-noob-to-pro"
+      },
+      {
+        "slug": "World-Fighters-release-guide",
+        "file": "World-Fighters-release-guide"
+      },
+      {
+        "slug": "World-Fighters-tips-and-tricks",
+        "file": "World-Fighters-tips-and-tricks"
+      },
+      {
+        "slug": "World-Fighters-update-guide",
+        "file": "World-Fighters-update-guide"
+      },
+      {
+        "slug": "roblox-world-fighters",
+        "file": "roblox-world-fighters"
+      },
+      {
+        "slug": "world-fighters-craft",
+        "file": "world-fighters-craft"
+      },
+      {
+        "slug": "world-fighters-tier-list",
+        "file": "world-fighters-tier-list"
+      },
+      {
+        "slug": "world-fighters-update-1-guide",
+        "file": "world-fighters-update-1-guide"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "World-Fighters-challenges",
+        "file": "World-Fighters-challenges"
+      },
+      {
+        "slug": "World-Fighters-every-side-quest-npc",
+        "file": "World-Fighters-every-side-quest-npc"
+      },
+      {
+        "slug": "World-Fighters-npc-locations",
+        "file": "World-Fighters-npc-locations"
+      },
+      {
+        "slug": "World-Fighters-quest-guide",
+        "file": "World-Fighters-quest-guide"
+      },
+      {
+        "slug": "World-Fighters-rewards-guide",
+        "file": "World-Fighters-rewards-guide"
+      },
+      {
+        "slug": "World-Fighters-side-quest-npc",
+        "file": "World-Fighters-side-quest-npc"
+      },
+      {
+        "slug": "World-Fighters-side-quest",
+        "file": "World-Fighters-side-quest"
+      },
+      {
+        "slug": "World-Fighters-side-quests",
+        "file": "World-Fighters-side-quests"
+      }
+    ],
+    "raids": [
+      {
+        "slug": "World-Fighters-dragon-defense",
+        "file": "World-Fighters-dragon-defense"
+      },
+      {
+        "slug": "World-Fighters-f2p-raids",
+        "file": "World-Fighters-f2p-raids"
+      },
+      {
+        "slug": "World-Fighters-invasion-guide",
+        "file": "World-Fighters-invasion-guide"
+      },
+      {
+        "slug": "World-Fighters-raid-rewards",
+        "file": "World-Fighters-raid-rewards"
+      },
+      {
+        "slug": "World-Fighters-raids",
+        "file": "World-Fighters-raids"
+      },
+      {
+        "slug": "World-Fighters-wave-defense",
+        "file": "World-Fighters-wave-defense"
+      },
+      {
+        "slug": "world-fighters-best-raid-units",
+        "file": "world-fighters-best-raid-units"
+      }
+    ],
+    "resources": [
+      {
+        "slug": "World-Fighters-crystals-guide",
+        "file": "World-Fighters-crystals-guide"
+      },
+      {
+        "slug": "World-Fighters-free-potions",
+        "file": "World-Fighters-free-potions"
+      },
+      {
+        "slug": "World-Fighters-gems-guide",
+        "file": "World-Fighters-gems-guide"
+      },
+      {
+        "slug": "World-Fighters-how-to-get-gem",
+        "file": "World-Fighters-how-to-get-gem"
+      },
+      {
+        "slug": "World-Fighters-potions-guide",
+        "file": "World-Fighters-potions-guide"
+      },
+      {
+        "slug": "World-Fighters-tokens-guide",
+        "file": "World-Fighters-tokens-guide"
+      }
+    ],
+    "units": [
+      {
+        "slug": "World-Fighters-best-units",
+        "file": "World-Fighters-best-units"
+      },
+      {
+        "slug": "World-Fighters-gacha-guide",
+        "file": "World-Fighters-gacha-guide"
+      },
+      {
+        "slug": "World-Fighters-luck-guide",
+        "file": "World-Fighters-luck-guide"
+      },
+      {
+        "slug": "World-Fighters-new-units",
+        "file": "World-Fighters-new-units"
+      },
+      {
+        "slug": "World-Fighters-secret-gacha",
+        "file": "World-Fighters-secret-gacha"
+      },
+      {
+        "slug": "World-Fighters-secret-units",
+        "file": "World-Fighters-secret-units"
+      },
+      {
+        "slug": "World-Fighters-star-open-guide",
+        "file": "World-Fighters-star-open-guide"
+      },
+      {
+        "slug": "world-fighters-tier-list",
+        "file": "world-fighters-tier-list"
+      }
+    ]
+  },
+  "pt": {
+    "bosses": [
+      {
+        "slug": "World-Fighters-Kaido",
+        "file": "World-Fighters-Kaido"
+      },
+      {
+        "slug": "World-Fighters-boss-guide",
+        "file": "World-Fighters-boss-guide"
+      },
+      {
+        "slug": "World-Fighters-how-to-get-Kaido",
+        "file": "World-Fighters-how-to-get-Kaido"
+      },
+      {
+        "slug": "World-Fighters-one-piece-world",
+        "file": "World-Fighters-one-piece-world"
+      },
+      {
+        "slug": "World-Fighters-secret-boss-locations",
+        "file": "World-Fighters-secret-boss-locations"
+      },
+      {
+        "slug": "World-Fighters-slime-update",
+        "file": "World-Fighters-slime-update"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "World-Fighters-codes",
+        "file": "World-Fighters-codes"
+      },
+      {
+        "slug": "code-world-fighter",
+        "file": "code-world-fighter"
+      },
+      {
+        "slug": "code-world-fighters",
+        "file": "code-world-fighters"
+      },
+      {
+        "slug": "code-world-figther",
+        "file": "code-world-figther"
+      },
+      {
+        "slug": "code-world-flighter",
+        "file": "code-world-flighter"
+      },
+      {
+        "slug": "codes-for-world-fighters",
+        "file": "codes-for-world-fighters"
+      },
+      {
+        "slug": "codes-world-fighters",
+        "file": "codes-world-fighters"
+      },
+      {
+        "slug": "world-fighters-roblox-code",
+        "file": "world-fighters-roblox-code"
+      },
+      {
+        "slug": "world-fighters-update-1-code-guide",
+        "file": "world-fighters-update-1-code-guide"
+      },
+      {
+        "slug": "world-fighters-update-1-codes",
+        "file": "world-fighters-update-1-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "World-Fighters-best-gamepasses",
+        "file": "World-Fighters-best-gamepasses"
+      },
+      {
+        "slug": "World-Fighters-discord",
+        "file": "World-Fighters-discord"
+      },
+      {
+        "slug": "World-Fighters-private-server",
+        "file": "World-Fighters-private-server"
+      },
+      {
+        "slug": "World-Fighters-reddit",
+        "file": "World-Fighters-reddit"
+      },
+      {
+        "slug": "World-Fighters-release-pt3",
+        "file": "World-Fighters-release-pt3"
+      },
+      {
+        "slug": "World-Fighters-simulator",
+        "file": "World-Fighters-simulator"
+      },
+      {
+        "slug": "World-Fighters-update",
+        "file": "World-Fighters-update"
+      },
+      {
+        "slug": "discord-world-fighters",
+        "file": "discord-world-fighters"
+      },
+      {
+        "slug": "world-fighter-discord",
+        "file": "world-fighter-discord"
+      },
+      {
+        "slug": "world-fighters-roblox-discord",
+        "file": "world-fighters-roblox-discord"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "World-Fighters-beginner-guide",
+        "file": "World-Fighters-beginner-guide"
+      },
+      {
+        "slug": "World-Fighters-damage-guide",
+        "file": "World-Fighters-damage-guide"
+      },
+      {
+        "slug": "World-Fighters-fastest-way-to-increase-dps",
+        "file": "World-Fighters-fastest-way-to-increase-dps"
+      },
+      {
+        "slug": "World-Fighters-guide",
+        "file": "World-Fighters-guide"
+      },
+      {
+        "slug": "World-Fighters-how-to-get-op-fast",
+        "file": "World-Fighters-how-to-get-op-fast"
+      },
+      {
+        "slug": "World-Fighters-how-to-play",
+        "file": "World-Fighters-how-to-play"
+      },
+      {
+        "slug": "World-Fighters-noob-to-pro",
+        "file": "World-Fighters-noob-to-pro"
+      },
+      {
+        "slug": "World-Fighters-release-guide",
+        "file": "World-Fighters-release-guide"
+      },
+      {
+        "slug": "World-Fighters-tips-and-tricks",
+        "file": "World-Fighters-tips-and-tricks"
+      },
+      {
+        "slug": "World-Fighters-update-guide",
+        "file": "World-Fighters-update-guide"
+      },
+      {
+        "slug": "roblox-world-fighters",
+        "file": "roblox-world-fighters"
+      },
+      {
+        "slug": "world-fighters-craft",
+        "file": "world-fighters-craft"
+      },
+      {
+        "slug": "world-fighters-tier-list",
+        "file": "world-fighters-tier-list"
+      },
+      {
+        "slug": "world-fighters-update-1-guide",
+        "file": "world-fighters-update-1-guide"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "World-Fighters-challenges",
+        "file": "World-Fighters-challenges"
+      },
+      {
+        "slug": "World-Fighters-every-side-quest-npc",
+        "file": "World-Fighters-every-side-quest-npc"
+      },
+      {
+        "slug": "World-Fighters-npc-locations",
+        "file": "World-Fighters-npc-locations"
+      },
+      {
+        "slug": "World-Fighters-quest-guide",
+        "file": "World-Fighters-quest-guide"
+      },
+      {
+        "slug": "World-Fighters-rewards-guide",
+        "file": "World-Fighters-rewards-guide"
+      },
+      {
+        "slug": "World-Fighters-side-quest-npc",
+        "file": "World-Fighters-side-quest-npc"
+      },
+      {
+        "slug": "World-Fighters-side-quest",
+        "file": "World-Fighters-side-quest"
+      },
+      {
+        "slug": "World-Fighters-side-quests",
+        "file": "World-Fighters-side-quests"
+      }
+    ],
+    "raids": [
+      {
+        "slug": "World-Fighters-dragon-defense",
+        "file": "World-Fighters-dragon-defense"
+      },
+      {
+        "slug": "World-Fighters-f2p-raids",
+        "file": "World-Fighters-f2p-raids"
+      },
+      {
+        "slug": "World-Fighters-invasion-guide",
+        "file": "World-Fighters-invasion-guide"
+      },
+      {
+        "slug": "World-Fighters-raid-rewards",
+        "file": "World-Fighters-raid-rewards"
+      },
+      {
+        "slug": "World-Fighters-raids",
+        "file": "World-Fighters-raids"
+      },
+      {
+        "slug": "World-Fighters-wave-defense",
+        "file": "World-Fighters-wave-defense"
+      },
+      {
+        "slug": "world-fighters-best-raid-units",
+        "file": "world-fighters-best-raid-units"
+      }
+    ],
+    "resources": [
+      {
+        "slug": "World-Fighters-crystals-guide",
+        "file": "World-Fighters-crystals-guide"
+      },
+      {
+        "slug": "World-Fighters-free-potions",
+        "file": "World-Fighters-free-potions"
+      },
+      {
+        "slug": "World-Fighters-gems-guide",
+        "file": "World-Fighters-gems-guide"
+      },
+      {
+        "slug": "World-Fighters-how-to-get-gem",
+        "file": "World-Fighters-how-to-get-gem"
+      },
+      {
+        "slug": "World-Fighters-potions-guide",
+        "file": "World-Fighters-potions-guide"
+      },
+      {
+        "slug": "World-Fighters-tokens-guide",
+        "file": "World-Fighters-tokens-guide"
+      }
+    ],
+    "units": [
+      {
+        "slug": "World-Fighters-best-units",
+        "file": "World-Fighters-best-units"
+      },
+      {
+        "slug": "World-Fighters-gacha-guide",
+        "file": "World-Fighters-gacha-guide"
+      },
+      {
+        "slug": "World-Fighters-luck-guide",
+        "file": "World-Fighters-luck-guide"
+      },
+      {
+        "slug": "World-Fighters-new-units",
+        "file": "World-Fighters-new-units"
+      },
+      {
+        "slug": "World-Fighters-secret-gacha",
+        "file": "World-Fighters-secret-gacha"
+      },
+      {
+        "slug": "World-Fighters-secret-units",
+        "file": "World-Fighters-secret-units"
+      },
+      {
+        "slug": "World-Fighters-star-open-guide",
+        "file": "World-Fighters-star-open-guide"
+      },
+      {
+        "slug": "world-fighters-tier-list",
+        "file": "world-fighters-tier-list"
+      }
+    ]
+  },
+  "th": {
+    "bosses": [
+      {
+        "slug": "World-Fighters-Kaido",
+        "file": "World-Fighters-Kaido"
+      },
+      {
+        "slug": "World-Fighters-boss-guide",
+        "file": "World-Fighters-boss-guide"
+      },
+      {
+        "slug": "World-Fighters-how-to-get-Kaido",
+        "file": "World-Fighters-how-to-get-Kaido"
+      },
+      {
+        "slug": "World-Fighters-one-piece-world",
+        "file": "World-Fighters-one-piece-world"
+      },
+      {
+        "slug": "World-Fighters-secret-boss-locations",
+        "file": "World-Fighters-secret-boss-locations"
+      },
+      {
+        "slug": "World-Fighters-slime-update",
+        "file": "World-Fighters-slime-update"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "World-Fighters-codes",
+        "file": "World-Fighters-codes"
+      },
+      {
+        "slug": "code-world-fighter",
+        "file": "code-world-fighter"
+      },
+      {
+        "slug": "code-world-fighters",
+        "file": "code-world-fighters"
+      },
+      {
+        "slug": "code-world-figther",
+        "file": "code-world-figther"
+      },
+      {
+        "slug": "code-world-flighter",
+        "file": "code-world-flighter"
+      },
+      {
+        "slug": "codes-for-world-fighters",
+        "file": "codes-for-world-fighters"
+      },
+      {
+        "slug": "codes-world-fighters",
+        "file": "codes-world-fighters"
+      },
+      {
+        "slug": "world-fighters-roblox-code",
+        "file": "world-fighters-roblox-code"
+      },
+      {
+        "slug": "world-fighters-update-1-code-guide",
+        "file": "world-fighters-update-1-code-guide"
+      },
+      {
+        "slug": "world-fighters-update-1-codes",
+        "file": "world-fighters-update-1-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "World-Fighters-best-gamepasses",
+        "file": "World-Fighters-best-gamepasses"
+      },
+      {
+        "slug": "World-Fighters-discord",
+        "file": "World-Fighters-discord"
+      },
+      {
+        "slug": "World-Fighters-private-server",
+        "file": "World-Fighters-private-server"
+      },
+      {
+        "slug": "World-Fighters-reddit",
+        "file": "World-Fighters-reddit"
+      },
+      {
+        "slug": "World-Fighters-release-pt3",
+        "file": "World-Fighters-release-pt3"
+      },
+      {
+        "slug": "World-Fighters-simulator",
+        "file": "World-Fighters-simulator"
+      },
+      {
+        "slug": "World-Fighters-update",
+        "file": "World-Fighters-update"
+      },
+      {
+        "slug": "discord-world-fighters",
+        "file": "discord-world-fighters"
+      },
+      {
+        "slug": "world-fighter-discord",
+        "file": "world-fighter-discord"
+      },
+      {
+        "slug": "world-fighters-roblox-discord",
+        "file": "world-fighters-roblox-discord"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "World-Fighters-beginner-guide",
+        "file": "World-Fighters-beginner-guide"
+      },
+      {
+        "slug": "World-Fighters-damage-guide",
+        "file": "World-Fighters-damage-guide"
+      },
+      {
+        "slug": "World-Fighters-fastest-way-to-increase-dps",
+        "file": "World-Fighters-fastest-way-to-increase-dps"
+      },
+      {
+        "slug": "World-Fighters-guide",
+        "file": "World-Fighters-guide"
+      },
+      {
+        "slug": "World-Fighters-how-to-get-op-fast",
+        "file": "World-Fighters-how-to-get-op-fast"
+      },
+      {
+        "slug": "World-Fighters-how-to-play",
+        "file": "World-Fighters-how-to-play"
+      },
+      {
+        "slug": "World-Fighters-noob-to-pro",
+        "file": "World-Fighters-noob-to-pro"
+      },
+      {
+        "slug": "World-Fighters-release-guide",
+        "file": "World-Fighters-release-guide"
+      },
+      {
+        "slug": "World-Fighters-tips-and-tricks",
+        "file": "World-Fighters-tips-and-tricks"
+      },
+      {
+        "slug": "World-Fighters-update-guide",
+        "file": "World-Fighters-update-guide"
+      },
+      {
+        "slug": "roblox-world-fighters",
+        "file": "roblox-world-fighters"
+      },
+      {
+        "slug": "world-fighters-craft",
+        "file": "world-fighters-craft"
+      },
+      {
+        "slug": "world-fighters-tier-list",
+        "file": "world-fighters-tier-list"
+      },
+      {
+        "slug": "world-fighters-update-1-guide",
+        "file": "world-fighters-update-1-guide"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "World-Fighters-challenges",
+        "file": "World-Fighters-challenges"
+      },
+      {
+        "slug": "World-Fighters-every-side-quest-npc",
+        "file": "World-Fighters-every-side-quest-npc"
+      },
+      {
+        "slug": "World-Fighters-npc-locations",
+        "file": "World-Fighters-npc-locations"
+      },
+      {
+        "slug": "World-Fighters-quest-guide",
+        "file": "World-Fighters-quest-guide"
+      },
+      {
+        "slug": "World-Fighters-rewards-guide",
+        "file": "World-Fighters-rewards-guide"
+      },
+      {
+        "slug": "World-Fighters-side-quest-npc",
+        "file": "World-Fighters-side-quest-npc"
+      },
+      {
+        "slug": "World-Fighters-side-quest",
+        "file": "World-Fighters-side-quest"
+      },
+      {
+        "slug": "World-Fighters-side-quests",
+        "file": "World-Fighters-side-quests"
+      }
+    ],
+    "raids": [
+      {
+        "slug": "World-Fighters-dragon-defense",
+        "file": "World-Fighters-dragon-defense"
+      },
+      {
+        "slug": "World-Fighters-f2p-raids",
+        "file": "World-Fighters-f2p-raids"
+      },
+      {
+        "slug": "World-Fighters-invasion-guide",
+        "file": "World-Fighters-invasion-guide"
+      },
+      {
+        "slug": "World-Fighters-raid-rewards",
+        "file": "World-Fighters-raid-rewards"
+      },
+      {
+        "slug": "World-Fighters-raids",
+        "file": "World-Fighters-raids"
+      },
+      {
+        "slug": "World-Fighters-wave-defense",
+        "file": "World-Fighters-wave-defense"
+      },
+      {
+        "slug": "world-fighters-best-raid-units",
+        "file": "world-fighters-best-raid-units"
+      }
+    ],
+    "resources": [
+      {
+        "slug": "World-Fighters-crystals-guide",
+        "file": "World-Fighters-crystals-guide"
+      },
+      {
+        "slug": "World-Fighters-free-potions",
+        "file": "World-Fighters-free-potions"
+      },
+      {
+        "slug": "World-Fighters-gems-guide",
+        "file": "World-Fighters-gems-guide"
+      },
+      {
+        "slug": "World-Fighters-how-to-get-gem",
+        "file": "World-Fighters-how-to-get-gem"
+      },
+      {
+        "slug": "World-Fighters-potions-guide",
+        "file": "World-Fighters-potions-guide"
+      },
+      {
+        "slug": "World-Fighters-tokens-guide",
+        "file": "World-Fighters-tokens-guide"
+      }
+    ],
+    "units": [
+      {
+        "slug": "World-Fighters-best-units",
+        "file": "World-Fighters-best-units"
+      },
+      {
+        "slug": "World-Fighters-gacha-guide",
+        "file": "World-Fighters-gacha-guide"
+      },
+      {
+        "slug": "World-Fighters-luck-guide",
+        "file": "World-Fighters-luck-guide"
+      },
+      {
+        "slug": "World-Fighters-new-units",
+        "file": "World-Fighters-new-units"
+      },
+      {
+        "slug": "World-Fighters-secret-gacha",
+        "file": "World-Fighters-secret-gacha"
+      },
+      {
+        "slug": "World-Fighters-secret-units",
+        "file": "World-Fighters-secret-units"
+      },
+      {
+        "slug": "World-Fighters-star-open-guide",
+        "file": "World-Fighters-star-open-guide"
+      },
+      {
+        "slug": "world-fighters-tier-list",
+        "file": "world-fighters-tier-list"
+      }
+    ]
+  }
+}
